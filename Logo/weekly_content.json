@@ -1,9 +1,12 @@
 {
   "week_range": "Aug 12–18, 2025",
-  "updated_at": "2025-08-11T12:00:00Z",
+  "updated_at": "2025-08-12T20:15:00Z",
   "weekly_highlights": [
     "Harrah Bike Night: Barstools & Backroads — Thu Aug 14, 6–10 PM (Main St Harrah next to Okie State Room) — Food trucks, vendors, beer garden, live music, 50/50 raffle for Harrah HS Band",
-    "Okie State Room: Football + Live Music Nights — limited seating; ticketed chair reservations now open"
+    "Okie State Room: Football + Live Music Nights — limited seating; ticketed chair reservations now open",
+    "Fri Aug 15: Brantley Gilbert at The Zoo Amphitheatre — Country rock under the Oklahoma sky",
+    "Sun Aug 17: Toto at The Zoo Amphitheatre — Sing along to Africa, Rosanna, Hold the Line",
+    "Sat Aug 16: Scissortail Park — Five for Fighting & Vertical Horizon, 8 PM — Free on Love’s Stage & Great Lawn"
   ],
   "venues": {
     "OKIE STATE ROOM": {
@@ -12,8 +15,8 @@
         "Select ticketed shows; limited seated events announced in advance"
       ],
       "special": [
-        "Harrah Bike Night collaboration nearby — Thu Aug 14, 6–10 PM (Main St Harrah)",
-        "Football + Live Music Nights — limited chair tickets now available"
+        "Aug 14: Harrah Bike Night — Main St Harrah next to Okie State Room, 6–10 PM (food trucks, vendors, beer garden, live music, 50/50 raffle for Harrah HS Band; belt buckle giveaway for coolest ride)",
+        "Aug 22: A Toast to Toby Keith — GRAND OPENING of renovated theater; tribute show benefiting OK Kids Korral (Toby Keith Foundation); doors 6 PM, show 8 PM; tickets: promotix.com"
       ]
     },
     "FRIENDS OF FRIENDS": {
@@ -28,7 +31,16 @@
         "Live music every Saturday",
         "Seasonal outdoor concerts"
       ],
-      "special": []
+      "special": [
+        "Aug 15: The Flip Side",
+        "Aug 16: Jukebox Hero",
+        "Aug 22: Tyler Lee (Acoustic Set)",
+        "Aug 23: Meanstreak (Indoor)",
+        "Aug 23: Prairie Sons (Outdoor 7–11 PM)",
+        "Aug 29: Tightrope",
+        "Aug 30: Cash Carrico Band",
+        "Sep 20: Outdoor Concert"
+      ]
     },
     "THE MILL": {
       "regular": [
@@ -55,7 +67,9 @@
         "Fri–Sat: Live Bands @ 9 PM",
         "Sun: Open Jam @ 5 PM"
       ],
-      "special": []
+      "special": [
+        "Aug 22: Oklahoma Smoke BBQ + Mooney’s Pub Benefit Night for Rodney Carothers — 6 PM; 4 local bands (Karma, Classic Rewind, Jukebox Hero, Ninety Proof), touring & solo artists; raffle to support Rodney’s family"
+      ]
     },
     "KATS TAVERN": {
       "regular": [
@@ -98,48 +112,65 @@
     },
     "RIVERWIND CASINO": {
       "regular": [],
-      "special": []
+      "special": [
+        "Aug 15: Sammy Kershaw",
+        "Sep 5: Gary Allan with Drive",
+        "Sep 27: Bret Michaels",
+        "Oct 17: Collective Soul"
+      ]
     },
     "LUCKY STAR CASINO": {
       "regular": [],
-      "special": []
+      "special": [
+        "Aug 16: KC & The Sunshine Band (El Reno)",
+        "Sep 6: Weird Al Yankovic (El Reno)",
+        "Sep 7: KATTFest 2025 (El Reno)",
+        "Sep 20: Three Dog Night & Little River Band (El Reno)"
+      ]
     },
     "ZOO AMPHITHEATRE": {
       "regular": [],
-      "special": []
+      "special": [
+        "Aug 15: Brantley Gilbert — Tattoos Tour",
+        "Aug 17: Toto — Africa, Rosanna, Hold the Line"
+      ]
     },
     "THE RITZ": {
       "regular": [
         "Frequent touring tribute and rock shows — check ticketstorm.com"
       ],
-      "special": []
+      "special": [
+        "Aug 9: Foreigner vs Boston Tribute (Double Vision + Dallas Boston Xperience)"
+      ]
+    },
+    "SCISSORTAIL PARK": {
+      "regular": [],
+      "special": [
+        "Aug 16: Five for Fighting & Vertical Horizon — Free concert, Love’s Stage & Great Lawn, 8 PM"
+      ]
     },
     "ROYAL BAVARIA BIERGARTEN": {
       "regular": [
-        "Live entertainment every Friday and Saturday",
-        "Full dinner service or lounge area drinks",
-        "Open daily at 5 PM, 7 days a week",
+        "Open daily at 5 PM",
+        "Live music every Friday & Saturday",
+        "Full dinner service + lounge",
         "Celebrating 31 years in Moore, OK",
         "Reservations: 405-799-7666, royal-bavaria.com, 3401 S Sooner Rd"
       ],
       "special": [
-        "Fri Aug 15: Bottom of the Barrel — live music",
-        "Sat Aug 16: Shawn Proffitt — live music"
+        "Aug 15: Bottom of the Barrel — live music",
+        "Aug 16: Shawn Proffitt — live music"
       ]
     }
   },
   "metro_sports": [
-    "OU Football — 2025 season kicks off Aug 30",
-    "OSU Football — first game Aug 31",
-    "OKC Thunder — preseason begins October 2025",
-    "OU Men's Basketball — season starts Nov 2025",
-    "OU Women's Basketball — season starts Nov 2025",
-    "UCO Sports — fall season underway",
-    "Local soccer — Energy FC matches ongoing"
+    "OU Football — season kicks off Sat Aug 30 vs Illinois State (Norman) — expect heavy traffic",
+    "OSU Football — Sun Aug 31 vs Central Arkansas (Stillwater)",
+    "OKC Thunder — preseason begins Oct 2025",
+    "UCO Athletics — fall schedules underway (check weekly home dates)"
   ],
   "local_updates": [
-    "Scissortail Park hosting free outdoor concert Aug 16 featuring Five For Fighting & Vertical Horizon",
-    "Riverwind Casino celebrating 19 years with special promotions and events",
-    "Major downtown OKC roadwork ongoing — plan extra travel time for Bricktown and Paycom Center trips"
+    "Oklahoma’s Credit Union Moonlight Movies at Myriad Gardens — Date-night series on Devon Lawn (September): Wed Sep 3 — 50 First Dates; Wed Sep 10 — Love & Basketball; Wed Sep 17 — Sweet Home Alabama (all 6–10 PM)",
+    "Turnpike Tributedours — Fri Aug 15 at Tower Theatre — Tribute to Turnpike Troubadours"
   ]
 }
