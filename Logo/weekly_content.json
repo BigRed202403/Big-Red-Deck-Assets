@@ -20,12 +20,16 @@
       ]
     },
     "FRIENDS OF FRIENDS": {
-      "regular": [
-        "Live bands Thu–Sat",
-        "Signature cocktails nightly"
-      ],
-      "special": []
-    },
+  "regular": [
+    "Live bands Thu–Sat",
+    "Signature cocktails nightly"
+  ],
+  "special": [
+    "Aug 14: The Country Shop Band — Live",
+    "Aug 15: Hypnotik — Live",
+    "Aug 16: Weekend Allstars — Live"
+  ]
+}
     "THE ALLEY": {
       "regular": [
         "Live music every Saturday",
