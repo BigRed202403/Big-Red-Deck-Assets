@@ -113,6 +113,33 @@
         "Frequent touring tribute and rock shows — check ticketstorm.com"
       ],
       "special": []
+    },
+    "ROYAL BAVARIA BIERGARTEN": {
+      "regular": [
+        "Live entertainment every Friday and Saturday",
+        "Full dinner service or lounge area drinks",
+        "Open daily at 5 PM, 7 days a week",
+        "Celebrating 31 years in Moore, OK",
+        "Reservations: 405-799-7666, royal-bavaria.com, 3401 S Sooner Rd"
+      ],
+      "special": [
+        "Fri Aug 15: Bottom of the Barrel — live music",
+        "Sat Aug 16: Shawn Proffitt — live music"
+      ]
     }
-  }
+  },
+  "metro_sports": [
+    "OU Football — 2025 season kicks off Aug 30",
+    "OSU Football — first game Aug 31",
+    "OKC Thunder — preseason begins October 2025",
+    "OU Men's Basketball — season starts Nov 2025",
+    "OU Women's Basketball — season starts Nov 2025",
+    "UCO Sports — fall season underway",
+    "Local soccer — Energy FC matches ongoing"
+  ],
+  "local_updates": [
+    "Scissortail Park hosting free outdoor concert Aug 16 featuring Five For Fighting & Vertical Horizon",
+    "Riverwind Casino celebrating 19 years with special promotions and events",
+    "Major downtown OKC roadwork ongoing — plan extra travel time for Bricktown and Paycom Center trips"
+  ]
 }
