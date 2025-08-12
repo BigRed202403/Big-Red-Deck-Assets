@@ -1,0 +1,118 @@
+{
+  "week_range": "Aug 12–18, 2025",
+  "updated_at": "2025-08-11T12:00:00Z",
+  "weekly_highlights": [
+    "Harrah Bike Night: Barstools & Backroads — Thu Aug 14, 6–10 PM (Main St Harrah next to Okie State Room) — Food trucks, vendors, beer garden, live music, 50/50 raffle for Harrah HS Band",
+    "Okie State Room: Football + Live Music Nights — limited seating; ticketed chair reservations now open"
+  ],
+  "venues": {
+    "OKIE STATE ROOM": {
+      "regular": [
+        "Live music on weekends",
+        "Select ticketed shows; limited seated events announced in advance"
+      ],
+      "special": [
+        "Harrah Bike Night collaboration nearby — Thu Aug 14, 6–10 PM (Main St Harrah)",
+        "Football + Live Music Nights — limited chair tickets now available"
+      ]
+    },
+    "FRIENDS OF FRIENDS": {
+      "regular": [
+        "Live bands Thu–Sat",
+        "Signature cocktails nightly"
+      ],
+      "special": []
+    },
+    "THE ALLEY": {
+      "regular": [
+        "Live music every Saturday",
+        "Seasonal outdoor concerts"
+      ],
+      "special": []
+    },
+    "THE MILL": {
+      "regular": [
+        "Sun: Shuffleboard Tournament @ 3 PM",
+        "Mon: $5 all liquor after 8 PM + Late Night Happy Hour",
+        "Wed: Whiskey Wednesday + Free Pool",
+        "Fri: $15 Bucket Specials",
+        "Sat: Pitcher Deals — $20 Local / $14 Domestic"
+      ],
+      "special": []
+    },
+    "OKIE TONK": {
+      "regular": [
+        "Tue: Poker Night @ 7 PM",
+        "Wed: Trivia + Karaoke",
+        "Thu: Singo Bingo",
+        "Fri: Live Bands",
+        "Sat–Sun: Karaoke"
+      ],
+      "special": []
+    },
+    "MOONEY'S PUB": {
+      "regular": [
+        "Fri–Sat: Live Bands @ 9 PM",
+        "Sun: Open Jam @ 5 PM"
+      ],
+      "special": []
+    },
+    "KATS TAVERN": {
+      "regular": [
+        "Mon: $2 Domestic Bottles",
+        "Tue: Singo Bingo @ 7:30 PM",
+        "Wed–Fri: Karaoke @ 9 PM"
+      ],
+      "special": []
+    },
+    "BRICKHOUSE SALOON": {
+      "regular": [
+        "Mon–Tue: Karaoke @ 9 PM",
+        "Weekend DJs & theme nights"
+      ],
+      "special": []
+    },
+    "HORSESHOE BAR": {
+      "regular": [
+        "Fri–Sat: Live Music (evenings)",
+        "Sun: Open Mic Night"
+      ],
+      "special": []
+    },
+    "40 WEST": {
+      "regular": [
+        "Sun: Open Mic Night",
+        "Mon: Game Night",
+        "Tue–Thu: Karaoke",
+        "Fri–Sat: Live Music"
+      ],
+      "special": []
+    },
+    "COWBOYS OKC": {
+      "regular": [
+        "Thu: Ladies Night",
+        "Fri: Line Dance Lessons @ 9 PM + drink specials",
+        "Sat: Live Bull Riding + Line Dance Lessons"
+      ],
+      "special": []
+    },
+    "RIVERWIND CASINO": {
+      "regular": [],
+      "special": []
+    },
+    "LUCKY STAR CASINO": {
+      "regular": [],
+      "special": []
+    },
+    "ZOO AMPHITHEATRE": {
+      "regular": [],
+      "special": []
+    },
+    "THE RITZ": {
+      "regular": [
+        "Frequent touring tribute and rock shows — check ticketstorm.com"
+      ],
+      "special": []
+    }
+  }
+}
