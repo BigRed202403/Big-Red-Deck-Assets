@@ -1,13 +1,22 @@
 {
   "week_range": "Aug 12–18, 2025",
-  "updated_at": "2025-08-12T20:15:00Z",
+  "updated_at": "2025-08-12T21:05:00Z",
   "weekly_highlights": [
-    "Harrah Bike Night: Barstools & Backroads — Thu Aug 14, 6–10 PM (Main St Harrah next to Okie State Room) — Food trucks, vendors, beer garden, live music, 50/50 raffle for Harrah HS Band",
-    "Okie State Room: Football + Live Music Nights — limited seating; ticketed chair reservations now open",
-    "Fri Aug 15: Brantley Gilbert at The Zoo Amphitheatre — Country rock under the Oklahoma sky",
-    "Sun Aug 17: Toto at The Zoo Amphitheatre — Sing along to Africa, Rosanna, Hold the Line",
-    "Sat Aug 16: Scissortail Park — Five for Fighting & Vertical Horizon, 8 PM — Free on Love’s Stage & Great Lawn"
+    "Aug 14: Harrah Bike Night — Barstools & Backroads (Main St Harrah next to Okie State Room) — 6–10 PM • Food trucks, vendors, beer garden, live music, free door prizes • 50/50 raffle for Harrah HS Band • Belt buckle giveaway for coolest ride",
+    "Aug 15: Brantley Gilbert at The Zoo Amphitheatre — Tattoos Tour",
+    "Aug 16: Scissortail Park — Five for Fighting & Vertical Horizon — Free concert on Love’s Stage & Great Lawn — 8 PM",
+    "Aug 17: Toto at The Zoo Amphitheatre — Africa, Rosanna, Hold the Line",
+    "Aug 22: Okie State Room — A Toast to Toby Keith (GRAND OPENING) — Tribute benefiting OK Kids Korral • Doors 6 PM, Show 8 PM • Tickets via promotix.com",
+    "Aug 22: Mooney’s Pub — Oklahoma Smoke BBQ Benefit Night for Rodney — 6 PM • Bands: Karma, Classic Rewind, Jukebox Hero, Ninety Proof • Raffle donations welcome"
   ],
+
+  "metro_sports": [
+    "Aug 30: OU Football — vs Illinois State (Norman) — Season opener — expect heavy traffic",
+    "Aug 31: OSU Football — vs Central Arkansas (Stillwater)",
+    "Oct 2025: OKC Thunder — Preseason begins",
+    "Aug 2025: UCO Athletics — Fall schedules underway (check weekly home dates)"
+  ],
+
   "venues": {
     "OKIE STATE ROOM": {
       "regular": [
@@ -16,20 +25,24 @@
       ],
       "special": [
         "Aug 14: Harrah Bike Night — Main St Harrah next to Okie State Room, 6–10 PM (food trucks, vendors, beer garden, live music, 50/50 raffle for Harrah HS Band; belt buckle giveaway for coolest ride)",
-        "Aug 22: A Toast to Toby Keith — GRAND OPENING of renovated theater; tribute show benefiting OK Kids Korral (Toby Keith Foundation); doors 6 PM, show 8 PM; tickets: promotix.com"
+        "Aug 22: A Toast to Toby Keith — GRAND OPENING of renovated theater; tribute show benefiting OK Kids Korral (Toby Keith Foundation); doors 6 PM, show 8 PM; tickets: promotix.com",
+        "Aug 30: Football/Music Night kickoff — Live concert + big-screen football — Limited seating — Tickets available now"
       ]
     },
+
     "FRIENDS OF FRIENDS": {
-  "regular": [
-    "Live bands Thu–Sat",
-    "Signature cocktails nightly"
-  ],
-  "special": [
-    "Aug 14: The Country Shop Band — Live",
-    "Aug 15: Hypnotik — Live",
-    "Aug 16: Weekend Allstars — Live"
-  ]
-}
+      "regular": [
+        "Live bands Thu–Sat",
+        "Signature cocktails nightly",
+        "Doors 7 PM–2 AM • $5 cover Thu–Sat • 21+ only"
+      ],
+      "special": [
+        "Aug 14: The Country Shop Band — Live",
+        "Aug 15: Hypnotik — Live",
+        "Aug 16: Weekend Allstars — Live"
+      ]
+    },
+
     "THE ALLEY": {
       "regular": [
         "Live music every Saturday",
@@ -46,6 +59,7 @@
         "Sep 20: Outdoor Concert"
       ]
     },
+
     "THE MILL": {
       "regular": [
         "Sun: Shuffleboard Tournament @ 3 PM",
@@ -56,6 +70,7 @@
       ],
       "special": []
     },
+
     "OKIE TONK": {
       "regular": [
         "Tue: Poker Night @ 7 PM",
@@ -66,6 +81,7 @@
       ],
       "special": []
     },
+
     "MOONEY'S PUB": {
       "regular": [
         "Fri–Sat: Live Bands @ 9 PM",
@@ -75,6 +91,7 @@
         "Aug 22: Oklahoma Smoke BBQ + Mooney’s Pub Benefit Night for Rodney Carothers — 6 PM; 4 local bands (Karma, Classic Rewind, Jukebox Hero, Ninety Proof), touring & solo artists; raffle to support Rodney’s family"
       ]
     },
+
     "KATS TAVERN": {
       "regular": [
         "Mon: $2 Domestic Bottles",
@@ -83,6 +100,7 @@
       ],
       "special": []
     },
+
     "BRICKHOUSE SALOON": {
       "regular": [
         "Mon–Tue: Karaoke @ 9 PM",
@@ -90,6 +108,7 @@
       ],
       "special": []
     },
+
     "HORSESHOE BAR": {
       "regular": [
         "Fri–Sat: Live Music (evenings)",
@@ -97,6 +116,7 @@
       ],
       "special": []
     },
+
     "40 WEST": {
       "regular": [
         "Sun: Open Mic Night",
@@ -106,6 +126,7 @@
       ],
       "special": []
     },
+
     "COWBOYS OKC": {
       "regular": [
         "Thu: Ladies Night",
@@ -114,6 +135,7 @@
       ],
       "special": []
     },
+
     "RIVERWIND CASINO": {
       "regular": [],
       "special": [
@@ -123,6 +145,7 @@
         "Oct 17: Collective Soul"
       ]
     },
+
     "LUCKY STAR CASINO": {
       "regular": [],
       "special": [
@@ -132,6 +155,7 @@
         "Sep 20: Three Dog Night & Little River Band (El Reno)"
       ]
     },
+
     "ZOO AMPHITHEATRE": {
       "regular": [],
       "special": [
@@ -139,6 +163,7 @@
         "Aug 17: Toto — Africa, Rosanna, Hold the Line"
       ]
     },
+
     "THE RITZ": {
       "regular": [
         "Frequent touring tribute and rock shows — check ticketstorm.com"
@@ -147,12 +172,14 @@
         "Aug 9: Foreigner vs Boston Tribute (Double Vision + Dallas Boston Xperience)"
       ]
     },
+
     "SCISSORTAIL PARK": {
       "regular": [],
       "special": [
         "Aug 16: Five for Fighting & Vertical Horizon — Free concert, Love’s Stage & Great Lawn, 8 PM"
       ]
     },
+
     "ROYAL BAVARIA BIERGARTEN": {
       "regular": [
         "Open daily at 5 PM",
@@ -167,14 +194,10 @@
       ]
     }
   },
-  "metro_sports": [
-    "OU Football — season kicks off Sat Aug 30 vs Illinois State (Norman) — expect heavy traffic",
-    "OSU Football — Sun Aug 31 vs Central Arkansas (Stillwater)",
-    "OKC Thunder — preseason begins Oct 2025",
-    "UCO Athletics — fall schedules underway (check weekly home dates)"
-  ],
+
   "local_updates": [
-    "Oklahoma’s Credit Union Moonlight Movies at Myriad Gardens — Date-night series on Devon Lawn (September): Wed Sep 3 — 50 First Dates; Wed Sep 10 — Love & Basketball; Wed Sep 17 — Sweet Home Alabama (all 6–10 PM)",
-    "Turnpike Tributedours — Fri Aug 15 at Tower Theatre — Tribute to Turnpike Troubadours"
+    "Aug 16: Scissortail Park — Five for Fighting & Vertical Horizon — Free concert on Love’s Stage & Great Lawn — 8 PM",
+    "Aug 15: Turnpike Tributedours — Tower Theatre — Tribute to Turnpike Troubadours",
+    "Sep 3, 10, 17: Oklahoma’s Credit Union Moonlight Movies at Myriad Gardens — Devon Lawn, 6–10 PM (50 First Dates; Love & Basketball; Sweet Home Alabama)"
   ]
 }
