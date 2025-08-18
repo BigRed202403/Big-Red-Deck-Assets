@@ -1,20 +1,37 @@
 {
-  "week_range": "Aug 12–18, 2025",
-  "updated_at": "2025-08-12T21:05:00Z",
+  "week_range": "Aug 19–25, 2025",
+  "updated_at": "2025-08-19T10:00:00Z",
+
   "weekly_highlights": [
-    "Aug 14: Harrah Bike Night — Barstools & Backroads (Main St Harrah next to Okie State Room) — 6–10 PM • Food trucks, vendors, beer garden, live music, free door prizes • 50/50 raffle for Harrah HS Band • Belt buckle giveaway for coolest ride",
-    "Aug 15: Brantley Gilbert at The Zoo Amphitheatre — Tattoos Tour",
-    "Aug 16: Scissortail Park — Five for Fighting & Vertical Horizon — Free concert on Love’s Stage & Great Lawn — 8 PM",
-    "Aug 17: Toto at The Zoo Amphitheatre — Africa, Rosanna, Hold the Line",
-    "Aug 22: Okie State Room — A Toast to Toby Keith (GRAND OPENING) — Tribute benefiting OK Kids Korral • Doors 6 PM, Show 8 PM • Tickets via promotix.com",
-    "Aug 22: Mooney’s Pub — Oklahoma Smoke BBQ Benefit Night for Rodney — 6 PM • Bands: Karma, Classic Rewind, Jukebox Hero, Ninety Proof • Raffle donations welcome"
+    "Aug 20: Big Time Rush — Zoo Amphitheatre — Ultimate fan experience — Tickets at okczooamp.com",
+    "Aug 22: Okie State Room — A Toast to Toby Keith (GRAND OPENING) — Benefit for OK Kids Korral • Doors 6 PM • Show 8 PM • Tickets via promotix.com",
+    "Aug 22: WARRANT 35th Anniversary with Lita Ford & FireHouse — Lucky Star Amphitheater (Concho) — Tickets at luckystarcasino.org/concerts",
+    "Aug 23: Home Run Derby X — Chickasaw Bricktown Ballpark — Former Yankees/Dodgers/Royals stars + OU legends"
+  ],
+
+  "local_fun_special": [
+    "Sept 5–7: Cleveland County Fair Carnival — Wade Shows midway — Fri 4–11 PM, Sat 11 AM–11 PM, Sun 11 AM–8 PM — 615 E Robinson St, Norman",
+    "Sept 11–21: 🎡 Oklahoma State Fair — Concerts, bull riding & more • All OG&E Coliseum tickets include Fair admission — https://bit.ly/3ITwhYK",
+    "Sept 13: Trucktoberfest — Truck Yard OKC — Stein hoisting, wiener dog races, pretzel eating, chicken dance — https://truckyard.com/events",
+    {
+      "title": "Goldfish Swim School – Moore",
+      "date": null,
+      "location": "Moore, OK",
+      "description": "30-minute kid-focused swim lessons built for progress and short attention spans.",
+      "tags": ["family", "kids", "swim", "education", "ongoing", "moore"],
+      "recurring": true,
+      "ongoing": true
+    }
+  ],
+
+  "more_this_week": [
+    "Aug 21: Bikes on Bell — Shawnee Bike Night (100 block of Bell Ave) — 6–10 PM — Hosted by Brickhouse Saloon",
+    "Aug 23: Okie State Room — Folk/Country Rock night (Petty/Young/Adams vibes) — Limited seating — Tickets at okiestateroom.com"
   ],
 
   "metro_sports": [
     "Aug 30: OU Football — vs Illinois State (Norman) — Season opener — expect heavy traffic",
-    "Aug 31: OSU Football — vs Central Arkansas (Stillwater)",
-    "Oct 2025: OKC Thunder — Preseason begins",
-    "Aug 2025: UCO Athletics — Fall schedules underway (check weekly home dates)"
+    "Aug 31: OSU Football — vs Central Arkansas (Stillwater)"
   ],
 
   "venues": {
@@ -24,8 +41,8 @@
         "Select ticketed shows; limited seated events announced in advance"
       ],
       "special": [
-        "Aug 14: Harrah Bike Night — Main St Harrah next to Okie State Room, 6–10 PM (food trucks, vendors, beer garden, live music, 50/50 raffle for Harrah HS Band; belt buckle giveaway for coolest ride)",
-        "Aug 22: A Toast to Toby Keith — GRAND OPENING of renovated theater; tribute show benefiting OK Kids Korral (Toby Keith Foundation); doors 6 PM, show 8 PM; tickets: promotix.com",
+        "Aug 22: A Toast to Toby Keith — GRAND OPENING • Tribute benefiting OK Kids Korral • Doors 6 PM, Show 8 PM • Tickets: promotix.com",
+        "Aug 23: True folk & country with classic songwriting styles (Tom Petty, Neil Young, Ryan Adams) blended into fresh Rock n Roll — Limited seating • Tickets: okiestateroom.com",
         "Aug 30: Football/Music Night kickoff — Live concert + big-screen football — Limited seating — Tickets available now"
       ]
     },
@@ -36,11 +53,7 @@
         "Signature cocktails nightly",
         "Doors 7 PM–2 AM • $5 cover Thu–Sat • 21+ only"
       ],
-      "special": [
-        "Aug 14: The Country Shop Band — Live",
-        "Aug 15: Hypnotik — Live",
-        "Aug 16: Weekend Allstars — Live"
-      ]
+      "special": []
     },
 
     "THE ALLEY": {
@@ -49,8 +62,6 @@
         "Seasonal outdoor concerts"
       ],
       "special": [
-        "Aug 15: The Flip Side",
-        "Aug 16: Jukebox Hero",
         "Aug 22: Tyler Lee (Acoustic Set)",
         "Aug 23: Meanstreak (Indoor)",
         "Aug 23: Prairie Sons (Outdoor 7–11 PM)",
@@ -88,7 +99,10 @@
         "Sun: Open Jam @ 5 PM"
       ],
       "special": [
-        "Aug 22: Oklahoma Smoke BBQ + Mooney’s Pub Benefit Night for Rodney Carothers — 6 PM; 4 local bands (Karma, Classic Rewind, Jukebox Hero, Ninety Proof), touring & solo artists; raffle to support Rodney’s family"
+        "Aug 22: Oklahoma Smoke BBQ + Mooney’s Pub Benefit Night for Rodney Carothers — 6 PM; 4 local bands (Karma, Classic Rewind, Jukebox Hero, Ninety Proof) + guests; raffle to support Rodney’s family",
+        "Aug 23: Ten Acre Rock",
+        "Aug 29: Jukebox Hero",
+        "Aug 30: Dollar 98"
       ]
     },
 
@@ -104,9 +118,12 @@
     "BRICKHOUSE SALOON": {
       "regular": [
         "Mon–Tue: Karaoke @ 9 PM",
-        "Weekend DJs & theme nights"
+        "Thu: Line Dancing with Aria — Free entry • $5 wells all night • Free parking • 115 N Bell St, Shawnee",
+        "Sun: Free Pool — Open tables all day"
       ],
-      "special": []
+      "special": [
+        "Aug 21: Bikes on Bell — Shawnee Bike Night (100 block of Bell Ave) — 6–10 PM"
+      ]
     },
 
     "HORSESHOE BAR": {
@@ -139,7 +156,6 @@
     "RIVERWIND CASINO": {
       "regular": [],
       "special": [
-        "Aug 15: Sammy Kershaw",
         "Sep 5: Gary Allan with Drive",
         "Sep 27: Bret Michaels",
         "Oct 17: Collective Soul"
@@ -149,18 +165,18 @@
     "LUCKY STAR CASINO": {
       "regular": [],
       "special": [
-        "Aug 16: KC & The Sunshine Band (El Reno)",
-        "Sep 6: Weird Al Yankovic (El Reno)",
-        "Sep 7: KATTFest 2025 (El Reno)",
-        "Sep 20: Three Dog Night & Little River Band (El Reno)"
+        "Aug 22: WARRANT 35th Anniversary — with Lita Ford & FireHouse — Concho",
+        "Sep 6: Weird Al Yankovic — El Reno",
+        "Sep 7: KATTFest 2025 — El Reno",
+        "Sep 20: Three Dog Night & Little River Band — El Reno"
       ]
     },
 
     "ZOO AMPHITHEATRE": {
       "regular": [],
       "special": [
-        "Aug 15: Brantley Gilbert — Tattoos Tour",
-        "Aug 17: Toto — Africa, Rosanna, Hold the Line"
+        "Aug 20: Big Time Rush — Ultimate fan experience — Tickets at okczooamp.com",
+        "Sep 10: Lauren Daigle — Night of hope and unforgettable music — All ages — Tickets on sale now"
       ]
     },
 
@@ -169,15 +185,15 @@
         "Frequent touring tribute and rock shows — check ticketstorm.com"
       ],
       "special": [
-        "Aug 9: Foreigner vs Boston Tribute (Double Vision + Dallas Boston Xperience)"
+        "Aug 23: Sam Donald — 8 PM — Tickets: https://www.ticketstorm.com/e/31201/t/ — #samdonald #countrygrunge #rock #country"
       ]
     },
 
     "SCISSORTAIL PARK": {
-      "regular": [],
-      "special": [
-        "Aug 16: Five for Fighting & Vertical Horizon — Free concert, Love’s Stage & Great Lawn, 8 PM"
-      ]
+      "regular": [
+        "Free community concerts & park programming (seasonal)"
+      ],
+      "special": []
     },
 
     "ROYAL BAVARIA BIERGARTEN": {
@@ -185,19 +201,27 @@
         "Open daily at 5 PM",
         "Live music every Friday & Saturday",
         "Full dinner service + lounge",
-        "Celebrating 31 years in Moore, OK",
-        "Reservations: 405-799-7666, royal-bavaria.com, 3401 S Sooner Rd"
+        "Reservations: 405-799-7666 • royal-bavaria.com • 3401 S Sooner Rd (Moore)"
       ],
+      "special": []
+    },
+
+    "GOLDFISH SWIM SCHOOL – MOORE": {
+      "regular": [
+        "Ongoing 30-minute kids swim lessons (family-friendly)"
+      ],
+      "special": []
+    },
+
+    "51ST STREET SPEAKEASY": {
+      "regular": [],
       "special": [
-        "Aug 15: Bottom of the Barrel — live music",
-        "Aug 16: Shawn Proffitt — live music"
+        "Sep 27: Elder Millennials & Gen X Nostalgia Night — Pregame 7 PM, party ends 9:30 PM • 21+ • $5 cover"
       ]
     }
   },
 
   "local_updates": [
-    "Aug 16: Scissortail Park — Five for Fighting & Vertical Horizon — Free concert on Love’s Stage & Great Lawn — 8 PM",
-    "Aug 15: Turnpike Tributedours — Tower Theatre — Tribute to Turnpike Troubadours",
-    "Sep 3, 10, 17: Oklahoma’s Credit Union Moonlight Movies at Myriad Gardens — Devon Lawn, 6–10 PM (50 First Dates; Love & Basketball; Sweet Home Alabama)"
+    "Thunder 2025–26 season schedule released — Plan Paycom Center rides early — http://bit.ly/3UZ07xD"
   ]
 }
