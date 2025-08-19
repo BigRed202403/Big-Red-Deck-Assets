@@ -1,6 +1,6 @@
 {
-  "week_range": "Aug 18–25, 2025",
-  "updated_at": "2025-08-19T10:00:00Z",
+  "week_range": "Aug 19–25, 2025",
+  "updated_at": "2025-08-19T14:25:00Z",
 
   "weekly_highlights": [
     "Aug 20: Big Time Rush — Zoo Amphitheatre — Ultimate fan experience — Tickets at okczooamp.com",
@@ -12,7 +12,7 @@
   "local_fun_special": [
     "Sept 5–7: Cleveland County Fair Carnival — Wade Shows midway — Fri 4–11 PM, Sat 11 AM–11 PM, Sun 11 AM–8 PM — 615 E Robinson St, Norman",
     "Sept 11–21: 🎡 Oklahoma State Fair — Concerts, bull riding & more • All OG&E Coliseum tickets include Fair admission — https://bit.ly/3ITwhYK",
-    "Sept 13: Trucktoberfest — Truck Yard OKC — Stein hoisting, wiener dog races, pretzel eating, chicken dance — https://truckyard.com/events",
+    "Sept 27: Trucktoberfest — Truck Yard OKC — Stein hoisting, wiener dog races, pretzel eating, chicken dance — https://truckyard.com/events",
     {
       "title": "Goldfish Swim School – Moore",
       "date": null,
@@ -26,7 +26,9 @@
 
   "more_this_week": [
     "Aug 21: Bikes on Bell — Shawnee Bike Night (100 block of Bell Ave) — 6–10 PM — Hosted by Brickhouse Saloon",
-    "Aug 23: Okie State Room — Folk/Country Rock night (Petty/Young/Adams vibes) — Limited seating — Tickets at okiestateroom.com"
+    "Aug 22: Brickhouse Saloon — DJ Navi — Ladies free till 10 PM • Doors 6 PM • Free parking • 21+",
+    "Aug 23: Okie State Room — Folk/Country Rock night (Petty/Young/Adams vibes) — Limited seating — Tickets at okiestateroom.com",
+    "Aug 24: Teddy Swims — Zoo Amphitheatre — Tickets at okczooamp.com"
   ],
 
   "metro_sports": [
@@ -53,7 +55,11 @@
         "Signature cocktails nightly",
         "Doors 7 PM–2 AM • $5 cover Thu–Sat • 21+ only"
       ],
-      "special": []
+      "special": [
+        "Aug 21: The Country Shop Band — Live",
+        "Aug 22: Midas 13 — Live",
+        "Aug 23: The Stars — Live"
+      ]
     },
 
     "THE ALLEY": {
@@ -99,6 +105,7 @@
         "Sun: Open Jam @ 5 PM"
       ],
       "special": [
+        "Aug 20: Acoustic Tuesday — Josh Polaschek — Hosted by DaleYeah Productions/Aaron Wall",
         "Aug 22: Oklahoma Smoke BBQ + Mooney’s Pub Benefit Night for Rodney Carothers — 6 PM; 4 local bands (Karma, Classic Rewind, Jukebox Hero, Ninety Proof) + guests; raffle to support Rodney’s family",
         "Aug 23: Ten Acre Rock",
         "Aug 29: Jukebox Hero",
@@ -122,7 +129,8 @@
         "Sun: Free Pool — Open tables all day"
       ],
       "special": [
-        "Aug 21: Bikes on Bell — Shawnee Bike Night (100 block of Bell Ave) — 6–10 PM"
+        "Aug 21: Bikes on Bell — Shawnee Bike Night (100 block of Bell Ave) — 6–10 PM",
+        "Aug 22: Friday Night with DJ Navi — Ladies free till 10 PM • Doors 6 PM • 21+"
       ]
     },
 
@@ -176,7 +184,20 @@
       "regular": [],
       "special": [
         "Aug 20: Big Time Rush — Ultimate fan experience — Tickets at okczooamp.com",
-        "Sep 10: Lauren Daigle — Night of hope and unforgettable music — All ages — Tickets on sale now"
+        "Aug 24: Teddy Swims — Tickets at okczooamp.com",
+        "Sep 4: Pixies — Tickets at okczooamp.com",
+        "Sep 6: Nelly — Tickets at okczooamp.com",
+        "Sep 10: Lauren Daigle — All ages — Tickets on sale now",
+        "Sep 11: Goo Goo Dolls — Tickets at okczooamp.com",
+        "Sep 20: Leon Bridges & Charley Crockett — Tickets at okczooamp.com",
+        "Sep 25: Jon Pardi — Tickets at okczooamp.com",
+        "Sep 26: Nathaniel Rateliff — Tickets at okczooamp.com",
+        "Sep 27: Uncle Charlie’s R&B Cookout — Tickets at okczooamp.com",
+        "Oct 4: Empire of the Sun — Tickets at okczooamp.com",
+        "Oct 11: Alex Warren — Tickets at okczooamp.com",
+        "Oct 21: John Legend — Tickets at okczooamp.com",
+        "Oct 25: Pierce the Veil — Tickets at okczooamp.com",
+        "Oct 25: T-Pain — Tickets at okczooamp.com"
       ]
     },
 
@@ -218,10 +239,20 @@
       "special": [
         "Sep 27: Elder Millennials & Gen X Nostalgia Night — Pregame 7 PM, party ends 9:30 PM • 21+ • $5 cover"
       ]
+    },
+
+    "JOJO'S": {
+      "regular": [
+        "Live music Saturdays"
+      ],
+      "special": [
+        "Aug 23: Southern Accents — 90s & early 2000s country • 9 PM"
+      ]
     }
   },
 
   "local_updates": [
-    "Thunder 2025–26 season schedule released — Plan Paycom Center rides early — http://bit.ly/3UZ07xD"
+    "Thunder 2025–26 season schedule released — Plan Paycom Center rides early — http://bit.ly/3UZ07xD",
+    "Crimson Friday Concert Series (Norman | OU Home Games): Aug 29 (Jillian Bryant/Trace Arnold) • Sep 5 (Powell Brothers/Jimmy Lee Jordan Band) • Sep 19 (Ryan Hunter) • Oct 3 (Jeremy Phillips) • Oct 24 (Trey Gonzales) • Nov 21 (BLY) • Nov 28 (Bad Genes) — VIP links available"
   ]
 }
