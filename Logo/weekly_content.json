@@ -1,119 +1,92 @@
 {
-  "week_range": "Aug 19–25, 2025",
-  "updated_at": "2025-08-20T12:05:00Z",
-
+  "week_range": "Aug 25 – Sep 2, 2025",
+  "updated_at": "2025-08-24T18:00:00Z",
   "weekly_highlights": [
-    "Aug 22: Mooney’s Pub — NO SHOES, NO SHIRT, NO CANCER! Benefit for Rodney — 6 PM",
-    "Aug 22: 40 West — Brett Hendrix Band — 9 PM",
-    "Aug 23: Okie State Room — DeFrance Live — Doors 7 PM, Show 8 PM",
-    "Aug 23: Home Run Derby X — Chickasaw Bricktown Ballpark — OU legends + MLB stars"
+    "Aug 28 – OSU Football Opener vs UT Martin",
+    "Aug 30 – OU Football Home Opener vs Illinois State + Campus Corner Concerts",
+    "Aug 30 – Okie State Room: Football Kickoff Party — Live Concert + Big Screen Football (limited seating)",
+    "Aug 30 – Neanderthal Jones + Guests @ The Ritz (Shawnee)"
   ],
-
+  "metro_sports": [
+    "OU Football: Aug 30 vs Illinois State",
+    "OSU Football: Aug 28 vs UT Martin",
+    "OKC Thunder – 2025–26 season tips in Oct (schedule TBA)"
+  ],
+  "local_updates": [
+    "Oklahoma Derby Wine Festival @ Remington Park – Sun Sep 28 (VIP nearly sold out)"
+  ],
   "local_fun_special": [
-    "Sept 5–7: Cleveland County Fair Carnival — Wade Shows midway — Fri 4–11 PM, Sat 11 AM–11 PM, Sun 11 AM–8 PM — 615 E Robinson St, Norman",
-    "Sept 11–21: 🎡 Oklahoma State Fair — Concerts, bull riding & more • All OG&E Coliseum tickets include Fair admission — https://bit.ly/3ITwhYK",
-    "Sept 27: Trucktoberfest — Truck Yard OKC — Stein hoisting, wiener dog races, pretzel eating, chicken dance — https://truckyard.com/events",
     {
-      "title": "Goldfish Swim School – Moore",
-      "date": null,
-      "location": "Moore, OK",
-      "description": "30-minute kid-focused swim lessons built for progress and short attention spans.",
-      "tags": ["family", "kids", "swim", "education", "ongoing", "moore"],
-      "recurring": true,
-      "ongoing": true
+      "title": "Cleveland County Fair",
+      "date": "Sep 5–7, 2025",
+      "location": "Cleveland County Fairgrounds – Norman",
+      "description": "Midway by Wade Shows with 100+ rides, food vendors, livestock shows, live entertainment & more"
+    },
+    {
+      "title": "Oklahoma State Fair",
+      "date": "Sep 11–21, 2025",
+      "location": "OKC Fairgrounds",
+      "description": "Concerts, PRCA Rodeo, Disney On Ice, carnival midway, livestock & exhibits (OG&E Coliseum tickets include fair admission)"
     }
   ],
-
-  "more_this_week": [
-    "Aug 21: Bikes on Bell — Shawnee Bike Night (100 block of Bell Ave) — 6–10 PM — Hosted by Brickhouse Saloon",
-    "Aug 22: Bricktown Summer Nights — DISCO NIGHT ft. Superfreak — OKC — Outdoor, all ages — 7–11 PM",
-    "Aug 22: Okie Tonk Café — Dirt Rich — 9 PM",
-    "Aug 24: Teddy Swims — Zoo Amphitheatre — okczooamp.com"
-  ],
-
-  "metro_sports": [
-    "Aug 30: OU Football — vs Illinois State (Norman) — Season opener — expect heavy traffic",
-    "Aug 31: OSU Football — vs Central Arkansas (Stillwater)"
-  ],
-
   "venues": {
     "OKIE STATE ROOM": {
       "regular": [
         "Live music on weekends",
-        "Select ticketed shows; limited seated events announced in advance"
+        "Select ticketed shows; limited seating"
       ],
       "special": [
-        "Aug 22: A Toast to Toby Keith — Tribute benefiting OK Kids Korral • Doors 6 PM, Show 8 PM • Tickets: promotix.com",
-        "Aug 23: DeFrance — Southern rock with folk/country roots • Doors 7 PM • Show 8 PM • defrancemusic.com",
-        "Aug 30: Football/Music Night kickoff — Live concert + big-screen football — Limited seating — Tickets available now"
+        "Aug 30 – Football Kickoff Party: Live Concert + Big Screen Football (limited seating)"
       ]
     },
-
     "FRIENDS OF FRIENDS": {
       "regular": [
-        "Thu–Sat: Live Bands",
-        "Doors 7 PM–2 AM • $5 cover Thu–Sat • 21+ • Kitchen Open Nightly"
+        "Live bands Thu–Sat",
+        "Signature cocktails nightly"
       ],
-      "special": [
-        "Aug 21: The Country Shop Band",
-        "Aug 22: Midas 13",
-        "Aug 23: The Stars"
-      ]
+      "special": []
     },
-
-    "MOONEY'S PUB": {
+    "THE ALLEY": {
       "regular": [
-        "Tue: Acoustic Tuesday (rotating artists)",
-        "Fri–Sat: Live Bands @ 9 PM",
-        "Sun: Open Jam @ 5 PM"
+        "Live music every Saturday",
+        "Seasonal outdoor concerts"
       ],
       "special": [
-        "Aug 22: NO SHOES, NO SHIRT, NO CANCER! Benefit for Rodney — 6 PM — Live music: Ninety Proof + guests; raffles & auctions",
-        "Aug 23: Ten Acre Rock",
-        "Aug 29: Jukebox Hero",
-        "Aug 30: Dollar 98"
+        "Sep 20 – Outdoor Concert"
       ]
     },
-
+    "THE MILL": {
+      "regular": [
+        "Sun: Shuffleboard Tournament @ 3 PM",
+        "Mon: $5 all liquor after 8 PM + Late Night Happy Hour",
+        "Tue & Thu: $4 & $5 Shot Specials",
+        "Wed: Whiskey Wednesday + Free Pool",
+        "Fri: $15 Bucket Specials",
+        "Sat: Pitcher Deals — $20 Local / $14 Domestic"
+      ],
+      "special": []
+    },
     "OKIE TONK": {
       "regular": [
-        "Tue: Poker @ 7 PM",
+        "Tue: Poker Night @ 7 PM",
         "Wed: Trivia + Karaoke",
         "Thu: Singo Bingo",
         "Fri: Live Bands",
         "Sat–Sun: Karaoke"
       ],
       "special": [
-        "Aug 22: Dirt Rich — 9 PM"
+        "Aug 28 – Watch Party: OSU vs UT Martin",
+        "Aug 30 – Watch Party: OU vs Illinois State"
       ]
     },
-
-    "BRICKHOUSE SALOON": {
+    "MOONEY'S PUB": {
       "regular": [
-        "Mon–Tue: Karaoke @ 9 PM",
-        "Sat: College Night",
-        "Thu: Line Dancing with Aria — Free entry • $5 wells all night • Free parking • 115 N Bell St, Shawnee"
+        "Tue: Acoustic Tuesday",
+        "Fri–Sat: Live Bands @ 9 PM",
+        "Sun: Open Jam @ 5 PM"
       ],
-      "special": [
-        "Aug 21: Bikes on Bell — Shawnee Bike Night — 6–10 PM",
-        "Aug 22: DJ Navi — Doors 6 PM • Ladies free till 10 PM • $5 cover • 21+",
-        "Aug 23: Pleas OKC — Doors 6 PM • $5 cover (Free with college ID)"
-      ]
+      "special": []
     },
-
-    "40 WEST": {
-      "regular": [
-        "Sun: Open Mic Night",
-        "Mon: Game Night",
-        "Tue–Thu: Karaoke",
-        "Fri–Sat: Live Music"
-      ],
-      "special": [
-        "Aug 22: Brett Hendrix Band — 9 PM",
-        "Aug 23: Out To Pasture — 9 PM–12 AM"
-      ]
-    },
-
     "KATS TAVERN": {
       "regular": [
         "Mon: $2 Domestic Bottles",
@@ -122,135 +95,103 @@
       ],
       "special": []
     },
-
+    "BRICKHOUSE SALOON": {
+      "regular": [
+        "Mon–Tue: Karaoke @ 9 PM",
+        "Weekend DJs & theme nights"
+      ],
+      "special": [
+        "Sep 12 – Ross Clayton (Doors 7 PM, Show 8 PM, $10)"
+      ]
+    },
+    "HORSESHOE BAR": {
+      "regular": [
+        "Fri–Sat: Live Music (evenings)",
+        "Sun: Open Mic Night"
+      ],
+      "special": []
+    },
+    "40 WEST": {
+      "regular": [
+        "Sun: Open Mic Night",
+        "Mon: Game Night",
+        "Tue–Thu: Karaoke",
+        "Fri–Sat: Live Music"
+      ],
+      "special": []
+    },
     "COWBOYS OKC": {
       "regular": [
         "Thu: Ladies Night",
-        "Fri: All drinks half price until 10 PM + Free Line Dance Lessons @ 9 PM",
-        "Sat: Live Bull Riding + Free Line Dance Lessons"
+        "Fri: Line Dance Lessons @ 9 PM + half-price drinks til 10 PM",
+        "Sat: Live Bull Riding + Line Dance Lessons"
       ],
       "special": []
     },
-
-    "THE MILL": {
-      "regular": [
-        "Sun: Shuffleboard Tournament @ 3 PM",
-        "Mon–Thu: Late Night Happy Hour 10 PM–1 AM",
-        "Mon: $5 All Liquor after 8 PM",
-        "Tue & Thu: $4–$5 Shot Specials",
-        "Wed: Whiskey Wednesday + Free Pool",
-        "Fri: $15 Bucket Specials",
-        "Sat: Pitcher Deals — $20 Local (70oz) / $14 Domestic (70oz)"
-      ],
-      "special": []
-    },
-
-    "THE ALLEY": {
-      "regular": [
-        "Live music every Saturday",
-        "Seasonal outdoor concerts"
-      ],
-      "special": [
-        "Aug 23: Dark Prairie Sun — Debut — 7:00–11:55 PM",
-        "Aug 29: Tightrope",
-        "Aug 30: Cash Carrico Band",
-        "Sep 20: Outdoor Concert"
-      ]
-    },
-
-    "THE RITZ": {
-      "regular": [
-        "Frequent touring tribute and rock shows — check ticketstorm.com"
-      ],
-      "special": [
-        "Aug 23: Sam Donald — 8 PM — Tickets: ticketstorm.com",
-        "Aug 30: Metal Night — Neanderthal Jones (headline) + Dog Will Hunt + Kanbashi + RatEater — Tickets: ticketstorm.com"
-      ]
-    },
-
     "RIVERWIND CASINO": {
       "regular": [],
       "special": [
-        "Sep 5: Gary Allan with Drive",
-        "Sep 27: Bret Michaels",
-        "Oct 17: Collective Soul"
+        "Sep 5 – Gary Allan",
+        "Sep 27 – Bret Michaels",
+        "Oct 17 – Collective Soul"
       ]
     },
-
     "LUCKY STAR CASINO": {
       "regular": [],
       "special": [
-        "Aug 22: WARRANT 35th Anniversary — with Lita Ford & FireHouse — Concho",
-        "Sep 6: Weird Al Yankovic — El Reno",
-        "Sep 7: KATTFest 2025 — El Reno",
-        "Sep 20: Three Dog Night & Little River Band — El Reno"
+        "Sep 6 – Weird Al Yankovic (El Reno)",
+        "Sep 7 – KATTFest 2025 (El Reno)",
+        "Sep 20 – Three Dog Night & Little River Band (Concho)"
       ]
     },
-
     "ZOO AMPHITHEATRE": {
       "regular": [],
       "special": [
-        "Aug 20: Big Time Rush — Ultimate fan experience — okczooamp.com",
-        "Aug 24: Teddy Swims — okczooamp.com",
-        "Sep 4: Pixies — okczooamp.com",
-        "Sep 6: Nelly — okczooamp.com",
-        "Sep 10: Lauren Daigle — All ages — Tickets on sale now",
-        "Sep 11: Goo Goo Dolls — okczooamp.com",
-        "Sep 20: Leon Bridges & Charley Crockett — okczooamp.com",
-        "Sep 25: Jon Pardi — okczooamp.com",
-        "Sep 26: Nathaniel Rateliff — okczooamp.com",
-        "Sep 27: Uncle Charlie’s R&B Cookout — okczooamp.com",
-        "Oct 4: Empire of the Sun — okczooamp.com",
-        "Oct 11: Alex Warren — okczooamp.com",
-        "Oct 21: John Legend — okczooamp.com",
-        "Oct 25: Pierce the Veil — okczooamp.com",
-        "Oct 25: T-Pain — okczooamp.com"
+        "Sep 4 – Pixies",
+        "Sep 6 – Nelly",
+        "Sep 10 – Lauren Daigle",
+        "Sep 11 – Goo Goo Dolls",
+        "Sep 20 – Leon Bridges",
+        "Sep 25 – Jon Pardi",
+        "Sep 26 – Nathaniel Rateliff & The Night Sweats",
+        "Sep 27 – Uncle Charlie’s R&B Cookout"
       ]
     },
-
-    "SCISSORTAIL PARK": {
+    "THE RITZ": {
       "regular": [
-        "Free community concerts & park programming (seasonal)"
+        "Touring tribute & rock shows — ticketstorm.com"
       ],
-      "special": []
+      "special": [
+        "Aug 30 – Neanderthal Jones (Metal Night)",
+        "Sep 19 – The Dead Aces + The Tyler Lee Band"
+      ]
     },
-
     "ROYAL BAVARIA BIERGARTEN": {
       "regular": [
         "Open daily at 5 PM",
-        "Live music every Friday & Saturday",
-        "Full dinner service + lounge",
-        "Reservations: 405-799-7666 • royal-bavaria.com • 3401 S Sooner Rd (Moore)"
+        "Full dinner & lounge service",
+        "Live music Fri–Sat"
       ],
-      "special": []
-    },
-
-    "GOLDFISH SWIM SCHOOL – MOORE": {
-      "regular": [
-        "Ongoing 30-minute kids swim lessons (family-friendly)"
-      ],
-      "special": []
-    },
-
-    "51ST STREET SPEAKEASY": {
-      "regular": [],
       "special": [
-        "Sep 27: Elder Millennials & Gen X Nostalgia Night — Pregame 7 PM, party ends 9:30 PM • 21+ • $5 cover"
+        "Aug 29 – Weekend Band: Bottom of the Barrel",
+        "Aug 30 – Weekend Band: Shawn Proffitt"
       ]
     },
-
-    "JOJO'S": {
+    "GOLDFISH SWIM SCHOOL (MOORE)": {
       "regular": [
-        "Live music Saturdays"
+        "Weekly swim lessons for kids — 30-minute sessions",
+        "Play-based skill building and water safety"
+      ],
+      "special": []
+    },
+    "51ST STREET SPEAKEASY": {
+      "regular": [
+        "Live local music and themed parties",
+        "Neighborhood bar with retro vibe"
       ],
       "special": [
-        "Aug 23: Southern Accents — 90s & early 2000s country • 9 PM"
+        "Sep 27 – Elder Millennial / Gen X Throwback Night"
       ]
     }
-  },
-
-  "local_updates": [
-    "Thunder 2025–26 season schedule released — Plan Paycom Center rides early — http://bit.ly/3UZ07xD",
-    "Crimson Friday Concert Series (Norman | OU Home Games): Aug 29 (Jillian Bryant/Trace Arnold) • Sep 5 (Powell Brothers/Jimmy Lee Jordan Band) • Sep 19 (Ryan Hunter) • Oct 3 (Jeremy Phillips) • Oct 24 (Trey Gonzales) • Nov 21 (BLY) • Nov 28 (Bad Genes) — VIP links available"
-  ]
+  }
 }
