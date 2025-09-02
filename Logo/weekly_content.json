@@ -1,11 +1,10 @@
 {
   "week_range": "Sep 1 – Sep 7, 2025",
-  "updated_at": "2025-09-01T12:00:00Z",
+  "updated_at": "2025-09-02T00:00:00Z",
   "weekly_highlights": [
     "Sep 4 – Cleveland County Fair opens (Norman Fairgrounds)",
     "Sep 5 – Mooney’s Pub 2-Year Anniversary Celebration (Moore)",
-    "Sep 6 – ESPN College GameDay @ OU vs Michigan (Norman)",
-    "Sep 6 – Weird Al Yankovic @ Lucky Star Casino (El Reno)",
+    "Sep 6 – ESPN College GameDay in Norman + OU vs Michigan",
     "Sep 6 – Nelly @ Zoo Amphitheatre"
   ],
   "metro_sports": [
@@ -126,7 +125,7 @@
     },
     "HORSESHOE BAR": {
       "regular": [
-        "Fri–Sat: Live Music",
+        "Fri–Sat: Live Music (evenings)",
         "Sun: Open Mic Night"
       ],
       "special": []
@@ -188,17 +187,19 @@
       "regular": [
         "Open daily at 5 PM",
         "Full dinner & lounge service",
-        "Live music Fri–Sat"
+        "Live music Fri–Sat",
+        "Thu: All-You-Can-Eat German Buffet (5–9 PM) — salad bar, soup, fresh bread, schnitzels, sausages, goulash, sides + dessert buffet"
       ],
       "special": []
     },
     "GOLDFISH SWIM SCHOOL (MOORE)": {
       "regular": [
         "Weekly swim lessons for kids — 30-minute sessions",
-        "Play-based skill building and water safety"
+        "Play-based skill building and water safety",
+        "Where little splashes lead to big wins. From first bubbles to confident strokes, Goldfish builds water safety, motor skills, and confidence through purposeful play — all in a 90° shiver-free pool."
       ],
       "special": [
-        "September Theme – Pirates & Princesses celebration (royal rescues, treasure hunts, and story-based swim lessons all month)"
+        "September Theme — Pirates & Princesses celebration (royal rescues, treasure hunts, story-based swim lessons all month)"
       ]
     },
     "51ST STREET SPEAKEASY": {
@@ -208,6 +209,21 @@
       ],
       "special": [
         "Sep 27 – Elder Millennial / Gen X Throwback Night"
+      ]
+    },
+    "CAMPUS CORNER": {
+      "regular": [
+        "Crimson Friday Concerts on select OU home-game weekends",
+        "Game Day street party & post-game live music"
+      ],
+      "special": [
+        "Sep 5 – Crimson Friday Concert (VIP links via Eventbrite)",
+        "Sep 6 – OU vs Michigan: GameDay in Norman + Campus Corner Tailgate/Block Party & Post-Game Concert",
+        "Sep 19 – Crimson Friday Concert",
+        "Oct 3 – Crimson Friday Concert",
+        "Oct 24 – Crimson Friday Concert",
+        "Nov 21 – Crimson Friday Concert",
+        "Nov 28 – Crimson Friday Concert"
       ]
     }
   }
