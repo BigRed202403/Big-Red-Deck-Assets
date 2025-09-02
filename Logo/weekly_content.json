@@ -1,53 +1,48 @@
 {
-  "week_range": "Sept 1 – Forward",
-  "updated_at": "2025-09-01T23:59:00Z",
-
-"weekly_highlights": [
-  "Sep 4 – Pixies @ Zoo Amphitheatre",
-  "Sep 5 – Gary Allan @ Riverwind Casino",
-  "Sep 6 – Nelly @ Zoo Amphitheatre",
-  "Sep 6 – Weird Al Yankovic @ Lucky Star Casino (El Reno)"
-],
-
+  "week_range": "Sep 1–7, 2025",
+  "updated_at": "2025-09-01T00:00:00Z",
+  "weekly_highlights": [
+    "Sep 4–7 — Cleveland County Fair (Norman) — Wade Shows midway, food, livestock & more",
+    "Sat Sep 6 — OU vs Michigan in Norman + ESPN College GameDay live on campus",
+    "Sat Sep 6 — Campus Corner Tailgate & Concerts (Norman) — all-day party + postgame",
+    "Sat Sep 6 — Nelly @ Zoo Amphitheatre (OKC)"
+  ],
   "metro_sports": [
-    "Sept 6 — OU vs Michigan (Norman) — ESPN College GameDay in town",
-    "Early Sept — OSU Football watch parties around the metro",
-    "OKC Thunder 2025–26 schedule posted (see slide image)"
+    "OU Football — Sat Sep 6 vs Michigan (Norman) — ESPN College GameDay on campus",
+    "OSU Football — Sat Sep 6 (road game) — watch parties around the Metro",
+    "OKC Thunder — 2025–26 regular-season schedule posted (Big Red deck includes team schedule image)"
   ],
-
   "local_updates": [
-    "Oklahoma Derby Wine Festival @ Remington Park — Sun, Sept 28, 3–7 PM (VIP nearly sold out)",
-    "Campus Corner Tailgate + Crimson Friday concerts (see dates in Campus Corner)",
-    "Big Red Connect — Surge-free rides on game days (pickup/drop at strategic off-campus points)"
+    "Oklahoma State Fair — Sep 11–21 (OKC Fairgrounds) — all Coliseum tickets include Fair admission",
+    "Oklahoma Derby Wine Festival — Sun Sep 28, 3–7 PM @ Remington Park (VIP nearly sold out)",
+    "Trucktoberfest — Sat Sep 27 — stein hoist, wiener dog races, pretzel eating & more"
   ],
-
   "local_fun_special": [
     {
       "title": "Cleveland County Fair",
-      "date": "Sept 4–7, 2025",
-      "location": "Cleveland County Fairgrounds — Norman",
-      "description": "Wade Shows midway (100+ rides), food, livestock, live entertainment; Fri 4–11p, Sat 11a–11p, Sun 11a–8p"
+      "date": "Sep 4–7, 2025",
+      "location": "Cleveland County Fairgrounds, Norman",
+      "description": "Wade Shows midway with 100+ rides & attractions, food, livestock shows, live entertainment"
     },
     {
       "title": "Oklahoma State Fair",
-      "date": "Sept 11–21, 2025",
+      "date": "Sep 11–21, 2025",
       "location": "OKC Fairgrounds",
-      "description": "Concerts, PRCA Rodeo, Disney On Ice, carnival midway, livestock & exhibits; OG&E Coliseum tickets include Fair admission"
+      "description": "Concerts, PRCA Rodeo, Disney On Ice, carnival midway, exhibits; OG&E Coliseum tickets include Fair admission"
     },
     {
       "title": "Trucktoberfest",
-      "date": "Sept 27, 2025",
-      "location": "Metro",
-      "description": "Stein hoist, wiener dog races, pretzel eating, chicken dance — one epic day"
+      "date": "Sep 27, 2025",
+      "location": "Truckyard (OKC area)",
+      "description": "Stein hoist 💪 • Wiener dog races 🐾 • Pretzel eating 😋 • Chicken dance 🐓"
     },
     {
       "title": "Oklahoma Derby Wine Festival",
-      "date": "Sept 28, 2025 (3–7 PM)",
+      "date": "Sep 28, 2025",
       "location": "Remington Park",
-      "description": "OK wineries, live Derby racing, Hat & Bowtie Style Contest; proceeds support Remington Park Charities"
+      "description": "OK wineries, Oklahoma Derby racing, Hat & Bowtie Style Contest — benefits Remington Park Charities"
     }
   ],
-
   "venues": {
     "OKIE STATE ROOM": {
       "regular": [
@@ -55,28 +50,26 @@
         "Select ticketed shows; limited seated events announced in advance"
       ],
       "special": [
-        "Sept 19 — The Dead Aces & The Tyler Lee Band (ticketstorm link provided earlier)"
+        "Campus Corner overflow rides & drop-zones available with Big Red on OU home game days (avoid gridlock, no campus pickups)"
       ]
     },
-
     "FRIENDS OF FRIENDS": {
       "regular": [
-        "Thu–Sat: Live bands",
-        "Kitchen open nightly; Doors 7 PM–2 AM; 21+; $5 cover Thu/Fri/Sat"
+        "Live bands Thu–Sat",
+        "Kitchen open nightly",
+        "21+ | $5 cover Thu–Sat"
       ],
       "special": []
     },
-
     "THE ALLEY": {
       "regular": [
         "Live music every Saturday",
         "Seasonal outdoor concerts"
       ],
       "special": [
-        "Sept 20 — Outdoor Concert (season feature)"
+        "Sep 20 — Outdoor Concert (season show)"
       ]
     },
-
     "THE MILL": {
       "regular": [
         "Sun: Shuffleboard Tournament @ 3 PM",
@@ -85,33 +78,34 @@
         "Tue & Thu: $4 & $5 shot specials",
         "Wed: Whiskey Wednesday + Free Pool",
         "Fri: $15 Bucket Specials",
-        "Sat: Pitcher Deals — $20 Local / $14 Domestic"
+        "Sat: Pitcher Deals — $20 Local 70oz / $14 Domestic 70oz"
       ],
       "special": [
-        "Game Day Watch Parties all season (OU/OSU feature nights)"
+        "Game-day watch parties all season (OU/OSU feature nights; check weekly post boards)"
       ]
     },
-
     "OKIE TONK": {
       "regular": [
-        "Tue: Poker @ 7 PM",
+        "Tue: Poker Night @ 7 PM",
         "Wed: Trivia + Karaoke",
         "Thu: Singo Bingo",
         "Fri: Live Bands",
         "Sat–Sun: Karaoke"
       ],
-      "special": []
+      "special": [
+        "Sat Sep 6 — OU watch party (Campus Corner rides with Big Red available)"
+      ]
     },
-
     "MOONEY'S PUB": {
       "regular": [
         "Tue: Acoustic Tuesday",
         "Fri–Sat: Live Bands @ 9 PM",
         "Sun: Open Jam @ 5 PM"
       ],
-      "special": []
+      "special": [
+        "Aug schedule completed; September bands posted weekly (venue board)"
+      ]
     },
-
     "KATS TAVERN": {
       "regular": [
         "Mon: $2 Domestic Bottles",
@@ -120,17 +114,15 @@
       ],
       "special": []
     },
-
     "BRICKHOUSE SALOON": {
       "regular": [
         "Mon–Tue: Karaoke @ 9 PM",
         "Weekend DJs & theme nights"
       ],
       "special": [
-        "Sept 12 — Ross Clayton (Doors 7 PM, Show 8 PM, $10)"
+        "Fri Sep 12 — Ross Clayton (Doors 7 PM / Show 8 PM / $10)"
       ]
     },
-
     "HORSESHOE BAR": {
       "regular": [
         "Fri–Sat: Live Music (evenings)",
@@ -138,7 +130,6 @@
       ],
       "special": []
     },
-
     "40 WEST": {
       "regular": [
         "Sun: Open Mic Night",
@@ -148,102 +139,107 @@
       ],
       "special": []
     },
-
     "COWBOYS OKC": {
       "regular": [
         "Thu: Ladies Night",
-        "Fri: Free line dance lessons @ 9 PM + half-price drinks til 10 PM",
+        "Fri: Line Dance Lessons @ 9 PM + half-price drinks til 10 PM",
         "Sat: Live Bull Riding + Line Dance Lessons"
       ],
       "special": []
     },
-
-    "THE RITZ": {
-      "regular": [
-        "Touring tribute & rock shows — ticketstorm.com"
-      ],
-      "special": [
-        "Sept 19 — The Dead Aces + The Tyler Lee Band (Ticketstorm)"
-      ]
-    },
-
     "RIVERWIND CASINO": {
       "regular": [],
       "special": [
-        "Sept 5 — Gary Allan",
-        "Sept 27 — Bret Michaels",
-        "Oct 17 — Collective Soul",
-        "Nov 28 — The Oak Ridge Boys"
+        "Fri Sep 5 — Gary Allan",
+        "Sat Sep 27 — Bret Michaels",
+        "Fri Oct 17 — Collective Soul",
+        "Fri Nov 28 — The Oak Ridge Boys"
       ]
     },
-
     "LUCKY STAR CASINO": {
       "regular": [],
       "special": [
-        "Sept 6 — Weird Al Yankovic (El Reno)",
-        "Sept 7 — KATTFest 2025 (El Reno)",
-        "Sept 20 — Three Dog Night & Little River Band (Concho)"
+        "Sat Sep 6 — Weird Al Yankovic (El Reno)",
+        "Sun Sep 7 — KATTFest 2025 (El Reno)",
+        "Fri Sep 20 — Three Dog Night & Little River Band (Concho)"
       ]
     },
-
     "ZOO AMPHITHEATRE": {
       "regular": [],
       "special": [
-        "Sept 4 — Pixies",
-        "Sept 6 — Nelly",
-        "Sept 10 — Lauren Daigle",
-        "Sept 11 — Goo Goo Dolls",
-        "Sept 20 — Leon Bridges",
-        "Sept 25 — Jon Pardi",
-        "Sept 26 — Nathaniel Rateliff & The Night Sweats",
-        "Sept 27 — Uncle Charlie’s R&B Cookout"
+        "Thu Sep 4 — Pixies",
+        "Sat Sep 6 — Nelly",
+        "Wed Sep 10 — Lauren Daigle",
+        "Thu Sep 11 — Goo Goo Dolls",
+        "Sat Sep 20 — Leon Bridges",
+        "Thu Sep 25 — Jon Pardi",
+        "Fri Sep 26 — Nathaniel Rateliff & The Night Sweats",
+        "Sat Sep 27 — Uncle Charlie’s R&B Cookout"
       ]
     },
-
-    "CAMPUS CORNER": {
+    "THE RITZ": {
       "regular": [
-        "Game Day Tailgates",
-        "Crimson Friday Concerts — VIP access via Eventbrite"
+        "Touring tribute/rock shows — ticketstorm.com"
       ],
       "special": [
-        "Sept 5 — Crimson Friday Concert",
-        "Sept 19 — Crimson Friday Concert",
-        "Oct 3 — Crimson Friday Concert",
-        "Oct 24 — Crimson Friday Concert",
-        "Nov 21 — Crimson Friday Concert",
-        "Nov 28 — Crimson Friday Concert"
+        "Fri Sep 19 — The Dead Aces + The Tyler Lee Band",
+        "Sat Aug 30 — Neanderthal Jones (PAST)"
       ]
     },
-
     "ROYAL BAVARIA BIERGARTEN": {
       "regular": [
-        "Open daily at 5 PM (7 days/week)",
-        "Live music Friday & Saturday",
-        "Full dinner service and lounge area"
+        "Open daily at 5 PM (restaurant & lounge)",
+        "Live music Fri–Sat",
+        "Thu: All-You-Can-Eat German Buffet 5–9 PM (AYCE entrées + salad bar, soup & fresh bread; optional dessert buffet)"
       ],
       "special": [
-        "Thursday German Buffet (5–9 PM): Cabbage Rolls, Hungarian Goulash, Wiener Schnitzel, Jäger Schnitzel, sausages, sides + dessert buffet add-on"
+        "Weekly bands posted on venue feed; call 405-799-7666 for reservations"
       ]
     },
-
     "GOLDFISH SWIM SCHOOL (MOORE)": {
       "regular": [
-        "Where little splashes lead to big wins. From first bubbles to confident strokes, Goldfish builds water safety, motor skills, and confidence through purposeful play — all in a 90° shiver-free pool.",
-        "Weekly 30-min lessons designed for progress and attention spans; play-based skill building & observation learning"
+        "Where little splashes lead to big wins — play-based lessons build water safety, motor skills & confidence (90° shiver-free pool).",
+        "From the first whistle to the final splash, every 30-minute class is built for progress — purposeful play, practice & observation."
       ],
       "special": [
-        "SEPTEMBER THEME — Pirates & Princesses: splash-and-storyline lessons (royal rescues, treasure hunts) that keep kids engaged, confident, and having a boatload of fun."
+        "September Theme — Pirates & Princesses: treasure hunts, royal rescues & confidence-building fun all month long"
       ]
     },
-
     "51ST STREET SPEAKEASY": {
       "regular": [
-        "Live local music & themed dance parties",
+        "Live local music & themed parties",
         "Neighborhood bar with retro vibe"
       ],
       "special": [
-        "Sept 27 — Elder Millennial / Gen X Throwback Night (7–9:30 PM early party)"
+        "Sat Sep 27 — Elder Millennial / Gen X Throwback Night (7–9:30 PM early curtain)"
       ]
+    },
+    "CAMPUS CORNER": {
+      "regular": [
+        "Crimson Friday Concerts — VIP links live for all OU home weekends",
+        "Game-day tailgate & postgame street party (select dates)"
+      ],
+      "special": [
+        "Fri Sep 5 — Crimson Friday Concert (VIP available)",
+        "Sat Sep 6 — OU vs Michigan tailgate & postgame concerts",
+        "Fri Sep 19 — Crimson Friday Concert",
+        "Fri Oct 3 — Crimson Friday Concert",
+        "Fri Oct 24 — Crimson Friday Concert",
+        "Fri Nov 21 — Crimson Friday Concert",
+        "Fri Nov 28 — Crimson Friday Concert"
+      ]
+    },
+    "NEWCASTLE CASINO": {
+      "regular": [
+        "Weekly gaming promos (see promotions page for current offers)"
+      ],
+      "special": []
+    },
+    "FIRELAKE ARENA / CASINO": {
+      "regular": [
+        "Weekly gaming promos (see venue feed/site)"
+      ],
+      "special": []
     }
   }
 }
