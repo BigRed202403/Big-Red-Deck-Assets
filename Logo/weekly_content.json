@@ -1,58 +1,68 @@
 {
-  "week_range": "Sep 1–7, 2025",
-  "updated_at": "2025-09-01T18:00:00Z",
+  "week_range": "Sept 1 – Forward",
+  "updated_at": "2025-09-01T23:59:00Z",
+
   "weekly_highlights": [
-    "ESPN College GameDay in Norman — Sat Sep 6 (OU vs Michigan) — national broadcast + campus buzz",
-    "Cleveland County Fair — Sep 4–7 (615 E Robinson, Norman) — Wade Shows midway, livestock & more",
-    "Oklahoma State Fair — Sep 11–21 (OKC Fairgrounds) — big-name concerts, food, rides, PRCA Rodeo",
-    "Lauren Daigle — Wed Sep 10 — The Zoo Amphitheatre — all ages"
-  ],
-
-  "local_updates": [
-    "Campus Corner Fridays: Crimson Friday Concerts on OU home-game weekends (VIP links available)",
-    "Big Red game-day rides: pickup/drop just off campus to avoid gridlock — text 'RED' to (405) 378-4024"
-  ],
-
-  "local_fun_special": [
-    "Cleveland County Fair — Sep 4–7 (Norman) — Wade Shows carnival • Exhibits • Family fun",
-    "Oklahoma State Fair — Sep 11–21 (OKC) — Concerts • OG&E Coliseum events (ticket includes fair admission)",
-    "Trucktoberfest — Sep 27 (Truck Yard OKC) — stein hoist • wiener dog races • pretzel eating • chicken dance",
-    "Oklahoma Derby Wine Festival — Sep 28 (Remington Park) — OK wineries • live racing • Hat & Bowtie contest"
+    "Sept 4–7 — Cleveland County Fair (Norman Fairgrounds)",
+    "Sept 6 — OU vs Michigan + ESPN College GameDay (Norman) — Campus Corner tailgate & watch parties",
+    "Sept 11–21 — Oklahoma State Fair (OKC Fairgrounds)",
+    "Sept 20 — Outdoor Concert @ The Alley (season special)"
   ],
 
   "metro_sports": [
-    "OU Football — Sat Sep 6 vs Michigan (GameDay on site); Sat Sep 13 vs Tulane; Sat Sep 20 at Ole Miss; Sat Sep 27 at LSU (per SoonersSports)",
-    "OSU Football — season underway; watch parties across the Metro each weekend",
-    "UCO Football — Sat Sep 6 vs Pittsburg State (home opener) at Chad Richison Stadium",
-    "OKC Thunder — 2025–26 schedule posted (see image on Metro Sports slide); preseason tips up in October"
+    "Sept 6 — OU vs Michigan (Norman) — ESPN College GameDay in town",
+    "Early Sept — OSU Football watch parties around the metro",
+    "OKC Thunder 2025–26 schedule posted (see slide image)"
+  ],
+
+  "local_updates": [
+    "Oklahoma Derby Wine Festival @ Remington Park — Sun, Sept 28, 3–7 PM (VIP nearly sold out)",
+    "Campus Corner Tailgate + Crimson Friday concerts (see dates in Campus Corner)",
+    "Big Red Connect — Surge-free rides on game days (pickup/drop at strategic off-campus points)"
+  ],
+
+  "local_fun_special": [
+    {
+      "title": "Cleveland County Fair",
+      "date": "Sept 4–7, 2025",
+      "location": "Cleveland County Fairgrounds — Norman",
+      "description": "Wade Shows midway (100+ rides), food, livestock, live entertainment; Fri 4–11p, Sat 11a–11p, Sun 11a–8p"
+    },
+    {
+      "title": "Oklahoma State Fair",
+      "date": "Sept 11–21, 2025",
+      "location": "OKC Fairgrounds",
+      "description": "Concerts, PRCA Rodeo, Disney On Ice, carnival midway, livestock & exhibits; OG&E Coliseum tickets include Fair admission"
+    },
+    {
+      "title": "Trucktoberfest",
+      "date": "Sept 27, 2025",
+      "location": "Metro",
+      "description": "Stein hoist, wiener dog races, pretzel eating, chicken dance — one epic day"
+    },
+    {
+      "title": "Oklahoma Derby Wine Festival",
+      "date": "Sept 28, 2025 (3–7 PM)",
+      "location": "Remington Park",
+      "description": "OK wineries, live Derby racing, Hat & Bowtie Style Contest; proceeds support Remington Park Charities"
+    }
   ],
 
   "venues": {
-    "THE RITZ": {
-      "regular": [
-        "Touring tribute & rock shows — check TicketStorm for new drops"
-      ],
-      "special": [
-        "Sep 19 — The Dead Aces + The Tyler Lee Band — ticketstorm.com"
-      ]
-    },
-
     "OKIE STATE ROOM": {
       "regular": [
         "Live music on weekends",
-        "Select ticketed shows; limited seated events announced in advance",
-        "Football + Live Music Nights — limited chair tickets (when scheduled)"
+        "Select ticketed shows; limited seated events announced in advance"
       ],
       "special": [
-        "Sep 23 — True folk & country showcase (songwriter rock vibe) — limited seating — okiestateroom.com"
+        "Sept 19 — The Dead Aces & The Tyler Lee Band (ticketstorm link provided earlier)"
       ]
     },
 
     "FRIENDS OF FRIENDS": {
       "regular": [
-        "Live bands Thu–Sat",
-        "Kitchen open nightly",
-        "$5 cover Thu/Fri/Sat, 21+"
+        "Thu–Sat: Live bands",
+        "Kitchen open nightly; Doors 7 PM–2 AM; 21+; $5 cover Thu/Fri/Sat"
       ],
       "special": []
     },
@@ -60,10 +70,10 @@
     "THE ALLEY": {
       "regular": [
         "Live music every Saturday",
-        "Seasonal outdoor concerts (watch for dates)"
+        "Seasonal outdoor concerts"
       ],
       "special": [
-        "Sep 20 — Outdoor Concert Night"
+        "Sept 20 — Outdoor Concert (season feature)"
       ]
     },
 
@@ -71,14 +81,14 @@
       "regular": [
         "Sun: Shuffleboard Tournament @ 3 PM",
         "Mon–Thu: Late Night Happy Hour 10 PM–1 AM",
-        "Mon: $5 All Liquor after 8 PM",
-        "Tue & Thu: $4–$5 shot specials",
+        "Mon: $5 all liquor after 8 PM",
+        "Tue & Thu: $4 & $5 shot specials",
         "Wed: Whiskey Wednesday + Free Pool",
         "Fri: $15 Bucket Specials",
         "Sat: Pitcher Deals — $20 Local / $14 Domestic"
       ],
       "special": [
-        "Thu Sep 4 — OSU watch party specials: $14 70oz Pitchers • $4.50 Pistol Pete shots"
+        "Game Day Watch Parties all season (OU/OSU feature nights)"
       ]
     },
 
@@ -88,19 +98,16 @@
         "Wed: Trivia + Karaoke",
         "Thu: Singo Bingo",
         "Fri: Live Bands",
-        "Sat & Sun: Karaoke"
+        "Sat–Sun: Karaoke"
       ],
-      "special": [
-        "Thu Sep 4 — OSU watch party",
-        "Sat Sep 6 — OU watch party"
-      ]
+      "special": []
     },
 
     "MOONEY'S PUB": {
       "regular": [
+        "Tue: Acoustic Tuesday",
         "Fri–Sat: Live Bands @ 9 PM",
-        "Sun: Open Jam @ 5 PM",
-        "Ask your bartender about drink specials"
+        "Sun: Open Jam @ 5 PM"
       ],
       "special": []
     },
@@ -120,7 +127,7 @@
         "Weekend DJs & theme nights"
       ],
       "special": [
-        "Thu Sep 4 — Alyssa’s Birthday Bash (theme night)"
+        "Sept 12 — Ross Clayton (Doors 7 PM, Show 8 PM, $10)"
       ]
     },
 
@@ -145,17 +152,26 @@
     "COWBOYS OKC": {
       "regular": [
         "Thu: Ladies Night",
-        "Fri: Line Dance Lessons @ 9 PM + drink specials",
+        "Fri: Free line dance lessons @ 9 PM + half-price drinks til 10 PM",
         "Sat: Live Bull Riding + Line Dance Lessons"
       ],
       "special": []
     },
 
+    "THE RITZ": {
+      "regular": [
+        "Touring tribute & rock shows — ticketstorm.com"
+      ],
+      "special": [
+        "Sept 19 — The Dead Aces + The Tyler Lee Band (Ticketstorm)"
+      ]
+    },
+
     "RIVERWIND CASINO": {
       "regular": [],
       "special": [
-        "Sep 5 — Gary Allan (Beats & Bites)",
-        "Sep 27 — Bret Michaels",
+        "Sept 5 — Gary Allan",
+        "Sept 27 — Bret Michaels",
         "Oct 17 — Collective Soul",
         "Nov 28 — The Oak Ridge Boys"
       ]
@@ -164,56 +180,69 @@
     "LUCKY STAR CASINO": {
       "regular": [],
       "special": [
-        "Sep 20 — Three Dog Night & Little River Band — Concho Amphitheater"
+        "Sept 6 — Weird Al Yankovic (El Reno)",
+        "Sept 7 — KATTFest 2025 (El Reno)",
+        "Sept 20 — Three Dog Night & Little River Band (Concho)"
       ]
     },
 
     "ZOO AMPHITHEATRE": {
       "regular": [],
       "special": [
-        "Sep 10 — Lauren Daigle — all ages"
-      ]
-    },
-
-    "GOLDFISH SWIM SCHOOL": {
-      "regular": [
-        "Goldfish Swim School – Moore",
-        "Where little splashes lead to big wins. ✨",
-        "From first bubbles to confident strokes, Goldfish builds water safety, motor skills, and confidence through purposeful play — all in a 90° shiver-free pool. 🧡",
-        "September Theme: Pirates & Princesses — treasure hunts, royal rescues & confidence-building fun"
-      ],
-      "special": []
-    },
-
-    "ROYAL BAVARIA BIERGARTEN": {
-      "regular": [
-        "Live entertainment every Friday & Saturday • Full service dinner or lounge drinks • Open daily at 5 PM • Celebrating 31 years in Moore • Reservations: (405) 799-7666"
-      ],
-      "special": [
-        "Thu Sep 4 — All-You-Can-Eat German Buffet 5–9 PM: cabbage rolls, goulash, schnitzels, sausages, sides & dessert bar"
-      ]
-    },
-
-    "51ST STREET SPEAKEASY": {
-      "regular": [
-        "Live & theme shows most weekends"
-      ],
-      "special": [
-        "Fri Sep 26 — Elder Millennial/Gen X Scream-Sing Night (early wrap-up • 21+ • $5 cover)"
+        "Sept 4 — Pixies",
+        "Sept 6 — Nelly",
+        "Sept 10 — Lauren Daigle",
+        "Sept 11 — Goo Goo Dolls",
+        "Sept 20 — Leon Bridges",
+        "Sept 25 — Jon Pardi",
+        "Sept 26 — Nathaniel Rateliff & The Night Sweats",
+        "Sept 27 — Uncle Charlie’s R&B Cookout"
       ]
     },
 
     "CAMPUS CORNER": {
       "regular": [
-        "Crimson Friday Concerts — the night before OU home games (VIP Eventbrite links available)"
+        "Game Day Tailgates",
+        "Crimson Friday Concerts — VIP access via Eventbrite"
       ],
       "special": [
-        "Fri Sep 5 — Crimson Friday Concert",
-        "Fri Sep 19 — Crimson Friday Concert",
-        "Fri Oct 3 — Crimson Friday Concert",
-        "Fri Oct 24 — Crimson Friday Concert",
-        "Fri Nov 21 — Crimson Friday Concert",
-        "Fri Nov 28 — Crimson Friday Concert"
+        "Sept 5 — Crimson Friday Concert",
+        "Sept 19 — Crimson Friday Concert",
+        "Oct 3 — Crimson Friday Concert",
+        "Oct 24 — Crimson Friday Concert",
+        "Nov 21 — Crimson Friday Concert",
+        "Nov 28 — Crimson Friday Concert"
+      ]
+    },
+
+    "ROYAL BAVARIA BIERGARTEN": {
+      "regular": [
+        "Open daily at 5 PM (7 days/week)",
+        "Live music Friday & Saturday",
+        "Full dinner service and lounge area"
+      ],
+      "special": [
+        "Thursday German Buffet (5–9 PM): Cabbage Rolls, Hungarian Goulash, Wiener Schnitzel, Jäger Schnitzel, sausages, sides + dessert buffet add-on"
+      ]
+    },
+
+    "GOLDFISH SWIM SCHOOL (MOORE)": {
+      "regular": [
+        "Where little splashes lead to big wins. From first bubbles to confident strokes, Goldfish builds water safety, motor skills, and confidence through purposeful play — all in a 90° shiver-free pool.",
+        "Weekly 30-min lessons designed for progress and attention spans; play-based skill building & observation learning"
+      ],
+      "special": [
+        "SEPTEMBER THEME — Pirates & Princesses: splash-and-storyline lessons (royal rescues, treasure hunts) that keep kids engaged, confident, and having a boatload of fun."
+      ]
+    },
+
+    "51ST STREET SPEAKEASY": {
+      "regular": [
+        "Live local music & themed dance parties",
+        "Neighborhood bar with retro vibe"
+      ],
+      "special": [
+        "Sept 27 — Elder Millennial / Gen X Throwback Night (7–9:30 PM early party)"
       ]
     }
   }
