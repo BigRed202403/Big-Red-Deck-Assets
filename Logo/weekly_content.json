@@ -1,7 +1,4 @@
-import json
-from datetime import datetime
-
-weekly_content = {
+{
   "week_range": "Sep 8 – Sep 14, 2025",
   "updated_at": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
 
