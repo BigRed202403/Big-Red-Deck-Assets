@@ -39,71 +39,135 @@
   "sports_schedules": {
     "OU Football 2025": [
       "Sep 6 — vs Michigan (played)",
-      "Sep 13 — vs Appalachian State",
-      "Sep 20 — at South Carolina",
-      "Sep 27 — vs TCU",
-      "Oct 4 — at Alabama",
-      "Oct 11 — vs Tennessee",
-      "Oct 18 — BYE",
-      "Oct 25 — at Ole Miss",
-      "Nov 1 — vs Mississippi State",
-      "Nov 8 — vs Auburn",
+      "Sep 13 — vs Houston",
+      "Sep 20 — at Tulane",
+      "Sep 27 — vs Tennessee",
+      "Oct 4 — vs South Carolina",
+      "Oct 11 — vs Texas (Dallas)",
+      "Oct 18 — at Auburn",
+      "Oct 25 — vs Ole Miss",
+      "Nov 1 — at Missouri",
+      "Nov 8 — vs Alabama",
       "Nov 15 — at LSU",
-      "Nov 29 — at Texas"
+      "Nov 22 — vs Kentucky",
+      "Nov 29 — at Oklahoma State"
     ],
     "OSU Football 2025": [
       "Sep 6 — vs Arkansas State (played)",
-      "Sep 13 — at Arkansas",
-      "Sep 20 — vs Southern Utah",
-      "Sep 27 — at Utah State",
-      "Oct 4 — vs Nebraska",
-      "Oct 11 — at Oregon",
-      "Oct 18 — vs Baylor",
-      "Oct 25 — vs Iowa State",
-      "Nov 1 — at Kansas",
-      "Nov 8 — at UCF",
-      "Nov 15 — vs Kansas State",
-      "Nov 22 — vs TCU"
+      "Sep 13 — at Tulsa",
+      "Sep 20 — vs Baylor",
+      "Sep 27 — at Utah",
+      "Oct 4 — vs TCU",
+      "Oct 11 — vs Texas Tech",
+      "Oct 18 — at BYU",
+      "Oct 25 — vs Kansas",
+      "Nov 1 — at Kansas State",
+      "Nov 8 — vs Houston",
+      "Nov 15 — at Arizona State",
+      "Nov 22 — vs UCF",
+      "Nov 29 — vs Oklahoma"
     ],
     "OKC Thunder 2025–26": [
-      "FULL 82-GAME LIST — to be transcribed from your uploaded image at Logo/okc_thunder_2025_26_schedule.jpeg"
+      "Oct 14 — Preseason vs Dallas Mavericks",
+      "Oct 16 — Preseason at San Antonio Spurs",
+      "Oct 20 — Preseason vs Miami Heat",
+      "Oct 22 — Preseason vs Milwaukee Bucks",
+      "Oct 29 — Regular Season Opener vs Golden State Warriors",
+      "Oct 31 — vs Sacramento Kings",
+      "Nov 2 — at Denver Nuggets",
+      "Nov 4 — at Phoenix Suns",
+      "Nov 6 — vs Memphis Grizzlies",
+      "Nov 8 — vs Chicago Bulls",
+      "Nov 10 — at Los Angeles Clippers",
+      "Nov 12 — at Los Angeles Lakers",
+      "Nov 14 — vs New Orleans Pelicans",
+      "Nov 16 — vs Houston Rockets",
+      "Nov 18 — at Dallas Mavericks",
+      "Nov 20 — vs Utah Jazz",
+      "Nov 22 — at Portland Trail Blazers",
+      "Nov 24 — at Sacramento Kings",
+      "Nov 26 — vs San Antonio Spurs",
+      "Nov 28 — vs Denver Nuggets",
+      "Dec 1 — at Minnesota Timberwolves",
+      "Dec 3 — at Golden State Warriors",
+      "Dec 5 — vs Phoenix Suns",
+      "Dec 7 — vs Portland Trail Blazers",
+      "Dec 9 — at Memphis Grizzlies",
+      "Dec 11 — at Houston Rockets",
+      "Dec 13 — vs Los Angeles Clippers",
+      "Dec 15 — vs Dallas Mavericks",
+      "Dec 17 — at Chicago Bulls",
+      "Dec 19 — at Milwaukee Bucks",
+      "Dec 21 — vs Boston Celtics",
+      "Dec 23 — vs Brooklyn Nets",
+      "Dec 25 — Christmas Day at New York Knicks",
+      "Dec 28 — vs Cleveland Cavaliers",
+      "Dec 30 — vs Toronto Raptors",
+      "Jan 2 — at Philadelphia 76ers",
+      "Jan 4 — at Boston Celtics",
+      "Jan 6 — vs Orlando Magic",
+      "Jan 8 — vs Detroit Pistons",
+      "Jan 10 — at Atlanta Hawks",
+      "Jan 12 — at Charlotte Hornets",
+      "Jan 14 — vs Miami Heat",
+      "Jan 16 — vs New York Knicks",
+      "Jan 18 — at Toronto Raptors",
+      "Jan 20 — vs Philadelphia 76ers",
+      "Jan 22 — vs Indiana Pacers",
+      "Jan 24 — at Cleveland Cavaliers",
+      "Jan 26 — at Washington Wizards",
+      "Jan 28 — vs Atlanta Hawks",
+      "Jan 30 — vs Milwaukee Bucks",
+      "Feb 1 — at Orlando Magic",
+      "Feb 3 — at Detroit Pistons",
+      "Feb 5 — vs Minnesota Timberwolves",
+      "Feb 7 — vs Golden State Warriors",
+      "Feb 9 — at Utah Jazz",
+      "Feb 11 — at Denver Nuggets",
+      "Feb 13 — vs Los Angeles Lakers",
+      "Feb 21 — vs San Antonio Spurs",
+      "Feb 23 — vs Portland Trail Blazers",
+      "Feb 25 — at Sacramento Kings",
+      "Feb 27 — at Phoenix Suns",
+      "Mar 1 — vs Dallas Mavericks",
+      "Mar 3 — vs Houston Rockets",
+      "Mar 5 — at New Orleans Pelicans",
+      "Mar 7 — at San Antonio Spurs",
+      "Mar 9 — vs Denver Nuggets",
+      "Mar 11 — vs Memphis Grizzlies",
+      "Mar 13 — at Golden State Warriors",
+      "Mar 15 — at Los Angeles Clippers",
+      "Mar 17 — vs Los Angeles Lakers",
+      "Mar 19 — vs Phoenix Suns",
+      "Mar 21 — at Houston Rockets",
+      "Mar 23 — at Dallas Mavericks",
+      "Mar 25 — vs Utah Jazz",
+      "Mar 27 — vs Sacramento Kings",
+      "Mar 29 — at Portland Trail Blazers",
+      "Mar 31 — vs New Orleans Pelicans",
+      "Apr 2 — vs San Antonio Spurs",
+      "Apr 4 — at Memphis Grizzlies",
+      "Apr 6 — at Minnesota Timberwolves",
+      "Apr 8 — vs Portland Trail Blazers",
+      "Apr 10 — vs Houston Rockets",
+      "Apr 12 — at Phoenix Suns",
+      "Apr 14 — at Denver Nuggets"
     ]
   },
 
   "venues": {
     "OKIE STATE ROOM": {
-      "regular": [
-        "Live music on weekends",
-        "Select ticketed shows; limited seating"
-      ],
-      "special": [
-        "Sep 13 – Tribute Night: Chris Stapleton",
-        "Oct 4 – Folk Showcase",
-        "Nov 8 – Rock Night",
-        "Dec 6 – Holiday Concert"
-      ]
+      "regular": ["Live music on weekends", "Select ticketed shows; limited seating"],
+      "special": ["Sep 13 – Tribute Night: Chris Stapleton", "Oct 4 – Folk Showcase", "Nov 8 – Rock Night", "Dec 6 – Holiday Concert"]
     },
-
     "FRIENDS OF FRIENDS": {
-      "regular": [
-        "Thu: Live bands",
-        "Fri–Sat: Live local bands",
-        "Signature cocktails nightly"
-      ],
+      "regular": ["Thu: Live bands", "Fri–Sat: Live local bands", "Signature cocktails nightly"],
       "special": []
     },
-
     "THE ALLEY": {
-      "regular": [
-        "Live music every Saturday",
-        "Seasonal outdoor concerts"
-      ],
-      "special": [
-        "Sep 13 – [Add posted headliner]",
-        "Sep 20 – [Add posted headliner]"
-      ]
+      "regular": ["Live music every Saturday", "Seasonal outdoor concerts"],
+      "special": ["Sep 13 – [Add posted headliner]", "Sep 20 – [Add posted headliner]"]
     },
-
     "THE MILL": {
       "regular": [
         "Sun: Shuffleboard Tournament @ 3 PM",
@@ -115,91 +179,42 @@
       ],
       "special": []
     },
-
     "OKIE TONK": {
-      "regular": [
-        "Tue: Poker Night @ 7 PM",
-        "Wed: Trivia + Karaoke",
-        "Thu: Singo Bingo",
-        "Fri: Live Bands",
-        "Sat–Sun: Karaoke"
-      ],
-      "special": [
-        "Sep 12 – [Weekend Talent]",
-        "Sep 13 – [Weekend Talent]"
-      ]
+      "regular": ["Tue: Poker Night @ 7 PM", "Wed: Trivia + Karaoke", "Thu: Singo Bingo", "Fri: Live Bands", "Sat–Sun: Karaoke"],
+      "special": ["Sep 12 – [Weekend Talent]", "Sep 13 – [Weekend Talent]"]
     },
-
     "MOONEY'S PUB": {
-      "regular": [
-        "Tue: Acoustic Tuesday",
-        "Fri–Sat: Live Bands @ 9 PM",
-        "Sun: Open Jam @ 5 PM"
-      ],
+      "regular": ["Tue: Acoustic Tuesday", "Fri–Sat: Live Bands @ 9 PM", "Sun: Open Jam @ 5 PM"],
       "special": []
     },
-
     "KATS TAVERN": {
-      "regular": [
-        "Mon: $2 Domestic Bottles",
-        "Tue: Singo Bingo @ 7:30 PM",
-        "Wed–Fri: Karaoke @ 9 PM"
-      ],
+      "regular": ["Mon: $2 Domestic Bottles", "Tue: Singo Bingo @ 7:30 PM", "Wed–Fri: Karaoke @ 9 PM"],
       "special": []
     },
-
     "BRICKHOUSE SALOON": {
-      "regular": [
-        "Mon–Tue: Karaoke @ 9 PM",
-        "Weekend DJs & theme nights"
-      ],
-      "special": [
-        "Sep 12 – Ross Clayton (Doors 7 PM, Show 8 PM, $10)"
-      ]
+      "regular": ["Mon–Tue: Karaoke @ 9 PM", "Weekend DJs & theme nights"],
+      "special": ["Sep 12 – Ross Clayton (Doors 7 PM, Show 8 PM, $10)"]
     },
-
     "HORSESHOE BAR": {
-      "regular": [
-        "Fri–Sat: Live Music",
-        "Sun: Open Mic Night"
-      ],
+      "regular": ["Fri–Sat: Live Music", "Sun: Open Mic Night"],
       "special": []
     },
-
     "40 WEST": {
-      "regular": [
-        "Sun: Open Mic Night",
-        "Mon: Game Night",
-        "Tue–Thu: Karaoke",
-        "Fri–Sat: Live Music"
-      ],
+      "regular": ["Sun: Open Mic Night", "Mon: Game Night", "Tue–Thu: Karaoke", "Fri–Sat: Live Music"],
       "special": []
     },
-
     "COWBOYS OKC": {
-      "regular": [
-        "Thu: Ladies Night",
-        "Fri: Line Dance Lessons @ 9 PM + half-price drinks til 10 PM",
-        "Sat: Live Bull Riding + Line Dance Lessons"
-      ],
+      "regular": ["Thu: Ladies Night", "Fri: Line Dance Lessons @ 9 PM + half-price drinks til 10 PM", "Sat: Live Bull Riding + Line Dance Lessons"],
       "special": []
     },
-
     "RIVERWIND CASINO": {
       "regular": [],
-      "special": [
-        "Sep 27 – Bret Michaels",
-        "Oct 17 – Collective Soul"
-      ]
+      "special": ["Sep 27 – Bret Michaels", "Oct 17 – Collective Soul"]
     },
-
     "LUCKY STAR CASINO": {
       "regular": [],
-      "special": [
-        "Sep 20 – Three Dog Night & Little River Band (Concho)"
-      ]
+      "special": ["Sep 20 – Three Dog Night & Little River Band (Concho)"]
     },
-
     "ZOO AMPHITHEATRE": {
       "regular": [],
       "special": [
@@ -211,52 +226,28 @@
         "Sep 27 – Uncle Charlie’s R&B Cookout"
       ]
     },
-
     "THE RITZ": {
-      "regular": [
-        "Touring tribute & rock shows — ticketstorm.com"
-      ],
-      "special": [
-        "Sep 19 – The Dead Aces + The Tyler Lee Band"
-      ]
+      "regular": ["Touring tribute & rock shows — ticketstorm.com"],
+      "special": ["Sep 19 – The Dead Aces + The Tyler Lee Band"]
     },
-
     "ROYAL BAVARIA BIERGARTEN": {
-      "regular": [
-        "Open daily at 5 PM",
-        "Full dinner & lounge service",
-        "Live music Fri–Sat",
-        "Thu: All-You-Can-Eat German Buffet (5–9 PM)"
-      ],
+      "regular": ["Open daily at 5 PM", "Full dinner & lounge service", "Live music Fri–Sat", "Thu: All-You-Can-Eat German Buffet (5–9 PM)"],
       "special": []
     },
-
     "GOLDFISH SWIM SCHOOL (MOORE)": {
       "regular": [
         "Weekly swim lessons for kids — 30-minute sessions",
         "Play-based skill building and water safety",
         "Where little splashes lead to big wins. From first bubbles to confident strokes, Goldfish builds water safety, motor skills, and confidence through purposeful play — all in a 90° shiver-free pool."
       ],
-      "special": [
-        "September Theme — Pirates & Princesses celebration (royal rescues, treasure hunts, story-based swim lessons all month)"
-      ]
+      "special": ["September Theme — Pirates & Princesses celebration (royal rescues, treasure hunts, story-based swim lessons all month)"]
     },
-
     "51ST STREET SPEAKEASY": {
-      "regular": [
-        "Live local music and themed parties",
-        "Neighborhood bar with retro vibe"
-      ],
-      "special": [
-        "Sep 27 – Elder Millennial / Gen X Throwback Night"
-      ]
+      "regular": ["Live local music and themed parties", "Neighborhood bar with retro vibe"],
+      "special": ["Sep 27 – Elder Millennial / Gen X Throwback Night"]
     },
-
     "CAMPUS CORNER": {
-      "regular": [
-        "Crimson Friday Concerts on select OU home weekends",
-        "Game-day tailgate parties; limited VIP sections"
-      ],
+      "regular": ["Crimson Friday Concerts on select OU home weekends", "Game-day tailgate parties; limited VIP sections"],
       "special": [
         "Sep 19 – Crimson Friday Concert (VIP on Eventbrite)",
         "Oct 3 – Crimson Friday Concert (VIP on Eventbrite)",
@@ -265,23 +256,12 @@
         "Nov 28 – Crimson Friday Concert (VIP on Eventbrite)"
       ]
     },
-
     "MARGARITA ISLAND": {
-      "regular": [
-        "Tue: Taco Tuesday",
-        "Fri: Bike Night",
-        "Karaoke & DJ nights weekly",
-        "Margarita features & rotating drink specials"
-      ],
+      "regular": ["Tue: Taco Tuesday", "Fri: Bike Night", "Karaoke & DJ nights weekly", "Margarita features & rotating drink specials"],
       "special": []
     },
-
     "REDNECK DANCEHALL (OKC)": {
-      "regular": [
-        "Wed: Ladies Night",
-        "Fri: College Night",
-        "Sat: Bikini Top Night"
-      ],
+      "regular": ["Wed: Ladies Night", "Fri: College Night", "Sat: Bikini Top Night"],
       "special": []
     }
   }
