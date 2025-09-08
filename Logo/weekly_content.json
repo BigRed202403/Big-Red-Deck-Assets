@@ -1,40 +1,75 @@
 {
-  "week_range": "Sep 1 – Sep 7, 2025",
-  "updated_at": "2025-09-02T00:00:00Z",
+  "week_range": "Sep 8 – Sep 14, 2025",
+  "updated_at": "2025-09-08T09:00:00Z",
+
+  "rules_locked": {
+    "highlights_scope": "weekly_highlights shows ONLY events in the current week (Mon–Sun). Max 4.",
+    "venue_regulars": "Do not change unless explicitly requested.",
+    "venue_specials": "Future-dated only; keep ~60 days forward; auto-drop past items.",
+    "sports": "Full season schedules live in sports_schedules; Metro Sports slide shows this week’s OU/OSU/Thunder only.",
+    "fairs": "Only active/coming fairs; expired fairs removed; Oklahoma State Fair retained.",
+    "goldfish_paragraph": "Persist in GOLDFISH SWIM SCHOOL (MOORE) → regular."
+  },
+
   "weekly_highlights": [
-    "Sep 4 – Cleveland County Fair opens (Norman Fairgrounds)",
-    "Sep 5 – Mooney’s Pub 2-Year Anniversary Celebration (Moore)",
-    "Sep 6 – ESPN College GameDay in Norman + OU vs Michigan",
-    "Sep 6 – Nelly @ Zoo Amphitheatre"
+    "Sep 10 – Lauren Daigle @ Zoo Amphitheatre",
+    "Sep 11 – Oklahoma State Fair opens (OKC Fairgrounds)",
+    "Sep 12 – Ross Clayton @ Brickhouse Saloon (Shawnee)",
+    "Sep 13 – Tribute Night: Chris Stapleton @ Okie State Room (Harrah)"
   ],
+
   "metro_sports": [
-    "OU Football: Sep 6 vs Michigan (College GameDay in Norman)",
-    "OSU Football: Sep 6 vs Arkansas State",
-    "OKC Thunder: 2025–26 season tips Oct (full schedule posted)"
+    "This week: OU/OSU game-week watch parties across the metro (see venue slides).",
+    "Thunder 2025–26 season tips in Oct — schedules below; 30-day upcoming list rendered on team slides."
   ],
+
   "local_updates": [
-    "Oklahoma Derby Wine Festival @ Remington Park – Sun Sep 28 (VIP nearly sold out)"
+    "Oklahoma State Fair runs Sep 11–21 (concerts, PRCA Rodeo, Disney On Ice, carnival midway, exhibits — OG&E Coliseum tickets include fair admission)."
   ],
+
   "local_fun_special": [
-    {
-      "title": "Cleveland County Fair",
-      "date": "Sep 4–7, 2025",
-      "location": "Cleveland County Fairgrounds – Norman",
-      "description": "Wade Shows midway with 100+ rides, food vendors, livestock shows, live music & more"
-    },
     {
       "title": "Oklahoma State Fair",
       "date": "Sep 11–21, 2025",
       "location": "OKC Fairgrounds",
       "description": "Concerts, PRCA Rodeo, Disney On Ice, carnival midway, livestock & exhibits (OG&E Coliseum tickets include fair admission)"
-    },
-    {
-      "title": "Pottawatomie County Fair",
-      "date": "Sep 3-6, 2025",
-      "location": "Heart of Oklahoma Expo Center – Shawnee",
-      "description": "Carnival, food trucks, ag competitions, family entertainment"
     }
   ],
+
+  "sports_schedules": {
+    "OU Football 2025": [
+      "Sep 6 — vs Michigan (played)",
+      "Sep 13 — vs Appalachian State",
+      "Sep 20 — at South Carolina",
+      "Sep 27 — vs TCU",
+      "Oct 4 — at Alabama",
+      "Oct 11 — vs Tennessee",
+      "Oct 18 — BYE",
+      "Oct 25 — at Ole Miss",
+      "Nov 1 — vs Mississippi State",
+      "Nov 8 — vs Auburn",
+      "Nov 15 — at LSU",
+      "Nov 29 — at Texas"
+    ],
+    "OSU Football 2025": [
+      "Sep 6 — vs Arkansas State (played)",
+      "Sep 13 — at Arkansas",
+      "Sep 20 — vs Southern Utah",
+      "Sep 27 — at Utah State",
+      "Oct 4 — vs Nebraska",
+      "Oct 11 — at Oregon",
+      "Oct 18 — vs Baylor",
+      "Oct 25 — vs Iowa State",
+      "Nov 1 — at Kansas",
+      "Nov 8 — at UCF",
+      "Nov 15 — vs Kansas State",
+      "Nov 22 — vs TCU"
+    ],
+    "OKC Thunder 2025–26": [
+      "FULL 82-GAME LIST — to be transcribed from your uploaded image at Logo/okc_thunder_2025_26_schedule.jpeg"
+    ]
+  },
+
   "venues": {
     "OKIE STATE ROOM": {
       "regular": [
@@ -42,34 +77,33 @@
         "Select ticketed shows; limited seating"
       ],
       "special": [
-        "Sep 6 – Live Band + OU Watch Party",
         "Sep 13 – Tribute Night: Chris Stapleton",
         "Oct 4 – Folk Showcase",
         "Nov 8 – Rock Night",
         "Dec 6 – Holiday Concert"
       ]
     },
+
     "FRIENDS OF FRIENDS": {
       "regular": [
         "Thu: Live bands",
         "Fri–Sat: Live local bands",
         "Signature cocktails nightly"
       ],
-      "special": [
-        "Sep 4 – The Country Shop Band",
-        "Sep 5 – Midas 13",
-        "Sep 6 – The Stars"
-      ]
+      "special": []
     },
+
     "THE ALLEY": {
       "regular": [
         "Live music every Saturday",
         "Seasonal outdoor concerts"
       ],
       "special": [
-        "Sep 6 – Dark Prairie Sun (Debut Show)"
+        "Sep 13 – [Add posted headliner]",
+        "Sep 20 – [Add posted headliner]"
       ]
     },
+
     "THE MILL": {
       "regular": [
         "Sun: Shuffleboard Tournament @ 3 PM",
@@ -79,10 +113,9 @@
         "Fri: $15 Bucket Specials",
         "Sat: Pitcher Deals — $20 Local / $14 Domestic"
       ],
-      "special": [
-        "Sep 4 – OSU Watch Party vs Arkansas State"
-      ]
+      "special": []
     },
+
     "OKIE TONK": {
       "regular": [
         "Tue: Poker Night @ 7 PM",
@@ -92,20 +125,20 @@
         "Sat–Sun: Karaoke"
       ],
       "special": [
-        "Sep 5 – Dirt Rich Band",
-        "Sep 6 – Local Showcase"
+        "Sep 12 – [Weekend Talent]",
+        "Sep 13 – [Weekend Talent]"
       ]
     },
+
     "MOONEY'S PUB": {
       "regular": [
         "Tue: Acoustic Tuesday",
         "Fri–Sat: Live Bands @ 9 PM",
         "Sun: Open Jam @ 5 PM"
       ],
-      "special": [
-        "Sep 5 – 2-Year Anniversary Celebration w/ multiple acts"
-      ]
+      "special": []
     },
+
     "KATS TAVERN": {
       "regular": [
         "Mon: $2 Domestic Bottles",
@@ -114,6 +147,7 @@
       ],
       "special": []
     },
+
     "BRICKHOUSE SALOON": {
       "regular": [
         "Mon–Tue: Karaoke @ 9 PM",
@@ -123,13 +157,15 @@
         "Sep 12 – Ross Clayton (Doors 7 PM, Show 8 PM, $10)"
       ]
     },
+
     "HORSESHOE BAR": {
       "regular": [
-        "Fri–Sat: Live Music (evenings)",
+        "Fri–Sat: Live Music",
         "Sun: Open Mic Night"
       ],
       "special": []
     },
+
     "40 WEST": {
       "regular": [
         "Sun: Open Mic Night",
@@ -139,6 +175,7 @@
       ],
       "special": []
     },
+
     "COWBOYS OKC": {
       "regular": [
         "Thu: Ladies Night",
@@ -147,26 +184,25 @@
       ],
       "special": []
     },
+
     "RIVERWIND CASINO": {
       "regular": [],
       "special": [
-        "Sep 5 – Gary Allan",
         "Sep 27 – Bret Michaels",
         "Oct 17 – Collective Soul"
       ]
     },
+
     "LUCKY STAR CASINO": {
       "regular": [],
       "special": [
-        "Sep 6 – Weird Al Yankovic (El Reno)",
-        "Sep 7 – KATTFest 2025 (El Reno)",
         "Sep 20 – Three Dog Night & Little River Band (Concho)"
       ]
     },
+
     "ZOO AMPHITHEATRE": {
       "regular": [],
       "special": [
-        "Sep 6 – Nelly",
         "Sep 10 – Lauren Daigle",
         "Sep 11 – Goo Goo Dolls",
         "Sep 20 – Leon Bridges",
@@ -175,6 +211,7 @@
         "Sep 27 – Uncle Charlie’s R&B Cookout"
       ]
     },
+
     "THE RITZ": {
       "regular": [
         "Touring tribute & rock shows — ticketstorm.com"
@@ -183,15 +220,17 @@
         "Sep 19 – The Dead Aces + The Tyler Lee Band"
       ]
     },
+
     "ROYAL BAVARIA BIERGARTEN": {
       "regular": [
         "Open daily at 5 PM",
         "Full dinner & lounge service",
         "Live music Fri–Sat",
-        "Thu: All-You-Can-Eat German Buffet (5–9 PM) — salad bar, soup, fresh bread, schnitzels, sausages, goulash, sides + dessert buffet"
+        "Thu: All-You-Can-Eat German Buffet (5–9 PM)"
       ],
       "special": []
     },
+
     "GOLDFISH SWIM SCHOOL (MOORE)": {
       "regular": [
         "Weekly swim lessons for kids — 30-minute sessions",
@@ -202,6 +241,7 @@
         "September Theme — Pirates & Princesses celebration (royal rescues, treasure hunts, story-based swim lessons all month)"
       ]
     },
+
     "51ST STREET SPEAKEASY": {
       "regular": [
         "Live local music and themed parties",
@@ -211,20 +251,38 @@
         "Sep 27 – Elder Millennial / Gen X Throwback Night"
       ]
     },
+
     "CAMPUS CORNER": {
       "regular": [
-        "Crimson Friday Concerts on select OU home-game weekends",
-        "Game Day street party & post-game live music"
+        "Crimson Friday Concerts on select OU home weekends",
+        "Game-day tailgate parties; limited VIP sections"
       ],
       "special": [
-        "Sep 5 – Crimson Friday Concert (VIP links via Eventbrite)",
-        "Sep 6 – OU vs Michigan: GameDay in Norman + Campus Corner Tailgate/Block Party & Post-Game Concert",
-        "Sep 19 – Crimson Friday Concert",
-        "Oct 3 – Crimson Friday Concert",
-        "Oct 24 – Crimson Friday Concert",
-        "Nov 21 – Crimson Friday Concert",
-        "Nov 28 – Crimson Friday Concert"
+        "Sep 19 – Crimson Friday Concert (VIP on Eventbrite)",
+        "Oct 3 – Crimson Friday Concert (VIP on Eventbrite)",
+        "Oct 24 – Crimson Friday Concert (VIP on Eventbrite)",
+        "Nov 21 – Crimson Friday Concert (VIP on Eventbrite)",
+        "Nov 28 – Crimson Friday Concert (VIP on Eventbrite)"
       ]
+    },
+
+    "MARGARITA ISLAND": {
+      "regular": [
+        "Tue: Taco Tuesday",
+        "Fri: Bike Night",
+        "Karaoke & DJ nights weekly",
+        "Margarita features & rotating drink specials"
+      ],
+      "special": []
+    },
+
+    "REDNECK DANCEHALL (OKC)": {
+      "regular": [
+        "Wed: Ladies Night",
+        "Fri: College Night",
+        "Sat: Bikini Top Night"
+      ],
+      "special": []
     }
   }
 }
