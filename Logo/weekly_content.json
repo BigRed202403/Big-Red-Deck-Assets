@@ -1,6 +1,6 @@
 {
   "week_range": "Sep 8 – Sep 14, 2025",
-  "updated_at": "2025-09-08T09:00:00Z",
+  "updated_at": "2025-09-10T10:30:00Z",
 
   "rules_locked": {
     "highlights_scope": "weekly_highlights shows ONLY events in the current week (Mon–Sun). Max 4.",
@@ -13,9 +13,9 @@
 
   "weekly_highlights": [
     "Sep 10 — Lauren Daigle @ Zoo Amphitheatre",
-    "Sep 11 — Oklahoma State Fair opens (OKC Fairgrounds)",
-    "Sep 12 — Ross Clayton @ Brickhouse Saloon (Shawnee)",
-    "Sep 13 — Tribute Night: Chris Stapleton @ Okie State Room (Harrah)"
+    "Sep 11 — The Country Shop Band @ Friends of Friends",
+    "Sep 12 — Ross Clayton @ Okie Tonk",
+    "Sep 13 — The Northwest Outlaws @ 40 West"
   ],
 
   "metro_sports": [
@@ -33,6 +33,12 @@
       "date": "Sep 11–21, 2025",
       "location": "OKC Fairgrounds",
       "description": "Concerts, PRCA Rodeo, Disney On Ice, carnival midway, livestock & exhibits (OG&E Coliseum tickets include fair admission)"
+    },
+    {
+      "title": "Trans-Siberian Orchestra",
+      "date": "Dec 7, 2025",
+      "location": "Paycom Center, OKC",
+      "description": "The Ghosts of Christmas Eve: The Best of TSO & More — two shows at 3:00 PM & 7:30 PM"
     }
   ],
 
@@ -172,7 +178,11 @@
         "Fri and Sat: Live local bands",
         "Signature cocktails nightly"
       ],
-      "special": []
+      "special": [
+        "Sep 11 — The Country Shop Band",
+        "Sep 12 — Christy Bryant & Twist of Fate",
+        "Sep 13 — Weekend Allstars"
+      ]
     },
 
     "THE ALLEY": {
@@ -181,6 +191,7 @@
         "Seasonal outdoor concerts"
       ],
       "special": [
+        "Sep 9 — Karaoke Prom Night Party",
         "Sep 13 — Add posted headliner",
         "Sep 20 — Add posted headliner"
       ]
@@ -195,7 +206,9 @@
         "Fri: $15 Bucket Specials",
         "Sat: Pitcher Deals — $20 Local and $14 Domestic"
       ],
-      "special": []
+      "special": [
+        "Sep 13 — OU vs Temple Watch Party"
+      ]
     },
 
     "OKIE TONK": {
@@ -207,7 +220,7 @@
         "Sat and Sun: Karaoke"
       ],
       "special": [
-        "Sep 12 — Weekend Talent",
+        "Sep 12 — Ross Clayton",
         "Sep 13 — Weekend Talent"
       ]
     },
@@ -218,7 +231,12 @@
         "Fri and Sat: Live Bands @ 9 PM",
         "Sun: Open Jam @ 5 PM"
       ],
-      "special": []
+      "special": [
+        "Sep 12 — The Remedy OKC",
+        "Sep 19 — Evan Phillips & The Outsiders",
+        "Sep 21 — Mooney's Sunday Jam Session",
+        "Sep 28 — Mooney's Sunday Jam Session"
+      ]
     },
 
     "KATS TAVERN": {
@@ -236,7 +254,7 @@
         "Weekend DJs and theme nights"
       ],
       "special": [
-        "Sep 12 — Ross Clayton (Doors 7 PM, Show 8 PM, $10)"
+        "Sep 12 — Friday Vibes w/ DJ Stylez"
       ]
     },
 
@@ -255,7 +273,10 @@
         "Tue through Thu: Karaoke",
         "Fri and Sat: Live Music"
       ],
-      "special": []
+      "special": [
+        "Sep 13 — The Northwest Outlaws",
+        "Oct 25 — Scary Comedy Night"
+      ]
     },
 
     "COWBOYS OKC": {
