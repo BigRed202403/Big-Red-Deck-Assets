@@ -1,6 +1,6 @@
 {
-  "week_range": "Sep 8 – Sep 14, 2025",
-  "updated_at": "2025-09-10T10:30:00Z",
+  "week_range": "Sep 14 – Sep 21, 2025",
+  "updated_at": "2025-09-14T09:00:00Z",
 
   "rules_locked": {
     "highlights_scope": "weekly_highlights shows ONLY events in the current week (Mon–Sun). Max 4.",
@@ -12,15 +12,15 @@
   },
 
   "weekly_highlights": [
-    "Sep 10 — Lauren Daigle @ Zoo Amphitheatre",
-    "Sep 11 — The Country Shop Band @ Friends of Friends",
-    "Sep 12 — Ross Clayton @ Okie Tonk",
-    "Sep 13 — The Northwest Outlaws @ 40 West"
+    "Sep 19 — Crimson Friday Concert @ Campus Corner (VIP sections available)",
+    "Sep 20 — OU vs Auburn (watch parties across the metro)",
+    "Sep 20 — Leon Bridges @ Zoo Amphitheatre",
+    "Sep 20 — Riverwind ‘Beats & Bites’ at The Palace (OU home game activation)"
   ],
 
   "metro_sports": [
-    "This week — OU & OSU game-week watch parties across the metro (see venue slides).",
-    "Thunder 2025–26 season tips in Oct; team slide shows next 30 days."
+    "Sep 20 — OU vs Auburn",
+    "Sep 20 — OSU vs Tulsa"
   ],
 
   "local_updates": [
@@ -35,10 +35,10 @@
       "description": "Concerts, PRCA Rodeo, Disney On Ice, carnival midway, livestock & exhibits (OG&E Coliseum tickets include fair admission)"
     },
     {
-      "title": "Trans-Siberian Orchestra",
-      "date": "Dec 7, 2025",
-      "location": "Paycom Center, OKC",
-      "description": "The Ghosts of Christmas Eve: The Best of TSO & More — two shows at 3:00 PM & 7:30 PM"
+      "title": "Moore Police Department — Community Event",
+      "date": "Sep 20, 2025",
+      "location": "Moore, OK",
+      "description": "Community safety and engagement event with activities, demos, and family-friendly features"
     }
   ],
 
@@ -165,10 +165,8 @@
         "Select ticketed shows; limited seating"
       ],
       "special": [
-        "Sep 13 — Tribute Night: Chris Stapleton",
         "Oct 4 — Folk Showcase",
-        "Nov 8 — Rock Night",
-        "Dec 6 — Holiday Concert"
+        "Nov 8 — Rock Night"
       ]
     },
 
@@ -178,11 +176,7 @@
         "Fri and Sat: Live local bands",
         "Signature cocktails nightly"
       ],
-      "special": [
-        "Sep 11 — The Country Shop Band",
-        "Sep 12 — Christy Bryant & Twist of Fate",
-        "Sep 13 — Weekend Allstars"
-      ]
+      "special": []
     },
 
     "THE ALLEY": {
@@ -191,9 +185,7 @@
         "Seasonal outdoor concerts"
       ],
       "special": [
-        "Sep 9 — Karaoke Prom Night Party",
-        "Sep 13 — Add posted headliner",
-        "Sep 20 — Add posted headliner"
+        "Sep 20 — Dark Prairie Sun"
       ]
     },
 
@@ -206,9 +198,7 @@
         "Fri: $15 Bucket Specials",
         "Sat: Pitcher Deals — $20 Local and $14 Domestic"
       ],
-      "special": [
-        "Sep 13 — OU vs Temple Watch Party"
-      ]
+      "special": []
     },
 
     "OKIE TONK": {
@@ -220,8 +210,8 @@
         "Sat and Sun: Karaoke"
       ],
       "special": [
-        "Sep 12 — Ross Clayton",
-        "Sep 13 — Weekend Talent"
+        "Sep 19 — Weekend Talent",
+        "Sep 20 — Weekend Talent"
       ]
     },
 
@@ -231,12 +221,7 @@
         "Fri and Sat: Live Bands @ 9 PM",
         "Sun: Open Jam @ 5 PM"
       ],
-      "special": [
-        "Sep 12 — The Remedy OKC",
-        "Sep 19 — Evan Phillips & The Outsiders",
-        "Sep 21 — Mooney's Sunday Jam Session",
-        "Sep 28 — Mooney's Sunday Jam Session"
-      ]
+      "special": []
     },
 
     "KATS TAVERN": {
@@ -253,9 +238,7 @@
         "Mon and Tue: Karaoke @ 9 PM",
         "Weekend DJs and theme nights"
       ],
-      "special": [
-        "Sep 12 — Friday Vibes w/ DJ Stylez"
-      ]
+      "special": []
     },
 
     "HORSESHOE BAR": {
@@ -273,10 +256,7 @@
         "Tue through Thu: Karaoke",
         "Fri and Sat: Live Music"
       ],
-      "special": [
-        "Sep 13 — The Northwest Outlaws",
-        "Oct 25 — Scary Comedy Night"
-      ]
+      "special": []
     },
 
     "COWBOYS OKC": {
@@ -291,6 +271,7 @@
     "RIVERWIND CASINO": {
       "regular": [],
       "special": [
+        "Sep 20 — Beats & Bites at The Palace (OU Home Game Activation)",
         "Sep 27 — Bret Michaels",
         "Oct 17 — Collective Soul"
       ]
@@ -306,8 +287,6 @@
     "ZOO AMPHITHEATRE": {
       "regular": [],
       "special": [
-        "Sep 10 — Lauren Daigle",
-        "Sep 11 — Goo Goo Dolls",
         "Sep 20 — Leon Bridges",
         "Sep 25 — Jon Pardi",
         "Sep 26 — Nathaniel Rateliff and The Night Sweats",
