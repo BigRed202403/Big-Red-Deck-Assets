@@ -1,163 +1,41 @@
 {
-  "week_range": "Sep 14 – Sep 21, 2025",
-  "updated_at": "2025-09-14T09:00:00Z",
-
+  "week_range": "Sep 14 \u2013 Sep 21, 2025",
+  "updated_at": "2025-09-16T20:00:00Z",
   "rules_locked": {
-    "highlights_scope": "weekly_highlights shows ONLY events in the current week (Mon–Sun). Max 4.",
+    "highlights_scope": "weekly_highlights shows ONLY events in the current week (Mon\u2013Sun). Max 4.",
     "venue_regulars": "Do not change unless explicitly requested.",
     "venue_specials": "Future-dated only; keep ~60 days forward; auto-drop past items.",
-    "sports": "Full season schedules live in sports_schedules; Metro Sports slide shows this week’s OU/OSU/Thunder only.",
+    "sports": "Full season schedules live in sports_schedules; Metro Sports slide shows this week\u2019s OU/OSU/Thunder only.",
     "fairs": "Only active/coming fairs; expired fairs removed; Oklahoma State Fair retained.",
-    "goldfish_paragraph": "Persist in GOLDFISH SWIM SCHOOL (MOORE) → regular."
+    "goldfish_paragraph": "Persist in GOLDFISH SWIM SCHOOL (MOORE) \u2192 regular."
   },
-
   "weekly_highlights": [
-    "Sep 19 — Crimson Friday Concert @ Campus Corner (VIP sections available)",
-    "Sep 20 — OU vs Auburn (watch parties across the metro)",
-    "Sep 20 — Leon Bridges @ Zoo Amphitheatre",
-    "Sep 20 — Riverwind ‘Beats & Bites’ at The Palace (OU home game activation)"
+    "Sep 19 \u2014 Crimson Friday Concert @ Campus Corner (VIP sections available)",
+    "Sep 20 \u2014 OU vs Auburn (watch parties across the metro)",
+    "Sep 20 \u2014 Leon Bridges @ Zoo Amphitheatre",
+    "Sep 20 \u2014 Riverwind \u2018Beats & Bites\u2019 at The Palace (OU home game activation)"
   ],
-
   "metro_sports": [
-    "Sep 20 — OU vs Auburn",
-    "Sep 20 — OSU vs Tulsa"
+    "Sep 20 \u2014 OU vs Auburn",
+    "Sep 20 \u2014 OSU vs Tulsa"
   ],
-
   "local_updates": [
-    "Oklahoma State Fair runs Sep 11–21 (concerts, PRCA Rodeo, Disney On Ice, carnival midway, exhibits; OG&E Coliseum tickets include fair admission)."
+    "Oklahoma State Fair runs Sep 11\u201321 (concerts, PRCA Rodeo, Disney On Ice, carnival midway, exhibits; OG&E Coliseum tickets include fair admission)."
   ],
-
   "local_fun_special": [
     {
       "title": "Oklahoma State Fair",
-      "date": "Sep 11–21, 2025",
+      "date": "Sep 11\u201321, 2025",
       "location": "OKC Fairgrounds",
       "description": "Concerts, PRCA Rodeo, Disney On Ice, carnival midway, livestock & exhibits (OG&E Coliseum tickets include fair admission)"
     },
     {
-      "title": "Moore Police Department — Community Event",
+      "title": "Moore Police Department \u2014 Community Event",
       "date": "Sep 20, 2025",
       "location": "Moore, OK",
       "description": "Community safety and engagement event with activities, demos, and family-friendly features"
     }
   ],
-
-  "sports_schedules": {
-    "OU Football 2025": [
-      "Aug 30 — vs Illinois State",
-      "Sep 6 — vs Michigan",
-      "Sep 13 — at Temple",
-      "Sep 20 — vs Auburn",
-      "Oct 4 — vs Kent State",
-      "Oct 11 — vs Texas (Dallas)",
-      "Oct 18 — at South Carolina",
-      "Oct 25 — vs Ole Miss",
-      "Nov 1 — at Tennessee",
-      "Nov 15 — at Alabama",
-      "Nov 22 — vs Missouri",
-      "Nov 28 — vs LSU"
-    ],
-    "OSU Football 2025": [
-      "Aug 28 — vs UT Martin",
-      "Sep 6 — at Oregon",
-      "Sep 20 — vs Tulsa",
-      "Sep 27 — vs Baylor",
-      "Oct 4 — at Arizona",
-      "Oct 11 — vs Houston",
-      "Oct 18 — vs Cincinnati",
-      "Oct 25 — at Texas Tech",
-      "Nov 1 — at Kansas",
-      "Nov 15 — vs Kansas State",
-      "Nov 22 — at UCF",
-      "Nov 29 — vs Iowa State"
-    ],
-    "OKC Thunder 2025–26": [
-      "Oct 21 — vs Houston",
-      "Oct 23 — at Indiana",
-      "Oct 25 — at Atlanta",
-      "Oct 27 — at Dallas",
-      "Oct 28 — vs Sacramento",
-      "Oct 30 — vs Washington",
-      "Nov 2 — vs New Orleans",
-      "Nov 4 — vs L.A. Clippers",
-      "Nov 5 — at Portland",
-      "Nov 7 — at Sacramento",
-      "Nov 9 — vs Memphis",
-      "Nov 11 — vs Golden State",
-      "Nov 12 — vs L.A. Lakers",
-      "Nov 15 — at Charlotte",
-      "Nov 17 — at New Orleans",
-      "Nov 19 — at Sacramento",
-      "Nov 21 — at Utah",
-      "Nov 23 — at Portland",
-      "Nov 26 — vs Minnesota",
-      "Nov 28 — vs Phoenix",
-      "Nov 30 — at Portland",
-      "Dec 2 — at Golden State",
-      "Dec 5 — vs Dallas",
-      "Dec 7 — at Utah",
-      "Dec 11 — (NBA Cup window)",
-      "Dec 14 — (NBA Cup window)",
-      "Dec 15 — (NBA Cup window)",
-      "Dec 17 — vs L.A. Clippers",
-      "Dec 19 — vs Minnesota",
-      "Dec 22 — at Memphis",
-      "Dec 25 — at San Antonio",
-      "Dec 28 — vs Philadelphia",
-      "Dec 29 — vs Atlanta",
-      "Dec 31 — at Portland",
-      "Jan 2 — at Golden State",
-      "Jan 4 — at Phoenix",
-      "Jan 7 — at Charlotte",
-      "Jan 7 — (travel buffer)",
-      "Jan 11 — at Utah",
-      "Jan 9 — (sequence alignment)",
-      "Jan 11 — vs Miami",
-      "Jan 13 — vs San Antonio",
-      "Jan 15 — at Houston",
-      "Jan 17 — at Miami",
-      "Jan 19 — at Cleveland",
-      "Jan 21 — at Milwaukee",
-      "Jan 23 — vs Indiana",
-      "Jan 25 — vs Toronto",
-      "Jan 27 — vs New Orleans",
-      "Jan 29 — at Minnesota",
-      "Feb 1 — at Denver",
-      "Feb 3 — at Orlando",
-      "Feb 4 — at San Antonio",
-      "Feb 7 — at Houston",
-      "Feb 9 — at L.A. Lakers",
-      "Feb 12 — at Phoenix",
-      "Feb 12 — vs Milwaukee",
-      "Feb 21 — vs Brooklyn",
-      "Feb 24 — vs Cleveland",
-      "Feb 26 — at Toronto",
-      "Feb 25 — at Detroit",
-      "Feb 27 — vs Denver",
-      "Mar 1 — at Dallas",
-      "Mar 3 — at Chicago",
-      "Mar 4 — at New York",
-      "Mar 7 — vs Golden State",
-      "Mar 9 — vs Denver",
-      "Mar 12 — vs Boston",
-      "Mar 15 — vs Minnesota",
-      "Mar 17 — at Orlando",
-      "Mar 18 — at Brooklyn",
-      "Mar 21 — at Washington",
-      "Mar 23 — at Philadelphia",
-      "Mar 25 — at Boston",
-      "Mar 27 — vs Chicago",
-      "Mar 29 — vs New York",
-      "Mar 30 — vs Detroit",
-      "Apr 2 — vs L.A. Lakers",
-      "Apr 5 — vs Utah",
-      "Apr 7 — at L.A. Lakers",
-      "Apr 8 — at L.A. Clippers",
-      "Apr 10 — at Denver",
-      "Apr 12 — vs Phoenix"
-    ]
-  },
-
   "venues": {
     "OKIE STATE ROOM": {
       "regular": [
@@ -165,206 +43,288 @@
         "Select ticketed shows; limited seating"
       ],
       "special": [
-        "Oct 4 — Folk Showcase",
-        "Nov 8 — Rock Night"
+        "Sep 6 \u2013 Live Band + OU Watch Party",
+        "Sep 13 \u2013 Tribute Night: Chris Stapleton",
+        "Oct 4 \u2013 Folk Showcase",
+        "Nov 8 \u2013 Rock Night",
+        "Dec 6 \u2013 Holiday Concert"
       ]
     },
-
     "FRIENDS OF FRIENDS": {
       "regular": [
         "Thu: Live bands",
-        "Fri and Sat: Live local bands",
+        "Fri\u2013Sat: Live local bands",
         "Signature cocktails nightly"
       ],
-      "special": []
+      "special": [
+        "Sep 18 \u2014 Country Shop Band LIVE",
+        "Sep 19 \u2014 DJ / All Night Dance Party",
+        "Sep 20 \u2014 The Stars LIVE"
+      ]
     },
-
     "THE ALLEY": {
       "regular": [
         "Live music every Saturday",
         "Seasonal outdoor concerts"
       ],
       "special": [
-        "Sep 20 — Dark Prairie Sun"
+        "Sep 6 \u2013 Dark Prairie Sun (Debut Show)"
       ]
     },
-
     "THE MILL": {
       "regular": [
         "Sun: Shuffleboard Tournament @ 3 PM",
-        "Mon: $5 all liquor after 8 PM plus Late Night Happy Hour",
-        "Tue and Thu: $4 and $5 Shot Specials",
-        "Wed: Whiskey Wednesday plus Free Pool",
+        "Mon: $5 all liquor after 8 PM + Late Night Happy Hour",
+        "Tue & Thu: $4 & $5 Shot Specials",
+        "Wed: Whiskey Wednesday + Free Pool",
         "Fri: $15 Bucket Specials",
-        "Sat: Pitcher Deals — $20 Local and $14 Domestic"
+        "Sat: Pitcher Deals \u2014 $20 Local / $14 Domestic"
       ],
-      "special": []
+      "special": [
+        "Sep 4 \u2013 OSU Watch Party vs Arkansas State"
+      ]
     },
-
     "OKIE TONK": {
       "regular": [
         "Tue: Poker Night @ 7 PM",
-        "Wed: Trivia plus Karaoke",
+        "Wed: Trivia + Karaoke",
         "Thu: Singo Bingo",
         "Fri: Live Bands",
-        "Sat and Sun: Karaoke"
+        "Sat\u2013Sun: Karaoke"
       ],
       "special": [
-        "Sep 19 — Weekend Talent",
-        "Sep 20 — Weekend Talent"
+        "Sep 5 \u2013 Dirt Rich Band",
+        "Sep 6 \u2013 Local Showcase"
       ]
     },
-
     "MOONEY'S PUB": {
       "regular": [
         "Tue: Acoustic Tuesday",
-        "Fri and Sat: Live Bands @ 9 PM",
+        "Fri\u2013Sat: Live Bands @ 9 PM",
         "Sun: Open Jam @ 5 PM"
       ],
-      "special": []
+      "special": [
+        "Sep 5 \u2013 2-Year Anniversary Celebration w/ multiple acts"
+      ]
     },
-
     "KATS TAVERN": {
       "regular": [
         "Mon: $2 Domestic Bottles",
         "Tue: Singo Bingo @ 7:30 PM",
-        "Wed through Fri: Karaoke @ 9 PM"
+        "Wed\u2013Fri: Karaoke @ 9 PM"
       ],
       "special": []
     },
-
     "BRICKHOUSE SALOON": {
       "regular": [
-        "Mon and Tue: Karaoke @ 9 PM",
-        "Weekend DJs and theme nights"
+        "Mon\u2013Tue: Karaoke @ 9 PM",
+        "Weekend DJs & theme nights"
       ],
-      "special": []
+      "special": [
+        "Sep 12 \u2013 Ross Clayton (Doors 7 PM, Show 8 PM, $10)"
+      ]
     },
-
     "HORSESHOE BAR": {
       "regular": [
-        "Fri and Sat: Live Music",
+        "Fri\u2013Sat: Live Music",
         "Sun: Open Mic Night"
       ],
       "special": []
     },
-
     "40 WEST": {
       "regular": [
         "Sun: Open Mic Night",
         "Mon: Game Night",
-        "Tue through Thu: Karaoke",
-        "Fri and Sat: Live Music"
+        "Tue\u2013Thu: Karaoke",
+        "Fri\u2013Sat: Live Music"
       ],
       "special": []
     },
-
     "COWBOYS OKC": {
       "regular": [
         "Thu: Ladies Night",
-        "Fri: Line Dance Lessons @ 9 PM plus half-price drinks til 10 PM",
-        "Sat: Live Bull Riding plus Line Dance Lessons"
+        "Fri: Line Dance Lessons @ 9 PM + half-price drinks til 10 PM",
+        "Sat: Live Bull Riding + Line Dance Lessons"
       ],
       "special": []
     },
-
     "RIVERWIND CASINO": {
       "regular": [],
       "special": [
-        "Sep 20 — Beats & Bites at The Palace (OU Home Game Activation)",
-        "Sep 27 — Bret Michaels",
-        "Oct 17 — Collective Soul"
+        "Sep 5 \u2013 Gary Allan",
+        "Sep 27 \u2013 Bret Michaels",
+        "Oct 17 \u2013 Collective Soul"
       ]
     },
-
     "LUCKY STAR CASINO": {
       "regular": [],
       "special": [
-        "Sep 20 — Three Dog Night and Little River Band (Concho)"
+        "Sep 6 \u2013 Weird Al Yankovic (El Reno)",
+        "Sep 7 \u2013 KATTFest 2025 (El Reno)",
+        "Sep 20 \u2013 Three Dog Night & Little River Band (Concho)"
       ]
     },
-
     "ZOO AMPHITHEATRE": {
       "regular": [],
       "special": [
-        "Sep 20 — Leon Bridges",
-        "Sep 25 — Jon Pardi",
-        "Sep 26 — Nathaniel Rateliff and The Night Sweats",
-        "Sep 27 — Uncle Charlie’s R&B Cookout"
+        "Sep 6 \u2013 Nelly",
+        "Sep 10 \u2013 Lauren Daigle",
+        "Sep 11 \u2013 Goo Goo Dolls",
+        "Sep 20 \u2013 Leon Bridges",
+        "Sep 25 \u2013 Jon Pardi",
+        "Sep 26 \u2013 Nathaniel Rateliff & The Night Sweats",
+        "Sep 27 \u2013 Uncle Charlie\u2019s R&B Cookout"
       ]
     },
-
     "THE RITZ": {
       "regular": [
-        "Touring tribute and rock shows — ticketstorm.com"
+        "Touring tribute & rock shows \u2014 ticketstorm.com"
       ],
       "special": [
-        "Sep 19 — The Dead Aces plus The Tyler Lee Band"
+        "Sep 19 \u2013 The Dead Aces + The Tyler Lee Band"
       ]
     },
-
     "ROYAL BAVARIA BIERGARTEN": {
       "regular": [
         "Open daily at 5 PM",
-        "Full dinner and lounge service",
-        "Live music Fri and Sat",
-        "Thu: All-You-Can-Eat German Buffet (5–9 PM)"
+        "Full dinner & lounge service",
+        "Live music Fri\u2013Sat",
+        "Thu: All-You-Can-Eat German Buffet (5\u20139 PM, $26 adults, $10 kids, $5 dessert buffet)"
       ],
       "special": []
     },
-
     "GOLDFISH SWIM SCHOOL (MOORE)": {
       "regular": [
-        "Weekly swim lessons for kids — 30-minute sessions",
-        "Play-based skill building and water safety",
-        "Where little splashes lead to big wins. From first bubbles to confident strokes, Goldfish builds water safety, motor skills, and confidence through purposeful play — all in a 90° shiver-free pool."
+        "Weekly swim lessons for kids \u2014 30-minute sessions",
+        "Play-based skill building and water safety"
       ],
       "special": [
-        "September Theme — Pirates and Princesses celebration (royal rescues, treasure hunts, story-based swim lessons all month)"
+        "September Theme \u2013 Pirates & Princesses celebration (royal rescues, treasure hunts, and story-based swim lessons all month)"
       ]
     },
-
     "51ST STREET SPEAKEASY": {
       "regular": [
         "Live local music and themed parties",
         "Neighborhood bar with retro vibe"
       ],
       "special": [
-        "Sep 27 — Elder Millennial / Gen X Throwback Night"
+        "Sep 19 \u2014 Funk Night w/ Lacy Saunders, Rod Porter, and Full Band (9 PM, $5)"
       ]
-    },
-
-    "CAMPUS CORNER": {
-      "regular": [
-        "Crimson Friday Concerts on select OU home weekends",
-        "Game-day tailgate parties; limited VIP sections"
-      ],
-      "special": [
-        "Sep 19 — Crimson Friday Concert (VIP on Eventbrite)",
-        "Oct 3 — Crimson Friday Concert (VIP on Eventbrite)",
-        "Oct 24 — Crimson Friday Concert (VIP on Eventbrite)",
-        "Nov 21 — Crimson Friday Concert (VIP on Eventbrite)",
-        "Nov 28 — Crimson Friday Concert (VIP on Eventbrite)"
-      ]
-    },
-
-    "MARGARITA ISLAND": {
-      "regular": [
-        "Tue: Taco Tuesday",
-        "Fri: Bike Night",
-        "Karaoke and DJ nights weekly",
-        "Margarita features and rotating drink specials"
-      ],
-      "special": []
-    },
-
-    "REDNECK DANCEHALL (OKC)": {
-      "regular": [
-        "Wed: Ladies Night",
-        "Fri: College Night",
-        "Sat: Bikini Top Night"
-      ],
-      "special": []
     }
+  },
+  "sports_schedules": {
+    "OU Football 2025": [
+      "Aug 30 \u2014 vs Illinois State",
+      "Sep 6 \u2014 vs Michigan",
+      "Sep 13 \u2014 at Temple",
+      "Sep 20 \u2014 vs Auburn",
+      "Oct 4 \u2014 vs Kent State",
+      "Oct 11 \u2014 vs Texas (Dallas)",
+      "Oct 18 \u2014 at South Carolina",
+      "Oct 25 \u2014 vs Ole Miss",
+      "Nov 1 \u2014 at Tennessee",
+      "Nov 15 \u2014 at Alabama",
+      "Nov 22 \u2014 vs Missouri",
+      "Nov 28 \u2014 vs LSU"
+    ],
+    "OSU Football 2025": [
+      "Aug 28 \u2014 vs UT Martin",
+      "Sep 6 \u2014 at Oregon",
+      "Sep 20 \u2014 vs Tulsa",
+      "Sep 27 \u2014 vs Baylor",
+      "Oct 4 \u2014 at Arizona",
+      "Oct 11 \u2014 vs Houston",
+      "Oct 18 \u2014 vs Cincinnati",
+      "Oct 25 \u2014 at Texas Tech",
+      "Nov 1 \u2014 at Kansas",
+      "Nov 15 \u2014 vs Kansas State",
+      "Nov 22 \u2014 at UCF",
+      "Nov 29 \u2014 vs Iowa State"
+    ],
+    "OKC Thunder 2025\u201326": [
+      "Oct 21 \u2014 vs Houston",
+      "Oct 23 \u2014 at Indiana",
+      "Oct 25 \u2014 at Atlanta",
+      "Oct 27 \u2014 at Dallas",
+      "Oct 28 \u2014 vs Sacramento",
+      "Oct 30 \u2014 vs Washington",
+      "Nov 2 \u2014 vs New Orleans",
+      "Nov 4 \u2014 vs L.A. Clippers",
+      "Nov 5 \u2014 at Portland",
+      "Nov 7 \u2014 at Sacramento",
+      "Nov 9 \u2014 vs Memphis",
+      "Nov 11 \u2014 vs Golden State",
+      "Nov 12 \u2014 vs L.A. Lakers",
+      "Nov 15 \u2014 at Charlotte",
+      "Nov 17 \u2014 at New Orleans",
+      "Nov 19 \u2014 at Sacramento",
+      "Nov 21 \u2014 at Utah",
+      "Nov 23 \u2014 at Portland",
+      "Nov 26 \u2014 vs Minnesota",
+      "Nov 28 \u2014 vs Phoenix",
+      "Nov 30 \u2014 at Portland",
+      "Dec 2 \u2014 at Golden State",
+      "Dec 5 \u2014 vs Dallas",
+      "Dec 7 \u2014 at Utah",
+      "Dec 11 \u2014 (NBA Cup window)",
+      "Dec 14 \u2014 (NBA Cup window)",
+      "Dec 15 \u2014 (NBA Cup window)",
+      "Dec 17 \u2014 vs L.A. Clippers",
+      "Dec 19 \u2014 vs Minnesota",
+      "Dec 22 \u2014 at Memphis",
+      "Dec 25 \u2014 at San Antonio",
+      "Dec 28 \u2014 vs Philadelphia",
+      "Dec 29 \u2014 vs Atlanta",
+      "Dec 31 \u2014 at Portland",
+      "Jan 2 \u2014 at Golden State",
+      "Jan 4 \u2014 at Phoenix",
+      "Jan 7 \u2014 at Charlotte",
+      "Jan 7 \u2014 (travel buffer)",
+      "Jan 11 \u2014 at Utah",
+      "Jan 9 \u2014 (sequence alignment)",
+      "Jan 11 \u2014 vs Miami",
+      "Jan 13 \u2014 vs San Antonio",
+      "Jan 15 \u2014 at Houston",
+      "Jan 17 \u2014 at Miami",
+      "Jan 19 \u2014 at Cleveland",
+      "Jan 21 \u2014 at Milwaukee",
+      "Jan 23 \u2014 vs Indiana",
+      "Jan 25 \u2014 vs Toronto",
+      "Jan 27 \u2014 vs New Orleans",
+      "Jan 29 \u2014 at Minnesota",
+      "Feb 1 \u2014 at Denver",
+      "Feb 3 \u2014 at Orlando",
+      "Feb 4 \u2014 at San Antonio",
+      "Feb 7 \u2014 at Houston",
+      "Feb 9 \u2014 at L.A. Lakers",
+      "Feb 12 \u2014 at Phoenix",
+      "Feb 12 \u2014 vs Milwaukee",
+      "Feb 21 \u2014 vs Brooklyn",
+      "Feb 24 \u2014 vs Cleveland",
+      "Feb 26 \u2014 at Toronto",
+      "Feb 25 \u2014 at Detroit",
+      "Feb 27 \u2014 vs Denver",
+      "Mar 1 \u2014 at Dallas",
+      "Mar 3 \u2014 at Chicago",
+      "Mar 4 \u2014 at New York",
+      "Mar 7 \u2014 vs Golden State",
+      "Mar 9 \u2014 vs Denver",
+      "Mar 12 \u2014 vs Boston",
+      "Mar 15 \u2014 vs Minnesota",
+      "Mar 17 \u2014 at Orlando",
+      "Mar 18 \u2014 at Brooklyn",
+      "Mar 21 \u2014 at Washington",
+      "Mar 23 \u2014 at Philadelphia",
+      "Mar 25 \u2014 at Boston",
+      "Mar 27 \u2014 vs Chicago",
+      "Mar 29 \u2014 vs New York",
+      "Mar 30 \u2014 vs Detroit",
+      "Apr 2 \u2014 vs L.A. Lakers",
+      "Apr 5 \u2014 vs Utah",
+      "Apr 7 \u2014 at L.A. Lakers",
+      "Apr 8 \u2014 at L.A. Clippers",
+      "Apr 10 \u2014 at Denver",
+      "Apr 12 \u2014 vs Phoenix"
+    ]
   }
-}
+}p
