@@ -167,7 +167,14 @@
         "Live music every Saturday",
         "Seasonal outdoor concerts"
       ],
-      "special": []
+      "special": [
+         "Sep 26 — Cooksey Band",
+         "Sep 27 — Take 2",
+         "Oct 3 — The Morning Owls",
+         "Oct 4 — After School Special",
+         "Oct 11 — OU/Texas Game Day Fish Fry + The Flip Side (Live Music)",
+         "Oct 18 — KALO (Outdoor Stage)"
+      ],
     },
     "THE MILL": {
       "regular": [
@@ -211,7 +218,9 @@
         "Mon and Tue: Karaoke @ 9 PM",
         "Weekend DJs and theme nights"
       ],
-      "special": []
+      "special": [
+        "Oct 4 — J'Some Aldean (Jason Aldean Tribute Concert)"
+      ],
     },
     "HORSESHOE BAR": {
       "regular": [
