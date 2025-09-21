@@ -218,7 +218,8 @@
         "Weekend DJs and theme nights"
       ],
       "special": [
-        "Oct 4 — J'Some Aldean (Jason Aldean Tribute Concert)"
+        "Oct 4 — J'Some Aldean (Jason Aldean Tribute Concert)",
+        "Oct 31 — Halloween Party w/ Pineapple Stro (Costume Contest)"
       ]
     },
     "HORSESHOE BAR": {
@@ -261,7 +262,8 @@
       "special": [
         "Sep 25 — Jon Pardi",
         "Sep 26 — Nathaniel Rateliff and The Night Sweats",
-        "Sep 27 — Uncle Charlie’s R&B Cookout"
+        "Sep 27 — Uncle Charlie’s R&B Cookout",
+        "Oct 4 — Empire of the Sun (Ask That God Tour)"
       ]
     },
     "THE RITZ": {
@@ -269,7 +271,8 @@
         "Touring tribute and rock shows — ticketstorm.com"
       ],
       "special": [
-        "Sep 27 — Temple202 (Stone Temple Pilots & Velvet Revolver Tribute) + Dressed To Kill (KISS Tribute)"
+        "Sep 27 — Temple202 (Stone Temple Pilots & Velvet Revolver Tribute) + Dressed To Kill (KISS Tribute)",
+        "Oct 18 — William Lee Martin (Comedy)"
       ]
     },
     "ROYAL BAVARIA BIERGARTEN": {
@@ -304,10 +307,14 @@
         "Game-day tailgate parties; limited VIP sections"
       ],
       "special": [
-        "Oct 3 — Crimson Friday Concert (VIP on Eventbrite)",
-        "Oct 24 — Crimson Friday Concert (VIP on Eventbrite)",
-        "Nov 21 — Crimson Friday Concert (VIP on Eventbrite)",
-        "Nov 28 — Crimson Friday Concert (VIP on Eventbrite)"
+        "Oct 3 — Jeremy Phillips (Crimson Friday Concert)",
+        "Oct 4 — Band TBD (Crimson Friday Concert)",
+        "Oct 24 — Trey Gonzales (Crimson Friday Concert)",
+        "Oct 25 — Morning Kickoff – No Lineup",
+        "Nov 21 — BLY (Crimson Friday Concert)",
+        "Nov 22 — Morning Kickoff – No Lineup",
+        "Nov 28 — Bad/Genes Band (Crimson Friday Concert)",
+        "Nov 29 — Band TBD (Crimson Friday Concert)"
       ]
     },
     "MARGARITA ISLAND": {
@@ -334,6 +341,25 @@
       ],
       "special": [
         "Oct 4 — Ice Cube: The Truth to Power Tour"
+      ]
+    },
+    "JOJOS (YUKON)": {
+      "regular": [
+        "Live local music weekly"
+      ],
+      "special": [
+        "Sep 27 — Jered Johnson Band"
+      ]
+    },
+    "FRONTIER CITY": {
+      "regular": [
+        "Kids Boo Fest (Weekends 1–4 PM)",
+        "Haunted Attractions (Start at Dusk)"
+      ],
+      "special": [
+        "Sep 20–21 — Fright Fest Opening Weekend",
+        "Sep 27–28 — Fright Fest Weekend 2",
+        "Oct (ongoing) — Fright Fest & Boo Fest seasonal"
       ]
     }
   }
