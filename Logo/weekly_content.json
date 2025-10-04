@@ -1,6 +1,6 @@
 {
-  "week_range": "Sep 28 – Oct 5, 2025",
-  "updated_at": "2025-09-28T22:00:00Z",
+  "week_range": "Oct 3 – Oct 10, 2025",
+  "updated_at": "2025-10-03T22:00:00Z",
 
   "rules_locked": {
     "highlights_scope": "weekly_highlights shows ONLY events in the current week (Mon–Sun). Max 4.",
@@ -12,8 +12,8 @@
   },
 
   "weekly_highlights": [
-    "Oct 2 — Country Shop Band @ Friends of Friends",
     "Oct 3 — Morning Owls @ The Alley",
+    "Oct 3 — DJ Pleas OKC @ Brickhouse",
     "Oct 4 — Superfreak @ Friends of Friends",
     "Oct 4 — After School Special @ The Alley"
   ],
@@ -26,17 +26,20 @@
   "local_updates": [],
 
   "local_fun_special": [
-    "Sep 28 — Oklahoma Derby Wine Festival @ Remington Park (Wine, bites, races, 3 PM start)",
-    "Sep 28 — Frontier City Fright Fest & Boo Fest (Haunted attractions at dusk, Kids Boo Fest 1–4 PM)",
     "Oct 4–26 — Haunt the Zoo (OKC Zoo, weekends 9 AM–4 PM, trick-or-treating, stations, wildlife)",
     "Fall 2025 — Orr Family Farm Fall Festival (Pumpkin patch, rides, treats, tickets at orrfamilyfarm.com)",
-    "Oct 25 — Haunting on Howard St. @ Moore Central Park (Free family haunted event, 4–7 PM)",
     "Oct 16 — Turning Point USA Event @ OU (Norman, free, 6:30 PM, registration required)",
+    "Oct 25 — Haunting on Howard St. @ Moore Central Park (Free family haunted event, 4–7 PM)",
     "Oct 4 — Empire of the Sun @ Zoo Amphitheatre",
+    "Oct 11 — Alex Warren @ Zoo Amphitheatre",
+    "Oct 14 — Pierce The Veil @ Zoo Amphitheatre",
+    "Oct 25 — T-Pain @ Zoo Amphitheatre",
     "Oct 11–12 — Hot Wheels Monster Trucks Live @ Paycom Center",
-    "Oct 31 — Friends of Friends Halloween Bash ft. The Stars (Live), Boos & Booze Bash (Spooky drinks, costumes, Eventbrite reservations)",
-    "Oct 31 — Brickhouse Halloween Party ft. Jeremy Fullbright + DJ Pleas OKC (Costume contests: $100 Scariest, $100 Sexiest, $250 Best Overall)",
+    "Oct 31 — Friends of Friends Halloween Bash ft. The Stars (Live), Boos & Booze Bash",
+    "Oct 31 — Brickhouse Halloween Party ft. Jeremy Fullbright + DJ Pleas OKC",
     "Nov 8 — Chris Tomlin (First Southern Baptist Church, OKC)",
+    "Nov 28 — The Oak Ridge Boys @ Riverwind Casino",
+    "Dec 4 — Jake’s Jingle Jam @ Riverwind Casino",
     "Feb 11, 2026 — TobyMac Hits Deep Tour w/ Crowder + Jeremy Camp @ Paycom Center",
     "Jan 16, 2026 — Jerry Seinfeld @ Civic Center Music Hall",
     "Jan 29, 2026 — Jeff Dunham @ Paycom Center"
@@ -44,11 +47,6 @@
 
   "sports_schedules": {
     "OU Football 2025": [
-      "Aug 30 — vs Illinois State",
-      "Sep 6 — vs Michigan",
-      "Sep 13 — at Temple",
-      "Sep 20 — vs Auburn",
-      "Sep 27 — Bye Week",
       "Oct 4 — vs Kent State",
       "Oct 11 — vs Texas (Dallas)",
       "Oct 18 — at South Carolina",
@@ -59,10 +57,6 @@
       "Nov 28 — vs LSU"
     ],
     "OSU Football 2025": [
-      "Aug 28 — vs UT Martin",
-      "Sep 6 — at Oregon",
-      "Sep 20 — vs Tulsa",
-      "Sep 27 — vs Baylor",
       "Oct 4 — at Arizona",
       "Oct 11 — vs Houston",
       "Oct 18 — vs Cincinnati",
@@ -167,7 +161,6 @@
     "FRIENDS OF FRIENDS": {
       "regular": ["Thu: Live bands", "Fri and Sat: Live local bands", "Signature cocktails nightly"],
       "special": [
-        "Oct 2 — Country Shop Band",
         "Oct 3 — Country Shop Band (Night 2)",
         "Oct 4 — Superfreak ($10 Cover)",
         "Oct 31 — Halloween Bash ft. The Stars (Live)",
@@ -179,8 +172,15 @@
       "special": [
         "Oct 3 — The Morning Owls",
         "Oct 4 — After School Special",
-        "Oct 11 — OU/Texas Game Day Fish Fry + The Flip Side (Live Music)",
-        "Oct 18 — KALO (Outdoor Stage)"
+        "Oct 10 — Sweet Brenda & Sourmash",
+        "Oct 11 — Jokers to the Right (Fish Fry Indoor)",
+        "Oct 11 — The Flip Side (Fish Fry Outdoor)",
+        "Oct 17 — Billy Bonney",
+        "Oct 18 — Haloed (Indoor 9 PM–1 AM)",
+        "Oct 18 — KALO (Outdoor 7–11 PM)",
+        "Oct 24 — So Watt Band",
+        "Oct 25 — Stinnett Brothers",
+        "Oct 31 — Dollar98"
       ]
     },
     "THE MILL": {
@@ -196,7 +196,7 @@
     },
     "OKIE TONK": {
       "regular": ["Tue: Poker Night @ 7 PM", "Wed: Trivia plus Karaoke", "Thu: Singo Bingo", "Fri: Live Bands", "Sat and Sun: Karaoke"],
-      "special": ["Sep 26 — Born in November"]
+      "special": []
     },
     "MOONEY'S PUB": {
       "regular": ["Tue: Acoustic Tuesday", "Fri and Sat: Live Bands @ 9 PM", "Sun: Open Jam @ 5 PM"],
@@ -209,7 +209,8 @@
     "BRICKHOUSE SALOON": {
       "regular": ["Mon and Tue: Karaoke @ 9 PM", "Weekend DJs and theme nights"],
       "special": [
-        "Sep 27 — Good Vibes Saturday ft. DJ Stylez (College ID Free Entry + Drink Ticket)",
+        "Oct 3 — Friday Night Party ft. DJ Pleas OKC (Ladies free til 10 PM, $5 cover)",
+        "Oct 4 — Saturday Night Party ft. DJ Pleas OKC (Free with college ID, $5 cover)",
         "Oct 4 — J'Some Aldean (Jason Aldean Tribute Concert)",
         "Oct 31 — Halloween Party ft. Jeremy Fullbright + DJ Pleas OKC (Costume contests: $100 Scariest, $100 Sexiest, $250 Best Overall)"
       ]
@@ -220,9 +221,7 @@
     },
     "40 WEST": {
       "regular": ["Sun: Open Mic Night", "Mon: Game Night", "Tue through Thu: Karaoke", "Fri and Sat: Live Music"],
-      "special": [
-        "Sep 27 — The Vice Presidents"
-      ]
+      "special": []
     },
     "COWBOYS OKC": {
       "regular": ["Thu: Ladies Night", "Fri: Line Dance Lessons @ 9 PM plus half-price drinks til 10 PM", "Sat: Live Bull Riding plus Line Dance Lessons"],
@@ -230,7 +229,11 @@
     },
     "RIVERWIND CASINO": {
       "regular": [],
-      "special": ["Sep 27 — Bret Michaels", "Oct 17 — Collective Soul"]
+      "special": [
+        "Oct 17 — Collective Soul (BOGO)",
+        "Nov 28 — The Oak Ridge Boys",
+        "Dec 4 — Jake’s Jingle Jam"
+      ]
     },
     "LUCKY STAR CASINO": {
       "regular": [],
@@ -239,16 +242,15 @@
     "ZOO AMPHITHEATRE": {
       "regular": [],
       "special": [
-        "Sep 25 — Jon Pardi",
-        "Sep 26 — Nathaniel Rateliff and The Night Sweats",
-        "Sep 27 — Uncle Charlie’s R&B Cookout",
-        "Oct 4 — Empire of the Sun"
+        "Oct 4 — Empire of the Sun",
+        "Oct 11 — Alex Warren",
+        "Oct 14 — Pierce The Veil",
+        "Oct 25 — T-Pain"
       ]
     },
     "THE RITZ": {
       "regular": ["Touring tribute and rock shows — ticketstorm.com"],
       "special": [
-        "Sep 27 — Temple202 (Stone Temple Pilots & Velvet Revolver Tribute) + Dressed To Kill (KISS Tribute)",
         "Oct 18 — William Lee Martin (Comedy)"
       ]
     },
@@ -263,15 +265,12 @@
         "Where little splashes lead to big wins. From first bubbles to confident strokes, Goldfish builds water safety, motor skills, and confidence through purposeful play — all in a 90° shiver-free pool."
       ],
       "special": [
-        "September Theme — Pirates and Princesses celebration (royal rescues, treasure hunts, story-based swim lessons all month)"
+        "October Theme — Celebrate Imagination (dolphins, underwater adventures, creativity, confidence and fun skill-building all month)"
       ]
     },
     "51ST STREET SPEAKEASY": {
       "regular": ["Live local music and themed parties", "Neighborhood bar with retro vibe"],
-      "special": [
-        "Sep 25 — Jazz Night with Kendrick McKinney + Mitch Bell",
-        "Sep 27 — 90s–00s Dance Party (Adult Capri Suns, glowsticks)"
-      ]
+      "special": []
     },
     "CAMPUS CORNER": {
       "regular": ["Crimson Friday Concerts on select OU home weekends", "Game-day tailgate parties; limited VIP sections"],
@@ -297,7 +296,6 @@
     "PAYCOM CENTER": {
       "regular": ["NBA & touring concerts", "Downtown OKC arena"],
       "special": [
-        "Sep 26 — Whiskey Myers",
         "Oct 11–12 — Hot Wheels Monster Trucks Live",
         "Feb 11, 2026 — TobyMac Hits Deep Tour w/ Crowder + Jeremy Camp",
         "Jan 29, 2026 — Jeff Dunham"
