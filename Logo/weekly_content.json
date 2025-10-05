@@ -1,7 +1,6 @@
 {
   "week_range": "Oct 5 – Oct 12, 2025",
   "updated_at": "2025-10-05T09:00:00Z",
-
   "rules_locked": {
     "highlights_scope": "weekly_highlights shows ONLY events in the current week (Mon–Sun). Max 4.",
     "venue_regulars": "Do not change unless explicitly requested.",
@@ -10,22 +9,16 @@
     "fairs": "Only active/coming fairs; expired fairs removed; Oklahoma State Fair retained.",
     "goldfish_paragraph": "Simplified to a short bulleted list for readability."
   },
-
-  # WEEKLY HIGHLIGHTS (Oct 5 – 12 window)
   "weekly_highlights": [
     "Oct 9 — Empire of the Sun @ Zoo Amphitheatre",
     "Oct 10 — KALO @ The Alley (Outdoor Stage)",
     "Oct 11 — OU vs Texas (Dallas)",
     "Oct 11 — Hot Wheels Monster Trucks Live @ Paycom Center"
   ],
-
-  # METRO SPORTS THIS WEEK
   "metro_sports": [
     "Oct 11 — OU vs Texas (Dallas)",
     "Oct 11 — OSU vs Houston"
   ],
-
-  # LOCAL EVENTS & FESTIVALS
   "local_fun_special": [
     "Oct 4–26 — Haunt the Zoo (OKC Zoo, weekends 9 AM–4 PM, trick-or-treating & wildlife stations)",
     "Oct 5 — Orr Family Farm Fall Festival (Pumpkin patch, rides, food, tickets at orrfamilyfarm.com)",
@@ -43,8 +36,6 @@
     "Jan 29, 2026 — Jeff Dunham @ Paycom Center",
     "Feb 11, 2026 — TobyMac Hits Deep Tour w/ Crowder + Jeremy Camp @ Paycom Center"
   ],
-
-  # SPORTS SCHEDULES
   "sports_schedules": {
     "OU Football 2025": [
       "Aug 30 — vs Illinois State",
@@ -159,8 +150,6 @@
       "Apr 12 — vs Phoenix"
     ]
   },
-
-  # VENUES (includes all known fall/future events)
   "venues": {
     "OKIE STATE ROOM": {
       "regular": ["Live music on weekends", "Select ticketed shows; limited seating"],
@@ -217,9 +206,8 @@
       "regular": ["Concert & event venue"],
       "special": [
         "Oct 17 — Collective Soul",
-        "Nov 15 — Gary Allan",
-        "Dec 6 — Sara Evans",
-        "Dec 31 — New Year’s Eve Bash ft. AC/DC Tribute Band"
+        "Nov 28 — The Oak Ridge Boys",
+        "Dec 4 — Jake’s Jingle Jam"
       ]
     },
     "LUCKY STAR CASINO": {
@@ -263,8 +251,8 @@
       "regular": ["NBA & Touring Concerts"],
       "special": [
         "Oct 11–12 — Hot Wheels Monster Trucks Live",
-        "Feb 11 2026 — TobyMac Hits Deep Tour w/ Crowder + Jeremy Camp",
-        "Jan 29 2026 — Jeff Dunham"
+        "Jan 29 2026 — Jeff Dunham",
+        "Feb 11 2026 — TobyMac Hits Deep Tour w/ Crowder + Jeremy Camp"
       ]
     },
     "CIVIC CENTER MUSIC HALL": {
