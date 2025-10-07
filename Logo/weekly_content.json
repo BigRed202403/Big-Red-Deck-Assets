@@ -1,7 +1,6 @@
 {
   "week_range": "Oct 5 – Oct 12, 2025",
   "updated_at": "2025-10-07T22:00:00Z",
-
   "rules_locked": {
     "highlights_scope": "weekly_highlights shows ONLY events in the current week (Mon–Sun). Max 4.",
     "venue_regulars": "Do not change unless explicitly requested.",
@@ -10,25 +9,21 @@
     "fairs": "Only active/coming fairs; expired fairs removed; Oklahoma State Fair retained.",
     "goldfish_paragraph": "Persist in GOLDFISH SWIM SCHOOL (MOORE) → regular."
   },
-
   "weekly_highlights": [
     "Oct 9 — OKANAfest @ OKANA Resort & Indoor Waterpark",
     "Oct 10 — KALO (Outdoor Stage) @ The Alley",
     "Oct 11 — OU vs Texas (Dallas)",
     "Oct 11 — OU/Texas Game Day Fish Fry + The Flip Side (Live Music) @ The Alley"
   ],
-
   "metro_sports": [
     "Oct 11 — OU vs Texas (Dallas)",
     "Oct 11 — OSU vs Houston"
   ],
-
   "local_updates": [
     "OKANA Resort grand opening weekend with OKANAfest (live music, cultural events, fireworks).",
     "Frontier City Fright Fest & Boo Fest running weekends through October.",
     "Royal Bavaria Biergarten Oktoberfest weekends: live music, German buffet, and seasonal beers."
   ],
-
   "local_fun_special": [
     "Oct 4–26 — Haunt the Zoo (OKC Zoo, weekends 9 AM–4 PM, trick-or-treating, wildlife encounters)",
     "Fall 2025 — Orr Family Farm Fall Festival (Pumpkin patch, rides, treats, tickets at orrfamilyfarm.com)",
@@ -43,7 +38,6 @@
     "Jan 16 2026 — Jerry Seinfeld @ Civic Center Music Hall",
     "Jan 29 2026 — Jeff Dunham @ Paycom Center"
   ],
-
   "sports_schedules": {
     "OU Football 2025": [
       "Oct 11 — vs Texas (Dallas)",
@@ -144,7 +138,6 @@
       "Apr 12 — vs Phoenix"
     ]
   },
-
   "venues": {
     "OKIE STATE ROOM": {
       "regular": ["Live music on weekends", "Select ticketed shows; limited seating"],
@@ -195,21 +188,11 @@
         "Fri: Live Bands",
         "Sat & Sun: Karaoke"
       ],
-      "special": [
-        "Oct 11 — Dirt Rich",
-        "Oct 18 — Southern Highway"
-      ]
+      "special": ["Oct 11 — Dirt Rich", "Oct 18 — Southern Highway"]
     },
     "MOONEY'S PUB": {
-      "regular": [
-        "Tue: Acoustic Tuesday",
-        "Fri & Sat: Live Bands @ 9 PM",
-        "Sun: Open Jam @ 5 PM"
-      ],
-      "special": [
-        "Oct 10 — Whiskey River Band",
-        "Oct 11 — The Bottom Line"
-      ]
+      "regular": ["Tue: Acoustic Tuesday", "Fri & Sat: Live Bands @ 9 PM", "Sun: Open Jam @ 5 PM"],
+      "special": ["Oct 10 — Whiskey River Band", "Oct 11 — The Bottom Line"]
     },
     "KATS TAVERN": {
       "regular": [
@@ -243,10 +226,7 @@
         "Sat: Dance & DJ Party",
         "Sun: Acoustic Evening"
       ],
-      "special": [
-        "Oct 11 — The Vice Presidents (Live)",
-        "Oct 18 — Shiloh Steel"
-      ]
+      "special": ["Oct 11 — The Vice Presidents (Live)", "Oct 18 — Shiloh Steel"]
     },
     "COWBOYS OKC": {
       "regular": [
@@ -273,10 +253,7 @@
     },
     "ZOO AMPHITHEATRE": {
       "regular": ["Outdoor concert venue"],
-      "special": [
-        "Oct 11 — Empire of the Sun",
-        "Oct 25 — Brantley Gilbert"
-      ]
+      "special": ["Oct 11 — Empire of the Sun", "Oct 25 — Brantley Gilbert"]
     },
     "ROYAL BAVARIA BIERGARTEN": {
       "regular": [
@@ -297,13 +274,13 @@
     },
     "51ST STREET SPEAKEASY": {
       "regular": ["Live local music and theme nights", "Neighborhood retro bar vibe"],
-      "special": [
-        "Oct 11 — 90s Halloween Party",
-        "Oct 25 — Live DJ Spooky Beats"
-      ]
+      "special": ["Oct 11 — 90s Halloween Party", "Oct 25 — Live DJ Spooky Beats"]
     },
     "CAMPUS CORNER": {
-      "regular": ["Crimson Friday Concerts on home weekends", "Game-day tailgate parties (VIP sections available)"],
+      "regular": [
+        "Crimson Friday Concerts on home weekends",
+        "Game-day tailgate parties (VIP sections available)"
+      ],
       "special": [
         "Oct 11 — Morning Kickoff ft. Ryan Hunter Band",
         "Oct 25 — Trey Gonzales",
@@ -323,14 +300,12 @@
       "special": ["Oct 19 — Latin Night Dance Party"]
     },
     "REDNECK DANCEHALL (OKC)": {
-      "regular": [
-        "Wed: Ladies Night",
-        "Fri: College Night",
-        "Sat: Bikini Top Night"
-      ],
+      "regular": ["Wed: Ladies Night", "Fri: College Night", "Sat: Bikini Top Night"],
       "special": []
     },
     "PAYCOM CENTER": {
       "regular": ["NBA & concert arena in Downtown OKC"],
       "special": ["Oct 11–12 — Hot Wheels Monster Trucks"]
     }
+  }
+}
