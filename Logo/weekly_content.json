@@ -1,6 +1,7 @@
 {
   "week_range": "Oct 5 – Oct 12, 2025",
-  "updated_at": "2025-10-07T22:00:00Z",
+  "updated_at": "2025-10-10T00:45:00Z",
+
   "rules_locked": {
     "highlights_scope": "weekly_highlights shows ONLY events in the current week (Mon–Sun). Max 4.",
     "venue_regulars": "Do not change unless explicitly requested.",
@@ -9,28 +10,41 @@
     "fairs": "Only active/coming fairs; expired fairs removed; Oklahoma State Fair retained.",
     "goldfish_paragraph": "Persist in GOLDFISH SWIM SCHOOL (MOORE) → regular."
   },
+
   "weekly_highlights": [
     "Oct 9 — OKANAfest @ OKANA Resort & Indoor Waterpark",
+    "Oct 9 — OKC Thunder Preseason vs Charlotte Hornets (Paycom Center)",
     "Oct 10 — KALO (Outdoor Stage) @ The Alley",
     "Oct 11 — OU vs Texas (Dallas)",
     "Oct 11 — OU/Texas Game Day Fish Fry + The Flip Side (Live Music) @ The Alley"
   ],
+
   "metro_sports": [
+    "Oct 9 — OKC Thunder Preseason vs Charlotte Hornets (Paycom Center)",
     "Oct 11 — OU vs Texas (Dallas)",
     "Oct 11 — OSU vs Houston"
   ],
+
   "local_updates": [
     "OKANA Resort grand opening weekend with OKANAfest (live music, cultural events, fireworks).",
-    "Frontier City Fright Fest & Boo Fest running weekends through October.",
+    "Frontier City Boo Fest & Fright Fest running weekends through October.",
     "Royal Bavaria Biergarten Oktoberfest weekends: live music, German buffet, and seasonal beers."
   ],
+
   "local_fun_special": [
     "Oct 4–26 — Haunt the Zoo (OKC Zoo, weekends 9 AM–4 PM, trick-or-treating, wildlife encounters)",
     "Fall 2025 — Orr Family Farm Fall Festival (Pumpkin patch, rides, treats, tickets at orrfamilyfarm.com)",
     "Oct 9–12 — OKANAfest @ OKANA Resort & Indoor Waterpark (Native arts, music, food, fireworks on Oct 12)",
+    {
+      "title": "Frontier City Boo Fest",
+      "date": "Every Sat & Sun in October",
+      "location": "Frontier City (OKC)",
+      "description": "Kids Boo Fest 1–4 PM; Fright Fest after dusk on select nights"
+    },
     "Oct 16 — Turning Point USA Event @ OU (Norman, free, 6:30 PM, registration required)",
+    "Oct 17–19 — Affair of the Heart @ OKC Fair Park (shopping, small businesses, local vendors)",
     "Oct 25 — Haunting on Howard St. @ Moore Central Park (Free family haunted event, 4–7 PM)",
-    "Oct 31 — Friends of Friends Halloween Bash ft. The Stars (Live) + Boos & Booze Bash (costumes, spooky cocktails)",
+    "Oct 31 — Friends of Friends Halloween Bash ft. The Stars (Live) + Boos & Booze Bash (costumes, Eventbrite RSVP)",
     "Oct 31 — Brickhouse Halloween Party ft. Jeremy Fullbright + DJ Pleas OKC (Costume contests: $100 Scariest, $100 Sexiest, $250 Best Overall)",
     "Nov 8 — Chris Tomlin (First Southern Baptist Church, OKC)",
     "Nov 22 — Collective Soul @ Riverwind Casino",
@@ -38,6 +52,7 @@
     "Jan 16 2026 — Jerry Seinfeld @ Civic Center Music Hall",
     "Jan 29 2026 — Jeff Dunham @ Paycom Center"
   ],
+
   "sports_schedules": {
     "OU Football 2025": [
       "Oct 11 — vs Texas (Dallas)",
@@ -58,6 +73,7 @@
       "Nov 29 — vs Iowa State"
     ],
     "OKC Thunder 2025–26": [
+      "Oct 9 — Preseason vs Charlotte Hornets (Paycom Center)",
       "Oct 21 — vs Houston",
       "Oct 23 — at Indiana",
       "Oct 25 — at Atlanta",
@@ -138,6 +154,7 @@
       "Apr 12 — vs Phoenix"
     ]
   },
+
   "venues": {
     "OKIE STATE ROOM": {
       "regular": ["Live music on weekends", "Select ticketed shows; limited seating"],
@@ -153,9 +170,9 @@
     "FRIENDS OF FRIENDS": {
       "regular": ["Thu: Live bands", "Fri & Sat: Local bands", "Signature cocktails nightly"],
       "special": [
-        "Oct 9 — The Stars",
-        "Oct 10 — Haloed",
-        "Oct 11 — Superfreak Encore",
+        "Oct 9 — The Country Shop Band",
+        "Oct 10 — Midas 13",
+        "Oct 11 — The Stars",
         "Oct 31 — Halloween Bash ft. The Stars (Live)",
         "Oct 31 — Boos & Booze Bash (costumes, Eventbrite RSVP)"
       ]
@@ -188,11 +205,21 @@
         "Fri: Live Bands",
         "Sat & Sun: Karaoke"
       ],
-      "special": ["Oct 11 — Dirt Rich", "Oct 18 — Southern Highway"]
+      "special": [
+        "Oct 11 — Dirt Rich",
+        "Oct 18 — Southern Highway"
+      ]
     },
     "MOONEY'S PUB": {
-      "regular": ["Tue: Acoustic Tuesday", "Fri & Sat: Live Bands @ 9 PM", "Sun: Open Jam @ 5 PM"],
-      "special": ["Oct 10 — Whiskey River Band", "Oct 11 — The Bottom Line"]
+      "regular": [
+        "Tue: Acoustic Tuesday",
+        "Fri & Sat: Live Bands @ 9 PM",
+        "Sun: Open Jam @ 5 PM"
+      ],
+      "special": [
+        "Oct 10 — Whiskey River Band",
+        "Oct 11 — The Bottom Line"
+      ]
     },
     "KATS TAVERN": {
       "regular": [
@@ -205,10 +232,13 @@
       "special": []
     },
     "BRICKHOUSE SALOON": {
-      "regular": ["Mon–Tue: Karaoke @ 9 PM", "Weekend DJs & Theme Nights"],
+      "regular": [
+        "Mon & Tue: Karaoke Party @ 9 PM (Free Entry & Parking)",
+        "Thu: Line Dancing with Aria ($5 Well Drinks All Night)",
+        "Fri: Country Night (2nd Floor) + DJ Pleas OKC on Main Stage",
+        "Sat: Country Night (2nd Floor) + DJ Pleas OKC on Main Stage"
+      ],
       "special": [
-        "Oct 11 — Good Vibes Saturday ft. DJ Stylez",
-        "Oct 18 — DJ Navi + Ladies Night",
         "Oct 31 — Halloween Party ft. Jeremy Fullbright + DJ Pleas OKC (Costume Contest)"
       ]
     },
@@ -226,7 +256,10 @@
         "Sat: Dance & DJ Party",
         "Sun: Acoustic Evening"
       ],
-      "special": ["Oct 11 — The Vice Presidents (Live)", "Oct 18 — Shiloh Steel"]
+      "special": [
+        "Oct 11 — The Vice Presidents (Live)",
+        "Oct 18 — Shiloh Steel"
+      ]
     },
     "COWBOYS OKC": {
       "regular": [
@@ -237,7 +270,10 @@
       "special": []
     },
     "RIVERWIND CASINO": {
-      "regular": ["Concert venue & casino open 24/7"],
+      "regular": [
+        "Concert venue & casino open 24/7",
+        "OU/Texas Watch Party on Gaming Floor"
+      ],
       "special": [
         "Oct 17 — Collective Soul",
         "Nov 22 — Clint Black",
@@ -245,15 +281,16 @@
       ]
     },
     "LUCKY STAR CASINO": {
-      "regular": ["Gaming, slots, live music select weekends"],
-      "special": [
-        "Oct 25 — Everclear (Live in El Reno)",
-        "Nov 15 — REO Speedwagon"
-      ]
+      "regular": ["Gaming, slots, and live entertainment select weekends"],
+      "special": []
     },
     "ZOO AMPHITHEATRE": {
       "regular": ["Outdoor concert venue"],
-      "special": ["Oct 11 — Empire of the Sun", "Oct 25 — Brantley Gilbert"]
+      "special": [
+        "Oct 11 — Alex Warren: Cheaper Than Therapy Tour",
+        "Oct 14 — Pierce the Veil: I Can't Hear You World Tour",
+        "Oct 25 — P20: Celebrating 20 Years of T-Pain"
+      ]
     },
     "ROYAL BAVARIA BIERGARTEN": {
       "regular": [
@@ -262,25 +299,25 @@
         "Live music Fri & Sat",
         "Thu: All-You-Can-Eat German Buffet (5–9 PM)"
       ],
-      "special": ["Octoberfest Season Celebration every weekend"]
+      "special": ["Oktoberfest Season Celebration every weekend"]
     },
     "GOLDFISH SWIM SCHOOL (MOORE)": {
       "regular": [
         "🐠 Weekly 30-min swim lessons for kids",
         "💭 Confidence & water safety through play",
-        "🎨 October Theme — Spooky Splash Adventure (costumes & decor all month)"
+        "🎨 October Theme — Celebrate Imagination (creative swim activities all month)"
       ],
       "special": []
     },
     "51ST STREET SPEAKEASY": {
       "regular": ["Live local music and theme nights", "Neighborhood retro bar vibe"],
-      "special": ["Oct 11 — 90s Halloween Party", "Oct 25 — Live DJ Spooky Beats"]
+      "special": [
+        "Oct 11 — 90s Halloween Party",
+        "Oct 25 — Live DJ Spooky Beats"
+      ]
     },
     "CAMPUS CORNER": {
-      "regular": [
-        "Crimson Friday Concerts on home weekends",
-        "Game-day tailgate parties (VIP sections available)"
-      ],
+      "regular": ["Crimson Friday Concerts on home weekends", "Game-day tailgate parties (VIP sections available)"],
       "special": [
         "Oct 11 — Morning Kickoff ft. Ryan Hunter Band",
         "Oct 25 — Trey Gonzales",
@@ -297,10 +334,14 @@
         "Weekly karaoke & DJ sets",
         "Margarita specials all week"
       ],
-      "special": ["Oct 19 — Latin Night Dance Party"]
+      "special": []
     },
     "REDNECK DANCEHALL (OKC)": {
-      "regular": ["Wed: Ladies Night", "Fri: College Night", "Sat: Bikini Top Night"],
+      "regular": [
+        "Wed: Ladies Night",
+        "Fri: College Night",
+        "Sat: Bikini Top Night"
+      ],
       "special": []
     },
     "PAYCOM CENTER": {
