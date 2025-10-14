@@ -1,6 +1,6 @@
 {
   "week_range": "Oct 12–19, 2025",
-  "updated_at": "2025-10-14T23:59:00Z",
+  "updated_at": "2025-10-15T06:22:00Z",
   "rules_locked": {
     "highlights_scope": "weekly_highlights shows ONLY events in the current week (Sun–Sun). Max 4.",
     "venue_regulars": "Do not change unless explicitly requested.",
@@ -29,20 +29,23 @@
   ],
 
   "local_fun_special": [
-    "Fall 2025 — Orr Family Farm Fall Festival (Pumpkin patch, rides, treats, tickets at orrfamilyfarm.com)",
-    {
-      "title": "Frontier City Boo Fest",
-      "date": "Every Sat & Sun in October",
-      "location": "Frontier City (OKC)",
-      "description": "Kids Boo Fest 1–4 PM; Fright Fest after dusk on select nights"
-    },
-    "Oct 16 — Turning Point USA Event @ OU (Norman, free, 6:30 PM, registration required)",
+    "Oct 14 — Red Rocks Worship @ Discovery Church (OKC)",
     "Oct 17–19 — Affair of the Heart @ OKC Fair Park (shopping, small businesses, local vendors)",
+    "Oct 17 — Bricktown Haunted Warehouse (Open Fri & Sat nights, ~$18)",
+    "Oct 18 — William Lee Martin: The Funny Life Tour @ The Ritz Theater (Shawnee)",
+    "Oct 21–Dec 28 — Classic Christmas Walk-Thru Spectacular @ Remington Park",
     "Oct 25 — Haunting on Howard St. @ Moore Central Park (Free family haunted event, 4–7 PM)",
     "Oct 31 — Friends of Friends Halloween Bash ft. The Stars (Live) + Boos & Booze Bash (costumes, Eventbrite RSVP)",
-    "Oct 31 — Brickhouse Halloween Party ft. Jeremy Fullbright + DJ Pleas OKC (Costume contests: $100 Scariest, $100 Sexiest, $250 Best Overall)",
+    "Oct 31 — Lucky Star Casino Halloween Costume Contest (cash prizes; free-play promos)",
+    "Oct 31 — Margarita Island ‘Nightmare at the Island’ (Live music + $350 costume contest, bobbing for eyeballs)",
     "Nov 8 — Chris Tomlin (First Southern Baptist Church, OKC)",
-    "Nov 22 — Collective Soul @ Riverwind Casino"
+    "Nov 8 — Remington Park ‘Whoville Feast’ with The Grinch (tables of 4; reservations required)",
+    "Nov 8–9 — OKC Renaissance & Scottish Festival @ OKC Fairgrounds (with Highland Games)",
+    "Nov 14–Dec 28 — THE POLAR EXPRESS™ Train Ride (OKC departures)",
+    "Nov 18–23 — Elf: The Musical @ Civic Center Music Hall",
+    "Nov 22 — Collective Soul @ Riverwind Casino",
+    "Nov 30 — Vienna Light Orchestra (Christmas) @ Rose State Performing Arts Center",
+    "Feb 11 2026 — TobyMac ‘Hits Deep’ Tour w/ Crowder + Jeremy Camp @ Paycom Center"
   ],
 
   "sports_schedules": {
@@ -166,10 +169,10 @@
         "Signature cocktails nightly"
       ],
       "special": [
-        "Oct 17 — Haloed",
-        "Oct 18 — The Stars",
-        "Oct 31 — Halloween Bash ft. The Stars (Live)",
-        "Oct 31 — Boos & Booze Bash (costumes, Eventbrite RSVP)"
+        "Oct 16 — The Country Shop Band (Live)",
+        "Oct 17 — TBD (Live)",
+        "Oct 18 — Hypnotik (Live)",
+        "Oct 31 — Halloween Bash ft. The Stars (Live) + Boos & Booze Bash (costumes, Eventbrite RSVP)"
       ]
     },
 
@@ -212,9 +215,12 @@
 
     "MOONEY'S PUB": {
       "regular": [
-        "Tue: Acoustic Tuesday",
-        "Fri & Sat: Live Bands @ 9 PM",
-        "Sun: Open Jam @ 5 PM"
+        "Tue: Acoustic Tuesday with Aaron Wall & Friends @ 7:30 PM",
+        "Wed: Karaoke @ 9 PM",
+        "Thu: Singo @ 7:30 PM + Karaoke @ 9 PM",
+        "Fri: Live Music — $1.98 Band @ 9 PM",
+        "Sat: Live Music — Cutter Elliott @ 9 PM",
+        "Sun: Sing-Along Brunch @ 11 AM + Jam Sessions @ 4 PM"
       ],
       "special": []
     },
@@ -274,7 +280,9 @@
         "Fri: Line Dance Lessons @ 9 PM + Half-Price Drinks til 10",
         "Sat: Bull Riding + Line Dance Lessons"
       ],
-      "special": []
+      "special": [
+        "Oct 31 — Halloween Weekend: $1,500 Costume Contest (Fri) + $500 Costume Contest (Sat)"
+      ]
     },
 
     "RIVERWIND CASINO": {
@@ -293,7 +301,9 @@
       "regular": [
         "Gaming, slots, and live entertainment select weekends"
       ],
-      "special": []
+      "special": [
+        "Oct 31 — Halloween Costume Contest (cash prizes + free-play promos)"
+      ]
     },
 
     "ZOO AMPHITHEATRE": {
@@ -301,6 +311,7 @@
         "Outdoor concert venue"
       ],
       "special": [
+        "Oct 14 — Pierce the Veil: I Can't Hear You World Tour",
         "Oct 25 — P20: Celebrating 20 Years of T-Pain"
       ]
     },
@@ -357,7 +368,9 @@
         "Weekly karaoke & DJ sets",
         "Margarita specials all week"
       ],
-      "special": []
+      "special": [
+        "Oct 31 — Nightmare at the Island (Live music + $350 costume contest)"
+      ]
     },
 
     "REDNECK DANCEHALL (OKC)": {
@@ -373,7 +386,9 @@
       "regular": [
         "NBA & concert arena in Downtown OKC"
       ],
-      "special": []
+      "special": [
+        "Feb 11 2026 — TobyMac ‘Hits Deep’ Tour w/ Crowder + Jeremy Camp"
+      ]
     }
   }
 }
