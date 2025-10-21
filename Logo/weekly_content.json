@@ -1,6 +1,6 @@
 {
-  "week_range": "Oct 12–19, 2025",
-  "updated_at": "2025-10-15T06:22:00Z",
+  "week_range": "Oct 19–26, 2025",
+  "updated_at": "2025-10-21T23:40:00Z",
   "rules_locked": {
     "highlights_scope": "weekly_highlights shows ONLY events in the current week (Sun–Sun). Max 4.",
     "venue_regulars": "Do not change unless explicitly requested.",
@@ -11,36 +11,36 @@
   },
 
   "weekly_highlights": [
-    "Oct 14 — Pierce the Veil: I Can't Hear You World Tour @ Zoo Amphitheatre",
-    "Oct 17–19 — Affair of the Heart @ OKC Fair Park",
-    "Oct 17 — Collective Soul @ Riverwind Casino",
-    "Oct 18 — Travis Bond & The Rebel Souls @ The Alley"
+    "Oct 23 — The Country Shop Band @ Friends of Friends",
+    "Oct 24 — DJ Stylez @ Brickhouse Saloon (Shawnee)",
+    "Oct 25 — Freak Fest @ The Ritz (Shawnee)",
+    "Oct 25 — Shiloh Steel @ 40 West (OKC)"
   ],
 
   "metro_sports": [
-    "Oct 18 — OU at South Carolina",
-    "Oct 18 — OSU vs Cincinnati"
+    "Oct 25 — OU vs Ole Miss (Norman)",
+    "Oct 25 — OSU at Texas Tech",
+    "Oct 21 — OKC Thunder vs Houston (Season Opener)"
   ],
 
   "local_updates": [
     "Frontier City Boo Fest & Fright Fest running weekends through October.",
     "Royal Bavaria Biergarten Oktoberfest weekends: live music, German buffet, and seasonal beers.",
-    "Orr Family Farm Fall Festival open for the season (pumpkin patch, rides, treats)."
+    "Orr Family Farm Fall Festival open through October (pumpkin patch, rides, treats).",
+    "OKANA Resort’s OKANAfest concluded — regular operations now open daily."
   ],
 
   "local_fun_special": [
-    "Oct 14 — Red Rocks Worship @ Discovery Church (OKC)",
-    "Oct 17–19 — Affair of the Heart @ OKC Fair Park (shopping, small businesses, local vendors)",
-    "Oct 17 — Bricktown Haunted Warehouse (Open Fri & Sat nights, ~$18)",
-    "Oct 18 — William Lee Martin: The Funny Life Tour @ The Ritz Theater (Shawnee)",
     "Oct 21–Dec 28 — Classic Christmas Walk-Thru Spectacular @ Remington Park",
     "Oct 25 — Haunting on Howard St. @ Moore Central Park (Free family haunted event, 4–7 PM)",
-    "Oct 31 — Friends of Friends Halloween Bash ft. The Stars (Live) + Boos & Booze Bash (costumes, Eventbrite RSVP)",
-    "Oct 31 — Lucky Star Casino Halloween Costume Contest (cash prizes; free-play promos)",
-    "Oct 31 — Margarita Island ‘Nightmare at the Island’ (Live music + $350 costume contest, bobbing for eyeballs)",
+    "Oct 25 — Freak Fest @ The Ritz Theater (Shawnee, costume contests + multiple bands)",
+    "Oct 31 — Friends of Friends Halloween Bash ft. The Stars (Live) + Boos & Booze Bash",
+    "Oct 31 — Lucky Star Casino Halloween Costume Contest (cash prizes + free-play promos)",
+    "Oct 31 — Margarita Island ‘Nightmare at the Island’ (Live music + $350 costume contest)",
+    "Oct 31 — Okie Tonk Halloween Bus Tour & Karaoke Bash",
     "Nov 8 — Chris Tomlin (First Southern Baptist Church, OKC)",
-    "Nov 8 — Remington Park ‘Whoville Feast’ with The Grinch (tables of 4; reservations required)",
-    "Nov 8–9 — OKC Renaissance & Scottish Festival @ OKC Fairgrounds (with Highland Games)",
+    "Nov 8 — Remington Park ‘Whoville Feast’ with The Grinch (reservations required)",
+    "Nov 8–9 — OKC Renaissance & Scottish Festival @ OKC Fairgrounds",
     "Nov 14–Dec 28 — THE POLAR EXPRESS™ Train Ride (OKC departures)",
     "Nov 18–23 — Elf: The Musical @ Civic Center Music Hall",
     "Nov 22 — Collective Soul @ Riverwind Casino",
@@ -50,7 +50,6 @@
 
   "sports_schedules": {
     "OU Football 2025": [
-      "Oct 18 — at South Carolina",
       "Oct 25 — vs Ole Miss",
       "Nov 1 — at Tennessee",
       "Nov 15 — at Alabama",
@@ -58,7 +57,6 @@
       "Nov 28 — vs LSU"
     ],
     "OSU Football 2025": [
-      "Oct 18 — vs Cincinnati",
       "Oct 25 — at Texas Tech",
       "Nov 1 — at Kansas",
       "Nov 15 — vs Kansas State",
@@ -154,14 +152,12 @@
         "Select ticketed shows; limited seating"
       ],
       "special": [
-        "Oct 18 — Sean Stemaly",
-        "Oct 25 — Halloween Bash ft. Jason Young Band",
+        "Oct 25 — The Flannels (Live)",
         "Nov 8 — Rock Night",
         "Nov 15 — Josh Meloy Live",
         "Dec 6 — Holiday Showcase ft. Tanner Ursrey"
       ]
     },
-
     "FRIENDS OF FRIENDS": {
       "regular": [
         "Thu: Live bands",
@@ -169,13 +165,12 @@
         "Signature cocktails nightly"
       ],
       "special": [
-        "Oct 16 — The Country Shop Band (Live)",
-        "Oct 17 — TBD (Live)",
-        "Oct 18 — Hypnotik (Live)",
-        "Oct 31 — Halloween Bash ft. The Stars (Live) + Boos & Booze Bash (costumes, Eventbrite RSVP)"
+        "Oct 23 — The Country Shop Band (Live)",
+        "Oct 24 — The Hoodoos (Live)",
+        "Oct 25 — Uninvited (Live)",
+        "Oct 31 — Halloween Super Bash ft. The Stars + Boos & Booze Bash"
       ]
     },
-
     "THE ALLEY": {
       "regular": [
         "Live music every Saturday",
@@ -183,11 +178,11 @@
         "Open daily until 2 AM"
       ],
       "special": [
-        "Oct 18 — Travis Bond & The Rebel Souls",
-        "Nov 1 — Southern Company (Live Music)"
+        "Oct 25 — So Watt (Live)",
+        "Nov 1 — Stinnett Bros (Live)",
+        "Nov 15 — Travis Bond & The Rebel Souls"
       ]
     },
-
     "THE MILL": {
       "regular": [
         "Sun: Shuffleboard Tournament @ 3 PM",
@@ -199,7 +194,6 @@
       ],
       "special": []
     },
-
     "OKIE TONK": {
       "regular": [
         "Tue: Poker Night @ 7 PM",
@@ -209,10 +203,10 @@
         "Sat & Sun: Karaoke"
       ],
       "special": [
-        "Oct 18 — Southern Highway"
+        "Oct 31 — Halloween Bus Tour & Karaoke Bash",
+        "Nov 1 — Southern Highway"
       ]
     },
-
     "MOONEY'S PUB": {
       "regular": [
         "Tue: Acoustic Tuesday with Aaron Wall & Friends @ 7:30 PM",
@@ -224,7 +218,6 @@
       ],
       "special": []
     },
-
     "KATS TAVERN": {
       "regular": [
         "Mon: $2 Domestics",
@@ -235,30 +228,31 @@
       ],
       "special": []
     },
-
     "BRICKHOUSE SALOON": {
       "regular": [
         "Mon & Tue: Karaoke Party @ 9 PM (Free Entry & Parking)",
         "Thu: Line Dancing with Aria ($5 Well Drinks All Night)",
-        "Fri: Ladies Night ft. DJ Pleas OKC (Free Entry for Ladies til 10 PM, $5 Cover after, Free Parking)",
-        "Sat: College Night ft. DJ Pleas OKC (Free Entry with College ID, $5 Cover otherwise, Free Parking)"
+        "Fri: Ladies Night ft. DJ Stylez (Free Entry for Ladies til 10 PM, $5 Cover after)",
+        "Sat: College Night ft. DJ Pleas OKC (Free Entry with College ID, $5 Cover otherwise)"
       ],
       "special": [
-        "Oct 17 — Friday Night with DJ Pleas OKC",
-        "Oct 18 — College Night with DJ Pleas OKC",
-        "Oct 25 — Monthly Birthday Bash",
+        "Oct 24 — DJ Stylez",
+        "Oct 25 — DJ Pleas OKC",
         "Oct 31 — Halloween Party ft. Jeremy Fullbright + DJ Pleas OKC (Costume Contest)"
       ]
     },
-
-    "HORSESHOE BAR": {
+    "THE RITZ": {
       "regular": [
-        "Fri & Sat: Live Music",
-        "Sun: Open Mic Night"
+        "Historic theater venue in downtown Shawnee",
+        "Live concerts, themed parties, and seasonal events"
       ],
-      "special": []
+      "special": [
+        "Oct 24 — Murder Mystery @ The Ritz",
+        "Oct 25 — Freak Fest (Multiple Bands + Costume Contest)",
+        "Nov 8 — Shawnee Acoustic Sessions",
+        "Nov 15 — Classic Rock Night"
+      ]
     },
-
     "40 WEST": {
       "regular": [
         "Mon: Game Night",
@@ -270,10 +264,9 @@
         "Sun: Acoustic Evening"
       ],
       "special": [
-        "Oct 18 — Shiloh Steel"
+        "Oct 25 — Scary-Comedy Night ft. Shiloh Steel"
       ]
     },
-
     "COWBOYS OKC": {
       "regular": [
         "Thu: Ladies Night",
@@ -281,10 +274,9 @@
         "Sat: Bull Riding + Line Dance Lessons"
       ],
       "special": [
-        "Oct 31 — Halloween Weekend: $1,500 Costume Contest (Fri) + $500 Costume Contest (Sat)"
+        "Oct 31 — Halloween Weekend Costume Contests ($1,500 Friday / $500 Saturday)"
       ]
     },
-
     "RIVERWIND CASINO": {
       "regular": [
         "Concert venue & casino open 24/7",
@@ -296,7 +288,6 @@
         "Dec 6 — Sara Evans Christmas Tour"
       ]
     },
-
     "LUCKY STAR CASINO": {
       "regular": [
         "Gaming, slots, and live entertainment select weekends"
@@ -305,17 +296,12 @@
         "Oct 31 — Halloween Costume Contest (cash prizes + free-play promos)"
       ]
     },
-
     "ZOO AMPHITHEATRE": {
-      "regular": [
-        "Outdoor concert venue"
-      ],
+      "regular": ["Outdoor concert venue"],
       "special": [
-        "Oct 14 — Pierce the Veil: I Can't Hear You World Tour",
         "Oct 25 — P20: Celebrating 20 Years of T-Pain"
       ]
     },
-
     "ROYAL BAVARIA BIERGARTEN": {
       "regular": [
         "Open daily @ 5 PM",
@@ -327,7 +313,6 @@
         "Oktoberfest Season Celebration every weekend"
       ]
     },
-
     "GOLDFISH SWIM SCHOOL (MOORE)": {
       "regular": [
         "🐠 Weekly 30-min swim lessons for kids",
@@ -336,17 +321,12 @@
       ],
       "special": []
     },
-
     "51ST STREET SPEAKEASY": {
-      "regular": [
-        "Live local music and theme nights",
-        "Neighborhood retro bar vibe"
-      ],
+      "regular": ["Live local music and theme nights", "Neighborhood retro bar vibe"],
       "special": [
         "Oct 25 — Live DJ Spooky Beats"
       ]
     },
-
     "CAMPUS CORNER": {
       "regular": [
         "Crimson Friday Concerts on home weekends",
@@ -360,7 +340,6 @@
         "Nov 29 — TBD Band"
       ]
     },
-
     "MARGARITA ISLAND": {
       "regular": [
         "Tue: Taco Tuesday",
@@ -372,7 +351,6 @@
         "Oct 31 — Nightmare at the Island (Live music + $350 costume contest)"
       ]
     },
-
     "REDNECK DANCEHALL (OKC)": {
       "regular": [
         "Wed: Ladies Night",
@@ -381,12 +359,10 @@
       ],
       "special": []
     },
-
     "PAYCOM CENTER": {
-      "regular": [
-        "NBA & concert arena in Downtown OKC"
-      ],
+      "regular": ["NBA & concert arena in Downtown OKC"],
       "special": [
+        "Oct 26 — Crowder (The Exile Tour)",
         "Feb 11 2026 — TobyMac ‘Hits Deep’ Tour w/ Crowder + Jeremy Camp"
       ]
     }
