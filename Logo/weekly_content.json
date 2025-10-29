@@ -1,6 +1,6 @@
 {
   "week_range": "Oct 26–Nov 2, 2025",
-  "updated_at": "2025-10-26T05:45:00Z",
+  "updated_at": "2025-10-28T04:25:00Z",
   "rules_locked": {
     "highlights_scope": "weekly_highlights shows ONLY events in the current week (Sun–Sun). Max 4.",
     "venue_regulars": "Do not change unless explicitly requested.",
@@ -11,37 +11,41 @@
   },
 
   "weekly_highlights": [
-    "Oct 30 — The Country Shop Band @ Friends of Friends",
-    "Oct 31 — The Stars @ Friends of Friends",
-    "Oct 31 — DJ Stylez @ Brickhouse Saloon (Shawnee)",
-    "Nov 1 — Channel 3 @ Friends of Friends"
+    "Oct 30 — Pre-Halloween Party @ Friends of Friends",
+    "Oct 31 — Halloween Bash @ Friends of Friends (The Stars + Boos & Booze Bash)",
+    "Oct 31 — Halloween Costume Contests @ Cowboys OKC ($1500 Fri / $500 Sat)",
+    "Nov 1 — Stinnett Bros @ The Alley (Live)"
   ],
 
   "metro_sports": [
-    "Oct 28 — OKC Thunder vs Sacramento",
     "Nov 1 — OU at Tennessee",
-    "Nov 1 — OSU at Kansas"
+    "Nov 1 — OSU at Kansas",
+    "Oct 30 — OKC Thunder vs Washington"
   ],
 
   "local_updates": [
-    "Royal Bavaria Biergarten Oktoberfest weekends: live music, German buffet, and seasonal beers.",
-    "Orr Family Farm Fall Festival wrapping up this week (pumpkin patch, rides, treats).",
-    "OKANA Resort’s OKANAfest concluded — regular operations now open daily."
+    "Frontier City Boo Fest & Fright Fest finale this weekend.",
+    "Royal Bavaria Biergarten Oktoberfest closing weekend: live music Fri & Sat.",
+    "Orr Family Farm Fall Festival closing weekend (pumpkin patch, rides, treats).",
+    "Remington Park Classic Christmas Walk-Thru Spectacular continues through Dec 28.",
+    "OKC Zoo Safari Lights open nightly through Jan 12, 2026."
   ],
 
   "local_fun_special": [
-    "Oct 31 — Friends of Friends Halloween Bash ft. The Stars (Live) + Boos & Booze Bash",
+    "Oct 30 — Pre-Halloween Party @ Friends of Friends",
+    "Oct 31 — Friends of Friends Halloween Bash ft. The Stars + Boos & Booze Bash",
+    "Oct 31 — Cowboys OKC Halloween Costume Contests ($1500 Friday / $500 Saturday)",
+    "Oct 31 — Margarita Island ‘Nightmare at the Island’ ($350 costume contest)",
     "Oct 31 — Lucky Star Casino Halloween Costume Contest (cash prizes + free-play promos)",
-    "Oct 31 — Margarita Island ‘Nightmare at the Island’ (Live music + $350 costume contest)",
-    "Oct 31 — Okie Tonk Halloween Bus Tour & Karaoke Bash",
-    "Nov 8 — Chris Tomlin (First Southern Baptist Church, OKC)",
+    "Nov 1 — The Alley — Stinnett Bros (Live)",
+    "Nov 8 — Chris Tomlin @ First Southern Baptist Church (OKC)",
     "Nov 8 — Remington Park ‘Whoville Feast’ with The Grinch (reservations required)",
     "Nov 8–9 — OKC Renaissance & Scottish Festival @ OKC Fairgrounds",
     "Nov 14–Dec 28 — THE POLAR EXPRESS™ Train Ride (OKC departures)",
     "Nov 18–23 — Elf: The Musical @ Civic Center Music Hall",
-    "Nov 20–Jan 5 — OKC Zoo Safari Lights (Drive-thru + Walk-thru, 5:30–11 PM)",
     "Nov 22 — Collective Soul @ Riverwind Casino",
     "Nov 30 — Vienna Light Orchestra (Christmas) @ Rose State Performing Arts Center",
+    "Dec 6 — Sara Evans Christmas Tour @ Riverwind Casino",
     "Feb 11 2026 — TobyMac ‘Hits Deep’ Tour w/ Crowder + Jeremy Camp @ Paycom Center"
   ],
 
@@ -59,7 +63,6 @@
       "Nov 29 — vs Iowa State"
     ],
     "OKC Thunder 2025–26": [
-      "Oct 28 — vs Sacramento",
       "Oct 30 — vs Washington",
       "Nov 2 — vs New Orleans",
       "Nov 4 — vs L.A. Clippers",
@@ -148,17 +151,31 @@
     "FRIENDS OF FRIENDS": {
       "regular": ["Thu: Live bands", "Fri & Sat: Local bands", "Signature cocktails nightly"],
       "special": [
-        "Oct 30 — The Country Shop Band (Live)",
-        "Oct 31 — The Stars (Live)",
-        "Nov 1 — Channel 3 (Live)"
+        "Oct 30 — Pre-Halloween Party (Live Band)",
+        "Oct 31 — Halloween Super Bash ft. The Stars + Boos & Booze Bash",
+        "Nov 1 — After-Halloween Party ft. TBD Band"
       ]
     },
     "THE ALLEY": {
       "regular": ["Live music every Saturday", "Seasonal outdoor concerts", "Open daily until 2 AM"],
       "special": [
         "Nov 1 — Stinnett Bros (Live)",
-        "Nov 15 — Travis Bond & The Rebel Souls"
+        "Nov 8 — Travis Bond & The Rebel Souls",
+        "Nov 15 — Southern Company",
+        "Nov 22 — So Watt",
+        "Nov 29 — Stifflers Mom"
       ]
+    },
+    "THE MILL": {
+      "regular": [
+        "Sun: Shuffleboard Tournament @ 3 PM",
+        "Mon: $5 Liquor After 8 PM + Late Night Happy Hour",
+        "Tue & Thu: $4/$5 Shot Specials",
+        "Wed: Whiskey Wednesday + Free Pool",
+        "Fri: $15 Bucket Specials",
+        "Sat: Pitcher Deals — $20 Local, $14 Domestic"
+      ],
+      "special": []
     },
     "OKIE TONK": {
       "regular": ["Tue: Poker Night @ 7 PM", "Wed: Trivia + Karaoke", "Thu: Singo Bingo", "Fri: Live Bands", "Sat & Sun: Karaoke"],
@@ -178,41 +195,89 @@
       ],
       "special": []
     },
+    "KATS TAVERN": {
+      "regular": [
+        "Mon: $2 Domestics",
+        "Tue: Singo Bingo @ 7:30 PM",
+        "Wed–Fri: Karaoke @ 9 PM",
+        "Sat: DJ Dance Night",
+        "Sun: Service Industry Night"
+      ],
+      "special": []
+    },
     "BRICKHOUSE SALOON": {
-      "regular": ["Mon & Tue: Karaoke Party @ 9 PM (Free Entry & Parking)", "Thu: Line Dancing with Aria ($5 Well Drinks All Night)", "Fri: Ladies Night ft. DJ Stylez (Free Entry for Ladies til 10 PM, $5 Cover after)", "Sat: College Night ft. DJ Pleas OKC (Free Entry with College ID, $5 Cover otherwise)"],
+      "regular": [
+        "Mon & Tue: Karaoke Party @ 9 PM (Free Entry & Parking)",
+        "Thu: Line Dancing with Aria ($5 Well Drinks All Night)",
+        "Fri: Ladies Night ft. DJ Stylez (Free Entry for Ladies til 10 PM, $5 Cover after)",
+        "Sat: College Night ft. DJ Pleas OKC (Free Entry with College ID, $5 Cover otherwise)"
+      ],
       "special": [
-        "Oct 31 — Halloween Party ft. Jeremy Fullbright + DJ Pleas OKC (Costume Contest)"
+        "Oct 31 — Halloween Party ft. Jeremy Fullbright + DJ Pleas OKC (Costume Contest)",
+        "Nov 1 — DJ Stylez (Ladies Night Remix)"
       ]
     },
     "THE RITZ": {
       "regular": ["Historic theater venue in downtown Shawnee", "Live concerts, themed parties, and seasonal events"],
       "special": [
+        "Oct 31 — Freak Fest Halloween Encore",
         "Nov 8 — Shawnee Acoustic Sessions",
         "Nov 15 — Classic Rock Night"
       ]
     },
+    "40 WEST": {
+      "regular": ["Mon: Game Night", "Tue: Karaoke Night", "Wed: Open Mic Night", "Thu: Ladies Night + Drink Specials", "Fri: Live Band Night", "Sat: Dance & DJ Party", "Sun: Acoustic Evening"],
+      "special": ["Nov 1 — Open Jam & Halloween Hangover Night"]
+    },
     "COWBOYS OKC": {
       "regular": ["Thu: Ladies Night", "Fri: Line Dance Lessons @ 9 PM + Half-Price Drinks til 10", "Sat: Bull Riding + Line Dance Lessons"],
       "special": [
-        "Oct 31 — Halloween Weekend Costume Contests ($1,500 Friday / $500 Saturday)"
+        "Oct 31 — Halloween Weekend: $1500 Costume Contest (Fri)",
+        "Nov 1 — Halloween Weekend: $500 Costume Contest (Sat)",
+        "Nov 2 — Country Sunday Revival"
       ]
     },
     "RIVERWIND CASINO": {
-      "regular": ["Concert venue & casino open 24/7"],
-      "special": [
-        "Nov 22 — Clint Black",
-        "Dec 6 — Sara Evans Christmas Tour"
-      ]
+      "regular": ["Concert venue & casino open 24/7", "OU/Texas Watch Party on Gaming Floor"],
+      "special": ["Nov 22 — Clint Black", "Dec 6 — Sara Evans Christmas Tour"]
     },
     "LUCKY STAR CASINO": {
       "regular": ["Gaming, slots, and live entertainment select weekends"],
-      "special": [
-        "Oct 31 — Halloween Costume Contest (cash prizes + free-play promos)"
-      ]
+      "special": ["Oct 31 — Halloween Costume Contest (cash prizes + free-play promos)"]
     },
+    "ZOO AMPHITHEATRE": { "regular": ["Outdoor concert venue"], "special": [] },
     "ROYAL BAVARIA BIERGARTEN": {
       "regular": ["Open daily @ 5 PM", "Full dinner & lounge service", "Live music Fri & Sat", "Thu: All-You-Can-Eat German Buffet (5–9 PM)"],
-      "special": ["Oktoberfest Season Celebration every weekend"]
+      "special": ["Oktoberfest Season Celebration — Final Weekend"]
+    },
+    "GOLDFISH SWIM SCHOOL (MOORE)": {
+      "regular": [
+        "🐠 Weekly 30-min swim lessons for kids",
+        "💭 Confidence & water safety through play",
+        "🎨 October Theme — Celebrate Imagination (creative swim activities all month)"
+      ],
+      "special": []
+    },
+    "51ST STREET SPEAKEASY": {
+      "regular": ["Live local music and theme nights", "Neighborhood retro bar vibe"],
+      "special": ["Oct 31 — Halloween Party ft. DJ Spooky Beats"]
+    },
+    "CAMPUS CORNER": {
+      "regular": ["Crimson Friday Concerts on home weekends", "Game-day tailgate parties (VIP sections available)"],
+      "special": [
+        "Nov 1 — OU vs Tennessee — Campus Corner Watch Parties",
+        "Nov 21 — BLY",
+        "Nov 22 — Morning Kickoff (No Lineup Posted)",
+        "Nov 28 — Bad/Genes Band"
+      ]
+    },
+    "MARGARITA ISLAND": {
+      "regular": ["Tue: Taco Tuesday", "Fri: Bike Night", "Weekly karaoke & DJ sets", "Margarita specials all week"],
+      "special": ["Oct 31 — Nightmare at the Island (Live music + $350 costume contest)"]
+    },
+    "REDNECK DANCEHALL (OKC)": {
+      "regular": ["Wed: Ladies Night", "Fri: College Night", "Sat: Bikini Top Night"],
+      "special": []
     },
     "PAYCOM CENTER": {
       "regular": ["NBA & concert arena in Downtown OKC"],
