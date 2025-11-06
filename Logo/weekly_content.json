@@ -1,6 +1,6 @@
 {
   "week_range": "Nov 3–10, 2025",
-  "updated_at": "2025-11-03T06:45:00Z",
+  "updated_at": "2025-11-05T22:00:00Z",
   "rules_locked": {
     "highlights_scope": "weekly_highlights shows ONLY events in the current week (Sun–Sun). Max 4.",
     "venue_regulars": "Do not change unless explicitly requested.",
@@ -213,10 +213,18 @@
         "Mon & Tue: Karaoke Party @ 9 PM (Free Entry & Parking)",
         "Thu: Line Dancing with Aria ($5 Well Drinks All Night)",
         "Fri: Ladies Night ft. DJ T (Free Entry for Ladies til 10 PM, $5 Cover after)",
-        "Sat: College Night ft. DJ Pleas OKC (Free Entry with College ID, $5 Cover otherwise)"
+        "Sat: College Night ft. DJ T (Free Entry with College ID, $5 Cover otherwise)",
+        "💎 VIP Packages Available:",
+        "• $20 Table (up to 4 + 2 drink tickets)",
+        "• $50 Table (up to 8 + 4 free entries + champagne)",
+        "• $100 VIP Section (15 entries + champagne)",
+        "• $250 VIP Section (15 entries + 2 bottles + monogram shot glass)",
+        "• $500 Annual Membership (Free entry for 2 + first drink free + exclusive invites + discounts on rentals & merch)"
       ],
       "special": [
-        "Nov 7 — Ladies Night ft. DJ T"
+        "Nov 7 — Ladies Night ft. DJ T",
+        "Nov 8 — College Night ft. DJ T",
+        "Nov 13 — Friendsgiving Potluck (Free Entry + Parking)"
       ]
     },
     "THE RITZ": {
@@ -283,8 +291,15 @@
       ]
     },
     "REDNECK DANCEHALL (OKC)": {
-      "regular": ["Wed: Ladies Night", "Fri: College Night", "Sat: Bikini Top Night"],
-      "special": []
+      "regular": [
+        "Wed: Ladies Night",
+        "Fri: College Night",
+        "Sat: Theme Party Night or Dance Competition",
+        "21+ Free til 9 PM | College ID Free til 9 PM"
+      ],
+      "special": [
+        "Nov 8 — $500 Fall Dance Competition (Signups end 10:30 PM)"
+      ]
     },
     "PAYCOM CENTER": {
       "regular": ["NBA & concert arena in Downtown OKC"],
