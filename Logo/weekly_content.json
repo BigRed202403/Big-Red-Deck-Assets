@@ -11,10 +11,10 @@
   },
 
   "weekly_highlights": [
-    "Nov 14 — Return of the Mac (Fleetwood Mac Tribute) @ The Ritz Shawnee",
-    "Nov 14 — 100 Bones Band @ Okie State Room (Harrah)",
-    "Nov 15 — Ninety Proof @ Mooney’s Pub (Norman)",
-    "Nov 15 — Southern Company @ The Alley"
+    "Nov 13 — Friendsgiving Potluck @ Brickhouse Saloon (Shawnee)",
+    "Nov 13 — The Country Shop Band @ Friends of Friends (OKC)",
+    "Nov 14 — Bad Genes (LIVE) @ Friends of Friends (OKC)",
+    "Nov 15 — The Stars (LIVE) @ Friends of Friends (OKC)"
   ],
 
   "metro_sports": [
@@ -130,6 +130,25 @@
   },
 
   "venues": {
+    "BRICKHOUSE SALOON": {
+      "regular": [
+        "Mon & Tue: Karaoke Party @ 9 PM (Free Entry & Parking)",
+        "Thu: Line Dancing with Aria ($5 Well Drinks All Night)",
+        "Fri: Ladies Night ft. DJ T (Free Entry for Ladies til 10 PM, $5 Cover after)",
+        "Sat: College Night ft. DJ T (Free Entry with College ID, $5 Cover otherwise)",
+        "💎 VIP Packages Available:",
+        "• $20 Table (up to 4 + 2 drink tickets)",
+        "• $50 Table (up to 8 + 4 free entries + champagne)",
+        "• $100 VIP Section (15 entries + champagne)",
+        "• $250 VIP Section (15 entries + 2 bottles + monogram shot glass)",
+        "• $500 Annual Membership (Free entry for 2 + first drink free + exclusive invites + discounts on rentals & merch)"
+      ],
+      "special": [
+        "Nov 13 — Friendsgiving Potluck (Free Entry + Parking)",
+        "Nov 14 — Ladies Night ft. DJ T",
+        "Nov 15 — College Night ft. DJ T"
+      ]
+    }
     "OKIE STATE ROOM": {
       "regular": ["Live music on weekends","Select ticketed shows; limited seating"],
       "special": [
@@ -139,11 +158,12 @@
         "Feb 1 — Red River Roots Fest"
       ]
     },
-    "FRIENDS OF FRIENDS": {
-      "regular": ["Thu: Live bands","Fri & Sat: Local bands","Signature cocktails nightly"],
+      "FRIENDS OF FRIENDS": {
+      "regular": ["Thu: Live bands", "Fri & Sat: Local bands", "Signature cocktails nightly"],
       "special": [
-        "Nov 21 — The Stars (Return Show)",
-        "Dec 13 — Haloed Holiday Set"
+        "Nov 13 — The Country Shop Band",
+        "Nov 14 — Bad Genes",
+        "Nov 15 — The Stars"
       ]
     },
     "THE ALLEY": {
