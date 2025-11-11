@@ -168,11 +168,19 @@
       ]
     },
     "THE ALLEY": {
-      "regular": ["Live music every Saturday", "Seasonal outdoor concerts", "Open daily until 2 AM"],
+      "regular": [
+        "Live music every Saturday",
+        "Seasonal outdoor concerts",
+        "Open daily until 2 AM"
+      ],
       "special": [
-        "Nov 15 — Southern Company",
-        "Nov 22 — So Watt",
-        "Nov 29 — Stifflers Mom",
+        "Nov 8 — Kristy Hensley Memorial/Fundraiser",
+        "Nov 14 — Mixtape Revival",
+        "Nov 15 — Dirty Red and the Soulshakers",
+        "Nov 21 — One for the Road",
+        "Nov 22 — Jimmy Lee Jordan Band",
+        "Nov 28 — Ninety Proof",
+        "Nov 29 — Flipside/Novarent",
         "Dec 20 — Christmas Eve Eve Party Band",
         "Dec 31 — New Year’s Countdown Show"
       ]
