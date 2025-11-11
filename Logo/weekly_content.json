@@ -1,6 +1,6 @@
 {
   "week_range": "Nov 10–17, 2025",
-  "updated_at": "2025-11-09T22:00:00Z",
+  "updated_at": "2025-11-12T09:00:00Z",
   "rules_locked": {
     "highlights_scope": "weekly_highlights shows ONLY events in the current week (Sun–Sun). Max 4.",
     "venue_regulars": "Do not change unless explicitly requested.",
@@ -146,11 +146,12 @@
       "special": [
         "Nov 13 — Friendsgiving Potluck (Free Entry + Parking)",
         "Nov 14 — Ladies Night ft. DJ T",
-        "Nov 15 — College Night ft. DJ T"
+        "Nov 15 — College Night ft. DJ T",
+        "Dec 3 — World Famous Girls Night Out (Ticketed Show)"
       ]
-    }
+    },
     "OKIE STATE ROOM": {
-      "regular": ["Live music on weekends","Select ticketed shows; limited seating"],
+      "regular": ["Live music on weekends", "Select ticketed shows; limited seating"],
       "special": [
         "Nov 14 — 100 Bones Band",
         "Dec 6 — Holiday Showcase ft. Tanner Ursrey",
@@ -158,7 +159,7 @@
         "Feb 1 — Red River Roots Fest"
       ]
     },
-      "FRIENDS OF FRIENDS": {
+    "FRIENDS OF FRIENDS": {
       "regular": ["Thu: Live bands", "Fri & Sat: Local bands", "Signature cocktails nightly"],
       "special": [
         "Nov 13 — The Country Shop Band",
@@ -167,7 +168,7 @@
       ]
     },
     "THE ALLEY": {
-      "regular": ["Live music every Saturday","Seasonal outdoor concerts","Open daily until 2 AM"],
+      "regular": ["Live music every Saturday", "Seasonal outdoor concerts", "Open daily until 2 AM"],
       "special": [
         "Nov 15 — Southern Company",
         "Nov 22 — So Watt",
@@ -188,7 +189,7 @@
       "special": []
     },
     "OKIE TONK": {
-      "regular": ["Tue: Poker Night @ 7 PM","Wed: Trivia + Karaoke","Thu: Singo Bingo","Fri: Live Bands","Sat & Sun: Karaoke"],
+      "regular": ["Tue: Poker Night @ 7 PM", "Wed: Trivia + Karaoke", "Thu: Singo Bingo", "Fri: Live Bands", "Sat & Sun: Karaoke"],
       "special": [
         "Nov 15 — Open Stage Night",
         "Dec 13 — Holiday Band Showcase",
@@ -211,8 +212,32 @@
         "Dec 31 — New Year’s Eve Party w/ The Stars"
       ]
     },
+    "KATS TAVERN": {
+      "regular": [
+        "Mon: $2 Domestics",
+        "Tue: Singo Bingo @ 7:30 PM",
+        "Wed–Fri: Karaoke @ 9 PM",
+        "Sat: College Game Day + Karaoke",
+        "Sun: Sunday Night Football + Karaoke"
+      ],
+      "special": []
+    },
+    "40 WEST": {
+      "regular": [
+        "Mon: Pool Tournament @ 7 PM (Free to Play • Drink Specials)",
+        "Tue: Karaoke Night @ 9 PM",
+        "Wed: Karaoke Madness @ 9 PM",
+        "Thu: Themed Karaoke Night @ 9 PM",
+        "Fri: Friday Night Karaoke @ 9 PM",
+        "Sun: Open Mic @ 3 PM + Poker Tournament @ 7 PM"
+      ],
+      "special": [
+        "Dec 20 — Holiday Bash",
+        "Dec 31 — Karaoke Finale (New Year’s Countdown)"
+      ]
+    },
     "COWBOYS OKC": {
-      "regular": ["Thu: Ladies Night","Fri: Line Dance Lessons @ 9 PM","Sat: Bull Riding + Line Dance Lessons"],
+      "regular": ["Thu: Ladies Night", "Fri: Line Dance Lessons @ 9 PM", "Sat: Bull Riding + Line Dance Lessons"],
       "special": [
         "Nov 15 — College Rodeo After Party",
         "Dec 20 — Christmas Country Ball",
@@ -235,8 +260,6 @@
     "LUCKY STAR CASINO": {
       "regular": ["Gaming, slots, and live entertainment select weekends"],
       "special": [
-        "Dec 12 — Local Legends Night (El Reno)",
-        "Jan 9 — Weird Al Yankovic Show (El Reno)"
       ]
     },
     "PAYCOM CENTER": {
