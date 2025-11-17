@@ -1,6 +1,7 @@
 {
-  "week_range": "Nov 10–17, 2025",
-  "updated_at": "2025-11-12T09:00:00Z",
+  "week_range": "Nov 17–24, 2025",
+  "updated_at": "2025-11-16T22:00:00Z",
+
   "rules_locked": {
     "highlights_scope": "weekly_highlights shows ONLY events in the current week (Sun–Sun). Max 4.",
     "venue_regulars": "Do not change unless explicitly requested.",
@@ -11,60 +12,65 @@
   },
 
   "weekly_highlights": [
-    "Nov 13 — Friendsgiving Potluck @ Brickhouse Saloon (Shawnee)",
-    "Nov 13 — The Country Shop Band @ Friends of Friends (OKC)",
-    "Nov 14 — Bad Genes (LIVE) @ Friends of Friends (OKC)",
-    "Nov 15 — The Stars (LIVE) @ Friends of Friends (OKC)"
+    "Nov 21 — Jukebox Hero @ Mooney’s Pub (Norman)",
+    "Nov 21 — One for the Road @ The Alley",
+    "Nov 22 — Jimmy Lee Jordan Band @ The Alley",
+    "Nov 22 — OSU at UCF Watch Parties (Metro-wide)"
   ],
 
   "metro_sports": [
-    "Nov 11 — OKC Thunder vs Golden State",
-    "Nov 12 — OKC Thunder vs L.A. Lakers",
-    "Nov 15 — OKC Thunder at Charlotte",
-    "Nov 17 — OKC Thunder at New Orleans"
+    "Nov 17 — OKC Thunder at New Orleans",
+    "Nov 19 — OKC Thunder at Sacramento",
+    "Nov 21 — OKC Thunder at Utah",
+    "Nov 23 — OKC Thunder at Portland"
   ],
 
   "local_updates": [
     "Remington Park Classic Christmas Walk-Thru Spectacular open nightly through Dec 28.",
     "OKC Zoo Safari Lights open nightly through Jan 12, 2026.",
-    "Orr Family Farm Holiday Festival opens Nov 15 and runs through Dec 22.",
-    "Frontier City closed for winter; Holiday in the Park returns late November 2025.",
-    "Norman Christmas Market coming Dec 6 at First Presbyterian Church."
+    "Orr Family Farm Holiday Festival is now open through Dec 22.",
+    "Frontier City Holiday in the Park begins late November.",
+    "Norman Christmas Market on Dec 6 at First Presbyterian Church."
   ],
 
   "local_fun_special": [
-    "Nov 14 — Return of the Mac (Fleetwood Mac Tribute) @ The Ritz Shawnee",
-    "Nov 14 — 100 Bones Band @ Okie State Room (Harrah)",
-    "Nov 15 — Ninety Proof @ Mooney’s Pub (Norman)",
-    "Nov 15 — Southern Company @ The Alley",
-    "Nov 15 — Open Stage Night @ Okie Tonk",
-    "Nov 15 — College Rodeo After Party @ Cowboys OKC",
     "Nov 21 — Jukebox Hero @ Mooney’s Pub (Norman)",
+    "Nov 21 — One for the Road @ The Alley",
+    "Nov 22 — Jimmy Lee Jordan Band @ The Alley",
+    "Nov 28 — Ninety Proof @ The Alley",
+    "Nov 29 — Flipside/Novarent @ The Alley",
     "Nov 28 — The Oak Ridge Boys @ Riverwind Casino",
+    "Dec 3 — World Famous Girls Night Out @ Brickhouse Saloon (Shawnee)",
     "Dec 4 — Jake’s Jingle Jam @ Riverwind Casino",
     "Dec 6 — Sara Evans Christmas Tour @ Riverwind Casino",
     "Dec 6 — Norman Christmas Market (First Presbyterian Church)",
+    "Dec 20 — Christmas Eve Eve Party Band @ The Alley",
+    "Dec 20 — Holiday Bash @ 40 West",
+    "Dec 20 — Christmas Country Ball @ Cowboys OKC",
     "Dec 27 — Uncle Kracker @ Riverwind Casino",
     "Dec 31 — In The Mix in 2026 @ Riverwind Casino",
+    "Dec 31 — New Year’s Countdown Show @ The Alley",
+    "Dec 31 — New Year’s Eve Party @ Okie Tonk",
+    "Dec 31 — New Year’s Eve Party w/ The Stars @ Mooney’s Pub",
+    "Dec 31 — Karaoke Finale @ 40 West",
+    "Dec 31 — New Year’s Stampede Bash @ Cowboys OKC",
     "Feb 14 — Matt Matthews: Boujee on a Budget @ Riverwind Casino",
-    "Feb 11 2026 — TobyMac ‘Hits Deep’ Tour w/ Crowder + Jeremy Camp @ Paycom Center"
+    "Feb 11 2026 — TobyMac ‘Hits Deep’ Tour w/ Crowder + Jeremy Camp @ Paycom Center",
+    "Mar 8 — Blues Traveler Returns @ Riverwind Casino",
+    "Apr 5 — Kansas Classic Reunion Tour @ Riverwind Casino",
+    "Mar 20 2026 — Luke Combs World Tour @ Paycom Center"
   ],
 
   "sports_schedules": {
     "OU Football 2025": [
-      "Nov 15 — at Alabama",
       "Nov 22 — vs Missouri",
       "Nov 28 — vs LSU"
     ],
     "OSU Football 2025": [
-      "Nov 15 — vs Kansas State",
       "Nov 22 — at UCF",
       "Nov 29 — vs Iowa State"
     ],
     "OKC Thunder 2025–26": [
-      "Nov 11 — vs Golden State",
-      "Nov 12 — vs L.A. Lakers",
-      "Nov 15 — at Charlotte",
       "Nov 17 — at New Orleans",
       "Nov 19 — at Sacramento",
       "Nov 21 — at Utah",
@@ -144,29 +150,24 @@
         "• $500 Annual Membership (Free entry for 2 + first drink free + exclusive invites + discounts on rentals & merch)"
       ],
       "special": [
-        "Nov 13 — Friendsgiving Potluck (Free Entry + Parking)",
-        "Nov 14 — Ladies Night ft. DJ T",
-        "Nov 15 — College Night ft. DJ T",
         "Dec 3 — World Famous Girls Night Out (Ticketed Show)"
       ]
     },
+
     "OKIE STATE ROOM": {
       "regular": ["Live music on weekends", "Select ticketed shows; limited seating"],
       "special": [
-        "Nov 14 — 100 Bones Band",
         "Dec 6 — Holiday Showcase ft. Tanner Ursrey",
         "Jan 3 — Winter Acoustic Night",
         "Feb 1 — Red River Roots Fest"
       ]
     },
+
     "FRIENDS OF FRIENDS": {
       "regular": ["Thu: Live bands", "Fri & Sat: Local bands", "Signature cocktails nightly"],
-      "special": [
-        "Nov 13 — The Country Shop Band",
-        "Nov 14 — Bad Genes",
-        "Nov 15 — The Stars"
-      ]
+      "special": []
     },
+
     "THE ALLEY": {
       "regular": [
         "Live music every Saturday",
@@ -174,9 +175,6 @@
         "Open daily until 2 AM"
       ],
       "special": [
-        "Nov 8 — Kristy Hensley Memorial/Fundraiser",
-        "Nov 14 — Mixtape Revival",
-        "Nov 15 — Dirty Red and the Soulshakers",
         "Nov 21 — One for the Road",
         "Nov 22 — Jimmy Lee Jordan Band",
         "Nov 28 — Ninety Proof",
@@ -185,6 +183,7 @@
         "Dec 31 — New Year’s Countdown Show"
       ]
     },
+
     "THE MILL": {
       "regular": [
         "Sun: Shuffleboard Tournament @ 3 PM",
@@ -196,14 +195,15 @@
       ],
       "special": []
     },
+
     "OKIE TONK": {
       "regular": ["Tue: Poker Night @ 7 PM", "Wed: Trivia + Karaoke", "Thu: Singo Bingo", "Fri: Live Bands", "Sat & Sun: Karaoke"],
       "special": [
-        "Nov 15 — Open Stage Night",
         "Dec 13 — Holiday Band Showcase",
         "Dec 31 — New Year’s Eve Party"
       ]
     },
+
     "MOONEY’S PUB": {
       "regular": [
         "Tue: Acoustic Tuesday @ 7:30 PM",
@@ -214,12 +214,12 @@
         "Sun: Sing-Along Brunch @ 11 AM + Jam Sessions @ 4 PM"
       ],
       "special": [
-        "Nov 15 — Ninety Proof",
         "Nov 21 — Jukebox Hero",
         "Dec 13 — Classic Rewind Holiday Show",
         "Dec 31 — New Year’s Eve Party w/ The Stars"
       ]
     },
+
     "KATS TAVERN": {
       "regular": [
         "Mon: $2 Domestics",
@@ -230,6 +230,7 @@
       ],
       "special": []
     },
+
     "40 WEST": {
       "regular": [
         "Mon: Pool Tournament @ 7 PM (Free to Play • Drink Specials)",
@@ -244,14 +245,15 @@
         "Dec 31 — Karaoke Finale (New Year’s Countdown)"
       ]
     },
+
     "COWBOYS OKC": {
       "regular": ["Thu: Ladies Night", "Fri: Line Dance Lessons @ 9 PM", "Sat: Bull Riding + Line Dance Lessons"],
       "special": [
-        "Nov 15 — College Rodeo After Party",
         "Dec 20 — Christmas Country Ball",
         "Dec 31 — New Year’s Stampede Bash"
       ]
     },
+
     "RIVERWIND CASINO": {
       "regular": ["Concert venue & casino open 24/7"],
       "special": [
@@ -265,11 +267,12 @@
         "Apr 5 — Kansas Classic Reunion Tour"
       ]
     },
+
     "LUCKY STAR CASINO": {
       "regular": ["Gaming, slots, and live entertainment select weekends"],
-      "special": [
-      ]
+      "special": []
     },
+
     "PAYCOM CENTER": {
       "regular": ["NBA & concert arena in Downtown OKC"],
       "special": [
