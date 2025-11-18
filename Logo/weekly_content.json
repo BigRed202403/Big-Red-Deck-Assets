@@ -1,6 +1,6 @@
 {
   "week_range": "Nov 17–24, 2025",
-  "updated_at": "2025-11-16T22:00:00Z",
+  "updated_at": "2025-11-17T14:45:00Z",
 
   "rules_locked": {
     "highlights_scope": "weekly_highlights shows ONLY events in the current week (Sun–Sun). Max 4.",
@@ -14,8 +14,8 @@
   "weekly_highlights": [
     "Nov 21 — Jukebox Hero @ Mooney’s Pub (Norman)",
     "Nov 21 — One for the Road @ The Alley",
-    "Nov 22 — Jimmy Lee Jordan Band @ The Alley",
-    "Nov 22 — OSU at UCF Watch Parties (Metro-wide)"
+    "Nov 21 — Home Alone Indoor Movie Night @ The Station (Moore)",
+    "Nov 22 — Jimmy Lee Jordan Band @ The Alley"
   ],
 
   "metro_sports": [
@@ -26,9 +26,14 @@
   ],
 
   "local_updates": [
+    "Yukon Christmas in the Park opens Nov 22 with full-day festivities.",
+    "Stockyards City Christmas Parade kicks off Dec 6 at 10 AM.",
+    "The Station Christmas Light Show runs nightly Nov 28 – Jan 1.",
+    "Sparkle Holiday Market at Scissortail Park: Dec 5, Dec 12, Dec 19.",
+    "Indoor Movie Night (Home Alone) at The Station — Nov 21 @ 6:30 PM.",
     "Remington Park Classic Christmas Walk-Thru Spectacular open nightly through Dec 28.",
     "OKC Zoo Safari Lights open nightly through Jan 12, 2026.",
-    "Orr Family Farm Holiday Festival is now open through Dec 22.",
+    "Orr Family Farm Holiday Festival open through Dec 22.",
     "Frontier City Holiday in the Park begins late November.",
     "Norman Christmas Market on Dec 6 at First Presbyterian Church."
   ],
@@ -36,14 +41,19 @@
   "local_fun_special": [
     "Nov 21 — Jukebox Hero @ Mooney’s Pub (Norman)",
     "Nov 21 — One for the Road @ The Alley",
+    "Nov 21 — Home Alone Indoor Movie Night @ The Station (Moore)",
     "Nov 22 — Jimmy Lee Jordan Band @ The Alley",
     "Nov 28 — Ninety Proof @ The Alley",
     "Nov 29 — Flipside/Novarent @ The Alley",
     "Nov 28 — The Oak Ridge Boys @ Riverwind Casino",
     "Dec 3 — World Famous Girls Night Out @ Brickhouse Saloon (Shawnee)",
     "Dec 4 — Jake’s Jingle Jam @ Riverwind Casino",
+    "Dec 5 — Sparkle Holiday Market @ Scissortail Park",
     "Dec 6 — Sara Evans Christmas Tour @ Riverwind Casino",
+    "Dec 6 — Stockyards City Christmas Parade",
     "Dec 6 — Norman Christmas Market (First Presbyterian Church)",
+    "Dec 12 — Sparkle Holiday Market @ Scissortail Park",
+    "Dec 19 — Sparkle Holiday Market @ Scissortail Park",
     "Dec 20 — Christmas Eve Eve Party Band @ The Alley",
     "Dec 20 — Holiday Bash @ 40 West",
     "Dec 20 — Christmas Country Ball @ Cowboys OKC",
@@ -55,10 +65,11 @@
     "Dec 31 — Karaoke Finale @ 40 West",
     "Dec 31 — New Year’s Stampede Bash @ Cowboys OKC",
     "Feb 14 — Matt Matthews: Boujee on a Budget @ Riverwind Casino",
-    "Feb 11 2026 — TobyMac ‘Hits Deep’ Tour w/ Crowder + Jeremy Camp @ Paycom Center",
+    "Feb 11 2026 — TobyMac ‘Hits Deep’ Tour @ Paycom Center",
     "Mar 8 — Blues Traveler Returns @ Riverwind Casino",
     "Apr 5 — Kansas Classic Reunion Tour @ Riverwind Casino",
-    "Mar 20 2026 — Luke Combs World Tour @ Paycom Center"
+    "Mar 20 2026 — Luke Combs World Tour @ Paycom Center",
+    "May 9 — ZZ Top + Dwight Yoakam (Dos Amigos Tour) @ Lucky Star Amphitheater"
   ],
 
   "sports_schedules": {
@@ -157,6 +168,7 @@
     "OKIE STATE ROOM": {
       "regular": ["Live music on weekends", "Select ticketed shows; limited seating"],
       "special": [
+        "Nov 29 — Kenzie’s 34th Birthday Party",
         "Dec 6 — Holiday Showcase ft. Tanner Ursrey",
         "Jan 3 — Winter Acoustic Night",
         "Feb 1 — Red River Roots Fest"
@@ -199,6 +211,7 @@
     "OKIE TONK": {
       "regular": ["Tue: Poker Night @ 7 PM", "Wed: Trivia + Karaoke", "Thu: Singo Bingo", "Fri: Live Bands", "Sat & Sun: Karaoke"],
       "special": [
+        "Nov 21 — RedLand",
         "Dec 13 — Holiday Band Showcase",
         "Dec 31 — New Year’s Eve Party"
       ]
@@ -270,7 +283,9 @@
 
     "LUCKY STAR CASINO": {
       "regular": ["Gaming, slots, and live entertainment select weekends"],
-      "special": []
+      "special": [
+        "May 9 — ZZ Top + Dwight Yoakam (Dos Amigos Tour)"
+      ]
     },
 
     "PAYCOM CENTER": {
