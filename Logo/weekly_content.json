@@ -1,6 +1,6 @@
 {
   "week_range": "Nov 17–24, 2025",
-  "updated_at": "2025-11-17T20:45:00Z",
+  "updated_at": "2025-11-20T18:00:00Z",
 
   "rules_locked": {
     "highlights_scope": "weekly_highlights shows ONLY events in the current week (Sun–Sun). Max 4.",
@@ -16,15 +16,6 @@
     "Nov 21 — One for the Road @ The Alley",
     "Nov 21 — Home Alone Indoor Movie Night @ The Station (Moore)",
     "Nov 22 — Jimmy Lee Jordan Band @ The Alley"
-  ],
-
-  "holiday_highlights": [
-    "Nov 22 — Yukon Christmas in the Park Opening Night",
-    "Nov 21–22 — The Santa Market @ OKC Pavilion (FREE)",
-    "Nov 21 — Merry Marketplace @ Mitch Park",
-    "Nov 21 — Tree Lighting Ceremony @ Stockyards City (FREE)",
-    "Nov 20–Dec 31 — Chickasha Festival of Light (FREE)",
-    "Nov 21 — Coca-Cola Classic Christmas @ Remington Park"
   ],
 
   "metro_sports": [
@@ -54,106 +45,115 @@
     "Nov 22 — Jimmy Lee Jordan Band @ The Alley",
     "Nov 28 — Ninety Proof @ The Alley",
     "Nov 29 — Flipside/Novarent @ The Alley",
-    "Dec 20 — Christmas Eve Eve Party Band @ The Alley",
-    "Dec 31 — New Year’s Countdown Show @ The Alley",
-
-    "Dec 20 — Holiday Bash @ 40 West",
-    "Dec 31 — Karaoke Finale @ 40 West",
-
-    "Dec 31 — New Year’s Eve Party @ Okie Tonk",
-    "Dec 31 — New Year’s Eve Party w/ The Stars @ Mooney’s Pub",
-
-    "Dec 20 — Christmas Country Ball @ Cowboys OKC",
-    "Dec 31 — New Year’s Stampede Bash @ Cowboys OKC",
-
     "Nov 28 — The Oak Ridge Boys @ Riverwind Casino",
+    "Dec 3 — World Famous Girls Night Out @ Brickhouse Saloon (Shawnee)",
     "Dec 4 — Jake’s Jingle Jam @ Riverwind Casino",
+    "Dec 5 — Sparkle Holiday Market @ Scissortail Park",
     "Dec 6 — Sara Evans Christmas Tour @ Riverwind Casino",
+    "Dec 6 — Stockyards City Christmas Parade",
+    "Dec 6 — Norman Christmas Market (First Presbyterian Church)",
+    "Dec 12 — Sparkle Holiday Market @ Scissortail Park",
+    "Dec 19 — Sparkle Holiday Market @ Scissortail Park",
+    "Dec 20 — Christmas Eve Eve Party Band @ The Alley",
+    "Dec 20 — Holiday Bash @ 40 West",
+    "Dec 20 — Christmas Country Ball @ Cowboys OKC",
     "Dec 27 — Uncle Kracker @ Riverwind Casino",
     "Dec 31 — In The Mix in 2026 @ Riverwind Casino",
+    "Dec 31 — New Year’s Countdown Show @ The Alley",
+    "Dec 31 — New Year’s Eve Party @ Okie Tonk",
+    "Dec 31 — New Year’s Eve Party w/ The Stars @ Mooney’s Pub",
+    "Dec 31 — Karaoke Finale @ 40 West",
+    "Dec 31 — New Year’s Stampede Bash @ Cowboys OKC",
     "Feb 14 — Matt Matthews: Boujee on a Budget @ Riverwind Casino",
+    "Feb 11 2026 — TobyMac ‘Hits Deep’ Tour @ Paycom Center",
     "Mar 8 — Blues Traveler Returns @ Riverwind Casino",
     "Apr 5 — Kansas Classic Reunion Tour @ Riverwind Casino",
-
-    "Dec 3 — World Famous Girls Night Out @ Brickhouse Saloon (Shawnee)",
-
-    "Feb 11 2026 — TobyMac ‘Hits Deep’ Tour @ Paycom Center",
     "Mar 20 2026 — Luke Combs World Tour @ Paycom Center",
-
     "May 9 — ZZ Top + Dwight Yoakam (Dos Amigos Tour) @ Lucky Star Amphitheater"
   ],
 
+  "holiday_highlights": [],
+
   "holiday_events_full": [
-    "Nov 1–Dec 24 — Santa’s Wonderland @ Bass Pro & Cabela’s (FREE)",
-    "Nov 7–Feb 1 — Edmond Ice Rink @ Mitch Park",
-    "Nov 8–Jan 5 — Crest on Ice (Norman)",
-    "Nov 13 — OKC Tree Lighting Festival (FREE)",
-    "Nov 13–Dec 31 — Red Earth Treefest (FREE)",
-    "Nov 13–Jan 4 — Automobile Alley Lights on Broadway (FREE)",
-    "Nov 13–Jan 18 — OAK on Ice @ Heartwood Park",
-    "Nov 14–Jan 4 — Devon Ice Rink @ Myriad Gardens",
-    "Nov 14 — Holiday River Parade @ Oklahoma River (FREE)",
-    "Nov 14–Feb 1 — OKC Zoo Safari Lights",
-    "Nov 18–23 — Elf The Musical @ Civic Center",
-    "Nov 20–Dec 31 — Chickasha Festival of Light (FREE)",
-    "Nov 21 — Merry Marketplace @ Mitch Park",
-    "Nov 21 — Stockyards City Tree Lighting (FREE)",
-    "Nov 21–22 — The Santa Market @ OKC Pavilion (FREE)",
-    "Nov 21–Dec 17 — SPARKLE Holiday Walk @ Scissortail Park",
-    "Nov 21–Dec 28 — Coca-Cola Classic Christmas @ Remington Park",
-    "Nov 21–Jan 1 — Luminance @ Mitch Park (FREE)",
-    "Nov 22 — Chill Your Cheeks 5K + Yukon's Christmas Lights",
-    "Nov 22–Dec 31 — Yukon Christmas in the Park (FREE)",
-    "Nov 23 — Pet Photos with Santa @ Penn Square Mall",
-    "Nov 27–Jan 1 — Downs Family Christmas Light Show (FREE)",
-    "Nov 28–29 — An Actor’s Carol @ Oklahoma Shakespeare",
-    "Nov 28–Dec 14 — It's a Wonderful Life Radio Show @ Carpenter Square",
-    "Nov 28–Dec 21 — Midtown Holiday Pop-Up Shops",
-    "Nov 28–Dec 28 — Lyric’s A Christmas Carol",
-    "Nov 28–Jan 1 — Christmas Light Show @ The Station (FREE)",
-    "Nov 29–30 — Princess Holiday Ball @ First National Center",
-    "Nov 29–Dec 13 — Guthrie Territorial Christmas",
-    "Nov 29 & Dec 13 — Holiday Artist Markets @ Factory Obscura",
-    "Nov 30 — Vienna Light Orchestra @ Rose State",
-    "Dec 1 — Walk the Lights @ Midwest City",
-    "Dec 2–25 — Midwest City Holiday Lights Spectacular (FREE)",
-    "Dec 2–24 — Holiday Classic Movies @ Harkins",
-    "Dec 4 — Home for the Holidays @ Downtown Tuttle (FREE)",
-    "Dec 4 — Sensory-Friendly Safari Lights @ OKC Zoo",
-    "Dec 4–21 — Jane Austen’s Christmas Cracker",
-    "Dec 5 — Sparkle Holiday Market (Night 1)",
-    "Dec 5 — Moore Christmas Spectacular (FREE)",
-    "Dec 5–6 — OKCPHIL Very Merry Pops",
-    "Dec 5–7 — Drive-Thru Christmas Pageant @ Boys Ranch Town (FREE)",
-    "Dec 6 — Never Grow Up OKC Christmas Event",
-    "Dec 6 — Breakfast with Santa @ The Station",
-    "Dec 6 — Cowboy Christmas Parade @ Stockyards (FREE)",
-    "Dec 6 — Holidays at the Museum @ Cowboy Museum",
-    "Dec 6 — Czech Christmas Market (FREE)",
-    "Dec 6 — Oklahoma Opry Christmas Show",
-    "Dec 6 — Christmas Village @ Chisholm Creek (FREE)",
-    "Dec 6 — Norman Christmas Parade (FREE)",
-    "Dec 6–7 — Winter Holiday Art Market @ FAM",
-    "Dec 6–20 — Breakfast with Santa @ OKANA",
-    "Dec 6–27 — Holiday Drop-in Art @ OKCMOA",
-    "Dec 7 — Caring Santa @ Penn Square",
-    "Dec 7 — Sleigh Bells Market @ OKC Farmers Market",
-    "Dec 7 — Trans-Siberian Orchestra @ Paycom Center",
-    "Dec 7 — Handel’s Messiah @ Civic Center",
-    "Dec 12 — Night in Bethlehem (FREE)",
-    "Dec 12–14 — Hip Hop Nutcracker @ OCCC",
-    "Dec 12–23 — OKC Ballet’s The Nutcracker",
-    "Dec 13 — Deck the Hall of Fame @ OK Hall of Fame (FREE)",
-    "Dec 13 — Gingerbread Jingle @ NPSF",
-    "Dec 13 — Gingerbread Gardens @ Myriad Gardens",
-    "Dec 13 — Sounds of the Season @ First Church (FREE)",
-    "Dec 13–14 — Oklahoma Nutcracker @ Norman",
-    "Dec 14 — Chanukah Celebration @ Scissortail Park (FREE)",
-    "Dec 20 — Nutcracker Tea @ Civic Center",
-    "Dec 20 — A Very Merry Grinchmas Breakfast @ The Greens",
-    "Dec 20 — Christmas Vacation Under the Stars @ Wells Tree Farm",
-    "Dec 22–23 — December Drop-ins @ Myriad Gardens",
-    "Dec 27 — Mannheim Steamroller Christmas @ Civic Center"
+    "Nov. 1–Dec. 24 — FREE Santa’s Wonderland at Bass Pro Shops & Cabela’s (OKC & Edmond). Advanced reservations required; see website for times.",
+    "Nov. 7–Feb. 1 — Edmond Ice Rink at Mitch Park (Edmond). Outdoor ice skating with music and concessions; $14 with skate rental, $10 without, $10 ages 5 & under.",
+    "Nov. 8–Jan. 5 — Crest on Ice in Norman. Outdoor ice skating; $13 with skate rental, $10 without and for kids 5 & under.",
+    "Nov. 13–Dec. 31 — FREE Red Earth Treefest at Red Earth Art Center (OKC). Native-culture themed Christmas trees and artisan gifts; weekdays 10 a.m.–5 p.m.",
+    "Nov. 13–Jan. 4 — FREE Automobile Alley Lights on Broadway (OKC). 600,000+ LED lights from NW 4th–10th, nightly dusk–dawn.",
+    "Nov. 13–Jan. 18 — OAK on Ice at Heartwood Park (OKC). Outdoor ice rink with festive lights; $12–$15, evenings and weekends.",
+    "Nov. 14–Dec. 28 — The Polar Express Train Ride at the Oklahoma Railway Museum (OKC). Immersive train ride with story, cookies and Santa; $54–$92.",
+    "Nov. 14–Jan. 4 — FREE Weekends on the OKC Streetcars (Downtown OKC). Complimentary fares on weekends.",
+    "Nov. 14–Feb. 1 — Devon Ice Rink at Myriad Gardens (OKC). Outdoor ice rink; $15 with skates, $10 without.",
+    "Nov. 15 — FREE Holiday River Parade on the Oklahoma River (OKC). Holiday-themed water performances, Santa and fireworks; 5–8:30 p.m., parking $20.",
+    "Nov. 15–Jan. 4 — Safari Lights at OKC Zoo. Drive-thru or walk-thru light displays; drive-thru $60+ per vehicle, walk-thru $14+.",
+    "Nov. 18–23 — Elf The Musical at Civic Center Music Hall (OKC). Family musical based on the film; $35+.",
+    "Nov. 20–Dec. 31 — FREE Chickasha Festival of Light at Shannon Springs Park. Carriage rides, live nativity, camel rides, Santa and more.",
+    "Nov. 21 — Merry Marketplace at Mitch Park (Edmond). Holiday pop-up market with vendors, music and lights; also on Dec. 13.",
+    "Nov. 21 — FREE Tree Lighting Ceremony at Stockyards City (OKC). Tree lighting, live entertainment, hot chocolate and Santa.",
+    "Nov. 21–22 — FREE The Santa Market at Oklahoma City Pavilion (OKC). 190+ vendors; proceeds benefit the Alzheimer’s Association; free Santa photos with donations accepted.",
+    "Nov. 21–Dec. 17 — SPARKLE Holiday Walk at Scissortail Park (OKC). Ticketed light walk with immersive displays; open Thurs–Sun through Dec. 14, then nightly Dec. 18–Jan. 4.",
+    "Nov. 21–Dec. 28 — Coca-Cola’s Classic Christmas at Remington Park (OKC). Alpine-themed lights, ice skating, snow tubing and entertainment; $21+.",
+    "Nov. 21–Jan. 1 — FREE Luminance: An Enchanted Stroll at Mitch Park (Edmond). Walk-through 3D LED displays and tunnels.",
+    "Nov. 22 — Chill Your Cheeks 5K Run at Chisholm Trail Park (Yukon). 5K and activities amid Yukon’s Christmas lights; $25+.",
+    "Nov. 22–Dec. 31 — FREE Yukon Christmas in the Park at Chisholm Trail Park. Drive or walk through millions of lights, train rides, Santa and ice rink.",
+    "Nov. 22–Jan. 4 — Yukon Ice Rink at Chisholm Trail Park. 4,100 sq. ft. of real ice; $13 or $10 without rental/ages 5 & under.",
+    "Nov. 23 — Pet Photos with Santa at Penn Square Mall (OKC). Pet-friendly Santa photo session; prices vary.",
+    "Nov. 27–Jan. 1 — FREE Downs Family Christmas Lights (Norman). Large synchronized light show; canned food/monetary donations benefit Regional Food Bank.",
+    "Nov. 28–29 — An Actor’s Carol at Oklahoma Shakespeare (OKC). One-man retelling of A Christmas Carol; $55.23 adults, $44.64 students.",
+    "Nov. 28–Dec. 14 — It’s a Wonderful Life – Live On-Stage Radio Play at Carpenter Square Theatre (OKC). Classic film as a live radio-style show; $30.",
+    "Nov. 28–Dec. 21 — Holiday Pop-Up Shops in Midtown (OKC). Outdoor market with rotating local vendors and Christmas tree lot.",
+    "Nov. 28–Dec. 28 — Lyric’s A Christmas Carol at Lyric’s Plaza Theatre (OKC). Full-stage adaptation of the Dickens classic; $32+.",
+    "Nov. 28–Jan. 1 — FREE Christmas Light Show at The Station at Central Park (Moore). 20-minute synchronized musical light show from your car.",
+    "Nov. 29–30 — Princess Holiday Ball at First National Center Ballroom (OKC). Princess singalongs, etiquette lessons, craft, and photos; tickets via The Character Co.",
+    "Nov. 29–Dec. 13 — A Territorial Christmas Celebration in Downtown Guthrie. Lighted parade, home tours and Victorian Walk on Saturdays.",
+    "Nov. 29–Dec. 13 — FREE Lights on Broadway Holiday Events in Automobile Alley (OKC). Saturday strolls with holiday windows, carriage rides, and family activities.",
+    "Nov. 29 & Dec. 13 — Holiday Artist Markets at Factory Obscura (OKC). Handmade holiday goods from local artists.",
+    "Nov. 30 — Vienna Light Orchestra Christmas Tour at Rose State Performing Arts Center (Midwest City). Candlelit symphonic Christmas concert; $55+.",
+    "Dec. 1 — Walk the Lights – Holiday Lights Spectacular at Joe B. Barnes Regional Park (Midwest City). Walkable light display with carols, cocoa and Santa; $5, kids 5 & under free.",
+    "Dec. 2–25 — FREE Midwest City Holiday Lights Spectacular at Joe B. Barnes Regional Park. One million+ lights and 118-foot tree; nightly.",
+    "Dec. 2–24 — Holiday Classic Movies at Harkins Cinema (Downtown OKC). Classic holiday films for $5, Tuesdays and Wednesdays.",
+    "Dec. 4 — FREE Home for the Holidays in Downtown Tuttle. Carolers, vendors, crafts, tree lighting and parade.",
+    "Dec. 4 — Sensory-friendly Night at Safari Lights (OKC Zoo). Adjusted lights and sound for sensory needs; reservations required.",
+    "Dec. 4–21 — Jane Austen’s Christmas Cracker at Oklahoma Shakespeare (OKC). Interactive holiday performance with dance, song and treats.",
+    "Dec. 5 — SPARKLE Holiday Market at Scissortail Park (OKC). Outdoor holiday market with local vendors and warm drinks.",
+    "Dec. 5 — FREE Christmas Spectacular at Moore’s Central Park. Carolers, mini market, inflatables, fireworks and Santa visit.",
+    "Dec. 5–6 — OKCPHIL’s A Very Merry Pops at Civic Center Music Hall (OKC). Holiday pops concert featuring Cody Fry; $24+.",
+    "Dec. 5–7 — FREE Drive-Thru Christmas Pageant at Boys Ranch Town (Edmond). Living nativity with live animals and scenes from Jesus’ life.",
+    "TBA 2025 — North Pole Adventure at Sooner Mall (Norman). Interactive North Pole attraction with Santa’s post office, Mrs. Claus’ kitchen and more.",
+    "Dec. 6 — Never Grow Up OKC Christmas Event at Church of the Servant (OKC). Kid-focused shopping, bounce houses, Santa photos and character meet-and-greets.",
+    "Dec. 6 — Breakfast with Santa at The Station Recreation Center (Moore). Breakfast, crafts and Santa photos; $10 per person.",
+    "Dec. 6 — Saints Santa Run at SSM Health St. Anthony (OKC). 5K, fun run and kids’ dash benefiting Downtown OKC Partnership.",
+    "Dec. 6 — FREE Cowboy Christmas Parade at Stockyards City (OKC). Parade, music and Cowboy Santa.",
+    "Dec. 6 — Holidays at the Museum at National Cowboy & Western Heritage Museum (OKC). Ornament making, scavenger hunts, and Santa photos.",
+    "Dec. 6 — Czech Christmas Market in Downtown Yukon. Outdoor market with local vendors, art, crafts and food.",
+    "Dec. 6 — Oklahoma Opry Christmas Show at ACM@UCO (OKC). Holiday performance with multiple artists; $20.",
+    "Dec. 6 — FREE Christmas Village at Chisholm Creek (OKC). Santa and character meet-and-greets, music and giveaways.",
+    "Dec. 6 — FREE Christmas Parade in Downtown Norman. Night parade with floats, bands and Santa.",
+    "Dec. 6 — FREE Winterfest on Main in Downtown Norman. Tree lighting, crafts, cocoa, performances and drone show after the parade.",
+    "Dec. 6–7 — Winter Holiday Art Market (WHAM@FAM) at First Americans Museum (OKC). Indigenous artists market with kids’ activities and Indigenous Santa.",
+    "Dec. 6–7 — Edmond’s Nutcracker Ballet at Rose State Performing Arts Center (Midwest City). Youth Nutcracker performance; $12–$50.",
+    "Dec. 6–20 — Breakfast with Santa at OKANA Resort & Waterpark (OKC). Buffet breakfast at Jack Rabbit with Santa visits.",
+    "Dec. 6–27 — Holiday Drop-in Art at Oklahoma City Museum of Art. Hands-on art, themed films and store specials; free with admission.",
+    "Dec. 7 — Caring Santa at Penn Square Mall (OKC). Sensory-friendly Santa visit for children with special needs; preregistration required.",
+    "Dec. 7 — Sleigh Bells Market at OKC Farmers Market. Local holiday vendors and seasonal drinks.",
+    "Dec. 7 — Trans-Siberian Orchestra at Paycom Center (OKC). The Lost Christmas Eve Tour; afternoon and evening shows.",
+    "Dec. 7 — Deck the Hall at The Cowboy (OKC). Red Steagall and the Boys in the Bunkhouse holiday concert with dinner; $95 adults, $35 kids.",
+    "Dec. 7 — Canterbury Voices presents Handel’s Messiah at Civic Center Music Hall (OKC). Full oratorio performance; $23+.",
+    "Dec. 12 — FREE Night in Bethlehem at Imhoff Road LDS Church (Norman). Immersive Bethlehem streets, live nativity and creche display.",
+    "Dec. 12–14 — RACE’s Hip Hop Nutcracker at OCCC Visual and Performing Arts Center (OKC). Hip hop retelling of Nutcracker with local artists; some performances in Spanish.",
+    "Dec. 12–23 — OKC Ballet’s The Nutcracker at Civic Center Music Hall (OKC). Full ballet with sensory-friendly performance on Dec. 17.",
+    "Dec. 13 — FREE Deck the Hall of Fame at the Oklahoma Hall of Fame (OKC). Crafts, activities and Santa visit.",
+    "Dec. 13 — NPSF Gingerbread Jingle at Nancy O’Brian Center (Norman). Gingerbread house decorating, Santa visits and treats; $50.",
+    "Dec. 13 — Gingerbread Gardens at Myriad Gardens (OKC). Gingerbread-themed plant exploration and garden decorating for kids; preregistration required.",
+    "Dec. 13 — Merry Marketplace at Mitch Park (Edmond). Holiday vendors, music and lights; kids can meet Santa and friends.",
+    "Dec. 13 — FREE Sounds of the Season by Oklahoma Chamber Symphony at First Church OKC. One-hour holiday concert.",
+    "Dec. 13–14 — Oklahoma Nutcracker at Nancy O’Brian Center (Norman). Oklahoma-themed Nutcracker ballet; $25–$38.",
+    "Dec. 14 — FREE Chanukah Celebration at Scissortail Park (OKC). Menorah lighting, rides, kosher food, music and officials like the mayor.",
+    "Dec. 20 — Nutcracker Tea in the Kingdom of Sweets at Civic Center (OKC). Tea, Nutcracker characters, crafts and photos; $50.",
+    "Dec. 20 — A Very Merry Grinchmas Breakfast at The Greens Country Club (OKC). Breakfast and character show with Grinch and friends; tickets via The Character Co.",
+    "Dec. 20 — Christmas Vacation Under the Stars at Wells Christmas Tree Farm (Norman). Outdoor showing of National Lampoon’s Christmas Vacation; $6.",
+    "Dec. 22–23 — December Drop-ins at Myriad Gardens (OKC). Make natural ornaments, read holiday books and enjoy treats; donations accepted.",
+    "Dec. 27 — Mannheim Steamroller Christmas at Civic Center Music Hall (OKC). Holiday concert with multimedia effects; $30+."
   ],
 
   "sports_schedules": {
@@ -235,14 +235,14 @@
       "regular": [
         "Mon & Tue: Karaoke Party @ 9 PM (Free Entry & Parking)",
         "Thu: Line Dancing with Aria ($5 Well Drinks All Night)",
-        "Fri: Ladies Night ft. DJ T",
-        "Sat: College Night ft. DJ T",
+        "Fri: Ladies Night ft. DJ T (Free Entry for Ladies til 10 PM, $5 Cover after)",
+        "Sat: College Night ft. DJ T (Free Entry with College ID, $5 Cover otherwise)",
         "💎 VIP Packages Available:",
         "• $20 Table (up to 4 + 2 drink tickets)",
         "• $50 Table (up to 8 + 4 free entries + champagne)",
         "• $100 VIP Section (15 entries + champagne)",
         "• $250 VIP Section (15 entries + 2 bottles + monogram shot glass)",
-        "• $500 Annual Membership"
+        "• $500 Annual Membership (Free entry for 2 + first drink free + exclusive invites + discounts on rentals & merch)"
       ],
       "special": [
         "Dec 3 — World Famous Girls Night Out (Ticketed Show)"
@@ -250,7 +250,10 @@
     },
 
     "OKIE STATE ROOM": {
-      "regular": ["Live music on weekends", "Select ticketed shows; limited seating"],
+      "regular": [
+        "Live music on weekends",
+        "Select ticketed shows; limited seating"
+      ],
       "special": [
         "Nov 29 — Kenzie’s 34th Birthday Party",
         "Dec 6 — Holiday Showcase ft. Tanner Ursrey",
@@ -260,12 +263,12 @@
     },
 
     "FRIENDS OF FRIENDS": {
-      "regular": ["Thu: Live bands", "Fri & Sat: Local bands", "Signature cocktails nightly"],
-      "special": [
-        "Nov 20 — Michael & the Moonlight Band",
-        "Nov 21 — The Kory Bryant Band",
-        "Nov 22 — Haloed"
-      ]
+      "regular": [
+        "Thu: Live bands",
+        "Fri & Sat: Local bands",
+        "Signature cocktails nightly"
+      ],
+      "special": []
     },
 
     "THE ALLEY": {
@@ -297,7 +300,13 @@
     },
 
     "OKIE TONK": {
-      "regular": ["Tue: Poker Night @ 7 PM", "Wed: Trivia + Karaoke", "Thu: Singo Bingo", "Fri: Live Bands", "Sat & Sun: Karaoke"],
+      "regular": [
+        "Tue: Poker Night @ 7 PM",
+        "Wed: Trivia + Karaoke",
+        "Thu: Singo Bingo",
+        "Fri: Live Bands",
+        "Sat & Sun: Karaoke"
+      ],
       "special": [
         "Nov 21 — RedLand",
         "Dec 13 — Holiday Band Showcase",
@@ -334,7 +343,7 @@
 
     "40 WEST": {
       "regular": [
-        "Mon: Pool Tournament @ 7 PM",
+        "Mon: Pool Tournament @ 7 PM (Free to Play • Drink Specials)",
         "Tue: Karaoke Night @ 9 PM",
         "Wed: Karaoke Madness @ 9 PM",
         "Thu: Themed Karaoke Night @ 9 PM",
@@ -348,7 +357,11 @@
     },
 
     "COWBOYS OKC": {
-      "regular": ["Thu: Ladies Night", "Fri: Line Dance Lessons @ 9 PM", "Sat: Bull Riding + Line Dance Lessons"],
+      "regular": [
+        "Thu: Ladies Night",
+        "Fri: Line Dance Lessons @ 9 PM",
+        "Sat: Bull Riding + Line Dance Lessons"
+      ],
       "special": [
         "Dec 20 — Christmas Country Ball",
         "Dec 31 — New Year’s Stampede Bash"
@@ -356,7 +369,9 @@
     },
 
     "RIVERWIND CASINO": {
-      "regular": ["Concert venue & casino open 24/7"],
+      "regular": [
+        "Concert venue & casino open 24/7"
+      ],
       "special": [
         "Nov 28 — The Oak Ridge Boys",
         "Dec 4 — Jake’s Jingle Jam",
@@ -370,14 +385,18 @@
     },
 
     "LUCKY STAR CASINO": {
-      "regular": ["Gaming, slots, and live entertainment select weekends"],
+      "regular": [
+        "Gaming, slots, and live entertainment select weekends"
+      ],
       "special": [
         "May 9 — ZZ Top + Dwight Yoakam (Dos Amigos Tour)"
       ]
     },
 
     "PAYCOM CENTER": {
-      "regular": ["NBA & concert arena in Downtown OKC"],
+      "regular": [
+        "NBA & concert arena in Downtown OKC"
+      ],
       "special": [
         "Feb 11 2026 — TobyMac ‘Hits Deep’ Tour w/ Crowder + Jeremy Camp",
         "Mar 20 2026 — Luke Combs World Tour"
