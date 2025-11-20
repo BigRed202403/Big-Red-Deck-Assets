@@ -1,6 +1,6 @@
 {
   "week_range": "Nov 17–24, 2025",
-  "updated_at": "2025-11-17T14:45:00Z",
+  "updated_at": "2025-11-17T20:45:00Z",
 
   "rules_locked": {
     "highlights_scope": "weekly_highlights shows ONLY events in the current week (Sun–Sun). Max 4.",
@@ -16,6 +16,15 @@
     "Nov 21 — One for the Road @ The Alley",
     "Nov 21 — Home Alone Indoor Movie Night @ The Station (Moore)",
     "Nov 22 — Jimmy Lee Jordan Band @ The Alley"
+  ],
+
+  "holiday_highlights": [
+    "Nov 22 — Yukon Christmas in the Park Opening Night",
+    "Nov 21–22 — The Santa Market @ OKC Pavilion (FREE)",
+    "Nov 21 — Merry Marketplace @ Mitch Park",
+    "Nov 21 — Tree Lighting Ceremony @ Stockyards City (FREE)",
+    "Nov 20–Dec 31 — Chickasha Festival of Light (FREE)",
+    "Nov 21 — Coca-Cola Classic Christmas @ Remington Park"
   ],
 
   "metro_sports": [
@@ -39,40 +48,112 @@
   ],
 
   "local_fun_special": [
-    "Nov 20 — The Country Shop Band @ Friends of Friends",
-    "Nov 21 — Tyler Lee Band @ Friends of Friends",
-    "Nov 22 — Weekend Allstars @ Friends of Friends",
     "Nov 21 — Jukebox Hero @ Mooney’s Pub (Norman)",
     "Nov 21 — One for the Road @ The Alley",
     "Nov 21 — Home Alone Indoor Movie Night @ The Station (Moore)",
     "Nov 22 — Jimmy Lee Jordan Band @ The Alley",
     "Nov 28 — Ninety Proof @ The Alley",
     "Nov 29 — Flipside/Novarent @ The Alley",
-    "Nov 28 — The Oak Ridge Boys @ Riverwind Casino",
-    "Dec 3 — World Famous Girls Night Out @ Brickhouse Saloon (Shawnee)",
-    "Dec 4 — Jake’s Jingle Jam @ Riverwind Casino",
-    "Dec 5 — Sparkle Holiday Market @ Scissortail Park",
-    "Dec 6 — Sara Evans Christmas Tour @ Riverwind Casino",
-    "Dec 6 — Stockyards City Christmas Parade",
-    "Dec 6 — Norman Christmas Market (First Presbyterian Church)",
-    "Dec 12 — Sparkle Holiday Market @ Scissortail Park",
-    "Dec 19 — Sparkle Holiday Market @ Scissortail Park",
     "Dec 20 — Christmas Eve Eve Party Band @ The Alley",
-    "Dec 20 — Holiday Bash @ 40 West",
-    "Dec 20 — Christmas Country Ball @ Cowboys OKC",
-    "Dec 27 — Uncle Kracker @ Riverwind Casino",
-    "Dec 31 — In The Mix in 2026 @ Riverwind Casino",
     "Dec 31 — New Year’s Countdown Show @ The Alley",
+
+    "Dec 20 — Holiday Bash @ 40 West",
+    "Dec 31 — Karaoke Finale @ 40 West",
+
     "Dec 31 — New Year’s Eve Party @ Okie Tonk",
     "Dec 31 — New Year’s Eve Party w/ The Stars @ Mooney’s Pub",
-    "Dec 31 — Karaoke Finale @ 40 West",
+
+    "Dec 20 — Christmas Country Ball @ Cowboys OKC",
     "Dec 31 — New Year’s Stampede Bash @ Cowboys OKC",
+
+    "Nov 28 — The Oak Ridge Boys @ Riverwind Casino",
+    "Dec 4 — Jake’s Jingle Jam @ Riverwind Casino",
+    "Dec 6 — Sara Evans Christmas Tour @ Riverwind Casino",
+    "Dec 27 — Uncle Kracker @ Riverwind Casino",
+    "Dec 31 — In The Mix in 2026 @ Riverwind Casino",
     "Feb 14 — Matt Matthews: Boujee on a Budget @ Riverwind Casino",
-    "Feb 11 2026 — TobyMac ‘Hits Deep’ Tour @ Paycom Center",
     "Mar 8 — Blues Traveler Returns @ Riverwind Casino",
     "Apr 5 — Kansas Classic Reunion Tour @ Riverwind Casino",
+
+    "Dec 3 — World Famous Girls Night Out @ Brickhouse Saloon (Shawnee)",
+
+    "Feb 11 2026 — TobyMac ‘Hits Deep’ Tour @ Paycom Center",
     "Mar 20 2026 — Luke Combs World Tour @ Paycom Center",
+
     "May 9 — ZZ Top + Dwight Yoakam (Dos Amigos Tour) @ Lucky Star Amphitheater"
+  ],
+
+  "holiday_events_full": [
+    "Nov 1–Dec 24 — Santa’s Wonderland @ Bass Pro & Cabela’s (FREE)",
+    "Nov 7–Feb 1 — Edmond Ice Rink @ Mitch Park",
+    "Nov 8–Jan 5 — Crest on Ice (Norman)",
+    "Nov 13 — OKC Tree Lighting Festival (FREE)",
+    "Nov 13–Dec 31 — Red Earth Treefest (FREE)",
+    "Nov 13–Jan 4 — Automobile Alley Lights on Broadway (FREE)",
+    "Nov 13–Jan 18 — OAK on Ice @ Heartwood Park",
+    "Nov 14–Jan 4 — Devon Ice Rink @ Myriad Gardens",
+    "Nov 14 — Holiday River Parade @ Oklahoma River (FREE)",
+    "Nov 14–Feb 1 — OKC Zoo Safari Lights",
+    "Nov 18–23 — Elf The Musical @ Civic Center",
+    "Nov 20–Dec 31 — Chickasha Festival of Light (FREE)",
+    "Nov 21 — Merry Marketplace @ Mitch Park",
+    "Nov 21 — Stockyards City Tree Lighting (FREE)",
+    "Nov 21–22 — The Santa Market @ OKC Pavilion (FREE)",
+    "Nov 21–Dec 17 — SPARKLE Holiday Walk @ Scissortail Park",
+    "Nov 21–Dec 28 — Coca-Cola Classic Christmas @ Remington Park",
+    "Nov 21–Jan 1 — Luminance @ Mitch Park (FREE)",
+    "Nov 22 — Chill Your Cheeks 5K + Yukon's Christmas Lights",
+    "Nov 22–Dec 31 — Yukon Christmas in the Park (FREE)",
+    "Nov 23 — Pet Photos with Santa @ Penn Square Mall",
+    "Nov 27–Jan 1 — Downs Family Christmas Light Show (FREE)",
+    "Nov 28–29 — An Actor’s Carol @ Oklahoma Shakespeare",
+    "Nov 28–Dec 14 — It's a Wonderful Life Radio Show @ Carpenter Square",
+    "Nov 28–Dec 21 — Midtown Holiday Pop-Up Shops",
+    "Nov 28–Dec 28 — Lyric’s A Christmas Carol",
+    "Nov 28–Jan 1 — Christmas Light Show @ The Station (FREE)",
+    "Nov 29–30 — Princess Holiday Ball @ First National Center",
+    "Nov 29–Dec 13 — Guthrie Territorial Christmas",
+    "Nov 29 & Dec 13 — Holiday Artist Markets @ Factory Obscura",
+    "Nov 30 — Vienna Light Orchestra @ Rose State",
+    "Dec 1 — Walk the Lights @ Midwest City",
+    "Dec 2–25 — Midwest City Holiday Lights Spectacular (FREE)",
+    "Dec 2–24 — Holiday Classic Movies @ Harkins",
+    "Dec 4 — Home for the Holidays @ Downtown Tuttle (FREE)",
+    "Dec 4 — Sensory-Friendly Safari Lights @ OKC Zoo",
+    "Dec 4–21 — Jane Austen’s Christmas Cracker",
+    "Dec 5 — Sparkle Holiday Market (Night 1)",
+    "Dec 5 — Moore Christmas Spectacular (FREE)",
+    "Dec 5–6 — OKCPHIL Very Merry Pops",
+    "Dec 5–7 — Drive-Thru Christmas Pageant @ Boys Ranch Town (FREE)",
+    "Dec 6 — Never Grow Up OKC Christmas Event",
+    "Dec 6 — Breakfast with Santa @ The Station",
+    "Dec 6 — Cowboy Christmas Parade @ Stockyards (FREE)",
+    "Dec 6 — Holidays at the Museum @ Cowboy Museum",
+    "Dec 6 — Czech Christmas Market (FREE)",
+    "Dec 6 — Oklahoma Opry Christmas Show",
+    "Dec 6 — Christmas Village @ Chisholm Creek (FREE)",
+    "Dec 6 — Norman Christmas Parade (FREE)",
+    "Dec 6–7 — Winter Holiday Art Market @ FAM",
+    "Dec 6–20 — Breakfast with Santa @ OKANA",
+    "Dec 6–27 — Holiday Drop-in Art @ OKCMOA",
+    "Dec 7 — Caring Santa @ Penn Square",
+    "Dec 7 — Sleigh Bells Market @ OKC Farmers Market",
+    "Dec 7 — Trans-Siberian Orchestra @ Paycom Center",
+    "Dec 7 — Handel’s Messiah @ Civic Center",
+    "Dec 12 — Night in Bethlehem (FREE)",
+    "Dec 12–14 — Hip Hop Nutcracker @ OCCC",
+    "Dec 12–23 — OKC Ballet’s The Nutcracker",
+    "Dec 13 — Deck the Hall of Fame @ OK Hall of Fame (FREE)",
+    "Dec 13 — Gingerbread Jingle @ NPSF",
+    "Dec 13 — Gingerbread Gardens @ Myriad Gardens",
+    "Dec 13 — Sounds of the Season @ First Church (FREE)",
+    "Dec 13–14 — Oklahoma Nutcracker @ Norman",
+    "Dec 14 — Chanukah Celebration @ Scissortail Park (FREE)",
+    "Dec 20 — Nutcracker Tea @ Civic Center",
+    "Dec 20 — A Very Merry Grinchmas Breakfast @ The Greens",
+    "Dec 20 — Christmas Vacation Under the Stars @ Wells Tree Farm",
+    "Dec 22–23 — December Drop-ins @ Myriad Gardens",
+    "Dec 27 — Mannheim Steamroller Christmas @ Civic Center"
   ],
 
   "sports_schedules": {
@@ -157,11 +238,11 @@
         "Fri: Ladies Night ft. DJ T",
         "Sat: College Night ft. DJ T",
         "💎 VIP Packages Available:",
-        "• $20 Table (4 guests + drink tickets)",
-        "• $50 Table (8 guests + entries + champagne)",
+        "• $20 Table (up to 4 + 2 drink tickets)",
+        "• $50 Table (up to 8 + 4 free entries + champagne)",
         "• $100 VIP Section (15 entries + champagne)",
-        "• $250 VIP Section (15 entries + 2 bottles)",
-        "• $500 Annual Membership (exclusive perks)"
+        "• $250 VIP Section (15 entries + 2 bottles + monogram shot glass)",
+        "• $500 Annual Membership"
       ],
       "special": [
         "Dec 3 — World Famous Girls Night Out (Ticketed Show)"
@@ -181,9 +262,9 @@
     "FRIENDS OF FRIENDS": {
       "regular": ["Thu: Live bands", "Fri & Sat: Local bands", "Signature cocktails nightly"],
       "special": [
-        "Nov 20 — The Country Shop Band",
-        "Nov 21 — Tyler Lee Band",
-        "Nov 22 — Weekend Allstars"
+        "Nov 20 — Michael & the Moonlight Band",
+        "Nov 21 — The Kory Bryant Band",
+        "Nov 22 — Haloed"
       ]
     },
 
