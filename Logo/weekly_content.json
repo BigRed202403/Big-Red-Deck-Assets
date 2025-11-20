@@ -39,6 +39,9 @@
   ],
 
   "local_fun_special": [
+    "Nov 20 — The Country Shop Band @ Friends of Friends",
+    "Nov 21 — Tyler Lee Band @ Friends of Friends",
+    "Nov 22 — Weekend Allstars @ Friends of Friends",
     "Nov 21 — Jukebox Hero @ Mooney’s Pub (Norman)",
     "Nov 21 — One for the Road @ The Alley",
     "Nov 21 — Home Alone Indoor Movie Night @ The Station (Moore)",
@@ -151,14 +154,14 @@
       "regular": [
         "Mon & Tue: Karaoke Party @ 9 PM (Free Entry & Parking)",
         "Thu: Line Dancing with Aria ($5 Well Drinks All Night)",
-        "Fri: Ladies Night ft. DJ T (Free Entry for Ladies til 10 PM, $5 Cover after)",
-        "Sat: College Night ft. DJ T (Free Entry with College ID, $5 Cover otherwise)",
+        "Fri: Ladies Night ft. DJ T",
+        "Sat: College Night ft. DJ T",
         "💎 VIP Packages Available:",
-        "• $20 Table (up to 4 + 2 drink tickets)",
-        "• $50 Table (up to 8 + 4 free entries + champagne)",
+        "• $20 Table (4 guests + drink tickets)",
+        "• $50 Table (8 guests + entries + champagne)",
         "• $100 VIP Section (15 entries + champagne)",
-        "• $250 VIP Section (15 entries + 2 bottles + monogram shot glass)",
-        "• $500 Annual Membership (Free entry for 2 + first drink free + exclusive invites + discounts on rentals & merch)"
+        "• $250 VIP Section (15 entries + 2 bottles)",
+        "• $500 Annual Membership (exclusive perks)"
       ],
       "special": [
         "Dec 3 — World Famous Girls Night Out (Ticketed Show)"
@@ -177,7 +180,11 @@
 
     "FRIENDS OF FRIENDS": {
       "regular": ["Thu: Live bands", "Fri & Sat: Local bands", "Signature cocktails nightly"],
-      "special": []
+      "special": [
+        "Nov 20 — The Country Shop Band",
+        "Nov 21 — Tyler Lee Band",
+        "Nov 22 — Weekend Allstars"
+      ]
     },
 
     "THE ALLEY": {
@@ -246,7 +253,7 @@
 
     "40 WEST": {
       "regular": [
-        "Mon: Pool Tournament @ 7 PM (Free to Play • Drink Specials)",
+        "Mon: Pool Tournament @ 7 PM",
         "Tue: Karaoke Night @ 9 PM",
         "Wed: Karaoke Madness @ 9 PM",
         "Thu: Themed Karaoke Night @ 9 PM",
