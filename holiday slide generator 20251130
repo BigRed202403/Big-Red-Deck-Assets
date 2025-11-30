@@ -1,0 +1,439 @@
+# ============================================================
+#  BIG RED CONNECT — Holiday Edition Slide Deck (v5.3, 16:9)
+#  🎄 Brand-first (80/20) + rotating holiday backgrounds
+#  ✅ JSON automation (weekly_content.json)
+#  ✅ Filters out past-dated items; parses many date styles
+#  ✅ Weekly Highlights = AUTO (manual toggle available)
+#  ✅ Single unified sports slide (30-day window):
+#     - Home = Gold, Away = Silver/Gray
+#  ✅ “Local Fun” → “SEASONAL FUN & ATTRACTIONS”
+# ============================================================
+
+!pip install -q python-pptx requests pillow
+
+import requests, time, re, json, datetime
+from io import BytesIO
+from pptx import Presentation
+from pptx.util import Inches, Pt
+from pptx.enum.text import PP_ALIGN
+from pptx.dml.color import RGBColor
+from google.colab import files
+
+# -------------------------
+# CONFIG
+# -------------------------
+INCLUDE_SPORTS = True
+USE_MANUAL_HIGHLIGHTS = False   # False = auto-pick this week's 4 highlights
+THEME_MODE = "cycle"            # "cycle" or "mapped"
+
+# -------------------------
+# DATES (Sunday → Sunday)
+# -------------------------
+today = datetime.date.today()
+sunday_start = today - datetime.timedelta(days=(today.weekday() + 1) % 7)
+next_sunday  = sunday_start + datetime.timedelta(days=7)
+monday, sunday = sunday_start, next_sunday
+
+def fmt_range(d1, d2):
+    m1, m2 = d1.strftime("%b"), d2.strftime("%b")
+    return f"{m1} {d1.day}–{d2.day}, {d2.year}" if d1.month==d2.month else f"{m1} {d1.day} – {m2} {d2.day}, {d2.year}"
+
+WEEK_RANGE = fmt_range(monday, sunday)
+OUTPUT_FILE = f"/content/Big Red Connect — Holiday Deck {WEEK_RANGE}.pptx"
+
+# -------------------------
+# PRESENTATION
+# -------------------------
+prs = Presentation()
+prs.slide_width, prs.slide_height = Inches(13.33), Inches(7.5)
+
+# -------------------------
+# ASSETS (GitHub raw)
+# -------------------------
+base = "https://raw.githubusercontent.com/BigRed202403/Big-Red-Deck-Assets/main/Logo/"
+
+# Core brand assets
+logo_welcome  = base+"official_logo_Nov.png"
+footer_logo   = base+"official_logo_Nov.png"
+qr_img        = base+"big_red_site_qr.jpeg"
+review_img    = base+"big_red_review.jpeg"
+daughter_img  = base+"daughter_slide.jpeg"
+airport_img1  = base+"airport_poster.jpeg"
+airport_img2  = base+"airport_connect.png"
+casinos_intro = base+"casinos_intro.jpeg"
+hotels_intro  = base+"hotels_intro.jpeg"
+local_fun_intro = base+"local_attraction_intro.png"
+fairs_intro   = base+"fair_fest_intro.png"
+ou_logo, osu_logo, thunder_logo = base+"ou_football.jpeg", base+"osu_logo.jpeg", base+"thunder_logo.jpeg"
+
+# Footer line (Holiday 2025 tone)
+footer_text = "🎅🏻 Plan ahead for the holidays — Text 'RED' to (405) 378-4024  •  Veteran Owned • Local • Trusted"
+
+# Backgrounds
+theme_backgrounds = {
+    "red_glow": base+"red_glow_edge_16x9.png",
+    "snowfall": base+"snowfall_overlay_16x9.png",
+    "gold": base+"warm_gold_gradient_16x9.png",
+    "lights_okc": base+"oklahoma_nights_lights_16x9.png",
+    "frost": base+"frosted_glass_16x9.png",
+    "garland": base+"festive_garland_frame_16x9.png",
+    "holiday_lights": base+"holiday_lights_overlay.png"
+}
+theme_map = {
+    "BIG RED CONNECT": "red_glow",
+    "TERMS OF SERVICE": "red_glow",
+    "CONNECT WITH RED": "gold",
+    "FARE SCHEDULE": "red_glow",
+    "PAYMENT OPTIONS": "gold",
+    "WHY CHOOSE BIG RED": "holiday_lights",
+    "OKC METRO — STANDARD RATES": "frost",
+    "EXTENDED COVERAGE — FAIRNESS FEE APPLIES": "frost",
+    "WEEKLY HIGHLIGHTS": "garland",
+    "WEEKLY HIGHLIGHTS (CONT.)": "garland",
+    "SEASONAL FUN & ATTRACTIONS": "garland",
+    "FAIRS & FESTIVALS": "garland",
+    "FAIRS & FESTIVALS (THIS SEASON)": "garland",
+    "AIRPORT CONNECTIONS": "frost",
+    "CASINOS & GAMING": "frost",
+    "HOTEL CONNECTIONS": "frost",
+    "FEATURED VENUES": "lights_okc",
+    "SPECIAL INVITE": "gold",
+    "ENJOYED YOUR RIDE?": "gold",
+    "OKC METRO SPORTS — COMING UP": "snowfall",
+}
+theme_cycle = ["red_glow","snowfall","gold","lights_okc","frost","garland","holiday_lights"]
+_cycle_idx = 0
+def next_theme():
+    global _cycle_idx
+    t = theme_cycle[_cycle_idx % len(theme_cycle)]
+    _cycle_idx += 1
+    return t
+
+# -------------------------
+# LOAD JSON
+# -------------------------
+json_url = base + f"weekly_content.json?nocache={int(time.time())}"
+def load_json(u):
+    for _ in range(5):
+        try:
+            r=requests.get(u,timeout=10)
+            if r.status_code==200:
+                return r.json()
+        except:
+            time.sleep(0.5)
+    return {"weekly_highlights":[],"venues":{},"metro_sports":[],"local_updates":[],"local_fun_special":[],"sports_schedules":{}}
+data = load_json(json_url)
+
+# -------------------------
+# DATE HELPERS
+# -------------------------
+MONTHS = {m[:3].lower():i for i,m in enumerate(
+    ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],1)}
+
+def parse_any_date(text, default_year=today.year):
+    if not isinstance(text,str): return None
+    t=text.strip()
+    m=re.search(r'(\d{1,2})[\/\-](\d{1,2})(?:[\/\-](\d{2,4}))?',t)
+    if m:
+        mo,da,yr=m.groups()
+        yr=int(yr)+2000 if yr and len(yr)==2 else int(yr) if yr else default_year
+        try: return datetime.date(yr,int(mo),int(da))
+        except: return None
+    m=re.search(r'([A-Za-z]{3,9})\s+(\d{1,2})',t)
+    if m:
+        mon,day=m.groups()
+        mon_num=MONTHS.get(mon[:3].lower())
+        if mon_num:
+            try: return datetime.date(default_year,mon_num,int(day))
+            except: return None
+    return None
+
+def extract_date_range(text):
+    if not isinstance(text,str): return (None,None)
+    m=re.search(r'([A-Za-z]{3,9}|\d{1,2})\s*(\d{1,2})?\s*[–\-to]+\s*(?:[A-Za-z]{3,9}\s*)?(\d{1,2})',text)
+    if m:
+        base=parse_any_date(text)
+        try:
+            end_day=int(m.group(3))
+            return base, datetime.date(base.year,base.month,end_day)
+        except:
+            return base,None
+    d=parse_any_date(text); return d,d
+
+def event_is_current(text):
+    s,e=extract_date_range(text)
+    if not s: return True
+    if e and s<=today<=e: return True
+    return s>=today
+
+def within_current_week(text):
+    s,e=extract_date_range(text)
+    if not s: return False
+    if e:  # any overlap with [monday,sunday]
+        return not (e < monday or s > sunday)
+    return monday <= s <= sunday
+
+# -------------------------
+# FILTER CONTENT
+# -------------------------
+venues_json        = data.get("venues",{}) or {}
+metro_sports       = [s for s in data.get("metro_sports",[]) if event_is_current(s)]
+local_updates      = data.get("local_updates",[]) or []
+local_fun_special  = [x for x in (data.get("local_fun_special",[]) or []) if event_is_current(x)]
+sports_schedules   = data.get("sports_schedules",{}) or {}
+manual_highlights  = [x for x in (data.get("weekly_highlights",[]) or []) if event_is_current(x)]
+
+def auto_pick_weekly_highlights(max_items=4):
+    picks = []
+    # 1) Local fun specials happening this week
+    for item in local_fun_special:
+        if within_current_week(str(item)):
+            picks.append(str(item))
+            if len(picks) >= max_items: return picks
+    # 2) Venue specials happening this week
+    for vname, vdata in venues_json.items():
+        for s in (vdata.get("special",[]) or []):
+            if event_is_current(s) and within_current_week(s):
+                picks.append(str(s))
+                if len(picks) >= max_items: return picks
+    # 3) Metro sports happening this week
+    for g in metro_sports:
+        if within_current_week(g):
+            picks.append(str(g))
+            if len(picks) >= max_items: return picks
+    return picks[:max_items]
+
+weekly_highlights = manual_highlights if USE_MANUAL_HIGHLIGHTS else auto_pick_weekly_highlights(4)
+
+# -------------------------
+# DRAW HELPERS
+# -------------------------
+def fetch_image(u):
+    try:
+        r=requests.get(u,timeout=10)
+        if r.status_code==200:
+            return BytesIO(r.content)
+    except:
+        return None
+    return None
+
+def themed_background(slide_title):
+    if THEME_MODE=="mapped":
+        key = theme_map.get(slide_title.strip().upper(), None)
+        theme_key = key if key else next_theme()
+    else:
+        theme_key = next_theme()
+    img_url = theme_backgrounds.get(theme_key)
+    if img_url:
+        pic = fetch_image(img_url)
+        if pic:
+            s = prs.slides[-1]
+            s.shapes.add_picture(pic, Inches(0), Inches(0),
+                                 width=prs.slide_width, height=prs.slide_height)
+
+def add_header(s,t):
+    h=s.shapes.add_shape(1,Inches(0),Inches(0),prs.slide_width,Inches(1))
+    h.fill.solid(); h.fill.fore_color.rgb=RGBColor(178,34,34)
+    p=h.text_frame.add_paragraph(); p.text=t.upper()
+    p.font.size=Pt(50); p.font.bold=True; p.font.color.rgb=RGBColor(255,255,255)
+    p.alignment=PP_ALIGN.CENTER
+
+def add_footer(s):
+    b=s.shapes.add_textbox(Inches(0),Inches(6.8),Inches(13.33),Inches(0.6))
+    p=b.text_frame.add_paragraph(); p.text=footer_text
+    p.font.size=Pt(20); p.font.color.rgb=RGBColor(255,255,255)
+    p.alignment=PP_ALIGN.CENTER
+
+def add_qr(s):
+    q=fetch_image(qr_img)
+    if q: s.shapes.add_picture(q,Inches(11),Inches(1),height=Inches(2.1))
+
+def add_logo(s):
+    l=fetch_image(footer_logo)
+    if l: s.shapes.add_picture(l,Pt(828),Pt(381),width=Pt(129),height=Pt(129))
+
+def create_slide(title, qr=True):
+    s=prs.slides.add_slide(prs.slide_layouts[6])
+    s.background.fill.solid(); s.background.fill.fore_color.rgb=RGBColor(0,0,0)
+    themed_background(title)
+    add_header(s,title)
+    add_footer(s)
+    if qr: add_qr(s)
+    add_logo(s)
+    return s
+
+def add_text(s,t,size=36,left=1,top=1.8,width=11,height=4.5,align="center"):
+    b=s.shapes.add_textbox(Inches(left),Inches(top),Inches(width),Inches(height))
+    for ln in t.split("\n"):
+        p=b.text_frame.add_paragraph(); p.text=ln
+        p.font.size=Pt(size); p.font.color.rgb=RGBColor(255,255,255)
+        p.alignment=PP_ALIGN.CENTER if align=="center" else PP_ALIGN.LEFT
+
+def split_date_rest(l):
+    if not isinstance(l,str):return None,l
+    m=re.match(r'^\s*([A-Za-z]{3,9}\s+\d{1,2}|[0-9]{1,2}[\/\-][0-9]{1,2})\s*(?:—|–|-)\s*(.*)$',l)
+    if not m:return None,l
+    d=parse_any_date(m.group(1)); return (m.group(1),m.group(2)) if d else (None,l)
+
+def add_list_with_red_date(s,lines,size=32,left=1,top=1.8,width=11,height=4.5):
+    b=s.shapes.add_textbox(Inches(left),Inches(top),Inches(width),Inches(height))
+    for l in lines:
+        p=b.text_frame.add_paragraph(); d,r=split_date_rest(l)
+        if d:
+            run=p.add_run(); run.text=d; run.font.color.rgb=RGBColor(200,0,0); run.font.size=Pt(size)
+            run=p.add_run(); run.text=f" — {r}"; run.font.color.rgb=RGBColor(255,255,255); run.font.size=Pt(size)
+        else:
+            p.text=l; p.font.size=Pt(size); p.font.color.rgb=RGBColor(255,255,255)
+
+# -------------------------
+# BUILD SLIDES
+# -------------------------
+# 0) Welcome (no QR)
+s0=create_slide("BIG RED CONNECT", qr=False)
+i=fetch_image(logo_welcome)
+if i: s0.shapes.add_picture(i,Inches(4),Inches(1.5),height=Inches(4))
+
+# 1) Core brand info
+core = [
+("TERMS OF SERVICE",
+ "🛡️ By riding with us, you agree to:\n"
+ "• Timely payment & respectful conduct\n"
+ "• No-shows = $5 after 5 mins\n"
+ "• Extra stops +$5 each\n"
+ "• Cleaning/damage fees up to $200\n"
+ "• Extended-area pickups may include fair travel fee (quoted upfront)"),
+("CONNECT WITH RED",
+ "Text \"RED\" to (405) 378-4024\n"
+ "Tap the QR for live status + fare estimates\n"
+ "At BigRedConnectOKC.com\n"
+ "Follow Big Red Connect on Facebook\n"
+ "Enable Big Red Alerts for holiday travel updates\n"
+ "Plan ahead for Christmas parties + airport runs\n"
+ "Add our website to your home screen for fast access\n"
+ "🎅 Veteran Owned • Local • Trusted"),
+("FARE SCHEDULE",
+ "Base $10 (up to 10 mi)\n"
+ "$1.25 / mi (11–20 mi)\n"
+ "$1.00 / mi beyond 20\n"
+ "Rush Hour $15   Airport $15   Special Event $20"),
+("PAYMENT OPTIONS",
+ "✅ Cash   ✅ Square (Card)\n✅ Venmo   ✅ Cash App"),
+("WHY CHOOSE BIG RED",
+ "✔ Veteran Owned & Local\n"
+ "✔ Flat-Rate, Predictable Pricing\n"
+ "✔ Reliable Connections Day & Night\n"
+ "✔ Safety Cameras Onboard"),
+("OKC METRO — STANDARD RATES",
+ "OKC • Norman • Moore • Midwest City • Del City • Bethany • Warr Acres • Newcastle • Noble"),
+("EXTENDED COVERAGE — FAIRNESS FEE APPLIES",
+ "Yukon • Mustang • Edmond • Choctaw • Harrah • El Reno • Tuttle • Blanchard • "
+ "Lexington • Shawnee • Tecumseh • Wellston • Seminole")
+]
+for t,txt in core:
+    cs=create_slide(t); add_text(cs,txt)
+
+# 2) Weekly Highlights (auto or manual; week-only)
+if weekly_highlights:
+    for i0 in range(0,len(weekly_highlights),8):
+        chunk=weekly_highlights[i0:i0+8]
+        ws=create_slide("WEEKLY HIGHLIGHTS" if i0==0 else "WEEKLY HIGHLIGHTS (CONT.)")
+        add_list_with_red_date(ws,chunk)
+
+# 3) Unified Sports (30-day window, home=gold, away=silver)
+def upcoming_30(lines):
+    out=[]; cutoff=today+datetime.timedelta(days=30)
+    for l in lines:
+        d=parse_any_date(l)
+        if d and (today<=d<=cutoff):
+            out.append(l)
+    return out
+
+def add_unified_sports_slide():
+    ou_next = upcoming_30(sports_schedules.get("OU Football 2025",[]))
+    osu_next = upcoming_30(sports_schedules.get("OSU Football 2025",[]))
+    th_next = upcoming_30(sports_schedules.get("OKC Thunder 2025–26",[]))
+    if not (ou_next or osu_next or th_next):
+        return
+    s = create_slide("OKC METRO SPORTS — COMING UP")
+    box = s.shapes.add_textbox(Inches(1), Inches(1.4), Inches(11), Inches(4.9))
+    tf = box.text_frame; tf.clear()
+
+    def hdr(text):
+        p=tf.add_paragraph(); p.text=text
+        p.font.bold=True; p.font.size=Pt(34); p.font.color.rgb=RGBColor(200,0,0)
+        p.space_after = Pt(6)
+
+    GOLD = RGBColor(255,215,0)
+    SILV = RGBColor(180,180,180)
+
+    def game_line(g):
+        pg=tf.add_paragraph(); pg.text=g; pg.font.size=Pt(28)
+        # crude home/away detection
+        if " vs " in g or "vs " in g or "home" in g.lower():
+            pg.font.color.rgb = GOLD
+        else:
+            pg.font.color.rgb = SILV
+        pg.space_after=Pt(2)
+
+    if ou_next: hdr("OU");     [game_line(g) for g in ou_next]
+    if osu_next: hdr("OSU");   [game_line(g) for g in osu_next]
+    if th_next:  hdr("THUNDER"); [game_line(g) for g in th_next]
+
+if INCLUDE_SPORTS:
+    add_unified_sports_slide()
+
+# 4) Seasonal Fun & Attractions
+lf=create_slide("SEASONAL FUN & ATTRACTIONS")
+if local_updates:
+    add_text(lf, "\n".join("• "+x for x in local_updates), 28, align="left")
+
+# 5) Fairs & Festivals (from local_fun_special: includes "fair"/"fest")
+fairs=[x for x in local_fun_special if any(k in str(x).lower() for k in["fair","fest"])]
+if fairs:
+    f1=create_slide("FAIRS & FESTIVALS")
+    f2=create_slide("FAIRS & FESTIVALS (THIS SEASON)")
+    add_text(f2,"\n".join("• "+str(f) for f in fairs),28,align="left")
+
+# 6) Airports / Casinos / Hotels
+ap=create_slide("AIRPORT CONNECTIONS")
+i1,i2=fetch_image(airport_img1),fetch_image(airport_img2)
+if i1: ap.shapes.add_picture(i1,Inches(1),Inches(1.4),height=Inches(3.5))
+if i2: ap.shapes.add_picture(i2,Inches(7.2),Inches(1.4),height=Inches(3.5))
+
+cas=create_slide("CASINOS & GAMING")
+i=fetch_image(casinos_intro)
+if i: cas.shapes.add_picture(i,Inches(3.5),Inches(1.5),height=Inches(3.5))
+
+hot=create_slide("HOTEL CONNECTIONS")
+i=fetch_image(hotels_intro)
+if i: hot.shapes.add_picture(i,Inches(3.5),Inches(1.5),height=Inches(3.5))
+
+# 7) Featured Venues (brand-first: concise list of near-term specials)
+def first_n_upcoming_for_venue(vdata, n=1):
+    cur=[s for s in (vdata.get("special",[]) or []) if event_is_current(s)]
+    return cur[:n]
+
+featured=[]
+for vname, vdata in venues_json.items():
+    nxt = first_n_upcoming_for_venue(vdata, n=1)
+    if nxt:
+        featured.append(f"{vname} — {nxt[0]}")
+if featured:
+    for i0 in range(0,len(featured),10):
+        chunk=featured[i0:i0+10]
+        fv=create_slide("FEATURED VENUES")
+        add_list_with_red_date(fv, chunk, size=28, left=1, top=1.5, width=11, height=4.9)
+
+# 8) Closer / Thanks / Reviews
+ty=create_slide("SPECIAL INVITE",qr=False)
+i=fetch_image(daughter_img)
+if i: ty.shapes.add_picture(i,Inches(3),Inches(1.5),height=Inches(4))
+
+rv=create_slide("ENJOYED YOUR RIDE?",qr=False)
+i=fetch_image(review_img)
+if i: rv.shapes.add_picture(i,Inches(3),Inches(1.5),height=Inches(4))
+
+# SAVE
+prs.save(OUTPUT_FILE)
+print(f"✅ Deck created: {OUTPUT_FILE}")
+files.download(OUTPUT_FILE)
