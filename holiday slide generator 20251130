@@ -50,7 +50,7 @@ prs.slide_width, prs.slide_height = Inches(13.33), Inches(7.5)
 # -------------------------
 # ASSETS (GitHub raw)
 # -------------------------
-base = "https://raw.githubusercontent.com/BigRed202403/Big-Red-Deck-Assets/main/Logo/"
+base = "https://raw.githubusercontent.com/BigRed202403/Big-Red-Deck-Assets/main/"
 
 # Core brand assets
 logo_welcome  = base+"official_logo_Nov.png"
