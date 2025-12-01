@@ -1,6 +1,6 @@
 {
-  "week_range": "Nov 17–24, 2025",
-  "updated_at": "2025-11-20T18:00:00Z",
+  "week_range": "Nov 30–Dec 7, 2025",
+  "updated_at": "2025-11-30T12:00:00Z",
 
   "rules_locked": {
     "highlights_scope": "weekly_highlights shows ONLY events in the current week (Sun–Sun). Max 4.",
@@ -11,18 +11,13 @@
     "goldfish_paragraph": "Persist in GOLDFISH SWIM SCHOOL (MOORE) → regular."
   },
 
-  "weekly_highlights": [
-    "Nov 21 — Jukebox Hero @ Mooney’s Pub (Norman)",
-    "Nov 21 — One for the Road @ The Alley",
-    "Nov 21 — Home Alone Indoor Movie Night @ The Station (Moore)",
-    "Nov 22 — Jimmy Lee Jordan Band @ The Alley"
-  ],
+  "weekly_highlights": [],
 
   "metro_sports": [
-    "Nov 17 — OKC Thunder at New Orleans",
-    "Nov 19 — OKC Thunder at Sacramento",
-    "Nov 21 — OKC Thunder at Utah",
-    "Nov 23 — OKC Thunder at Portland"
+    "Nov 30 — OKC Thunder at Portland",
+    "Dec 2 — OKC Thunder at Golden State",
+    "Dec 5 — OKC Thunder vs Dallas",
+    "Dec 7 — OKC Thunder at Utah"
   ],
 
   "local_updates": [
