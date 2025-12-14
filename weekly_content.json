@@ -1,167 +1,74 @@
 {
-  "week_range": "Dec 7–14, 2025",
-  "updated_at": "2025-12-07T18:00:00Z",
+  "week_range": "Dec 14–21, 2025",
+  "updated_at": "2025-12-14T12:15:00Z",
 
   "rules_locked": {
-    "highlights_scope": "weekly_highlights shows ONLY events in the current week (Sun–Sun). Max 4.",
-    "venue_regulars": "Do not change unless explicitly requested.",
-    "venue_specials": "Future-dated events are retained indefinitely; no cutoff.",
-    "sports": "Full season schedules live in sports_schedules; Metro Sports shows only this week.",
-    "fairs": "Only active/coming fairs; expired fairs removed.",
-    "goldfish_paragraph": "Persist in GOLDFISH SWIM SCHOOL (MOORE) → regular."
+    "data_scope": "JSON is strictly forward-looking. Any event prior to the current week start is removed.",
+    "weekly_highlights": "Current week only (Sun–Sun). Max 4 items.",
+    "venue_regulars": "Locked unless explicitly changed.",
+    "venue_specials": "All future-dated events retained.",
+    "sports": "All sports schedules are future-only."
   },
 
-  "weekly_highlights": [],
+  "weekly_highlights": [
+    "Dec 19 — OU vs Alabama (College Football Playoff — 7 PM — at OU)",
+    "Dec 19 — Sparkle Holiday Market @ Scissortail Park",
+    "Dec 20 — Christmas Country Ball @ Cowboys OKC",
+    "Dec 20 — Oklahoma Opry Christmas in Muskogee"
+  ],
 
   "metro_sports": [
-    "Dec 7 — OKC Thunder at Utah",
-    "Dec 12 — OKC Thunder at Sacramento",
-    "Dec 14 — OKC Thunder vs Golden State"
+    "Dec 17 — OKC Thunder vs L.A. Clippers",
+    "Dec 19 — OKC Thunder vs Minnesota"
   ],
 
   "local_updates": [
     "Yukon Christmas in the Park open nightly through Dec 31.",
-    "Stockyards City Christmas Parade happens Dec 6 at 10 AM.",
-    "The Station Christmas Light Show runs nightly Nov 28 – Jan 1.",
-    "Sparkle Holiday Market at Scissortail Park: Dec 12, Dec 19.",
-    "Remington Park Classic Christmas Walk-Thru runs through Dec 28.",
     "OKC Zoo Safari Lights open nightly through Jan 12, 2026.",
+    "Remington Park Christmas Walk-Thru open through Dec 28.",
     "Orr Family Farm Holiday Festival open through Dec 22.",
-    "Frontier City Holiday in the Park active through December.",
-    "Norman Christmas Market on Dec 6 at First Presbyterian Church."
+    "Frontier City Holiday in the Park runs through December."
   ],
 
   "local_fun_special": [
-    "Dec 3 — World Famous Girls Night Out @ Brickhouse Saloon (Shawnee)",
-    "Dec 4 — Jake’s Jingle Jam @ Riverwind Casino",
-    "Dec 4–19 — Oklahoma Opry Caroling Cruises (Bricktown Canal)",
-    "Dec 5 — Sparkle Holiday Market @ Scissortail Park",
-    "Dec 6 — Sara Evans Christmas Tour @ Riverwind Casino",
-    "Dec 6 — Stockyards City Christmas Parade",
-    "Dec 6 — Norman Christmas Market (First Presbyterian Church)",
-    "Dec 6 — Oklahoma Opry Classic Christmas Shows (3:30 PM & 7:00 PM)",
-    "Dec 6 — Weekend Allstars (Live) @ Friends of Friends",
-    "Dec 10 — Christmas Jam with Patrick & Friends @ Brickhouse Saloon",
-    "Dec 11 — A Night of Vince Guaraldi Christmas @ Okie State Room",
-    "Dec 12 — Sparkle Holiday Market @ Scissortail Park",
-    "Dec 12 — Sweet Brenda & Sourmash @ The Alley",
-    "Dec 13 — Holiday Bash @ 40 West",
-    "Dec 13 — Classic Rewind Holiday Show @ Mooney’s Pub",
-    "Dec 13 — Bricktown Hustlers @ The Alley",
-    "Dec 13 — Oklahoma Opry Gingerbread Jingle @ Norman",
     "Dec 19 — Sparkle Holiday Market @ Scissortail Park",
-    "Dec 19 — Buzzard Hill @ The Alley",
-    "Dec 20 — Christmas Eve Eve Party Band @ The Alley",
-    "Dec 20 — Rock Candy @ The Alley",
-    "Dec 20 — Christmas Country Ball @ Cowboys OKC",
+    "Dec 19 — OU vs Alabama (College Football Playoff — 7 PM — at OU)",
     "Dec 20 — Oklahoma Opry Christmas in Muskogee",
+    "Dec 20 — Christmas Country Ball @ Cowboys OKC",
     "Dec 26 — Remedy @ The Alley",
     "Dec 27 — Uncle Kracker @ Riverwind Casino",
     "Dec 27 — Christy Bryant & Twist of Fate @ The Alley",
     "Dec 30 — Oklahoma Opry New Year’s Eve Eve Concert & Fundraiser",
     "Dec 31 — In The Mix in 2026 @ Riverwind Casino",
     "Dec 31 — Haloed (Happy New Year) @ The Alley",
-    "Dec 31 — New Year’s Countdown Show @ The Alley",
     "Dec 31 — New Year’s Eve Party @ Okie Tonk",
     "Dec 31 — New Year’s Eve Party w/ The Stars @ Mooney’s Pub",
     "Dec 31 — Karaoke Finale @ 40 West",
     "Dec 31 — New Year’s Stampede Bash @ Cowboys OKC",
-    "Dec 31 — NYE Super Bash 2026 ‘The Last Bad Decision’ ft. The Weekend Allstars @ Friends of Friends",
+    "Dec 31 — NYE Super Bash 2026 ‘The Last Bad Decision’ @ Friends of Friends",
     "Jan 2 — Stinnett Brothers @ The Alley",
+    "Jan 9 — Royal Bavaria 32nd Anniversary Celebration",
+    "Jan 10 — Royal Bavaria 32nd Anniversary Celebration",
+    "Jan 16 — Royal Bavaria 32nd Anniversary Celebration",
+    "Jan 17 — Royal Bavaria 32nd Anniversary Celebration",
+    "Jan 23 — Royal Bavaria 32nd Anniversary Celebration",
+    "Jan 24 — Royal Bavaria 32nd Anniversary Celebration",
+    "Jan 30 — Royal Bavaria 32nd Anniversary Celebration",
+    "Jan 31 — Royal Bavaria 32nd Anniversary Celebration",
+    "Feb 6 — Royal Bavaria 32nd Anniversary Celebration",
+    "Feb 7 — Royal Bavaria 32nd Anniversary Celebration",
     "Feb 6 — Eli Young Band @ Riverwind Casino",
     "Feb 14 — Matt Matthews: Boujee on a Budget @ Riverwind Casino",
     "Feb 20 — Dylan Gossett – The Westward Tour @ Riverwind Casino",
-    "Feb 28 — Christopher Cross @ Riverwind Casino",
-    "Mar 8 — Blues Traveler Returns @ Riverwind Casino",
-    "Apr 5 — Kansas Classic Reunion Tour @ Riverwind Casino",
-    "Mar 20 2026 — Luke Combs World Tour @ Paycom Center",
-    "May 9 — ZZ Top + Dwight Yoakam (Dos Amigos Tour) @ Lucky Star Amphitheater",
-    "Jan 9 — Royal Bavaria 32nd Anniversary Celebration (German Band + Raffle)",
-    "Jan 10 — Royal Bavaria 32nd Anniversary Celebration (German Band + Raffle)",
-    "Jan 16 — Royal Bavaria 32nd Anniversary Celebration (German Band + Raffle)",
-    "Jan 17 — Royal Bavaria 32nd Anniversary Celebration (German Band + Raffle)",
-    "Jan 23 — Royal Bavaria 32nd Anniversary Celebration (German Band + Raffle)",
-    "Jan 24 — Royal Bavaria 32nd Anniversary Celebration (German Band + Raffle)",
-    "Jan 30 — Royal Bavaria 32nd Anniversary Celebration (German Band + Raffle)",
-    "Jan 31 — Royal Bavaria 32nd Anniversary Celebration (German Band + Raffle)",
-    "Feb 6 — Royal Bavaria 32nd Anniversary Celebration (German Band + Raffle)",
-    "Feb 7 — Royal Bavaria 32nd Anniversary Celebration (German Band + Raffle)"
-  ],
-
-  "holiday_highlights": [],
-
-  "holiday_events_full": [
-    "Nov. 1–Dec. 24 — FREE Santa’s Wonderland at Bass Pro Shops & Cabela’s.",
-    "Nov. 7–Feb. 1 — Edmond Ice Rink at Mitch Park.",
-    "Nov. 8–Jan. 5 — Crest on Ice in Norman.",
-    "Nov. 13–Dec. 31 — Red Earth Treefest.",
-    "Nov. 13–Jan. 4 — Automobile Alley Lights.",
-    "Nov. 13–Jan. 18 — OAK on Ice.",
-    "Nov. 14–Dec. 28 — Polar Express Train Ride.",
-    "Nov. 14–Jan. 4 — FREE Weekend Streetcars.",
-    "Nov. 14–Feb. 1 — Devon Ice Rink.",
-    "Nov. 15 — Holiday River Parade.",
-    "Nov. 15–Jan. 4 — Safari Lights @ OKC Zoo.",
-    "Nov. 20–Dec. 31 — Chickasha Festival of Light.",
-    "Nov. 21 — Merry Marketplace.",
-    "Nov. 21–22 — The Santa Market.",
-    "Nov. 21–Dec. 17 — SPARKLE Holiday Walk.",
-    "Nov. 21–Dec. 28 — Coca-Cola Classic Christmas @ Remington.",
-    "Nov. 22 — Chill Your Cheeks 5K.",
-    "Nov. 22–Dec. 31 — Yukon Christmas in the Park.",
-    "Nov. 22–Jan. 4 — Yukon Ice Rink.",
-    "Nov. 27–Jan. 1 — Downs Family Lights.",
-    "Nov. 28–29 — An Actor’s Carol.",
-    "Nov. 28–Dec. 14 — It’s a Wonderful Life — Radio Play.",
-    "Nov. 28–Dec. 21 — Midtown Pop-Up Shops.",
-    "Nov. 28–Dec. 28 — Lyric’s A Christmas Carol.",
-    "Nov. 28–Jan. 1 — Moore Christmas Light Show.",
-    "Nov. 29–Dec. 13 — Guthrie Territorial Christmas.",
-    "Nov. 29–Dec. 13 — Lights on Broadway.",
-    "Nov. 29 & Dec. 13 — Factory Obscura Artist Markets.",
-    "Nov. 30 — Vienna Light Orchestra.",
-    "Dec. 1 — Walk the Lights (Midwest City).",
-    "Dec. 2–25 — Midwest City Light Spectacular.",
-    "Dec. 2–24 — Harkins Holiday Films.",
-    "Dec. 4 — Tuttle Home for the Holidays.",
-    "Dec. 4–21 — Jane Austen’s Christmas Cracker.",
-    "Dec. 5 — Moore Christmas Spectacular.",
-    "Dec. 5–6 — OKCPHIL Very Merry Pops.",
-    "Dec. 5–7 — Boys Ranch Christmas Pageant.",
-    "Dec. 6 — City parades & celebrations.",
-    "Dec. 6–7 — FAM Winter Holiday Market.",
-    "Dec. 6–20 — OKANA Breakfast with Santa.",
-    "Dec. 6–27 — OKCMOA Holiday Drop-in Art.",
-    "Dec. 7 — Caring Santa.",
-    "Dec. 7 — Sleigh Bells Market.",
-    "Dec. 7 — Trans-Siberian Orchestra.",
-    "Dec. 7 — Deck the Hall @ Cowboy Museum.",
-    "Dec. 7 — Handel’s Messiah.",
-    "Dec. 12 — Night in Bethlehem.",
-    "Dec. 12–14 — Hip Hop Nutcracker.",
-    "Dec. 12–23 — OKC Ballet’s The Nutcracker.",
-    "Dec. 13 — Deck the Hall of Fame.",
-    "Dec. 13 — Gingerbread Jingle.",
-    "Dec. 13 — Gingerbread Gardens.",
-    "Dec. 13 — Edmond Merry Marketplace.",
-    "Dec. 13 — Sounds of the Season.",
-    "Dec. 13–14 — Oklahoma Nutcracker.",
-    "Dec. 14 — Chanukah Celebration.",
-    "Dec. 20 — Nutcracker Tea.",
-    "Dec. 20 — Grinchmas Breakfast.",
-    "Dec. 20 — Christmas Vacation Movie Night.",
-    "Dec. 22–23 — Myriad Gardens Drop-ins.",
-    "Dec. 27 — Mannheim Steamroller."
+    "Feb 28 — Christopher Cross @ Riverwind Casino"
   ],
 
   "sports_schedules": {
     "OU Football 2025": [
-      "Dec 19 — vs Alabama (College Football Playoff — 7 PM)"
+      "Dec 19 — vs Alabama (College Football Playoff — 7 PM — at OU)"
     ],
 
     "OKC Thunder 2025–26": [
-      "Dec 7 — at Utah",
-      "Dec 12 — at Sacramento",
       "Dec 14 — vs Golden State",
       "Dec 17 — vs L.A. Clippers",
       "Dec 19 — vs Minnesota",
@@ -220,16 +127,13 @@
   "venues": {
     "BRICKHOUSE SALOON": {
       "regular": [
-        "Mon & Tue: Karaoke Party @ 9 PM (Free Entry & Parking)",
-        "Thu: Line Dancing with Aria ($5 Well Drinks All Night)",
+        "Mon & Tue: Karaoke Party @ 9 PM",
+        "Thu: Line Dancing with Aria",
         "Fri: Ladies Night ft. DJ T",
         "Sat: College Night ft. DJ T",
         "Fri & Sat: After Party — Free entry with any event or concert ticket"
       ],
-      "special": [
-        "Dec 3 — World Famous Girls Night Out (Ticketed Show)",
-        "Dec 10 — Christmas Jam with Patrick & Friends"
-      ]
+      "special": []
     },
 
     "OKIE STATE ROOM": {
@@ -238,9 +142,6 @@
         "Select ticketed shows"
       ],
       "special": [
-        "Nov 29 — Kenzie’s 34th Birthday Party",
-        "Dec 6 — Holiday Showcase ft. Tanner Ursrey",
-        "Dec 11 — A Night of Vince Guaraldi Christmas",
         "Jan 3 — Winter Acoustic Night",
         "Feb 1 — Red River Roots Fest"
       ]
@@ -249,48 +150,25 @@
     "FRIENDS OF FRIENDS": {
       "regular": [
         "Thu: Live bands",
-        "Fri & Sat: Local bands"
+        "Fri & Sat: Local bands",
+        "Kitchen open nightly"
       ],
       "special": [
-        "Dec 4 — The Country Shop Band (Live)",
-        "Dec 5 — Hypnotik (Live)",
-        "Dec 6 — Weekend Allstars (Live)",
-        "Dec 11 — The Country Shop Band (Live)",
-        "Dec 12 — Midas 13 (Live)",
-        "Dec 13 — The Stars (Live)",
-        "Dec 31 — NYE Super Bash 2026 ‘The Last Bad Decision’ ft. The Weekend Allstars"
+        "Dec 31 — NYE Super Bash 2026 ‘The Last Bad Decision’"
       ]
     },
 
     "THE ALLEY": {
       "regular": [
         "Live music every Saturday",
-        "Seasonal outdoor concerts",
         "Open daily until 2 AM"
       ],
       "special": [
-        "Dec 12 — Sweet Brenda & Sourmash",
-        "Dec 13 — Bricktown Hustlers",
-        "Dec 19 — Buzzard Hill",
-        "Dec 20 — Rock Candy",
         "Dec 26 — Remedy",
         "Dec 27 — Christy Bryant & Twist of Fate",
         "Dec 31 — Haloed (Happy New Year)",
-        "Dec 31 — New Year’s Countdown Show",
         "Jan 2 — Stinnett Brothers"
       ]
-    },
-
-    "THE MILL": {
-      "regular": [
-        "Sun: Shuffleboard Tournament",
-        "Mon: $5 Liquor After 8 PM",
-        "Tue & Thu: Shot Specials",
-        "Wed: Whiskey Wednesday + Free Pool",
-        "Fri: $15 Bucket Specials",
-        "Sat: Pitcher Deals"
-      ],
-      "special": []
     },
 
     "OKIE TONK": {
@@ -302,7 +180,6 @@
         "Sat & Sun: Karaoke"
       ],
       "special": [
-        "Dec 13 — Holiday Band Showcase",
         "Dec 31 — New Year’s Eve Party"
       ]
     },
@@ -312,38 +189,21 @@
         "Tue: Acoustic Tuesday",
         "Wed: Karaoke",
         "Thu: Singo + Karaoke",
-        "Fri: Live Music",
-        "Sat: Live Music",
+        "Fri & Sat: Live Music",
         "Sun: Brunch + Jam Session"
       ],
       "special": [
-        "Dec 13 — Classic Rewind Holiday Show",
         "Dec 31 — New Year’s Eve Party w/ The Stars"
       ]
-    },
-
-    "KATS TAVERN": {
-      "regular": [
-        "Mon: $2 Domestics",
-        "Tue: Singo Bingo",
-        "Wed–Fri: Karaoke",
-        "Sat: College Game Day + Karaoke",
-        "Sun: Football + Karaoke"
-      ],
-      "special": []
     },
 
     "40 WEST": {
       "regular": [
         "Mon: Pool Tournament",
-        "Tue: Karaoke",
-        "Wed: Karaoke",
-        "Thu: Themed Karaoke",
-        "Fri: Karaoke",
+        "Tue–Fri: Karaoke",
         "Sun: Open Mic + Poker"
       ],
       "special": [
-        "Dec 20 — Holiday Bash",
         "Dec 31 — Karaoke Finale"
       ]
     },
@@ -365,51 +225,28 @@
         "Concert venue & casino open 24/7"
       ],
       "special": [
-        "Dec 4 — Jake’s Jingle Jam",
-        "Dec 6 — Sara Evans Christmas Tour",
         "Dec 27 — Uncle Kracker",
         "Dec 31 — In The Mix in 2026",
         "Feb 6 — Eli Young Band",
         "Feb 14 — Matt Matthews: Boujee on a Budget",
         "Feb 20 — Dylan Gossett – The Westward Tour",
-        "Feb 28 — Christopher Cross",
-        "Mar 8 — Blues Traveler Returns",
-        "Apr 5 — Kansas Classic Reunion Tour"
-      ]
-    },
-
-    "LUCKY STAR CASINO": {
-      "regular": [
-        "Gaming, slots, entertainment"
-      ],
-      "special": [
-        "May 9 — ZZ Top + Dwight Yoakam (Dos Amigos Tour)"
-      ]
-    },
-
-    "PAYCOM CENTER": {
-      "regular": [
-        "NBA & concerts"
-      ],
-      "special": [
-        "Feb 11 2026 — TobyMac ‘Hits Deep’ Tour",
-        "Mar 20 2026 — Luke Combs World Tour"
+        "Feb 28 — Christopher Cross"
       ]
     },
 
     "ROYAL BAVARIA": {
       "regular": [],
       "special": [
-        "Jan 9 — 32nd Anniversary Celebration (German Band + Raffle)",
-        "Jan 10 — 32nd Anniversary Celebration (German Band + Raffle)",
-        "Jan 16 — 32nd Anniversary Celebration (German Band + Raffle)",
-        "Jan 17 — 32nd Anniversary Celebration (German Band + Raffle)",
-        "Jan 23 — 32nd Anniversary Celebration (German Band + Raffle)",
-        "Jan 24 — 32nd Anniversary Celebration (German Band + Raffle)",
-        "Jan 30 — 32nd Anniversary Celebration (German Band + Raffle)",
-        "Jan 31 — 32nd Anniversary Celebration (German Band + Raffle)",
-        "Feb 6 — 32nd Anniversary Celebration (German Band + Raffle)",
-        "Feb 7 — 32nd Anniversary Celebration (German Band + Raffle)"
+        "Jan 9 — 32nd Anniversary Celebration",
+        "Jan 10 — 32nd Anniversary Celebration",
+        "Jan 16 — 32nd Anniversary Celebration",
+        "Jan 17 — 32nd Anniversary Celebration",
+        "Jan 23 — 32nd Anniversary Celebration",
+        "Jan 24 — 32nd Anniversary Celebration",
+        "Jan 30 — 32nd Anniversary Celebration",
+        "Jan 31 — 32nd Anniversary Celebration",
+        "Feb 6 — 32nd Anniversary Celebration",
+        "Feb 7 — 32nd Anniversary Celebration"
       ]
     }
   }
