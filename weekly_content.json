@@ -1,41 +1,37 @@
 {
-  "week_range": "Dec 14–21, 2025",
-  "updated_at": "2025-12-14T12:15:00Z",
+  "week_range": "Dec 27, 2025–Jan 3, 2026",
+  "updated_at": "2025-12-27T12:00:00Z",
 
   "rules_locked": {
     "data_scope": "JSON is strictly forward-looking. Any event prior to the current week start is removed.",
-    "weekly_highlights": "Current week only (Sun–Sun). Max 4 items.",
+    "weekly_highlights": "Current week only (week_range window). Max 4 items.",
     "venue_regulars": "Locked unless explicitly changed.",
     "venue_specials": "All future-dated events retained.",
     "sports": "All sports schedules are future-only."
   },
 
   "weekly_highlights": [
-    "Dec 19 — OU vs Alabama (College Football Playoff — 7 PM — at OU)",
-    "Dec 19 — Sparkle Holiday Market @ Scissortail Park",
-    "Dec 20 — Christmas Country Ball @ Cowboys OKC",
-    "Dec 20 — Oklahoma Opry Christmas in Muskogee"
+    "Dec 27 — Uncle Kracker @ Riverwind Casino",
+    "Dec 31 — NYE Super Bash 2026: ‘The Last Bad Decision’ @ Friends of Friends",
+    "Dec 31 — In The Mix in 2026 @ Riverwind Casino",
+    "Jan 2 — Stinnett Brothers @ The Alley"
   ],
 
   "metro_sports": [
-    "Dec 17 — OKC Thunder vs L.A. Clippers",
-    "Dec 19 — OKC Thunder vs Minnesota"
+    "Dec 28 — OKC Thunder vs Philadelphia",
+    "Dec 29 — OKC Thunder vs Atlanta",
+    "Dec 31 — OKC Thunder at Portland",
+    "Jan 2 — OKC Thunder at Golden State"
   ],
 
   "local_updates": [
     "Yukon Christmas in the Park open nightly through Dec 31.",
     "OKC Zoo Safari Lights open nightly through Jan 12, 2026.",
     "Remington Park Christmas Walk-Thru open through Dec 28.",
-    "Orr Family Farm Holiday Festival open through Dec 22.",
     "Frontier City Holiday in the Park runs through December."
   ],
 
   "local_fun_special": [
-    "Dec 19 — Sparkle Holiday Market @ Scissortail Park",
-    "Dec 19 — OU vs Alabama (College Football Playoff — 7 PM — at OU)",
-    "Dec 20 — Oklahoma Opry Christmas in Muskogee",
-    "Dec 20 — Christmas Country Ball @ Cowboys OKC",
-    "Dec 26 — Remedy @ The Alley",
     "Dec 27 — Uncle Kracker @ Riverwind Casino",
     "Dec 27 — Christy Bryant & Twist of Fate @ The Alley",
     "Dec 30 — Oklahoma Opry New Year’s Eve Eve Concert & Fundraiser",
@@ -45,7 +41,7 @@
     "Dec 31 — New Year’s Eve Party w/ The Stars @ Mooney’s Pub",
     "Dec 31 — Karaoke Finale @ 40 West",
     "Dec 31 — New Year’s Stampede Bash @ Cowboys OKC",
-    "Dec 31 — NYE Super Bash 2026 ‘The Last Bad Decision’ @ Friends of Friends",
+    "Dec 31 — NYE Super Bash 2026: ‘The Last Bad Decision’ (Live Music by The Weekend Allstars • Doors 7 PM–2 AM • 21+ • $20 advance / $25 door • Champagne at Midnight) @ Friends of Friends",
     "Jan 2 — Stinnett Brothers @ The Alley",
     "Jan 9 — Royal Bavaria 32nd Anniversary Celebration",
     "Jan 10 — Royal Bavaria 32nd Anniversary Celebration",
@@ -64,16 +60,7 @@
   ],
 
   "sports_schedules": {
-    "OU Football 2025": [
-      "Dec 19 — vs Alabama (College Football Playoff — 7 PM — at OU)"
-    ],
-
     "OKC Thunder 2025–26": [
-      "Dec 14 — vs Golden State",
-      "Dec 17 — vs L.A. Clippers",
-      "Dec 19 — vs Minnesota",
-      "Dec 22 — at Memphis",
-      "Dec 25 — at San Antonio",
       "Dec 28 — vs Philadelphia",
       "Dec 29 — vs Atlanta",
       "Dec 31 — at Portland",
@@ -154,7 +141,7 @@
         "Kitchen open nightly"
       ],
       "special": [
-        "Dec 31 — NYE Super Bash 2026 ‘The Last Bad Decision’"
+        "Dec 31 — NYE Super Bash 2026: ‘The Last Bad Decision’ (Live Music by The Weekend Allstars • Doors 7 PM–2 AM • 21+ • $20 advance / $25 door • Champagne at Midnight)"
       ]
     },
 
@@ -164,7 +151,6 @@
         "Open daily until 2 AM"
       ],
       "special": [
-        "Dec 26 — Remedy",
         "Dec 27 — Christy Bryant & Twist of Fate",
         "Dec 31 — Haloed (Happy New Year)",
         "Jan 2 — Stinnett Brothers"
@@ -215,7 +201,6 @@
         "Sat: Bull Riding + Line Dancing"
       ],
       "special": [
-        "Dec 20 — Christmas Country Ball",
         "Dec 31 — New Year’s Stampede Bash"
       ]
     },
