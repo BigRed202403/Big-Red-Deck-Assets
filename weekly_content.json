@@ -1,20 +1,20 @@
 {
   "week_range": "Dec 27, 2025–Jan 3, 2026",
-  "updated_at": "2025-12-27T12:00:00Z",
+  "updated_at": "2025-12-27T13:15:00Z",
 
   "rules_locked": {
     "data_scope": "JSON is strictly forward-looking. Any event prior to the current week start is removed.",
-    "weekly_highlights": "Current week only (week_range window). Max 4 items.",
+    "weekly_highlights": "Current week only (week_range window). Max 4 items. No duplicates.",
     "venue_regulars": "Locked unless explicitly changed.",
     "venue_specials": "All future-dated events retained.",
-    "sports": "All sports schedules are future-only."
+    "sports": "All sports schedules are future-only and retain all upcoming games."
   },
 
   "weekly_highlights": [
     "Dec 27 — Uncle Kracker @ Riverwind Casino",
     "Dec 31 — NYE Super Bash 2026: ‘The Last Bad Decision’ @ Friends of Friends",
     "Dec 31 — In The Mix in 2026 @ Riverwind Casino",
-    "Jan 2 — Stinnett Brothers @ The Alley"
+    "Dec 31 — New Year’s Eve Party w/ J’Some Aldean @ Brickhouse Saloon"
   ],
 
   "metro_sports": [
@@ -42,7 +42,9 @@
     "Dec 31 — Karaoke Finale @ 40 West",
     "Dec 31 — New Year’s Stampede Bash @ Cowboys OKC",
     "Dec 31 — NYE Super Bash 2026: ‘The Last Bad Decision’ (Live Music by The Weekend Allstars • Doors 7 PM–2 AM • 21+ • $20 advance / $25 door • Champagne at Midnight) @ Friends of Friends",
+    "Dec 31 — New Year’s Eve Party w/ J’Some Aldean (Live Music + Karaoke + DJ • Doors 6 PM • $10 Cover • Champagne Toast at Midnight • All Bars Open) @ Brickhouse Saloon",
     "Jan 2 — Stinnett Brothers @ The Alley",
+    "Jan 3 — Winter Acoustic Night @ Okie State Room",
     "Jan 9 — Royal Bavaria 32nd Anniversary Celebration",
     "Jan 10 — Royal Bavaria 32nd Anniversary Celebration",
     "Jan 16 — Royal Bavaria 32nd Anniversary Celebration",
@@ -51,6 +53,7 @@
     "Jan 24 — Royal Bavaria 32nd Anniversary Celebration",
     "Jan 30 — Royal Bavaria 32nd Anniversary Celebration",
     "Jan 31 — Royal Bavaria 32nd Anniversary Celebration",
+    "Feb 1 — Red River Roots Fest @ Okie State Room",
     "Feb 6 — Royal Bavaria 32nd Anniversary Celebration",
     "Feb 7 — Royal Bavaria 32nd Anniversary Celebration",
     "Feb 6 — Eli Young Band @ Riverwind Casino",
@@ -120,7 +123,9 @@
         "Sat: College Night ft. DJ T",
         "Fri & Sat: After Party — Free entry with any event or concert ticket"
       ],
-      "special": []
+      "special": [
+        "Dec 31 — New Year’s Eve Party w/ J’Some Aldean (Doors 6 PM • $10 Cover • Champagne Toast at Midnight • Live Music + Karaoke + DJ)"
+      ]
     },
 
     "OKIE STATE ROOM": {
@@ -232,6 +237,47 @@
         "Jan 31 — 32nd Anniversary Celebration",
         "Feb 6 — 32nd Anniversary Celebration",
         "Feb 7 — 32nd Anniversary Celebration"
+      ]
+    },
+
+    "THE MILL": {
+      "regular": [
+        "Sun: Shuffleboard Tournament",
+        "Mon: $5 Liquor After 8 PM",
+        "Tue & Thu: Shot Specials",
+        "Wed: Whiskey Wednesday + Free Pool",
+        "Fri: $15 Bucket Specials",
+        "Sat: Pitcher Deals"
+      ],
+      "special": []
+    },
+
+    "KATS TAVERN": {
+      "regular": [
+        "Mon: $2 Domestics",
+        "Tue: Singo Bingo",
+        "Wed–Fri: Karaoke",
+        "Sat: College Game Day + Karaoke",
+        "Sun: Football + Karaoke"
+      ],
+      "special": []
+    },
+
+    "LUCKY STAR CASINO": {
+      "regular": [
+        "Gaming, slots, entertainment"
+      ],
+      "special": [
+        "May 9 — ZZ Top + Dwight Yoakam (Dos Amigos Tour) @ Lucky Star Amphitheater"
+      ]
+    },
+
+    "PAYCOM CENTER": {
+      "regular": [
+        "NBA & concerts"
+      ],
+      "special": [
+        "Mar 20 2026 — Luke Combs World Tour"
       ]
     }
   }
