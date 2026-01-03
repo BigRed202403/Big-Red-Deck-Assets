@@ -1,49 +1,38 @@
 {
-  "week_range": "Dec 27, 2025–Jan 3, 2026",
-  "updated_at": "2025-12-27T13:15:00Z",
+  "week_range": "Jan 2–9, 2026",
+  "updated_at": "2026-01-02T12:00:00Z",
 
   "rules_locked": {
     "data_scope": "JSON is strictly forward-looking. Any event prior to the current week start is removed.",
-    "weekly_highlights": "Current week only (week_range window). Max 4 items. No duplicates.",
+    "weekly_highlights": "Current week only (Sun–Sun). Max 4 items.",
     "venue_regulars": "Locked unless explicitly changed.",
     "venue_specials": "All future-dated events retained.",
-    "sports": "All sports schedules are future-only and retain all upcoming games."
+    "sports": "All sports schedules are future-only."
   },
 
   "weekly_highlights": [
-    "Dec 27 — Uncle Kracker @ Riverwind Casino",
-    "Dec 31 — NYE Super Bash 2026: ‘The Last Bad Decision’ @ Friends of Friends",
-    "Dec 31 — In The Mix in 2026 @ Riverwind Casino",
-    "Dec 31 — New Year’s Eve Party w/ J’Some Aldean @ Brickhouse Saloon"
+    "Jan 2 — Midas 13 (Live) @ Friends of Friends",
+    "Jan 2 — Stinnett Brothers @ The Alley",
+    "Jan 3 — The Stars (Live) @ Friends of Friends",
+    "Jan 3 — Winter Acoustic Night @ Okie State Room"
   ],
 
   "metro_sports": [
-    "Dec 28 — OKC Thunder vs Philadelphia",
-    "Dec 29 — OKC Thunder vs Atlanta",
-    "Dec 31 — OKC Thunder at Portland",
-    "Jan 2 — OKC Thunder at Golden State"
+    "Jan 2 — OKC Thunder at Golden State",
+    "Jan 4 — OKC Thunder at Phoenix",
+    "Jan 7 — OKC Thunder at Charlotte"
   ],
 
   "local_updates": [
-    "Yukon Christmas in the Park open nightly through Dec 31.",
     "OKC Zoo Safari Lights open nightly through Jan 12, 2026.",
-    "Remington Park Christmas Walk-Thru open through Dec 28.",
-    "Frontier City Holiday in the Park runs through December."
+    "Frontier City Holiday in the Park continues into early January.",
+    "Bricktown canal attractions remain open for winter events."
   ],
 
   "local_fun_special": [
-    "Dec 27 — Uncle Kracker @ Riverwind Casino",
-    "Dec 27 — Christy Bryant & Twist of Fate @ The Alley",
-    "Dec 30 — Oklahoma Opry New Year’s Eve Eve Concert & Fundraiser",
-    "Dec 31 — In The Mix in 2026 @ Riverwind Casino",
-    "Dec 31 — Haloed (Happy New Year) @ The Alley",
-    "Dec 31 — New Year’s Eve Party @ Okie Tonk",
-    "Dec 31 — New Year’s Eve Party w/ The Stars @ Mooney’s Pub",
-    "Dec 31 — Karaoke Finale @ 40 West",
-    "Dec 31 — New Year’s Stampede Bash @ Cowboys OKC",
-    "Dec 31 — NYE Super Bash 2026: ‘The Last Bad Decision’ (Live Music by The Weekend Allstars • Doors 7 PM–2 AM • 21+ • $20 advance / $25 door • Champagne at Midnight) @ Friends of Friends",
-    "Dec 31 — New Year’s Eve Party w/ J’Some Aldean (Live Music + Karaoke + DJ • Doors 6 PM • $10 Cover • Champagne Toast at Midnight • All Bars Open) @ Brickhouse Saloon",
+    "Jan 2 — Midas 13 (Live) @ Friends of Friends",
     "Jan 2 — Stinnett Brothers @ The Alley",
+    "Jan 3 — The Stars (Live) @ Friends of Friends",
     "Jan 3 — Winter Acoustic Night @ Okie State Room",
     "Jan 9 — Royal Bavaria 32nd Anniversary Celebration",
     "Jan 10 — Royal Bavaria 32nd Anniversary Celebration",
@@ -53,7 +42,6 @@
     "Jan 24 — Royal Bavaria 32nd Anniversary Celebration",
     "Jan 30 — Royal Bavaria 32nd Anniversary Celebration",
     "Jan 31 — Royal Bavaria 32nd Anniversary Celebration",
-    "Feb 1 — Red River Roots Fest @ Okie State Room",
     "Feb 6 — Royal Bavaria 32nd Anniversary Celebration",
     "Feb 7 — Royal Bavaria 32nd Anniversary Celebration",
     "Feb 6 — Eli Young Band @ Riverwind Casino",
@@ -64,9 +52,6 @@
 
   "sports_schedules": {
     "OKC Thunder 2025–26": [
-      "Dec 28 — vs Philadelphia",
-      "Dec 29 — vs Atlanta",
-      "Dec 31 — at Portland",
       "Jan 2 — at Golden State",
       "Jan 4 — at Phoenix",
       "Jan 7 — at Charlotte",
@@ -123,9 +108,7 @@
         "Sat: College Night ft. DJ T",
         "Fri & Sat: After Party — Free entry with any event or concert ticket"
       ],
-      "special": [
-        "Dec 31 — New Year’s Eve Party w/ J’Some Aldean (Doors 6 PM • $10 Cover • Champagne Toast at Midnight • Live Music + Karaoke + DJ)"
-      ]
+      "special": []
     },
 
     "OKIE STATE ROOM": {
@@ -146,7 +129,8 @@
         "Kitchen open nightly"
       ],
       "special": [
-        "Dec 31 — NYE Super Bash 2026: ‘The Last Bad Decision’ (Live Music by The Weekend Allstars • Doors 7 PM–2 AM • 21+ • $20 advance / $25 door • Champagne at Midnight)"
+        "Jan 2 — Midas 13 (Live)",
+        "Jan 3 — The Stars (Live)"
       ]
     },
 
@@ -156,8 +140,6 @@
         "Open daily until 2 AM"
       ],
       "special": [
-        "Dec 27 — Christy Bryant & Twist of Fate",
-        "Dec 31 — Haloed (Happy New Year)",
         "Jan 2 — Stinnett Brothers"
       ]
     },
@@ -170,9 +152,7 @@
         "Fri: Live Bands",
         "Sat & Sun: Karaoke"
       ],
-      "special": [
-        "Dec 31 — New Year’s Eve Party"
-      ]
+      "special": []
     },
 
     "MOONEY’S PUB": {
@@ -183,9 +163,7 @@
         "Fri & Sat: Live Music",
         "Sun: Brunch + Jam Session"
       ],
-      "special": [
-        "Dec 31 — New Year’s Eve Party w/ The Stars"
-      ]
+      "special": []
     },
 
     "40 WEST": {
@@ -194,9 +172,7 @@
         "Tue–Fri: Karaoke",
         "Sun: Open Mic + Poker"
       ],
-      "special": [
-        "Dec 31 — Karaoke Finale"
-      ]
+      "special": []
     },
 
     "COWBOYS OKC": {
@@ -205,9 +181,7 @@
         "Fri: Line Dance Lessons",
         "Sat: Bull Riding + Line Dancing"
       ],
-      "special": [
-        "Dec 31 — New Year’s Stampede Bash"
-      ]
+      "special": []
     },
 
     "RIVERWIND CASINO": {
@@ -215,8 +189,6 @@
         "Concert venue & casino open 24/7"
       ],
       "special": [
-        "Dec 27 — Uncle Kracker",
-        "Dec 31 — In The Mix in 2026",
         "Feb 6 — Eli Young Band",
         "Feb 14 — Matt Matthews: Boujee on a Budget",
         "Feb 20 — Dylan Gossett – The Westward Tour",
@@ -237,47 +209,6 @@
         "Jan 31 — 32nd Anniversary Celebration",
         "Feb 6 — 32nd Anniversary Celebration",
         "Feb 7 — 32nd Anniversary Celebration"
-      ]
-    },
-
-    "THE MILL": {
-      "regular": [
-        "Sun: Shuffleboard Tournament",
-        "Mon: $5 Liquor After 8 PM",
-        "Tue & Thu: Shot Specials",
-        "Wed: Whiskey Wednesday + Free Pool",
-        "Fri: $15 Bucket Specials",
-        "Sat: Pitcher Deals"
-      ],
-      "special": []
-    },
-
-    "KATS TAVERN": {
-      "regular": [
-        "Mon: $2 Domestics",
-        "Tue: Singo Bingo",
-        "Wed–Fri: Karaoke",
-        "Sat: College Game Day + Karaoke",
-        "Sun: Football + Karaoke"
-      ],
-      "special": []
-    },
-
-    "LUCKY STAR CASINO": {
-      "regular": [
-        "Gaming, slots, entertainment"
-      ],
-      "special": [
-        "May 9 — ZZ Top + Dwight Yoakam (Dos Amigos Tour) @ Lucky Star Amphitheater"
-      ]
-    },
-
-    "PAYCOM CENTER": {
-      "regular": [
-        "NBA & concerts"
-      ],
-      "special": [
-        "Mar 20 2026 — Luke Combs World Tour"
       ]
     }
   }
