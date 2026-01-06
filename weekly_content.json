@@ -1,6 +1,6 @@
 {
-  "week_range": "Jan 2–9, 2026",
-  "updated_at": "2026-01-02T12:00:00Z",
+  "week_range": "Jan 4–11, 2026",
+  "updated_at": "2026-01-05T12:00:00Z",
 
   "rules_locked": {
     "data_scope": "JSON is strictly forward-looking. Any event prior to the current week start is removed.",
@@ -11,49 +11,44 @@
   },
 
   "weekly_highlights": [
-    "Jan 2 — Midas 13 (Live) @ Friends of Friends",
-    "Jan 2 — Stinnett Brothers @ The Alley",
-    "Jan 3 — The Stars (Live) @ Friends of Friends",
-    "Jan 3 — Winter Acoustic Night @ Okie State Room"
+    "Jan 7 — OKC Thunder at Charlotte",
+    "Jan 9 — Tyler Lee Acoustic @ The Alley",
+    "Jan 10 — Timmy T Live @ 40 West",
+    "Jan 11 — OKC Thunder vs Miami"
   ],
 
   "metro_sports": [
-    "Jan 2 — OKC Thunder at Golden State",
-    "Jan 4 — OKC Thunder at Phoenix",
-    "Jan 7 — OKC Thunder at Charlotte"
+    "Jan 7 — OKC Thunder at Charlotte",
+    "Jan 11 — OKC Thunder vs Miami"
   ],
 
   "local_updates": [
-    "OKC Zoo Safari Lights open nightly through Jan 12, 2026.",
-    "Frontier City Holiday in the Park continues into early January.",
-    "Bricktown canal attractions remain open for winter events."
+    "OKC Zoo Safari Lights open nightly through Jan 12, 2026."
   ],
 
   "local_fun_special": [
-    "Jan 2 — Midas 13 (Live) @ Friends of Friends",
-    "Jan 2 — Stinnett Brothers @ The Alley",
-    "Jan 3 — The Stars (Live) @ Friends of Friends",
-    "Jan 3 — Winter Acoustic Night @ Okie State Room",
-    "Jan 9 — Royal Bavaria 32nd Anniversary Celebration",
-    "Jan 10 — Royal Bavaria 32nd Anniversary Celebration",
-    "Jan 16 — Royal Bavaria 32nd Anniversary Celebration",
-    "Jan 17 — Royal Bavaria 32nd Anniversary Celebration",
-    "Jan 23 — Royal Bavaria 32nd Anniversary Celebration",
-    "Jan 24 — Royal Bavaria 32nd Anniversary Celebration",
-    "Jan 30 — Royal Bavaria 32nd Anniversary Celebration",
-    "Jan 31 — Royal Bavaria 32nd Anniversary Celebration",
-    "Feb 6 — Royal Bavaria 32nd Anniversary Celebration",
-    "Feb 7 — Royal Bavaria 32nd Anniversary Celebration",
+    "Jan 9 — Tyler Lee Acoustic @ The Alley",
+    "Jan 10 — Tyler Lee Band @ The Alley",
+    "Jan 10 — Timmy T Live @ 40 West",
+    "Jan 16 — Hell N Back @ The Alley",
+    "Jan 17 — Jukebox Hero @ The Alley",
+    "Jan 23 — TightRope @ The Alley",
+    "Jan 24 — The Flipside @ The Alley",
+    "Jan 30 — Street Kings @ The Alley",
+    "Jan 31 — Dark Prairie Sun @ The Alley",
+    "Feb 1 — Soup Cook-Off @ The Mill Bar",
     "Feb 6 — Eli Young Band @ Riverwind Casino",
     "Feb 14 — Matt Matthews: Boujee on a Budget @ Riverwind Casino",
+    "Feb 15 — Lunar New Year @ Riverwind Casino",
     "Feb 20 — Dylan Gossett – The Westward Tour @ Riverwind Casino",
-    "Feb 28 — Christopher Cross @ Riverwind Casino"
+    "Feb 28 — Christopher Cross @ Riverwind Casino",
+    "Mar 13 — Chicago @ Riverwind Casino",
+    "Mar 21 — Randy Houser @ Riverwind Casino",
+    "Mar 27 — Nate Smith – Long Live Country Rock & Roll Tour @ Riverwind Casino"
   ],
 
   "sports_schedules": {
     "OKC Thunder 2025–26": [
-      "Jan 2 — at Golden State",
-      "Jan 4 — at Phoenix",
       "Jan 7 — at Charlotte",
       "Jan 11 — vs Miami",
       "Jan 13 — vs San Antonio",
@@ -100,70 +95,21 @@
   },
 
   "venues": {
-    "BRICKHOUSE SALOON": {
-      "regular": [
-        "Mon & Tue: Karaoke Party @ 9 PM",
-        "Thu: Line Dancing with Aria",
-        "Fri: Ladies Night ft. DJ T",
-        "Sat: College Night ft. DJ T",
-        "Fri & Sat: After Party — Free entry with any event or concert ticket"
-      ],
-      "special": []
-    },
-
-    "OKIE STATE ROOM": {
-      "regular": [
-        "Live music on weekends",
-        "Select ticketed shows"
-      ],
-      "special": [
-        "Jan 3 — Winter Acoustic Night",
-        "Feb 1 — Red River Roots Fest"
-      ]
-    },
-
-    "FRIENDS OF FRIENDS": {
-      "regular": [
-        "Thu: Live bands",
-        "Fri & Sat: Local bands",
-        "Kitchen open nightly"
-      ],
-      "special": [
-        "Jan 2 — Midas 13 (Live)",
-        "Jan 3 — The Stars (Live)"
-      ]
-    },
-
     "THE ALLEY": {
       "regular": [
         "Live music every Saturday",
         "Open daily until 2 AM"
       ],
       "special": [
-        "Jan 2 — Stinnett Brothers"
+        "Jan 9 — Tyler Lee Acoustic",
+        "Jan 10 — Tyler Lee Band",
+        "Jan 16 — Hell N Back",
+        "Jan 17 — Jukebox Hero",
+        "Jan 23 — TightRope",
+        "Jan 24 — The Flipside",
+        "Jan 30 — Street Kings",
+        "Jan 31 — Dark Prairie Sun"
       ]
-    },
-
-    "OKIE TONK": {
-      "regular": [
-        "Tue: Poker Night",
-        "Wed: Trivia + Karaoke",
-        "Thu: Singo Bingo",
-        "Fri: Live Bands",
-        "Sat & Sun: Karaoke"
-      ],
-      "special": []
-    },
-
-    "MOONEY’S PUB": {
-      "regular": [
-        "Tue: Acoustic Tuesday",
-        "Wed: Karaoke",
-        "Thu: Singo + Karaoke",
-        "Fri & Sat: Live Music",
-        "Sun: Brunch + Jam Session"
-      ],
-      "special": []
     },
 
     "40 WEST": {
@@ -172,16 +118,33 @@
         "Tue–Fri: Karaoke",
         "Sun: Open Mic + Poker"
       ],
+      "special": [
+        "Jan 10 — Timmy T Live"
+      ]
+    },
+
+    "OKIE TONK": {
+      "regular": [
+        "Mon: Poker at 7 PM + Comedy Show at 10 PM",
+        "Tue: Local Musician Showcase (Hosted by Timmy T) at 7 PM",
+        "Wed: Acoustic Night with Trent Bucklees & Tyler Banks",
+        "Thu: Three Amigos Karaoke (9 PM–12 AM)",
+        "Fri: Live performance by Timmy T & Jakes Barnes (9 PM–1 AM)",
+        "Sat: That 90’s Band (9 PM–1 AM)",
+        "Sun: Blues Open Jam with Brian Hiddelston (7 PM–9:30 PM)"
+      ],
       "special": []
     },
 
-    "COWBOYS OKC": {
+    "THE MILL BAR": {
       "regular": [
-        "Thu: Ladies Night",
-        "Fri: Line Dance Lessons",
-        "Sat: Bull Riding + Line Dancing"
+        "Daily drink specials",
+        "Sports watch parties"
       ],
-      "special": []
+      "special": [
+        "Feb 1 — Soup Cook-Off",
+        "College Football Playoff Watch Parties (Jan)"
+      ]
     },
 
     "RIVERWIND CASINO": {
@@ -191,25 +154,22 @@
       "special": [
         "Feb 6 — Eli Young Band",
         "Feb 14 — Matt Matthews: Boujee on a Budget",
+        "Feb 15 — Lunar New Year",
         "Feb 20 — Dylan Gossett – The Westward Tour",
-        "Feb 28 — Christopher Cross"
+        "Feb 28 — Christopher Cross",
+        "Mar 13 — Chicago",
+        "Mar 21 — Randy Houser",
+        "Mar 27 — Nate Smith – Long Live Country Rock & Roll Tour"
       ]
     },
 
-    "ROYAL BAVARIA": {
-      "regular": [],
-      "special": [
-        "Jan 9 — 32nd Anniversary Celebration",
-        "Jan 10 — 32nd Anniversary Celebration",
-        "Jan 16 — 32nd Anniversary Celebration",
-        "Jan 17 — 32nd Anniversary Celebration",
-        "Jan 23 — 32nd Anniversary Celebration",
-        "Jan 24 — 32nd Anniversary Celebration",
-        "Jan 30 — 32nd Anniversary Celebration",
-        "Jan 31 — 32nd Anniversary Celebration",
-        "Feb 6 — 32nd Anniversary Celebration",
-        "Feb 7 — 32nd Anniversary Celebration"
-      ]
+    "FRIENDS OF FRIENDS": {
+      "regular": [
+        "Thu: Live bands",
+        "Fri & Sat: Local bands",
+        "Kitchen open nightly"
+      ],
+      "special": []
     }
   }
 }
