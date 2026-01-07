@@ -27,14 +27,14 @@
   ],
 
   "local_fun_special": [
-    "Jan 8 — Country Shop Band @ Friends of Friends",
-    "Jan 9 — Tyler Lee Acoustic @ The Alley",
-    "Jan 9 — Almost Yesterday @ Friends of Friends",
+    "Jan 8 — Country Shop Band (LIVE) @ Friends of Friends",
+    "Jan 9 — Almost Yesterday (LIVE) @ Friends of Friends",
     "Jan 9 — Ladies Night @ Brickhouse Saloon",
+    "Jan 9 — Tyler Lee Acoustic @ The Alley",
+    "Jan 10 — Pleas OKC @ Brickhouse Saloon",
+    "Jan 10 — Weekend All-Stars (LIVE) @ Friends of Friends",
     "Jan 10 — Tyler Lee Band @ The Alley",
     "Jan 10 — Timmy T Live @ 40 West",
-    "Jan 10 — Weekend All-Stars @ Friends of Friends",
-    "Jan 10 — Pleas OKC @ Brickhouse Saloon",
     "Jan 16 — Hell N Back @ The Alley",
     "Jan 17 — Jukebox Hero @ The Alley",
     "Jan 23 — TightRope @ The Alley",
@@ -43,6 +43,7 @@
     "Jan 31 — Dark Prairie Sun @ The Alley",
     "Feb 1 — Soup Cook-Off @ The Mill Bar",
     "Feb 6 — Eli Young Band @ Riverwind Casino",
+    "Feb 6 — The New Edition Way Tour (New Edition, Boyz II Men, Toni Braxton) @ Paycom Center",
     "Feb 14 — Matt Matthews: Boujee on a Budget @ Riverwind Casino",
     "Feb 15 — Lunar New Year @ Riverwind Casino",
     "Feb 20 — Dylan Gossett – The Westward Tour @ Riverwind Casino",
@@ -51,6 +52,53 @@
     "Mar 21 — Randy Houser @ Riverwind Casino",
     "Mar 27 — Nate Smith – Long Live Country Rock & Roll Tour @ Riverwind Casino"
   ],
+
+  "sports_schedules": {
+    "OKC Thunder 2025–26": [
+      "Jan 7 — at Charlotte",
+      "Jan 11 — vs Miami",
+      "Jan 13 — vs San Antonio",
+      "Jan 15 — at Houston",
+      "Jan 17 — at Miami",
+      "Jan 19 — at Cleveland",
+      "Jan 21 — at Milwaukee",
+      "Jan 23 — vs Indiana",
+      "Jan 25 — vs Toronto",
+      "Jan 27 — vs New Orleans",
+      "Jan 29 — at Minnesota",
+      "Feb 1 — at Denver",
+      "Feb 3 — at Orlando",
+      "Feb 4 — at San Antonio",
+      "Feb 7 — at Houston",
+      "Feb 9 — at L.A. Lakers",
+      "Feb 12 — vs Milwaukee",
+      "Feb 21 — vs Brooklyn",
+      "Feb 24 — vs Cleveland",
+      "Feb 26 — at Toronto",
+      "Feb 27 — vs Denver",
+      "Mar 1 — at Dallas",
+      "Mar 3 — at Chicago",
+      "Mar 4 — at New York",
+      "Mar 7 — vs Golden State",
+      "Mar 9 — vs Denver",
+      "Mar 12 — vs Boston",
+      "Mar 15 — vs Minnesota",
+      "Mar 17 — at Orlando",
+      "Mar 18 — at Brooklyn",
+      "Mar 21 — at Washington",
+      "Mar 23 — at Philadelphia",
+      "Mar 25 — at Boston",
+      "Mar 27 — vs Chicago",
+      "Mar 29 — vs New York",
+      "Mar 30 — vs Detroit",
+      "Apr 2 — vs L.A. Lakers",
+      "Apr 5 — vs Utah",
+      "Apr 7 — at L.A. Lakers",
+      "Apr 8 — at L.A. Clippers",
+      "Apr 10 — at Denver",
+      "Apr 12 — vs Phoenix"
+    ]
+  },
 
   "venues": {
     "THE ALLEY": {
@@ -81,40 +129,15 @@
       ]
     },
 
-    "BRICKHOUSE SALOON": {
-      "regular": [
-        "Fri: Ladies Night",
-        "Sat: DJ Nights",
-        "Free parking • 21+"
-      ],
-      "special": [
-        "Jan 9 — Ladies Night (DJ Night)",
-        "Jan 10 — Pleas OKC"
-      ]
-    },
-
-    "FRIENDS OF FRIENDS": {
-      "regular": [
-        "Thu: Live bands",
-        "Fri & Sat: Local bands",
-        "Kitchen open nightly"
-      ],
-      "special": [
-        "Jan 8 — Country Shop Band",
-        "Jan 9 — Almost Yesterday",
-        "Jan 10 — Weekend All-Stars"
-      ]
-    },
-
     "OKIE TONK": {
       "regular": [
-        "Mon: Poker + Comedy",
-        "Tue: Local Musician Showcase",
-        "Wed: Acoustic Night",
-        "Thu: Karaoke",
-        "Fri: Live Music",
-        "Sat: Live Band",
-        "Sun: Blues Open Jam"
+        "Mon: Poker at 7 PM + Comedy Show at 10 PM",
+        "Tue: Local Musician Showcase (Hosted by Timmy T) at 7 PM",
+        "Wed: Acoustic Night with Trent Bucklees & Tyler Banks",
+        "Thu: Three Amigos Karaoke (9 PM–12 AM)",
+        "Fri: Live performance by Timmy T & Jakes Barnes (9 PM–1 AM)",
+        "Sat: That 90’s Band (9 PM–1 AM)",
+        "Sun: Blues Open Jam with Brian Hiddelston (7 PM–9:30 PM)"
       ],
       "special": []
     },
@@ -125,7 +148,8 @@
         "Sports watch parties"
       ],
       "special": [
-        "Feb 1 — Soup Cook-Off"
+        "Feb 1 — Soup Cook-Off",
+        "College Football Playoff Watch Parties (Jan)"
       ]
     },
 
@@ -142,6 +166,44 @@
         "Mar 13 — Chicago",
         "Mar 21 — Randy Houser",
         "Mar 27 — Nate Smith – Long Live Country Rock & Roll Tour"
+      ]
+    },
+
+    "FRIENDS OF FRIENDS": {
+      "regular": [
+        "Thu: Live bands",
+        "Fri & Sat: Local bands",
+        "Kitchen open nightly"
+      ],
+      "special": [
+        "Jan 8 — Country Shop Band (LIVE)",
+        "Jan 9 — Almost Yesterday (LIVE)",
+        "Jan 10 — Weekend All-Stars (LIVE)"
+      ]
+    },
+
+    "BRICKHOUSE SALOON": {
+      "regular": [
+        "Fri: Ladies Night",
+        "Sat: DJ Nights",
+        "Free parking • 21+"
+      ],
+      "special": [
+        "Jan 9 — Ladies Night",
+        "Jan 10 — Pleas OKC",
+        "Jan 16 — Pleas OKC",
+        "Jan 17 — DJ Marky",
+        "Jan 23 — Flatline",
+        "Jan 24 — Pleas OKC",
+        "Jan 30 — Flatline",
+        "Jan 31 — DJ T.A."
+      ]
+    },
+
+    "PAYCOM CENTER": {
+      "regular": [],
+      "special": [
+        "Feb 6 — The New Edition Way Tour (New Edition, Boyz II Men, Toni Braxton)"
       ]
     }
   }
