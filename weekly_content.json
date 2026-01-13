@@ -1,46 +1,38 @@
 {
-  "week_range": "Jan 4–11, 2026",
-  "updated_at": "2026-01-05T22:30:00Z",
+  "week_range": "Jan 11–18, 2026",
+  "updated_at": "2026-01-13T12:00:00Z",
 
   "rules_locked": {
     "data_scope": "JSON is strictly forward-looking. Any event prior to the current week start is removed.",
-    "weekly_highlights": "Current week only (Sun–Sun). Max 4 items.",
+    "weekly_highlights": "Current week only (Sun–Sun). Max 4 items. Metro demand focused.",
     "venue_regulars": "Locked unless explicitly changed.",
     "venue_specials": "All future-dated events retained.",
     "sports": "All sports schedules are future-only."
   },
 
   "weekly_highlights": [
-    "Jan 7 — OKC Thunder at Charlotte",
-    "Jan 9 — Tyler Lee Acoustic @ The Alley",
-    "Jan 10 — Timmy T Live @ 40 West",
-    "Jan 11 — OKC Thunder vs Miami"
+    "Jan 13 — OKC Thunder vs San Antonio Spurs @ Paycom Center",
+    "Jan 16 — Fire From The Gods (LIVE) @ 89th Street OKC!",
+    "Jan 17 — Rory Scovel (LIVE) @ Tower Theatre OKC",
+    "Jan 17 — Alabama vs OU Men’s Basketball @ Lloyd Noble Center"
   ],
 
   "metro_sports": [
-    "Jan 7 — OKC Thunder at Charlotte",
-    "Jan 11 — OKC Thunder vs Miami"
+    "Jan 13 — OKC Thunder vs San Antonio Spurs",
+    "Jan 17 — Alabama vs OU Men’s Basketball"
   ],
 
   "local_updates": [
-    "OKC Zoo Safari Lights open nightly through Jan 12, 2026."
+    "OKC Zoo Safari Lights open nightly through Jan 12, 2026.",
+    "Downtown, Bricktown, Midtown, and Uptown expected to see increased weekend traffic."
   ],
 
   "local_fun_special": [
-    "Jan 8 — Country Shop Band (LIVE) @ Friends of Friends",
-    "Jan 9 — Almost Yesterday (LIVE) @ Friends of Friends",
-    "Jan 9 — Ladies Night @ Brickhouse Saloon",
-    "Jan 9 — Tyler Lee Acoustic @ The Alley",
-    "Jan 10 — Pleas OKC @ Brickhouse Saloon",
-    "Jan 10 — Weekend All-Stars (LIVE) @ Friends of Friends",
-    "Jan 10 — Tyler Lee Band @ The Alley",
-    "Jan 10 — Timmy T Live @ 40 West",
-    "Jan 16 — Hell N Back @ The Alley",
-    "Jan 17 — Jukebox Hero @ The Alley",
-    "Jan 23 — TightRope @ The Alley",
-    "Jan 24 — The Flipside @ The Alley",
-    "Jan 30 — Street Kings @ The Alley",
-    "Jan 31 — Dark Prairie Sun @ The Alley",
+    "Jan 16 — Fire From The Gods (LIVE) @ 89th Street OKC!",
+    "Jan 17 — Rory Scovel (LIVE) @ Tower Theatre OKC",
+    "Jan 22 — Ian Moore @ Tower Theatre",
+    "Jan 24 — MANIA: ABBA Tribute @ Tower Theatre",
+    "Jan 29 — Niko Moon @ The Jones Assembly",
     "Feb 1 — Soup Cook-Off @ The Mill Bar",
     "Feb 6 — Eli Young Band @ Riverwind Casino",
     "Feb 6 — The New Edition Way Tour (New Edition, Boyz II Men, Toni Braxton) @ Paycom Center",
@@ -55,8 +47,6 @@
 
   "sports_schedules": {
     "OKC Thunder 2025–26": [
-      "Jan 7 — at Charlotte",
-      "Jan 11 — vs Miami",
       "Jan 13 — vs San Antonio",
       "Jan 15 — at Houston",
       "Jan 17 — at Miami",
@@ -107,8 +97,6 @@
         "Open daily until 2 AM"
       ],
       "special": [
-        "Jan 9 — Tyler Lee Acoustic",
-        "Jan 10 — Tyler Lee Band",
         "Jan 16 — Hell N Back",
         "Jan 17 — Jukebox Hero",
         "Jan 23 — TightRope",
@@ -124,20 +112,18 @@
         "Tue–Fri: Karaoke",
         "Sun: Open Mic + Poker"
       ],
-      "special": [
-        "Jan 10 — Timmy T Live"
-      ]
+      "special": []
     },
 
     "OKIE TONK": {
       "regular": [
         "Mon: Poker at 7 PM + Comedy Show at 10 PM",
-        "Tue: Local Musician Showcase (Hosted by Timmy T) at 7 PM",
-        "Wed: Acoustic Night with Trent Bucklees & Tyler Banks",
-        "Thu: Three Amigos Karaoke (9 PM–12 AM)",
-        "Fri: Live performance by Timmy T & Jakes Barnes (9 PM–1 AM)",
-        "Sat: That 90’s Band (9 PM–1 AM)",
-        "Sun: Blues Open Jam with Brian Hiddelston (7 PM–9:30 PM)"
+        "Tue: Local Musician Showcase at 7 PM",
+        "Wed: Acoustic Night",
+        "Thu: Karaoke",
+        "Fri: Live Country Music",
+        "Sat: 90’s Country",
+        "Sun: Blues Open Jam"
       ],
       "special": []
     },
@@ -148,62 +134,24 @@
         "Sports watch parties"
       ],
       "special": [
-        "Feb 1 — Soup Cook-Off",
-        "College Football Playoff Watch Parties (Jan)"
+        "Feb 1 — Soup Cook-Off"
       ]
     },
 
     "RIVERWIND CASINO": {
       "regular": [
-        "Concert venue & casino open 24/7"
+        "Casino open 24/7",
+        "Major concerts & comedy tours"
       ],
       "special": [
         "Feb 6 — Eli Young Band",
-        "Feb 14 — Matt Matthews: Boujee on a Budget",
+        "Feb 14 — Matt Matthews",
         "Feb 15 — Lunar New Year",
-        "Feb 20 — Dylan Gossett – The Westward Tour",
+        "Feb 20 — Dylan Gossett",
         "Feb 28 — Christopher Cross",
         "Mar 13 — Chicago",
         "Mar 21 — Randy Houser",
-        "Mar 27 — Nate Smith – Long Live Country Rock & Roll Tour"
-      ]
-    },
-
-    "FRIENDS OF FRIENDS": {
-      "regular": [
-        "Thu: Live bands",
-        "Fri & Sat: Local bands",
-        "Kitchen open nightly"
-      ],
-      "special": [
-        "Jan 8 — Country Shop Band (LIVE)",
-        "Jan 9 — Almost Yesterday (LIVE)",
-        "Jan 10 — Weekend All-Stars (LIVE)"
-      ]
-    },
-
-    "BRICKHOUSE SALOON": {
-      "regular": [
-        "Fri: Ladies Night",
-        "Sat: DJ Nights",
-        "Free parking • 21+"
-      ],
-      "special": [
-        "Jan 9 — Ladies Night",
-        "Jan 10 — Pleas OKC",
-        "Jan 16 — Pleas OKC",
-        "Jan 17 — DJ Marky",
-        "Jan 23 — Flatline",
-        "Jan 24 — Pleas OKC",
-        "Jan 30 — Flatline",
-        "Jan 31 — DJ T.A."
-      ]
-    },
-
-    "PAYCOM CENTER": {
-      "regular": [],
-      "special": [
-        "Feb 6 — The New Edition Way Tour (New Edition, Boyz II Men, Toni Braxton)"
+        "Mar 27 — Nate Smith"
       ]
     }
   }
