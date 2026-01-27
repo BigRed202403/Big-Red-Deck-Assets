@@ -1,6 +1,6 @@
 {
-  "week_range": "Jan 18–25, 2026",
-  "updated_at": "2026-01-18T12:00:00Z",
+  "week_range": "Jan 25–Feb 1, 2026",
+  "updated_at": "2026-01-25T12:00:00Z",
 
   "rules_locked": {
     "data_scope": "JSON is strictly forward-looking. Any event prior to the current week start is removed.",
@@ -11,38 +11,46 @@
   },
 
   "weekly_highlights": [
-    "Jan 20 — OKC Blue vs Austin Spurs @ Paycom Center (7:00 PM)",
-    "Jan 22 — Art Exhibit: Madonna & Child @ Mabee-Gerrer Museum of Art (Shawnee)",
-    "Jan 23 — OKC Thunder vs Indiana Pacers @ Paycom Center",
-    "Jan 24 — OU Men’s Basketball at Missouri (away)"
+    "Jan 25 — OKC Thunder vs Toronto Raptors @ Paycom Center",
+    "Jan 27 — OKC Thunder vs New Orleans Pelicans @ Paycom Center",
+    "Jan 29 — Niko Moon (LIVE) @ The Jones Assembly",
+    "Jan 30 — Josh Ward (LIVE) @ Diamond Ballroom"
   ],
 
   "metro_sports": [
-    "Jan 20 — OKC Blue vs Austin Spurs @ Paycom Center",
-    "Jan 23 — OKC Thunder vs Indiana Pacers @ Paycom Center",
-    "Jan 24 — OU Men’s Basketball at Missouri"
+    "Jan 25 — OKC Thunder vs Toronto Raptors @ Paycom Center",
+    "Jan 27 — OKC Thunder vs New Orleans Pelicans @ Paycom Center",
+    "Jan 27 — OU Men’s Basketball vs Arkansas @ Lloyd Noble Center",
+    "Jan 29 — OU Women’s Basketball vs Texas A&M @ Lloyd Noble Center"
   ],
 
   "local_updates": [
-    "OKC Zoo Safari Lights open nightly through Jan 12, 2026 (wrap-up).",
-    "Downtown, Bricktown & Midtown seeing heavier weekend traffic (Fri/Sat nights).",
-    "Art Exhibit: Madonna & Child open Jan 21–24 @ Mabee-Gerrer Museum of Art (Shawnee)."
+    "Fri/Sat late nights: Bricktown, Midtown, Uptown, and Campus Corner typically see the heaviest rideshare demand.",
+    "Casinos (Riverwind + Newcastle) usually stay busy late-night on weekends — plan-ahead traffic spikes are common."
   ],
 
   "local_fun_special": [
-    "Jan 20 — OKC Blue vs Austin Spurs @ Paycom Center",
-    "Jan 22 — Art Exhibit: Madonna & Child @ Mabee-Gerrer Museum of Art (Shawnee)",
-    "Jan 23 — OKC Thunder vs Indiana Pacers @ Paycom Center",
-    "Jan 24 — OU Men’s Basketball at Missouri",
-    "Jan 24 — LSU Tigers vs Oklahoma Sooners Women’s Basketball @ Lloyd Noble Center",
-    "Jan 24 — Smells Like Nirvana @ Diamond Ballroom (OKC)",
-    "Jan 24 — Rory Scovel (Comedy) @ Tower Theatre",
-    "Ian Moore @ Tower Theatre — Thu Jan 22 (Check local listings)"
+    "Jan 25 — OKC Thunder vs Toronto Raptors @ Paycom Center",
+    "Jan 27 — OKC Thunder vs New Orleans Pelicans @ Paycom Center",
+    "Jan 27 — OU Men’s Basketball vs Arkansas @ Lloyd Noble Center",
+    "Jan 29 — OU Women’s Basketball vs Texas A&M @ Lloyd Noble Center",
+    "Jan 29 — Niko Moon (LIVE) @ The Jones Assembly",
+    "Jan 29 — Jeff Dunham: Artificial Intelligence @ Paycom Center",
+    "Jan 30 — Josh Ward (LIVE) @ Diamond Ballroom",
+    "Feb 1 — Soup Cook-Off @ The Mill Bar",
+    "Feb 6 — Eli Young Band @ Riverwind Casino",
+    "Feb 6 — The New Edition Way Tour (New Edition, Boyz II Men, Toni Braxton) @ Paycom Center",
+    "Feb 14 — Matt Matthews: Boujee on a Budget @ Riverwind Casino",
+    "Feb 15 — Lunar New Year @ Riverwind Casino",
+    "Feb 20 — Dylan Gossett – The Westward Tour @ Riverwind Casino",
+    "Feb 28 — Christopher Cross @ Riverwind Casino",
+    "Mar 13 — Chicago @ Riverwind Casino",
+    "Mar 21 — Randy Houser @ Riverwind Casino",
+    "Mar 27 — Nate Smith – Long Live Country Rock & Roll Tour @ Riverwind Casino"
   ],
 
   "sports_schedules": {
     "OKC Thunder 2025–26": [
-      "Jan 23 — vs Indiana",
       "Jan 25 — vs Toronto",
       "Jan 27 — vs New Orleans",
       "Jan 29 — at Minnesota",
@@ -52,7 +60,7 @@
       "Feb 7 — at Houston",
       "Feb 9 — at L.A. Lakers",
       "Feb 12 — vs Milwaukee",
-      "Feb 20 — vs Brooklyn",
+      "Feb 21 — vs Brooklyn",
       "Feb 24 — vs Cleveland",
       "Feb 26 — at Toronto",
       "Feb 27 — vs Denver",
@@ -80,24 +88,39 @@
     ],
 
     "OU Men’s Basketball 2025–26": [
-      "Jan 24 — at Missouri",
       "Jan 27 — vs Arkansas",
       "Jan 31 — vs Texas",
       "Feb 4 — at Kentucky"
+    ],
+
+    "OU Women’s Basketball 2025–26": [
+      "Jan 29 — vs Texas A&M"
     ]
   },
 
   "venues": {
+    "COWBOYS OKC": {
+      "regular": [
+        "Fri/Sat: Late-night country dance crowd",
+        "Line dancing + bull riding nights (check venue posts for weekly themes)"
+      ],
+      "special": []
+    },
+
+    "MOONEY'S PUB": {
+      "regular": [
+        "Neighborhood pub vibe",
+        "Live music nights vary (check venue posts for weekly lineup)"
+      ],
+      "special": []
+    },
+
     "THE ALLEY": {
       "regular": [
         "Live music every Saturday",
         "Open daily until 2 AM"
       ],
       "special": [
-        "Jan 16 — Hell N Back",
-        "Jan 17 — Jukebox Hero",
-        "Jan 23 — TightRope",
-        "Jan 24 — The Flipside",
         "Jan 30 — Street Kings",
         "Jan 31 — Dark Prairie Sun"
       ]
@@ -110,17 +133,6 @@
         "Sun: Open Mic + Poker"
       ],
       "special": []
-    },
-
-    "BRICKHOUSE SALOON": {
-      "regular": [
-        "Fri: Ladies Night",
-        "Sat: DJ Nights"
-      ],
-      "special": [
-        "Jan 23 — Pleas OKC",
-        "Jan 24 — DJ T.A."
-      ]
     },
 
     "OKIE TONK": {
@@ -136,14 +148,12 @@
       "special": []
     },
 
-    "THE MILL BAR": {
+    "BRICKHOUSE SALOON": {
       "regular": [
-        "Daily drink specials",
-        "Sports watch parties"
+        "Fri: Ladies Night",
+        "Sat: DJ Nights"
       ],
-      "special": [
-        "Feb 1 — Soup Cook-Off"
-      ]
+      "special": []
     },
 
     "RIVERWIND CASINO": {
@@ -159,7 +169,24 @@
         "Feb 28 — Christopher Cross",
         "Mar 13 — Chicago",
         "Mar 21 — Randy Houser",
-        "Mar 27 — Nate Smith"
+        "Mar 27 — Nate Smith – Long Live Country Rock & Roll Tour"
+      ]
+    },
+
+    "NEWCASTLE CASINO": {
+      "regular": [
+        "Casino activity typically steady late-night weekends"
+      ],
+      "special": []
+    },
+
+    "THE MILL BAR": {
+      "regular": [
+        "Daily drink specials",
+        "Sports watch parties"
+      ],
+      "special": [
+        "Feb 1 — Soup Cook-Off"
       ]
     },
 
@@ -168,19 +195,29 @@
         "Sporting events & major shows"
       ],
       "special": [
-        "Jan 20 — OKC Blue vs Austin Spurs",
-        "Jan 23 — OKC Thunder vs Indiana Pacers",
+        "Jan 25 — OKC Thunder vs Toronto Raptors",
+        "Jan 27 — OKC Thunder vs New Orleans Pelicans",
         "Jan 29 — Jeff Dunham: Artificial Intelligence"
       ]
     },
 
-    "TOWER THEATRE OKC": {
+    "THE JONES ASSEMBLY": {
       "regular": [
-        "Comedy & theatre shows"
+        "Concert hall + restaurant/bar",
+        "Weekend crowd draw varies by artist"
       ],
       "special": [
-        "Jan 22 — Ian Moore Live",
-        "Jan 24 — Rory Scovel Comedy Show"
+        "Jan 29 — Niko Moon (LIVE)"
+      ]
+    },
+
+    "DIAMOND BALLROOM": {
+      "regular": [
+        "Concert venue (rock/country/metal mixes)",
+        "Crowd draw depends on act"
+      ],
+      "special": [
+        "Jan 30 — Josh Ward (LIVE)"
       ]
     }
   }
