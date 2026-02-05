@@ -1,108 +1,106 @@
 {
-  "week_range": "Feb 1–8, 2026",
-  "updated_at": "2026-02-04T14:30:00Z",
+  "week_range": "Feb 5–12, 2026",
+  "updated_at": "2026-02-05T18:00:00Z",
 
   "rules_locked": {
     "data_scope": "JSON is strictly forward-looking. Any event prior to the current week start is removed.",
-    "weekly_highlights": "Current week only (Sun–Sun). Max 4 items. Metro demand focused.",
+    "weekly_highlights": "Current week only (Sun–Sun). Max 4 items. Metro nightlife & demand focused.",
     "venue_regulars": "Locked unless explicitly changed.",
     "venue_specials": "All future-dated events retained.",
     "sports": "All sports schedules are future-only."
   },
 
   "weekly_highlights": [
-    "Feb 6 — Eli Young Band @ Riverwind Casino",
-    "Feb 6 — The New Edition Way Tour @ Paycom Center",
-    "Feb 7 — OKC Thunder vs Denver Nuggets @ Paycom Center",
-    "Weekend Nights — Bricktown, Midtown & Uptown late-night crowds"
+    "Feb 6 — The New Edition Way Tour (New Edition, Boyz II Men, Toni Braxton) @ Paycom Center",
+    "Feb 7 — OKC Thunder vs Houston Rockets @ Paycom Center",
+    "Feb 6 — Eli Young Band LIVE @ Riverwind Casino",
+    "Feb 7 — Blacktop Mojo LIVE @ The Ritz (Shawnee)"
   ],
 
   "metro_sports": [
-    "Feb 6 — OKC Thunder vs Denver Nuggets @ Paycom Center",
-    "Feb 7 — OU Men’s Basketball vs Texas @ Lloyd Noble Center"
+    "Feb 7 — OKC Thunder vs Houston Rockets @ Paycom Center"
   ],
 
   "local_updates": [
-    "Bricktown, Midtown, Uptown & Campus Corner continue strong Fri/Sat night traffic.",
-    "Casinos (Riverwind & Newcastle) remain high-demand late-night pickup zones.",
-    "Weather expected to be clear and cold — typical winter weekend movement."
+    "Bricktown, Downtown, Midtown & Uptown expected to see heavy late-night traffic Fri & Sat.",
+    "Paycom Center concerts and Thunder games remain top weekend ride drivers.",
+    "Casinos (Riverwind & Newcastle) expected to see increased weekend nightlife demand."
   ],
 
   "local_fun_special": [
+    "Feb 6 — The New Edition Way Tour @ Paycom Center",
+    "Feb 7 — OKC Thunder vs Houston Rockets @ Paycom Center",
     "Feb 6 — Eli Young Band @ Riverwind Casino",
-    "Feb 6 — The New Edition Way Tour (New Edition, Boyz II Men, Toni Braxton) @ Paycom Center",
-    "Feb 7 — OKC Thunder vs Denver Nuggets @ Paycom Center",
-    "Weekend Nights — Cowboys OKC Late Night Crowd",
+    "Feb 7 — Blacktop Mojo @ The Ritz (Shawnee)",
+    "Feb 5 — Club 90s: Heated Rivalry Night @ Tower Theatre",
+    "Feb 5 — Night Cap LIVE @ Beer City Music Hall",
+    "Weekend Nights — Bricktown & Downtown OKC Nightlife",
     "Weekend Nights — Riverwind & Newcastle Casino Activity"
   ],
 
   "sports_schedules": {
     "OKC Thunder 2025–26": [
-      "Feb 6 — vs Denver",
+      "Feb 7 — vs Houston",
       "Feb 9 — at L.A. Lakers",
       "Feb 12 — vs Milwaukee",
       "Feb 21 — vs Brooklyn",
       "Feb 24 — vs Cleveland",
-      "Feb 26 — at Toronto",
       "Feb 27 — vs Denver",
-      "Mar 1 — at Dallas"
-    ],
-
-    "OU Men’s Basketball 2025–26": [
-      "Feb 7 — vs Texas",
-      "Feb 11 — at Baylor",
-      "Feb 14 — vs Kansas"
+      "Mar 7 — vs Golden State"
     ]
   },
 
   "venues": {
-    "THE ALLEY": {
-      "regular": [
-        "Live music every Saturday",
-        "Open daily until 2 AM"
-      ],
-      "special": [
-        "Feb 7 — Street Kings",
-        "Feb 14 — Dark Prairie Sun"
-      ]
-    },
-
-    "40 WEST": {
-      "regular": [
-        "Mon: Pool Tournament",
-        "Tue–Fri: Karaoke",
-        "Sun: Open Mic + Poker"
-      ],
-      "special": []
-    },
-
     "BRICKHOUSE SALOON": {
       "regular": [
+        "Thu: BINGO (21+)",
         "Fri: Ladies Night",
         "Sat: DJ Nights"
       ],
-      "special": []
+      "special": [
+        "Feb 6 — DJ Hypeman",
+        "Feb 7 — Stupid Cupid Anti-Valentine’s Night",
+        "Feb 7 — DJ Pleas OKC",
+        "Feb 8 — Super Bowl Watch Party",
+        "Feb 14 — DJ Flatline (Valentine’s)"
+      ]
     },
 
-    "OKIE TONK": {
+    "COWBOYS OKC": {
       "regular": [
-        "Mon: Poker & Comedy",
-        "Tue: Local Showcase",
-        "Wed: Acoustic Night",
-        "Thu: Karaoke",
-        "Fri: Live Country Music",
-        "Sat: 90’s Country",
-        "Sun: Blues Open Jam"
+        "Thu: Ladies Night",
+        "Fri–Sat: Line Dancing & Bull Riding"
       ],
       "special": []
     },
 
-    "THE MILL BAR": {
+    "THE RITZ (SHAWNEE)": {
       "regular": [
-        "Daily drink specials",
-        "Sports watch parties"
+        "Live music & touring acts"
       ],
-      "special": []
+      "special": [
+        "Feb 7 — Blacktop Mojo",
+        "Feb 14 — Vegas McGraw",
+        "Feb 21 — J’some Aldean"
+      ]
+    },
+
+    "TOWER THEATRE OKC": {
+      "regular": [
+        "Concerts, comedy & themed dance nights"
+      ],
+      "special": [
+        "Feb 5 — Club 90s: Heated Rivalry Night"
+      ]
+    },
+
+    "BEER CITY MUSIC HALL": {
+      "regular": [
+        "Live music & bar nights"
+      ],
+      "special": [
+        "Feb 5 — Night Cap LIVE"
+      ]
     },
 
     "RIVERWIND CASINO": {
@@ -113,26 +111,10 @@
       "special": [
         "Feb 6 — Eli Young Band",
         "Feb 14 — Matt Matthews: Boujee on a Budget",
-        "Feb 15 — Lunar New Year"
+        "Feb 15 — Lunar New Year",
+        "Feb 20 — Dylan Gossett",
+        "Feb 28 — Christopher Cross"
       ]
-    },
-
-    "PAYCOM CENTER": {
-      "regular": [
-        "Sporting events & major touring shows"
-      ],
-      "special": [
-        "Feb 6 — The New Edition Way Tour",
-        "Feb 7 — OKC Thunder vs Denver Nuggets"
-      ]
-    },
-
-    "ROADHOUSE BAR & GRILL (NEWCASTLE RD)": {
-      "regular": [
-        "Thu: Open Mic Night (weekly live music)",
-        "Fri & Sat: Late-night weekend crowds"
-      ],
-      "special": []
     }
   }
 }
