@@ -1,22 +1,23 @@
 {
-  "week_range": "Feb 11–15, 2026",
-  "updated_at": "2026-02-09T12:00:00Z",
+  "week_range": "Feb 9–15, 2026",
+  "updated_at": "2026-02-10T22:00:00Z",
   "rules_locked": {
-    "data_scope": "JSON is strictly forward-looking. Any event prior to the current week start is removed.",
-    "weekly_highlights": "Current week only (Sun–Sun). Max 4 items. Metro demand focused.",
+    "data_scope": "JSON is strictly forward-looking.",
+    "weekly_highlights": "Current week only (Sun–Sun).",
     "venue_regulars": "Locked unless explicitly changed.",
     "venue_specials": "All future-dated events retained.",
     "sports": "All sports schedules are future-only."
   },
   "weekly_highlights": [
-    "Feb 12 — Thunder vs Milwaukee @ Paycom Center",
+    "Feb 11 — TOBYMAC with Crowder & Jeremy Camp @ Paycom Center",
+    "Feb 12 — Thunder vs Milwaukee Bucks @ Paycom Center",
     "Feb 13 — Midland LIVE @ Grand Casino Resort (Shawnee)",
-    "Feb 14 — Valentine’s Weekend (OKC • Norman • Shawnee nightlife demand spike)",
     "Feb 14 — Monster Jam @ Paycom Center"
   ],
   "metro_sports": [
-    "Feb 11 — Thunder @ Phoenix",
-    "Feb 12 — Thunder vs Milwaukee @ Paycom Center"
+    "Feb 12 — Thunder vs Milwaukee Bucks @ Paycom Center",
+    "Feb 9 — OKC Blue vs Sioux Falls Skyforce @ Paycom Center",
+    "Feb 10 — OKC Blue vs Sioux Falls Skyforce @ Paycom Center"
   ],
   "local_updates": [
     "Valentine’s Weekend: expect heavier late-night movement Fri/Sat plus earlier ‘date-night’ waves around dinner → bar transition.",
@@ -24,13 +25,32 @@
     "Bricktown/Downtown: live-music pockets (like Toby Keith’s I Love This Bar) can create short-trip surges before/after sets."
   ],
   "local_fun_special": [
+    "Feb 9 — OKC Blue vs Sioux Falls Skyforce @ Paycom Center",
+    "Feb 10 — OKC Blue vs Sioux Falls Skyforce @ Paycom Center",
+    "Feb 11 — TOBYMAC with Crowder & Jeremy Camp @ Paycom Center",
+    "Feb 12 — Thunder vs Milwaukee Bucks @ Paycom Center",
+    "Feb 12 — Date Night / Galentines / Solo Party Tipsy Painting (Shawnee)",
+    "Feb 12 — Galentines Frost & Fizz @ Healthy Hive (Shawnee)",
     "Feb 12–14 — Friends of Friends: Thu/Fri/Sat live music weekend run",
+    "Feb 13 — Midland LIVE @ Grand Casino Resort (Shawnee, 18+)",
+    "Feb 13 — Stranger Things @ Star Skate (Shawnee)",
+    "Feb 13–14 — Outside Mullinger LIVE Theatre (Shawnee)",
     "Feb 13–14 — Toby Keith’s I Love This Bar (Bricktown): live music 6–8 PM",
+    "Feb 13–15 — Outlaw Motor Sports Indoor Kart Racing (Shawnee)",
+    "Feb 14 — Monster Jam @ Paycom Center",
+    "Feb 14 — Vegas McGraw @ The Historic Ritz (Shawnee)",
+    "Feb 14 — DJ Flatline VDay @ Brickhouse Saloon (Shawnee, 21+)",
     "Feb 14 — Brickhouse Saloon: Valentine ‘Traffic Light’ Party + live music (Flatline)",
+    "Feb 14 — Adult Night Skate (18+) @ Star Skate (Shawnee)",
+    "Feb 14 — Shawnee VDay @ Star Skate (Shawnee)",
+    "Feb 14 — “Murder! at the Masquerade” Murder Mystery (Shawnee)",
+    "Feb 14 — Galentine’s Party @ Social Sip & Shop (Shawnee)",
     "Feb 14 — Mooney’s Pub & Grill (Norman): High Water Gamble @ 9 PM",
     "Feb 14 — 40 West: ‘Drunken Valentine’s Day Party’ (The Vice Presidents)",
     "Feb 14 — Sweet Tooth (OKC): 1-Year Anniversary Valentine’s Party (Pichy Peach)",
-    "Feb 14 — Pretty Please Social: ‘Lovers & Friends’ (DJ Knew) – no cover"
+    "Feb 14 — Pretty Please Social: ‘Lovers & Friends’ (DJ Knew) – no cover",
+    "Feb 11–Feb 15 — Exhibit: Madonna and Child: Medieval to Modern @ MGMOA (Shawnee)",
+    "Feb 11–May 15 — Exhibit: Joshua Brunet @ SSM Gallery (Shawnee)"
   ],
   "sports_schedules": {
     "OKC Thunder 2025–26": [
@@ -62,34 +82,57 @@
       "Apr 8 — at L.A. Clippers",
       "Apr 10 — at Denver",
       "Apr 12 — vs Phoenix"
+    ],
+    "OKC Blue 2025–26": [
+      "Feb 9 — vs Sioux Falls Skyforce",
+      "Feb 10 — vs Sioux Falls Skyforce"
     ]
   },
   "venues": {
-    "BRICKHOUSE SALOON (SHAWNEE)": {
+    "PAYCOM CENTER": {
       "regular": [
-        "Free parking • 21+",
-        "Multi-floor venue (DJ + karaoke + country rooms)"
+        "Sporting events & major arena shows"
       ],
       "special": [
-        "Feb 14 — Valentine ‘Traffic Light’ Party + Live Music (Flatline) • Doors 6 PM • $5 cover • Ladies free",
-        "Feb 21 — Oaktown & Fast Molls (live music) • Doors 8 PM • $10 cover • Free parking"
+        "Feb 9 — OKC Blue vs Sioux Falls Skyforce",
+        "Feb 10 — OKC Blue vs Sioux Falls Skyforce",
+        "Feb 11 — TOBYMAC with Crowder & Jeremy Camp",
+        "Feb 12 — Thunder vs Milwaukee Bucks",
+        "Feb 14 — Monster Jam"
       ]
     },
     "GRAND CASINO RESORT (SHAWNEE)": {
       "regular": [
-        "Major concerts + event nights (Shawnee)"
+        "Live music & casino events (Shawnee)"
       ],
       "special": [
-        "Feb 13 — Midland LIVE"
+        "Feb 13 — Midland LIVE (18+)"
       ]
     },
-    "PAYCOM CENTER": {
+    "THE HISTORIC RITZ (SHAWNEE)": {
       "regular": [
-        "Sporting events & major shows"
+        "Live concerts & touring acts (Shawnee)"
       ],
       "special": [
-        "Feb 12 — Thunder vs Milwaukee",
-        "Feb 14 — Monster Jam"
+        "Feb 14 — Vegas McGraw",
+        "Feb 21 — J’Some Aldean",
+        "Mar 6 — Jason McPhail LIVE",
+        "Mar 7 — The Shawp LIVE"
+      ]
+    },
+    "BRICKHOUSE SALOON (SHAWNEE)": {
+      "regular": [
+        "Thursdays — BINGO (21+)"
+      ],
+      "special": [
+        "Feb 14 — DJ Flatline VDay",
+        "Feb 14 — Valentine ‘Traffic Light’ Party + Live Music (Flatline) • Doors 6 PM • $5 cover • Ladies free",
+        "Feb 20 — DJ TA",
+        "Feb 21 — College Night @ Brickhouse",
+        "Feb 21 — Oaktown & Fast Molly",
+        "Feb 28 — DJ Marky",
+        "Mar 6 — DJ Navi",
+        "Mar 7 — College Night @ Brickhouse"
       ]
     },
     "FRIENDS OF FRIENDS": {
@@ -150,7 +193,7 @@
       ],
       "special": [
         "Feb 11 — Valentine Sweetheart Karaoke @ 8 PM",
-        "Feb 21 — Christy Bryant & Twist of Fate (event) • 9 PM–1 AM",
+        "Feb 21 — Christy Bryant & Twist of Fate • 9 PM–1 AM",
         "Feb 28 — Novarent @ 9 PM",
         "Mar 1 — Talent Quest International Qualifier • Sign-ups 4:30 PM • Starts 5 PM"
       ]
@@ -204,6 +247,113 @@
         "Mar 12 — Pretty Tied Up (All-Star Guns N’ Roses Tribute) w/ special guests PERMACRUSH"
       ]
     },
+    "STAR SKATE (SHAWNEE)": {
+      "regular": [
+        "Skate nights + family/event programming (check weekly posts)"
+      ],
+      "special": [
+        "Feb 13 — Stranger Things",
+        "Feb 14 — Shawnee VDay",
+        "Feb 14 — Adult Night Skate (18+)",
+        "Feb 16 — President’s Day Pizza Party"
+      ]
+    },
+    "OUTLAW MOTOR SPORTS (SHAWNEE)": {
+      "regular": [
+        "Indoor kart racing (check event calendar)"
+      ],
+      "special": [
+        "Feb 13–15 — Indoor Kart Racing (Valentine’s Weekend)"
+      ]
+    },
+    "MGMOA — MABEE GERRER MUSEUM OF ART (SHAWNEE)": {
+      "regular": [
+        "Museum exhibits + workshops (family-friendly)"
+      ],
+      "special": [
+        "Feb 11–Feb 15 — Exhibit: Madonna and Child: Medieval to Modern",
+        "Feb 11–May 15 — Exhibit: Joshua Brunet @ SSM Gallery",
+        "Mar 6 — SWANshops: Altered Books (Workshop)"
+      ]
+    },
+    "SOCIAL SIP & SHOP (SHAWNEE)": {
+      "regular": [
+        "Local social events (check weekly posts)"
+      ],
+      "special": [
+        "Feb 14 — Galentine’s Party"
+      ]
+    },
+    "HEALTHY HIVE (SHAWNEE)": {
+      "regular": [
+        "Wellness + community events (check weekly posts)"
+      ],
+      "special": [
+        "Feb 12 — Galentines Frost & Fizz"
+      ]
+    },
+    "HEART OF OKLAHOMA EXPO CENTER (SHAWNEE)": {
+      "regular": [
+        "Expo center events (check calendar)"
+      ],
+      "special": [
+        "Feb 19–20 — Ticolini Circus (7:00 PM)"
+      ]
+    },
+    "RIVERWIND CASINO": {
+      "regular": [
+        "Casino open 24/7",
+        "Concerts & comedy tours"
+      ],
+      "special": [
+        "Feb 14 — Matt Matthews: Boujee on a Budget",
+        "Feb 15 — Lunar New Year Celebration",
+        "Feb 20 — Dylan Gossett — The Westward Tour",
+        "Feb 28 — Christopher Cross",
+        "Mar 13 — Chicago LIVE",
+        "Mar 21 — Randy Houser LIVE",
+        "Mar 27 — Nate Smith"
+      ]
+    },
+    "NEWCASTLE CASINO": {
+      "regular": [
+        "Late-night weekend demand bump"
+      ],
+      "special": []
+    },
+    "COWBOYS OKC": {
+      "regular": [
+        "Weekend crowd draw",
+        "Line dancing & nightlife traffic"
+      ],
+      "special": []
+    },
+    "MOONEY'S PUB": {
+      "regular": [
+        "Weekend nightlife traffic",
+        "Live music nights (when posted)"
+      ],
+      "special": []
+    },
+    "ROADHOUSE BAR & GRILL": {
+      "regular": [
+        "South OKC / Newcastle Rd nightlife",
+        "Monitor for posted weekend specials"
+      ],
+      "special": []
+    },
+    "OKIE TONK": {
+      "regular": [
+        "Mon: Poker at 7 PM + Comedy Show at 10 PM",
+        "Tue: Local Musician Showcase at 7 PM",
+        "Wed: Acoustic Night",
+        "Thu: Karaoke",
+        "Fri: Live Country Music",
+        "Sat: 90’s Country",
+        "Sun: Blues Open Jam"
+      ],
+      "special": []
+    },
     "THE CRITERION (OKC)": {
       "regular": [
         "Major touring shows (OKC)"
@@ -219,6 +369,13 @@
       "special": [
         "Jul 31–Aug 2 — PBR Teams: Oklahoma Wildcatters Days @ Paycom Center (promo code: LOVE)"
       ]
+    },
+    "COWBOYS OKC (KEY CORE VENUE)": {
+      "regular": [
+        "Late-night weekend crowd (Fri/Sat)",
+        "Line dancing + nightlife traffic patterns"
+      ],
+      "special": []
     }
   }
 }
