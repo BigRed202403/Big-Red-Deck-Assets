@@ -1,13 +1,13 @@
 {
-  "week_range": "Feb 15–22, 2026",
-  "updated_at": "2026-02-15T18:00:00Z",
+  "week_range": "Feb 16–22, 2026",
+  "updated_at": "2026-02-17T18:30:00Z",
 
   "rules_locked": {
     "data_scope": "JSON is strictly forward-looking.",
-    "weekly_highlights": "Current week only (Sun–Sun).",
+    "weekly_highlights": "Current week only (Sun–Sun). Max 4 items.",
     "venue_regulars": "Locked unless explicitly changed.",
     "venue_specials": "All future-dated events retained.",
-    "sports": "All sports schedules are future-only."
+    "sports": "Thunder schedule retained through end of season. OU basketball + softball + baseball included."
   },
 
   "weekly_highlights": [
@@ -25,8 +25,9 @@
   ],
 
   "local_updates": [
-    "This week’s calendar includes arena events in OKC plus multiple Shawnee weekend listings (concerts, expo events, and venue nights).",
-    "Norman and OKC venues continue to post weekend flyers later in the week; keep an eye on last-minute band announcements."
+    "Feb 20–22 includes arena events in OKC plus multiple Shawnee listings (concerts, expo events, and venue nights).",
+    "National Margarita Day is Sunday, Feb 22.",
+    "Norman and OKC venues may post additional weekend flyers later in the week."
   ],
 
   "local_fun_special": [
@@ -34,12 +35,16 @@
     "Feb 19 — Poetry Reading @ The Lunch Box (Shawnee)",
     "Feb 19–22 — Outside Mullinger LIVE Theatre (Shawnee)",
     "Feb 20 — Thunder vs Brooklyn Nets @ Paycom Center",
-    "Feb 20 — DJ TA @ Brickhouse Saloon (Shawnee, 21+)",
+    "Feb 20 — Black & White Party (Britani’s Birthday) @ Brickhouse Saloon (Shawnee) • DJ T.A. • Doors 6 PM • $5 cover • 21+",
     "Feb 20 — Brad Gaylord LIVE @ Blawk Hawk Casino (Shawnee)",
+    "Feb 20 — Jack Tidwell & The Lockbreakers @ Okie State Room (Harrah) • Doors 5 PM • Show 8 PM • $10",
     "Feb 21 — J’Some Aldean @ The Historic Ritz (Shawnee)",
-    "Feb 21 — College Night @ Brickhouse Saloon (Shawnee, 21+)",
-    "Feb 21 — Oaktown & Fast Molly @ Brickhouse Saloon (Shawnee, 21+)",
-    "Feb 22 — Thunder vs Cleveland Cavaliers @ Paycom Center"
+    "Feb 21 — Mardi Gras Party @ Brickhouse Saloon (Shawnee) • Doors 6 PM • $5 cover • 21+",
+    "Feb 21 — Oaktown + The Dog House LIVE @ Brickhouse Saloon (Shawnee) • Doors 8 PM • $10 cover",
+    "Feb 21 — Pace Road Band + Ten Acre Rock @ Okie State Room (Harrah) • 7 PM",
+    "Feb 22 — Thunder vs Cleveland Cavaliers @ Paycom Center",
+    "Feb 22 — National Margarita Day @ Brickhouse Saloon (Shawnee) • $5 Margaritas All Night • Doors 6 PM • No cover • 21+",
+    "Feb 22 — Jazz Night w/ Kendrick McKinney @ Okie State Room (Harrah) • 7 PM"
   ],
 
   "sports_schedules": {
@@ -120,12 +125,14 @@
 
     "BRICKHOUSE SALOON (SHAWNEE)": {
       "regular": [
-        "Thursdays — BINGO (21+)"
+        "Thursdays — BINGO (21+)",
+        "Multi-level venue • Free parking"
       ],
       "special": [
-        "Feb 20 — DJ TA",
-        "Feb 21 — College Night @ Brickhouse",
-        "Feb 21 — Oaktown & Fast Molly",
+        "Feb 20 — Black & White Party (Britani’s Birthday) • DJ T.A. • Doors 6 PM • $5 cover • 21+",
+        "Feb 21 — Mardi Gras Party • Doors 6 PM • $5 cover • 21+",
+        "Feb 21 — Oaktown + The Dog House LIVE • Doors 8 PM • $10 cover",
+        "Feb 22 — National Margarita Day • $5 Margaritas All Night • Doors 6 PM • No cover • 21+",
         "Feb 28 — DJ Marky",
         "Mar 6 — DJ Navi",
         "Mar 7 — College Night @ Brickhouse"
@@ -314,9 +321,14 @@
 
     "OKIE STATE ROOM (HARRAH)": {
       "regular": [
-        "Live music nights (when posted)"
+        "Live music venue • All ages events vary"
       ],
       "special": [
+        "Feb 18 — Open Mic Night (Will Wesley) • 6 PM",
+        "Feb 19 — Nikala’s Birthday + SINGO • 7 PM",
+        "Feb 20 — Jack Tidwell & The Lockbreakers • Doors 5 PM • Show 8 PM • $10",
+        "Feb 21 — Pace Road Band + Ten Acre Rock • 7 PM",
+        "Feb 22 — Jazz Night w/ Kendrick McKinney • 7 PM",
         "Mar 12 — Pretty Tied Up (All-Star Guns N’ Roses Tribute) w/ special guests PERMACRUSH"
       ]
     },
