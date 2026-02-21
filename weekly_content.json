@@ -1,55 +1,50 @@
 {
-  "week_range": "Feb 16–22, 2026",
-  "updated_at": "2026-02-17T18:30:00Z",
+  "week_range": "Feb 21–27, 2026",
+  "updated_at": "2026-02-21T08:15:00Z",
 
   "rules_locked": {
     "data_scope": "JSON is strictly forward-looking.",
-    "weekly_highlights": "Current week only (Sun–Sun). Max 4 items.",
+    "weekly_highlights": "Current week only (Sat–Sat). Max 4 items.",
     "venue_regulars": "Locked unless explicitly changed.",
     "venue_specials": "All future-dated events retained.",
-    "sports": "Thunder schedule retained through end of season. OU basketball + softball + baseball included."
+    "sports": "Thunder schedule retained through end of season. OU basketball + softball + baseball included.",
+    "language": "No internal ops/logistics or hype language."
   },
 
   "weekly_highlights": [
-    "Feb 19–20 — Ticolini Circus @ Heart of Oklahoma Expo Center (Shawnee)",
-    "Feb 20 — Thunder vs Brooklyn Nets @ Paycom Center",
-    "Feb 21 — J’Some Aldean @ The Historic Ritz (Shawnee)",
-    "Feb 22 — Thunder vs Cleveland Cavaliers @ Paycom Center"
+    "Feb 21 — Rascal Flatts @ Paycom Center (OKC)",
+    "Feb 22 — Thunder vs Cleveland Cavaliers @ Paycom Center",
+    "Feb 27 — Thunder vs Denver Nuggets @ Paycom Center",
+    "Feb 27 — OU Softball Home Opener vs Sam Houston State @ Love’s Field (Norman)"
   ],
 
   "metro_sports": [
-    "Feb 20 — Thunder vs Brooklyn Nets @ Paycom Center",
     "Feb 22 — Thunder vs Cleveland Cavaliers @ Paycom Center",
-    "OU Men’s Basketball — select games listed in Sports Schedules",
-    "OU Women’s Basketball — select games listed in Sports Schedules"
+    "Feb 27 — Thunder vs Denver Nuggets @ Paycom Center",
+    "Feb 22 — OU Men’s Basketball vs Baylor @ Lloyd Noble Center",
+    "Feb 27 — OU Softball vs Sam Houston State @ Love’s Field",
+    "Feb 27 — OU Baseball vs Gonzaga @ L. Dale Mitchell Park"
   ],
 
   "local_updates": [
-    "Feb 20–22 includes arena events in OKC plus multiple Shawnee listings (concerts, expo events, and venue nights).",
-    "National Margarita Day is Sunday, Feb 22.",
-    "Norman and OKC venues may post additional weekend flyers later in the week."
+    "Arena events at Paycom Center this week include Rascal Flatts and a Thunder home game.",
+    "OU Softball and Baseball both return to Norman for home starts on Feb 27.",
+    "Shawnee venues continue live music programming this weekend."
   ],
 
   "local_fun_special": [
-    "Feb 19–20 — Ticolini Circus @ Heart of Oklahoma Expo Center (Shawnee)",
-    "Feb 19 — Poetry Reading @ The Lunch Box (Shawnee)",
-    "Feb 19–22 — Outside Mullinger LIVE Theatre (Shawnee)",
-    "Feb 20 — Thunder vs Brooklyn Nets @ Paycom Center",
-    "Feb 20 — Black & White Party (Britani’s Birthday) @ Brickhouse Saloon (Shawnee) • DJ T.A. • Doors 6 PM • $5 cover • 21+",
-    "Feb 20 — Brad Gaylord LIVE @ Blawk Hawk Casino (Shawnee)",
-    "Feb 20 — Jack Tidwell & The Lockbreakers @ Okie State Room (Harrah) • Doors 5 PM • Show 8 PM • $10",
-    "Feb 21 — J’Some Aldean @ The Historic Ritz (Shawnee)",
-    "Feb 21 — Mardi Gras Party @ Brickhouse Saloon (Shawnee) • Doors 6 PM • $5 cover • 21+",
-    "Feb 21 — Oaktown + The Dog House LIVE @ Brickhouse Saloon (Shawnee) • Doors 8 PM • $10 cover",
-    "Feb 21 — Pace Road Band + Ten Acre Rock @ Okie State Room (Harrah) • 7 PM",
+    "Feb 21 — Rascal Flatts @ Paycom Center",
+    "Feb 21 — Jason McPhail @ The Historic Ritz (Shawnee)",
+    "Feb 21 — OakTown LIVE @ Brickhouse Saloon (Shawnee)",
     "Feb 22 — Thunder vs Cleveland Cavaliers @ Paycom Center",
-    "Feb 22 — National Margarita Day @ Brickhouse Saloon (Shawnee) • $5 Margaritas All Night • Doors 6 PM • No cover • 21+",
-    "Feb 22 — Jazz Night w/ Kendrick McKinney @ Okie State Room (Harrah) • 7 PM"
+    "Feb 27 — Thunder vs Denver Nuggets @ Paycom Center",
+    "Feb 27 — OU Softball vs Sam Houston State @ Love’s Field",
+    "Feb 27 — OU Baseball vs Gonzaga @ L. Dale Mitchell Park",
+    "Feb 27 — SMO21+: 90s Rewind Adult Night @ Science Museum Oklahoma"
   ],
 
   "sports_schedules": {
     "OKC Thunder 2025–26": [
-      "Feb 20 — vs Brooklyn Nets @ Paycom Center",
       "Feb 22 — vs Cleveland Cavaliers @ Paycom Center",
       "Feb 24 — at Toronto Raptors",
       "Feb 25 — at Detroit Pistons",
@@ -78,26 +73,27 @@
     ],
 
     "OU Men's Basketball 2025–26": [
-      "Feb 18 — vs Texas @ Lloyd Noble Center",
       "Feb 22 — vs Baylor @ Lloyd Noble Center",
       "Feb 25 — at Kansas",
       "Mar 1 — vs Oklahoma State @ Lloyd Noble Center"
     ],
 
     "OU Women's Basketball 2025–26": [
-      "Feb 19 — vs TCU @ Lloyd Noble Center",
       "Feb 23 — at Texas Tech",
       "Feb 27 — vs Kansas State @ Lloyd Noble Center"
     ],
 
     "OU Baseball 2026": [
       "Feb 21–23 — vs Illinois State @ L. Dale Mitchell Park",
+      "Feb 27 — vs Gonzaga @ L. Dale Mitchell Park",
       "Feb 28–Mar 2 — vs Cal State Fullerton @ L. Dale Mitchell Park"
     ],
 
     "OU Softball 2026": [
-      "Feb 21–23 — OU Invitational @ Love’s Field (Home)",
-      "Feb 28–Mar 2 — vs Tulsa @ Love’s Field (Home)"
+      "Feb 21–23 — OU Invitational @ Love’s Field",
+      "Feb 27 — vs Sam Houston State @ Love’s Field",
+      "Feb 27 — vs Alabama State @ Love’s Field",
+      "Feb 28–Mar 2 — vs Tulsa @ Love’s Field"
     ]
   },
 
@@ -107,17 +103,18 @@
         "Sporting events & major arena shows"
       ],
       "special": [
-        "Feb 20 — Thunder vs Brooklyn Nets",
-        "Feb 22 — Thunder vs Cleveland Cavaliers"
+        "Feb 21 — Rascal Flatts",
+        "Feb 22 — Thunder vs Cleveland Cavaliers",
+        "Feb 27 — Thunder vs Denver Nuggets"
       ]
     },
 
     "THE HISTORIC RITZ (SHAWNEE)": {
       "regular": [
-        "Live concerts & touring acts (Shawnee)"
+        "Live concerts & touring acts"
       ],
       "special": [
-        "Feb 21 — J’Some Aldean",
+        "Feb 21 — Jason McPhail with Guests Lauren Rose Thayer and Tyler Kupper",
         "Mar 6 — Jason McPhail LIVE",
         "Mar 7 — The Shawp LIVE"
       ]
@@ -129,239 +126,28 @@
         "Multi-level venue • Free parking"
       ],
       "special": [
-        "Feb 20 — Black & White Party (Britani’s Birthday) • DJ T.A. • Doors 6 PM • $5 cover • 21+",
-        "Feb 21 — Mardi Gras Party • Doors 6 PM • $5 cover • 21+",
-        "Feb 21 — Oaktown + The Dog House LIVE • Doors 8 PM • $10 cover",
-        "Feb 22 — National Margarita Day • $5 Margaritas All Night • Doors 6 PM • No cover • 21+",
-        "Feb 28 — DJ Marky",
-        "Mar 6 — DJ Navi",
-        "Mar 7 — College Night @ Brickhouse"
+        "Feb 21 — OakTown LIVE",
+        "Feb 28 — DJ Marky"
       ]
     },
 
-    "HEART OF OKLAHOMA EXPO CENTER (SHAWNEE)": {
+    "SCIENCE MUSEUM OKLAHOMA (OKC)": {
       "regular": [
-        "Expo center events (check calendar)"
+        "Adult nights and special exhibits"
       ],
       "special": [
-        "Feb 19–20 — Ticolini Circus (7:00 PM)"
+        "Feb 27 — SMO21+: 90s Rewind (7 PM–10 PM)"
       ]
     },
 
-    "BLAWK HAWK CASINO (SHAWNEE)": {
+    "LLOYD NOBLE CENTER / LOVE’S FIELD / L. DALE MITCHELL PARK (NORMAN)": {
       "regular": [
-        "Casino entertainment nights (check weekly posts)"
+        "OU home games (basketball, softball, baseball)"
       ],
       "special": [
-        "Feb 20 — Brad Gaylord LIVE"
-      ]
-    },
-
-    "THE LUNCH BOX (SHAWNEE)": {
-      "regular": [
-        "Community events and readings (check weekly posts)"
-      ],
-      "special": [
-        "Feb 19 — Poetry Reading"
-      ]
-    },
-
-    "OUTSIDE MULLINGER LIVE THEATRE (SHAWNEE)": {
-      "regular": [
-        "Live theatre programming (check schedule)"
-      ],
-      "special": [
-        "Feb 19–22 — Outside Mullinger LIVE Theatre"
-      ]
-    },
-
-    "MGMOA — MABEE GERRER MUSEUM OF ART (SHAWNEE)": {
-      "regular": [
-        "Museum exhibits + workshops (family-friendly)"
-      ],
-      "special": [
-        "Mar 6 — SWANshops: Altered Books (Workshop)"
-      ]
-    },
-
-    "STAR SKATE (SHAWNEE)": {
-      "regular": [
-        "Skate nights + family/event programming (check weekly posts)"
-      ],
-      "special": [
-        "Feb 16 — President’s Day Pizza Party"
-      ]
-    },
-
-    "OUTLAW MOTOR SPORTS (SHAWNEE)": {
-      "regular": [
-        "Indoor kart racing (check event calendar)"
-      ],
-      "special": []
-    },
-
-    "GRAND CASINO RESORT (SHAWNEE)": {
-      "regular": [
-        "Live music & casino events (Shawnee)"
-      ],
-      "special": []
-    },
-
-    "RIVERWIND CASINO": {
-      "regular": [
-        "Casino open 24/7",
-        "Concerts & comedy tours"
-      ],
-      "special": [
-        "Feb 20 — Dylan Gossett — The Westward Tour",
-        "Feb 28 — Christopher Cross",
-        "Mar 13 — Chicago LIVE",
-        "Mar 21 — Randy Houser LIVE",
-        "Mar 27 — Nate Smith"
-      ]
-    },
-
-    "NEWCASTLE CASINO": {
-      "regular": [
-        "Casino entertainment and weekend programming (check listings)"
-      ],
-      "special": []
-    },
-
-    "COWBOYS OKC": {
-      "regular": [
-        "Line dancing & nightlife"
-      ],
-      "special": []
-    },
-
-    "MOONEY'S PUB": {
-      "regular": [
-        "Live music nights (when posted)"
-      ],
-      "special": []
-    },
-
-    "ROADHOUSE BAR & GRILL": {
-      "regular": [
-        "Weekend specials and live music (when posted)"
-      ],
-      "special": []
-    },
-
-    "OKIE TONK": {
-      "regular": [
-        "Mon: Poker at 7 PM + Comedy Show at 10 PM",
-        "Tue: Local Musician Showcase at 7 PM",
-        "Wed: Acoustic Night",
-        "Thu: Karaoke",
-        "Fri: Live Country Music",
-        "Sat: 90’s Country",
-        "Sun: Blues Open Jam"
-      ],
-      "special": []
-    },
-
-    "FRIENDS OF FRIENDS": {
-      "regular": [
-        "Thu–Sat: Live bands",
-        "Kitchen open nightly"
-      ],
-      "special": []
-    },
-
-    "THE ALLEY": {
-      "regular": [
-        "Live music Saturdays",
-        "Open daily until 2 AM"
-      ],
-      "special": []
-    },
-
-    "40 WEST": {
-      "regular": [
-        "Mon: Pool Tournament",
-        "Tue–Fri: Karaoke",
-        "Sun: Open Mic + Poker"
-      ],
-      "special": []
-    },
-
-    "THE MILL BAR": {
-      "regular": [
-        "Daily drink specials",
-        "Sports watch parties"
-      ],
-      "special": []
-    },
-
-    "TOBY KEITH'S I LOVE THIS BAR (BRICKTOWN)": {
-      "regular": [
-        "Bricktown live music schedule (check weekly posts)"
-      ],
-      "special": [
-        "Feb 20 — The Lads 6–8 PM",
-        "Feb 21 — Kylie Morgan 6–8 PM",
-        "Feb 27 — Jukebox Hero 6–8 PM",
-        "Feb 28 — Brandon Callison 6–8 PM",
-        "Mar 6 — Memphis and Misery 6–8 PM",
-        "Mar 7 — Jared Lewis 6–8 PM",
-        "Mar 13 — Nashville’s Barflys 6–8 PM",
-        "Mar 14 — After Hours 6–8 PM"
-      ]
-    },
-
-    "CLUB KENO (OKC)": {
-      "regular": [
-        "Mondays — Singo & Sangria @ 7:30 PM",
-        "8040 SW 3rd St, Oklahoma City, OK"
-      ],
-      "special": []
-    },
-
-    "OKIE STATE ROOM (HARRAH)": {
-      "regular": [
-        "Live music venue • All ages events vary"
-      ],
-      "special": [
-        "Feb 18 — Open Mic Night (Will Wesley) • 6 PM",
-        "Feb 19 — Nikala’s Birthday + SINGO • 7 PM",
-        "Feb 20 — Jack Tidwell & The Lockbreakers • Doors 5 PM • Show 8 PM • $10",
-        "Feb 21 — Pace Road Band + Ten Acre Rock • 7 PM",
-        "Feb 22 — Jazz Night w/ Kendrick McKinney • 7 PM",
-        "Mar 12 — Pretty Tied Up (All-Star Guns N’ Roses Tribute) w/ special guests PERMACRUSH"
-      ]
-    },
-
-    "SWEET TOOTH (OKC)": {
-      "regular": [
-        "210 E Sheridan Ave, Oklahoma City, OK"
-      ],
-      "special": []
-    },
-
-    "PRETTY PLEASE SOCIAL": {
-      "regular": [
-        "Nightclub/event vibe (monitor weekly flyers)"
-      ],
-      "special": []
-    },
-
-    "THE CRITERION (OKC)": {
-      "regular": [
-        "Major touring shows (OKC)"
-      ],
-      "special": [
-        "Apr 25 — Electric Orchestra"
-      ]
-    },
-
-    "PBR TEAMS (PAYCOM CENTER)": {
-      "regular": [
-        "PBR events (seasonal)"
-      ],
-      "special": [
-        "Jul 31–Aug 2 — PBR Teams: Oklahoma Wildcatters Days @ Paycom Center (promo code: LOVE)"
+        "Feb 22 — OU Men’s Basketball vs Baylor",
+        "Feb 27 — OU Softball vs Sam Houston State",
+        "Feb 27 — OU Baseball vs Gonzaga"
       ]
     }
   }
