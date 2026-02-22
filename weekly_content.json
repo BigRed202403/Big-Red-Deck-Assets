@@ -1,154 +1,165 @@
 {
-  "week_range": "Feb 21–27, 2026",
-  "updated_at": "2026-02-21T08:15:00Z",
+  "week_range": "Feb 22–Mar 1, 2026",
+  "updated_at": "2026-02-22T15:05:00Z",
 
   "rules_locked": {
     "data_scope": "JSON is strictly forward-looking.",
-    "weekly_highlights": "Current week only (Sat–Sat). Max 4 items.",
-    "venue_regulars": "Locked unless explicitly changed.",
+    "weekly_highlights": "Current week only (Sun–Sun). Max 4 items.",
+    "venue_regulars": "Core venues must always remain present.",
     "venue_specials": "All future-dated events retained.",
     "sports": "Thunder schedule retained through end of season. OU basketball + softball + baseball included.",
-    "language": "No internal ops/logistics or hype language."
+    "thunder_format": "Opponent listed by city only.",
+    "sports_format": "No venue tags in sports schedules."
   },
 
   "weekly_highlights": [
-    "Feb 21 — Rascal Flatts @ Paycom Center (OKC)",
-    "Feb 22 — Thunder vs Cleveland Cavaliers @ Paycom Center",
-    "Feb 27 — Thunder vs Denver Nuggets @ Paycom Center",
-    "Feb 27 — OU Softball Home Opener vs Sam Houston State @ Love’s Field (Norman)"
+    "Feb 27 — Thunder vs Denver",
+    "Feb 27–Mar 1 — OU Baseball vs Gonzaga",
+    "Feb 27–Mar 1 — OKC Spring Remodel & Landscape Expo",
+    "Feb 28 — Christopher Cross @ Riverwind Casino"
   ],
 
   "metro_sports": [
-    "Feb 22 — Thunder vs Cleveland Cavaliers @ Paycom Center",
-    "Feb 27 — Thunder vs Denver Nuggets @ Paycom Center",
-    "Feb 22 — OU Men’s Basketball vs Baylor @ Lloyd Noble Center",
-    "Feb 27 — OU Softball vs Sam Houston State @ Love’s Field",
-    "Feb 27 — OU Baseball vs Gonzaga @ L. Dale Mitchell Park"
+    "Feb 27 — Thunder vs Denver",
+    "Feb 27–Mar 1 — OU Baseball vs Gonzaga",
+    "Feb 28–Mar 1 — OU Softball vs Tulsa"
   ],
 
   "local_updates": [
-    "Arena events at Paycom Center this week include Rascal Flatts and a Thunder home game.",
-    "OU Softball and Baseball both return to Norman for home starts on Feb 27.",
-    "Shawnee venues continue live music programming this weekend."
+    "Arena night returns Feb 27.",
+    "OU baseball and softball host weekend home series.",
+    "Friday and Saturday karaoke nights continue across key partner venues."
   ],
 
   "local_fun_special": [
-    "Feb 21 — Rascal Flatts @ Paycom Center",
-    "Feb 21 — Jason McPhail @ The Historic Ritz (Shawnee)",
-    "Feb 21 — OakTown LIVE @ Brickhouse Saloon (Shawnee)",
-    "Feb 22 — Thunder vs Cleveland Cavaliers @ Paycom Center",
-    "Feb 27 — Thunder vs Denver Nuggets @ Paycom Center",
-    "Feb 27 — OU Softball vs Sam Houston State @ Love’s Field",
-    "Feb 27 — OU Baseball vs Gonzaga @ L. Dale Mitchell Park",
-    "Feb 27 — SMO21+: 90s Rewind Adult Night @ Science Museum Oklahoma"
+    "Feb 27–Mar 1 — Spring Remodel & Landscape Expo",
+    "Feb 27–Mar 1 — Backwoods Hunting & Fishing Expo",
+    "Feb 28 — Christopher Cross @ Riverwind Casino",
+    "Feb 28 — DJ Marky @ Brickhouse Saloon"
   ],
 
   "sports_schedules": {
     "OKC Thunder 2025–26": [
-      "Feb 22 — vs Cleveland Cavaliers @ Paycom Center",
-      "Feb 24 — at Toronto Raptors",
-      "Feb 25 — at Detroit Pistons",
-      "Feb 27 — vs Denver Nuggets @ Paycom Center",
-      "Mar 1 — at Dallas Mavericks",
-      "Mar 3 — at Chicago Bulls",
-      "Mar 4 — at New York Knicks",
-      "Mar 7 — vs Golden State Warriors @ Paycom Center",
-      "Mar 9 — vs Denver Nuggets @ Paycom Center",
-      "Mar 12 — vs Boston Celtics @ Paycom Center",
-      "Mar 15 — vs Minnesota Timberwolves @ Paycom Center",
-      "Mar 17 — at Orlando Magic",
-      "Mar 18 — at Brooklyn Nets",
-      "Mar 21 — at Washington Wizards",
-      "Mar 23 — at Philadelphia 76ers",
-      "Mar 25 — at Boston Celtics",
-      "Mar 27 — vs Chicago Bulls @ Paycom Center",
-      "Mar 29 — vs New York Knicks @ Paycom Center",
-      "Mar 30 — vs Detroit Pistons @ Paycom Center",
-      "Apr 2 — vs L.A. Lakers @ Paycom Center",
-      "Apr 5 — vs Utah Jazz @ Paycom Center",
+      "Feb 22 — vs Cleveland",
+      "Feb 24 — at Toronto",
+      "Feb 25 — at Detroit",
+      "Feb 27 — vs Denver",
+      "Mar 1 — at Dallas",
+      "Mar 3 — at Chicago",
+      "Mar 4 — at New York",
+      "Mar 7 — vs Golden State",
+      "Mar 9 — vs Denver",
+      "Mar 12 — vs Boston",
+      "Mar 15 — vs Minnesota",
+      "Mar 17 — at Orlando",
+      "Mar 18 — at Brooklyn",
+      "Mar 21 — at Washington",
+      "Mar 23 — at Philadelphia",
+      "Mar 25 — at Boston",
+      "Mar 27 — vs Chicago",
+      "Mar 29 — vs New York",
+      "Mar 30 — vs Detroit",
+      "Apr 2 — vs L.A. Lakers",
+      "Apr 5 — vs Utah",
       "Apr 7 — at L.A. Lakers",
       "Apr 8 — at L.A. Clippers",
-      "Apr 10 — at Denver Nuggets",
-      "Apr 12 — vs Phoenix Suns @ Paycom Center"
-    ],
-
-    "OU Men's Basketball 2025–26": [
-      "Feb 22 — vs Baylor @ Lloyd Noble Center",
-      "Feb 25 — at Kansas",
-      "Mar 1 — vs Oklahoma State @ Lloyd Noble Center"
-    ],
-
-    "OU Women's Basketball 2025–26": [
-      "Feb 23 — at Texas Tech",
-      "Feb 27 — vs Kansas State @ Lloyd Noble Center"
+      "Apr 10 — at Denver",
+      "Apr 12 — vs Phoenix"
     ],
 
     "OU Baseball 2026": [
-      "Feb 21–23 — vs Illinois State @ L. Dale Mitchell Park",
-      "Feb 27 — vs Gonzaga @ L. Dale Mitchell Park",
-      "Feb 28–Mar 2 — vs Cal State Fullerton @ L. Dale Mitchell Park"
+      "Feb 27–Mar 1 — vs Gonzaga",
+      "Mar 3 — vs Dallas Baptist",
+      "Mar 5–8 — vs Santa Clara"
     ],
 
     "OU Softball 2026": [
-      "Feb 21–23 — OU Invitational @ Love’s Field",
-      "Feb 27 — vs Sam Houston State @ Love’s Field",
-      "Feb 27 — vs Alabama State @ Love’s Field",
-      "Feb 28–Mar 2 — vs Tulsa @ Love’s Field"
+      "Feb 28–Mar 2 — vs Tulsa"
+    ],
+
+    "OU Men's Basketball 2025–26": [
+      "Mar 1 — vs Oklahoma State"
+    ],
+
+    "OU Women's Basketball 2025–26": [
+      "Feb 27 — vs Kansas State"
     ]
   },
 
   "venues": {
+
     "PAYCOM CENTER": {
-      "regular": [
-        "Sporting events & major arena shows"
-      ],
+      "regular": ["Sporting events & arena shows"],
       "special": [
-        "Feb 21 — Rascal Flatts",
-        "Feb 22 — Thunder vs Cleveland Cavaliers",
-        "Feb 27 — Thunder vs Denver Nuggets"
+        "Feb 22 — Thunder vs Cleveland",
+        "Feb 27 — Thunder vs Denver"
       ]
     },
 
-    "THE HISTORIC RITZ (SHAWNEE)": {
-      "regular": [
-        "Live concerts & touring acts"
-      ],
+    "RIVERWIND CASINO": {
+      "regular": ["Casino & touring shows"],
       "special": [
-        "Feb 21 — Jason McPhail with Guests Lauren Rose Thayer and Tyler Kupper",
-        "Mar 6 — Jason McPhail LIVE",
-        "Mar 7 — The Shawp LIVE"
+        "Feb 28 — Christopher Cross"
       ]
     },
 
     "BRICKHOUSE SALOON (SHAWNEE)": {
       "regular": [
         "Thursdays — BINGO (21+)",
-        "Multi-level venue • Free parking"
+        "Weekend DJ & live music nights"
       ],
       "special": [
-        "Feb 21 — OakTown LIVE",
         "Feb 28 — DJ Marky"
       ]
     },
 
-    "SCIENCE MUSEUM OKLAHOMA (OKC)": {
+    "ROADHOUSE REDNECK BAR & GRILL": {
       "regular": [
-        "Adult nights and special exhibits"
+        "Friday — Karaoke Night",
+        "Saturday — Karaoke Night",
+        "Weekend drink specials"
       ],
+      "special": []
+    },
+
+    "THE HISTORIC RITZ (SHAWNEE)": {
+      "regular": ["Live concerts & touring acts"],
       "special": [
-        "Feb 27 — SMO21+: 90s Rewind (7 PM–10 PM)"
+        "Mar 6 — Jason McPhail LIVE",
+        "Mar 7 — The Shawp LIVE"
       ]
     },
 
-    "LLOYD NOBLE CENTER / LOVE’S FIELD / L. DALE MITCHELL PARK (NORMAN)": {
-      "regular": [
-        "OU home games (basketball, softball, baseball)"
-      ],
+    "OKIE STATE ROOM (HARRAH)": {
+      "regular": ["Live music venue"],
       "special": [
-        "Feb 22 — OU Men’s Basketball vs Baylor",
-        "Feb 27 — OU Softball vs Sam Houston State",
-        "Feb 27 — OU Baseball vs Gonzaga"
+        "Mar 12 — Pretty Tied Up (Guns N’ Roses Tribute)"
       ]
+    },
+
+    "FRIENDS OF FRIENDS": {
+      "regular": ["Thu–Sat live bands", "Kitchen open nightly"],
+      "special": []
+    },
+
+    "OKIE TONK": {
+      "regular": [
+        "Mon: Poker + Comedy",
+        "Thu: Karaoke",
+        "Fri/Sat: Live Country",
+        "Sun: Blues Open Jam"
+      ],
+      "special": []
+    },
+
+    "THE ALLEY": {
+      "regular": ["Live music Saturdays", "Open until 2 AM"],
+      "special": []
+    },
+
+    "40 WEST": {
+      "regular": ["Karaoke nights", "Open Mic Sundays"],
+      "special": []
     }
   }
 }
