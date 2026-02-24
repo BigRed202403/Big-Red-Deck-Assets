@@ -21,13 +21,13 @@
 
   "metro_sports": [
     "Feb 27 — Thunder vs Denver",
-    "Feb 27–Mar 1 — OU Baseball vs Gonzaga",
-    "Feb 28–Mar 1 — OU Softball vs Tulsa"
+    "Feb 28–Mar 1 — OU Softball vs Tulsa",
+    "Feb 27–Mar 1 — OU Baseball vs Gonzaga"
   ],
 
   "local_updates": [
     "Arena night returns Feb 27.",
-    "OU baseball and softball host weekend home series.",
+    "OU softball and baseball host weekend home series.",
     "Friday and Saturday karaoke nights continue across key partner venues."
   ],
 
@@ -87,7 +87,6 @@
   },
 
   "venues": {
-
     "PAYCOM CENTER": {
       "regular": ["Sporting events & arena shows"],
       "special": [
@@ -99,14 +98,31 @@
     "RIVERWIND CASINO": {
       "regular": ["Casino & touring shows"],
       "special": [
-        "Feb 28 — Christopher Cross"
+        "Feb 28 — Christopher Cross",
+        "Mar 5 — Jake's Birthday Bash feat. John Morgan and Cam Allen",
+        "Mar 13 — Chicago",
+        "Mar 27 — Josh Ross",
+        "Apr 17 — Randy Rogers Band",
+        "Apr 25 — Don Felder",
+        "May 16 — George Thorogood and The Destroyers and Marshall Tucker Band",
+        "Jun 13 — Cheap Trick (Beats & Bites 2026) w/ Gin Blossoms",
+        "Jul 11 — Flatland Cavalry (Beats & Bites 2026) w/ Jason Boland & The Stragglers + Fireworks",
+        "Aug 8 — Jake Owen (Beats & Bites 2026) w/ Jordan Rainer",
+        "Sep 4 — Clay Walker (Beats & Bites 2026) w/ Terri Clark"
       ]
     },
 
     "BRICKHOUSE SALOON (SHAWNEE)": {
       "regular": [
-        "Thursdays — BINGO (21+)",
-        "Weekend DJ & live music nights"
+        "Monday — Karaoke Night",
+        "Tuesday — Karaoke Night",
+        "Wednesday — Whiskey Wednesday",
+        "Thursday — BINGO (21+)",
+        "Friday — Ladies Night",
+        "Friday — DJ + Dance Floor Upstairs",
+        "Saturday — College Night",
+        "Saturday — Country Night Karaoke (Saloon Floor)",
+        "Weekend — Rotating DJs"
       ],
       "special": [
         "Feb 28 — DJ Marky"
@@ -115,9 +131,13 @@
 
     "ROADHOUSE REDNECK BAR & GRILL": {
       "regular": [
-        "Friday — Karaoke Night",
-        "Saturday — Karaoke Night",
-        "Weekend drink specials"
+        "Sunday — Pool League",
+        "Monday — Free Pool",
+        "Tuesday — Taco Tues + Pool League",
+        "Wednesday — Pool Tournament",
+        "Thursday — Acoustic Jam",
+        "Friday — Karaoke at 8 PM (w/ James)",
+        "Saturday — Karaoke at 8 PM (w/ James)"
       ],
       "special": []
     },
@@ -160,6 +180,14 @@
     "40 WEST": {
       "regular": ["Karaoke nights", "Open Mic Sundays"],
       "special": []
+    },
+
+    "THUNDERBIRD CASINO (NORMAN)": {
+      "regular": ["Casino games, weekly karaoke, live music nights"],
+      "special": [
+        "May 2 — Lyal Strickland",
+        "Jun 27 — Kurt Allen"
+      ]
     }
   }
 }
