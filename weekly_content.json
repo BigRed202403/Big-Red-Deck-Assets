@@ -1,6 +1,6 @@
 {
   "week_range": "Mar 1–8, 2026",
-  "updated_at": "2026-02-23T00:00:00Z",
+  "updated_at": "2026-03-01T18:00:00Z",
 
   "rules_locked": {
     "data_scope": "JSON is strictly forward-looking.",
@@ -9,38 +9,48 @@
     "venue_specials": "All future-dated events retained.",
     "sports": "Thunder schedule retained through end of season. OU basketball + softball + baseball included.",
     "thunder_format": "Opponent listed by city only.",
-    "sports_format": "No venue tags in sports schedules."
+    "sports_format": "No venue tags in sports schedules.",
+    "priority_note": "OU Softball demand/interest is treated as higher priority than OU Baseball when choosing highlights."
   },
 
   "weekly_highlights": [
     "Mar 2 — Descendents & Frank Turner @ The Criterion",
-    "Mar 5 — Jake’s Birthday Bash @ Riverwind Casino",
-    "Mar 7 — Thunder vs Golden State",
-    "Mar 6–8 — OU Softball Home Series + A Beautiful Noise (Civic Center)"
+    "Mar 3–8 — A Beautiful Noise: The Neil Diamond Musical @ Civic Center Music Hall",
+    "Mar 5 — Jake’s Birthday Bash feat. John Morgan & Cam Allen @ Riverwind Casino",
+    "Mar 7 — Thunder vs Golden State"
   ],
 
   "metro_sports": [
     "Mar 7 — Thunder vs Golden State",
-    "Mar 6–8 — OU Softball Home Series",
-    "Mar 1 — vs Oklahoma State (Men’s Basketball)"
+    "Mar 7–8 — OU Softball vs Abilene Christian + Louisiana (home weekend)",
+    "OU Men’s Basketball — select games listed in Sports Schedules"
   ],
 
   "local_updates": [
-    "Downtown concert traffic Monday night at The Criterion.",
-    "Norman engine strong Thursday with Riverwind concert activity.",
-    "Arena exit waves expected Saturday night.",
-    "Theater crowds active nightly downtown through Sunday."
+    "This week mixes downtown shows (concerts + theater) with a Norman-heavy pull from Riverwind and OU Softball — plan ahead for predictable pickups and smooth exits.",
+    "Friday/Saturday nightlife regulars stay consistent across partner venues (karaoke, DJ nights, live bands) — reliable options without needing last-minute scrambling.",
+    "Shawnee remains satellite/event-based; coverage is strongest when events are planned ahead."
   ],
 
   "local_fun_special": [
-    "Mar 2 — Descendents & Frank Turner @ The Criterion",
-    "Mar 5 — Jake’s Birthday Bash @ Riverwind Casino",
-    "Mar 6 — Jason McPhail LIVE @ Historic Ritz",
-    "Mar 7 — The Shawp LIVE @ Historic Ritz"
+    "Mar 1 — Black Label Society @ Diamond Ballroom",
+    "Mar 1 — Cory Branan @ The Blue Door",
+    "Mar 2 — Descendents & Frank Turner & The Sleeping Souls @ The Criterion",
+    "Mar 3–8 — A Beautiful Noise: The Neil Diamond Musical @ Civic Center Music Hall",
+    "Mar 5 — Jake’s Birthday Bash feat. John Morgan & Cam Allen @ Riverwind Casino",
+    "Mar 6 — DJ Navi (Ladies Night) @ Brickhouse Saloon (21+)",
+    "Mar 6 — Jason McPhail LIVE @ The Historic Ritz (Shawnee)",
+    "Mar 7 — Thunder vs Golden State",
+    "Mar 7 — College Night @ Brickhouse Saloon (21+)",
+    "Mar 7 — The Shawp LIVE @ The Historic Ritz (Shawnee)",
+    "Mar 8 — Shuler King @ Bricktown Comedy Club"
   ],
 
   "sports_schedules": {
     "OKC Thunder 2025–26": [
+      "Mar 1 — at Dallas",
+      "Mar 3 — at Chicago",
+      "Mar 4 — at New York",
       "Mar 7 — vs Golden State",
       "Mar 9 — vs Denver",
       "Mar 12 — vs Boston",
@@ -61,9 +71,47 @@
       "Apr 12 — vs Phoenix"
     ],
 
-    "OU Softball 2026": [
-      "Mar 6–8 — Home Series",
-      "Mar 11 — Home Game"
+    "OU Softball 2026 (Full Schedule)": [
+      "Mar 1 — vs Southeastern Louisiana",
+      "Mar 3 — at North Texas",
+      "Mar 6 — at North Texas",
+      "Mar 7 — vs Abilene Christian",
+      "Mar 7 — vs Louisiana",
+      "Mar 8 — vs Abilene Christian",
+      "Mar 8 — vs Louisiana",
+      "Mar 11 — vs Tulsa",
+      "Mar 13 — vs Auburn",
+      "Mar 14 — vs Auburn",
+      "Mar 15 — vs Auburn",
+      "Mar 18 — at Memphis",
+      "Mar 21 — at Ole Miss",
+      "Mar 22 — at Ole Miss",
+      "Mar 23 — at Ole Miss",
+      "Mar 27 — at LSU",
+      "Mar 28 — at LSU",
+      "Mar 29 — at LSU",
+      "Mar 31 — vs Wichita State",
+      "Apr 2 — vs Kentucky",
+      "Apr 3 — vs Kentucky",
+      "Apr 4 — vs Kentucky",
+      "Apr 10 — at Texas",
+      "Apr 11 — at Texas",
+      "Apr 12 — at Texas",
+      "Apr 15 — at Oklahoma State",
+      "Apr 17 — vs Arkansas",
+      "Apr 18 — vs Arkansas",
+      "Apr 19 — vs Arkansas",
+      "Apr 21 — vs Arkansas Pine Bluff",
+      "Apr 24 — vs Georgia",
+      "Apr 25 — vs Georgia",
+      "Apr 26 — vs Georgia",
+      "May 1 — at Texas A&M",
+      "May 2 — at Texas A&M",
+      "May 3 — at Texas A&M",
+      "May 7–10 — SEC Tournament",
+      "May 15–17 — NCAA Regionals",
+      "May 21–24 — NCAA Super Regionals",
+      "May 28–Jun 4/5 — Women’s College World Series"
     ],
 
     "OU Baseball 2026": [
@@ -73,84 +121,170 @@
 
     "OU Men's Basketball 2025–26": [
       "Mar 1 — vs Oklahoma State"
-    ],
-
-    "OU Women's Basketball 2025–26": []
+    ]
   },
 
   "venues": {
-
     "PAYCOM CENTER": {
-      "regular": ["Sporting events & arena shows"],
+      "regular": [
+        "Sporting events & arena shows"
+      ],
       "special": [
         "Mar 7 — Thunder vs Golden State"
       ]
     },
 
-    "THE CRITERION": {
-      "regular": ["Major concerts & touring acts (OKC)"],
+    "RIVERWIND CASINO": {
+      "regular": [
+        "Casino & touring shows"
+      ],
       "special": [
-        "Mar 2 — Descendents & Frank Turner"
+        "Mar 5 — Jake's Birthday Bash feat. John Morgan and Cam Allen",
+        "Mar 13 — Chicago",
+        "Mar 27 — Josh Ross",
+        "Apr 17 — Randy Rogers Band",
+        "Apr 25 — Don Felder",
+        "May 16 — George Thorogood and The Destroyers and Marshall Tucker Band",
+        "Jun 13 — Beats & Bites: Cheap Trick with Gin Blossoms",
+        "Jul 11 — Beats & Bites: Flatland Cavalry with Jason Boland & The Stragglers (Fireworks Show)",
+        "Aug 8 — Beats & Bites: Jake Owen with Jordan Rainer",
+        "Sep 4 — Beats & Bites: Clay Walker with Terri Clark"
       ]
     },
 
-    "CIVIC CENTER MUSIC HALL": {
-      "regular": ["Broadway & theater productions (OKC)"],
+    "THE CRITERION (OKC)": {
+      "regular": [
+        "Major concerts & touring acts"
+      ],
+      "special": [
+        "Mar 2 — Descendents & Frank Turner & The Sleeping Souls"
+      ]
+    },
+
+    "CIVIC CENTER MUSIC HALL (OKC)": {
+      "regular": [
+        "Theatre, Broadway, and major productions"
+      ],
       "special": [
         "Mar 3–8 — A Beautiful Noise: The Neil Diamond Musical"
       ]
     },
 
-    "RIVERWIND CASINO": {
-      "regular": ["Casino & touring shows"],
+    "BRICKTOWN COMEDY CLUB (OKC)": {
+      "regular": [
+        "Comedy shows and touring comics"
+      ],
       "special": [
-        "Mar 5 — Jake's Birthday Bash feat. John Morgan",
-        "Mar 13 — Chicago",
-        "Mar 21 — Randy Houser",
-        "Mar 27 — Josh Ross",
-        "Apr 17 — Randy Rogers Band",
-        "Apr 25 — Don Felder",
-        "May 16 — George Thorogood and The Destroyers and Marshall Tucker Band",
-        "Jun 13 — Cheap Trick (Beats & Bites 2026)",
-        "Jul 11 — Flatland Cavalry (Beats & Bites 2026)",
-        "Aug 8 — Jake Owen (Beats & Bites 2026)",
-        "Sep 4 — Clay Walker (Beats & Bites 2026)"
+        "Mar 8 — Shuler King"
       ]
     },
 
     "BRICKHOUSE SALOON (SHAWNEE)": {
       "regular": [
-        "Monday — Karaoke Night",
-        "Tuesday — Karaoke Night",
-        "Wednesday — Whiskey Wednesday",
-        "Thursday — BINGO (21+)",
-        "Friday — Ladies Night",
-        "Saturday — College Night + Country Karaoke"
+        "Mondays — Karaoke",
+        "Tuesdays — Karaoke",
+        "Wednesdays — Whiskey Wednesday",
+        "Thursdays — BINGO (21+)",
+        "Fridays — Ladies Night",
+        "Saturdays — College Night",
+        "Saturdays — Country Night Karaoke in the Saloon",
+        "Various DJs each Friday and Saturday"
       ],
-      "special": []
+      "special": [
+        "Mar 6 — DJ Navi (Ladies Night)",
+        "Mar 7 — College Night @ Brickhouse",
+        "Mar 14 — St. Patrick's Day Party"
+      ]
     },
 
     "ROADHOUSE REDNECK BAR & GRILL": {
       "regular": [
+        "Sunday — Pool League",
+        "Monday — Free Pool",
+        "Tuesday — Taco Tues & Pool League",
+        "Wednesday — Pool Tournament",
         "Thursday — Acoustic Jam",
-        "Friday — Karaoke",
-        "Saturday — Karaoke"
+        "Friday — Karaoke at 8 PM (w/ James)",
+        "Saturday — Karaoke at 8 PM (w/ James)"
       ],
       "special": []
     },
 
     "THE HISTORIC RITZ (SHAWNEE)": {
-      "regular": ["Live concerts & touring acts"],
+      "regular": [
+        "Live concerts & touring acts"
+      ],
       "special": [
-        "Mar 6 — Jason McPhail LIVE",
-        "Mar 7 — The Shawp LIVE"
+        "Mar 6 — Jason McPhail LIVE @ Ritz",
+        "Mar 7 — The Shawp LIVE @ Ritz",
+        "Mar 21 — Kiss the Goat (A Tribute to Ghost)"
       ]
+    },
+
+    "OKIE STATE ROOM (HARRAH)": {
+      "regular": [
+        "Live music venue"
+      ],
+      "special": [
+        "Mar 12 — Pretty Tied Up (All-Star Guns N’ Roses Tribute) w/ special guests PERMACRUSH"
+      ]
+    },
+
+    "THUNDERBIRD CASINO (NORMAN)": {
+      "regular": [
+        "Casino games, weekly karaoke, live music nights"
+      ],
+      "special": [
+        "May 2 — Lyal Strickland",
+        "Jun 27 — Kurt Allen"
+      ]
+    },
+
+    "FRIENDS OF FRIENDS": {
+      "regular": [
+        "Thu–Sat live bands",
+        "Kitchen open nightly"
+      ],
+      "special": []
     },
 
     "OKIE TONK": {
       "regular": [
+        "Mon: Poker + Comedy",
         "Thu: Karaoke",
-        "Fri/Sat: Live Country"
+        "Fri/Sat: Live Country",
+        "Sun: Blues Open Jam"
+      ],
+      "special": []
+    },
+
+    "THE ALLEY": {
+      "regular": [
+        "Live music Saturdays",
+        "Open until 2 AM"
+      ],
+      "special": []
+    },
+
+    "40 WEST": {
+      "regular": [
+        "Karaoke nights",
+        "Open Mic Sundays"
+      ],
+      "special": []
+    },
+
+    "THE MILL BAR": {
+      "regular": [
+        "Daily drink specials",
+        "Sports watch parties"
+      ],
+      "special": []
+    },
+
+    "MOONEY'S PUB": {
+      "regular": [
+        "Live music nights (when posted)"
       ],
       "special": []
     }
