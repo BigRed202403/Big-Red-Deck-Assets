@@ -1,16 +1,16 @@
 {
   "week_range": "Mar 1–8, 2026",
-  "updated_at": "2026-03-02T17:00:00Z",
+  "updated_at": "2026-03-02T18:15:00Z",
 
   "rules_locked": {
     "data_scope": "JSON is strictly forward-looking.",
     "weekly_highlights": "Current week only (Sun–Sun). Max 4 items.",
     "venue_regulars": "Full core venue ecosystem must always remain present.",
-    "venue_specials": "All future-dated events retained. Specials are kept clean (no extra commentary).",
-    "sports": "Thunder schedule retained through end of season. OU softball included as primary OU driver.",
+    "venue_specials": "All future-dated events retained. Specials are kept clean (no commentary).",
+    "sports": "Thunder schedule retained through end of season. OU softball included.",
     "thunder_format": "Opponent listed by city only.",
     "sports_format": "No venue tags in sports schedules.",
-    "revenue_filter_rule": "Only include items likely to create measurable ride demand (concerts, arena games, major campus sports, venue weekly drivers)."
+    "revenue_filter_rule": "Only include items likely to create measurable ride demand (concerts, arena games, major campus sports, established nightlife venues)."
   },
 
   "weekly_highlights": [
@@ -28,17 +28,15 @@
   ],
 
   "local_updates": [
-    "Downtown demand builds early this week with major concerts + Broadway runs (Civic Center + Bricktown).",
-    "Norman engine stays strong with Riverwind and OU Softball home slate.",
-    "Weekend demand splits between Thunder downtown and venue nights across OKC, Yukon, and Mustang.",
-    "Shawnee remains satellite coverage by request (lower rideshare saturation, higher planned-ride value)."
+    "Major downtown events this week include concerts and Broadway performances.",
+    "Riverwind and campus sports add midweek and weekend activity.",
+    "Weekend demand includes Thunder plus live music across multiple venues."
   ],
 
   "local_fun_special": [
     "Mar 2 — Descendents & Frank Turner @ The Criterion",
-    "Mar 3–8 — A Beautiful Noise: The Neil Diamond Musical @ Civic Center Music Hall",
+    "Mar 3–8 — A Beautiful Noise @ Civic Center",
     "Mar 5 — John Morgan @ Riverwind Casino",
-    "Mar 6 — Honky Tonk Trifecta @ 40 West",
     "Mar 7 — Thunder vs Golden State",
     "Mar 7 — Honky Tonk Trifecta @ 40 West"
   ],
@@ -79,6 +77,7 @@
   },
 
   "venues": {
+
     "PAYCOM CENTER": {
       "regular": ["Sporting events & arena shows"],
       "special": [
@@ -87,14 +86,14 @@
     },
 
     "CIVIC CENTER MUSIC HALL": {
-      "regular": ["Broadway & theater productions (OKC)"],
+      "regular": ["Broadway & theater productions"],
       "special": [
         "Mar 3–8 — A Beautiful Noise: The Neil Diamond Musical"
       ]
     },
 
     "THE CRITERION": {
-      "regular": ["Major concerts & touring acts (OKC)"],
+      "regular": ["Major concerts & touring acts"],
       "special": [
         "Mar 2 — Descendents & Frank Turner"
       ]
@@ -103,7 +102,7 @@
     "RIVERWIND CASINO": {
       "regular": ["Casino & touring shows"],
       "special": [
-        "Mar 5 — Jake's Birthday Bash feat. John Morgan",
+        "Mar 5 — John Morgan",
         "Mar 13 — Chicago (Sold Out)",
         "Mar 21 — Randy Houser",
         "Mar 27 — Nate Smith",
@@ -111,11 +110,7 @@
         "Apr 24 — Aaron Lewis & The Stateliners",
         "Apr 25 — Don Felder",
         "May 9 — Earth, Wind & Fire",
-        "May 16 — George Thorogood & The Destroyers",
-        "Jun 13 — Cheap Trick with Gin Blossoms (Beats & Bites 2026)",
-        "Jul 11 — Flatland Cavalry with Jason Boland & The Stragglers + fireworks (Beats & Bites 2026)",
-        "Aug 8 — Jake Owen with Jordan Rainer (Beats & Bites 2026)",
-        "Sep 4 — Clay Walker with Terri Clark (Beats & Bites 2026)"
+        "May 16 — George Thorogood & The Destroyers"
       ]
     },
 
@@ -144,74 +139,75 @@
       ]
     },
 
-    "ROADHOUSE REDNECK BAR (MUSTANG)": {
+    "ROADHOUSE REDNECK BAR": {
       "regular": [
         "Sunday — Pool League",
         "Monday — Free Pool",
-        "Tuesday — Taco Tues + Pool League",
+        "Tuesday — Taco Tuesday + Pool League",
         "Wednesday — Pool Tournament",
         "Thursday — Acoustic Jam",
         "Friday — Karaoke (8 PM)",
         "Saturday — Karaoke (8 PM)"
       ],
-      "special": []
+      "special": [
+        "Mar 16 — Annual Crawfish Boil"
+      ]
     },
 
     "40 WEST": {
       "regular": [
-        "Monday — 8-Ball Pool Tournament + Board Game Night (7 PM)",
+        "Monday — 8-Ball + Board Game Night (7 PM)",
         "Tuesday — Karaoke (9 PM)",
         "Wednesday — Karaoke (9 PM)",
         "Thursday — Karaoke (9 PM)",
         "Friday — Karaoke (9 PM)",
         "Saturday — Live Music",
-        "Sunday — Open Mic (3–6 PM) + Free Texas Hold'em Tournament (7 PM)"
+        "Sunday — Open Mic (3–6 PM) + Free Texas Hold'em (7 PM)"
       ],
       "special": [
-        "Mar 7 — Honky Tonk Trifecta (Live Music)"
+        "Mar 7 — Honky Tonk Trifecta"
       ]
     },
 
     "OKIE TONK": {
       "regular": [
-        "Mon: Poker + Comedy",
-        "Thu: Karaoke",
-        "Fri/Sat: Live Country",
-        "Sun: Blues Open Jam"
+        "Mon — Poker + Comedy",
+        "Thu — Karaoke",
+        "Fri/Sat — Live Country",
+        "Sun — Blues Open Jam"
       ],
       "special": []
     },
 
-    "BRICKHOUSE SALOON (SHAWNEE)": {
+    "BRICKHOUSE SALOON": {
       "regular": [
         "Monday — Karaoke",
         "Tuesday — Karaoke",
         "Wednesday — Whiskey Wednesday",
         "Thursday — BINGO (21+)",
         "Friday — Ladies Night",
-        "Saturday — College Night + Country Night Karaoke",
-        "Friday/Saturday — DJs (varies)"
+        "Saturday — College Night + Country Karaoke"
       ],
       "special": []
     },
 
-    "THE HISTORIC RITZ (SHAWNEE)": {
+    "THE HISTORIC RITZ": {
       "regular": ["Live concerts & touring acts"],
       "special": [
-        "Mar 6 — Jason McPhail LIVE",
-        "Mar 7 — The Shawp LIVE"
+        "Mar 6 — Jason McPhail",
+        "Mar 7 — The Shawp"
       ]
     },
 
-    "OKIE STATE ROOM (HARRAH)": {
+    "OKIE STATE ROOM": {
       "regular": ["Live music venue"],
       "special": [
         "Mar 12 — Pretty Tied Up (Guns N’ Roses Tribute)"
       ]
     },
 
-    "THUNDERBIRD CASINO (NORMAN)": {
-      "regular": ["Casino games, weekly karaoke, live music nights"],
+    "THUNDERBIRD CASINO": {
+      "regular": ["Casino games + weekly karaoke"],
       "special": [
         "May 2 — Lyal Strickland",
         "Jun 27 — Kurt Allen"
