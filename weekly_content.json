@@ -1,51 +1,55 @@
 {
-  "week_range": "Mar 1–8, 2026",
-  "updated_at": "2026-03-02T18:15:00Z",
+  "week_range": "Mar 6–15, 2026",
+  "updated_at": "2026-03-06T12:30:00Z",
 
   "rules_locked": {
     "data_scope": "JSON is strictly forward-looking.",
-    "weekly_highlights": "Current week only (Sun–Sun). Max 4 items.",
+    "weekly_highlights": "Current active window only. Max 4 items.",
     "venue_regulars": "Full core venue ecosystem must always remain present.",
     "venue_specials": "All future-dated events retained. Specials are kept clean (no commentary).",
-    "sports": "Thunder schedule retained through end of season. OU softball included.",
+    "sports": "Thunder schedule retained through end of season. OU softball retained in full from current date forward.",
     "thunder_format": "Opponent listed by city only.",
     "sports_format": "No venue tags in sports schedules.",
     "revenue_filter_rule": "Only include items likely to create measurable ride demand (concerts, arena games, major campus sports, established nightlife venues)."
   },
 
   "weekly_highlights": [
-    "Mar 2 — Descendents & Frank Turner @ The Criterion",
-    "Mar 3–8 — A Beautiful Noise: The Neil Diamond Musical @ Civic Center Music Hall",
-    "Mar 5 — John Morgan @ Riverwind Casino",
-    "Mar 7 — Thunder vs Golden State"
+    "Mar 6–8 — A Beautiful Noise: The Neil Diamond Musical @ Civic Center Music Hall",
+    "Mar 7 — Thunder vs Golden State",
+    "Mar 7–8 — OU Softball Home Weekend",
+    "Mar 13 — Chicago @ Riverwind Casino"
   ],
 
   "metro_sports": [
     "Mar 7 — Thunder vs Golden State",
-    "Mar 6 — OU Softball vs Louisiana",
     "Mar 7 — OU Softball vs Abilene Christian",
-    "Mar 8 — OU Softball vs Abilene Christian"
+    "Mar 7 — OU Softball vs Louisiana",
+    "Mar 8 — OU Softball vs Louisiana",
+    "Mar 8 — OU Softball vs Abilene Christian",
+    "Mar 11 — OU Softball vs Tulsa",
+    "Mar 13 — OU Softball vs Auburn",
+    "Mar 14 — OU Softball vs Auburn",
+    "Mar 15 — OU Softball vs Auburn"
   ],
 
   "local_updates": [
-    "Major downtown events this week include concerts and Broadway performances.",
-    "Riverwind and campus sports add midweek and weekend activity.",
-    "Weekend demand includes Thunder plus live music across multiple venues."
+    "Downtown shows and arena traffic remain active this week.",
+    "Riverwind and OU softball provide strong late-week and weekend activity.",
+    "Weekend venue traffic continues across OKC, Yukon, Mustang, Norman, and Shawnee."
   ],
 
   "local_fun_special": [
-    "Mar 2 — Descendents & Frank Turner @ The Criterion",
-    "Mar 3–8 — A Beautiful Noise @ Civic Center",
-    "Mar 5 — John Morgan @ Riverwind Casino",
+    "Mar 6 — Jason McPhail @ The Historic Ritz",
+    "Mar 6 — What She Said @ Friends of Friends",
     "Mar 7 — Thunder vs Golden State",
-    "Mar 7 — Honky Tonk Trifecta @ 40 West"
+    "Mar 7 — Honky Tonk Trifecta @ 40 West",
+    "Mar 7 — The Shawp @ The Historic Ritz",
+    "Mar 7 — The Stars @ Friends of Friends",
+    "Mar 13 — Chicago @ Riverwind Casino"
   ],
 
   "sports_schedules": {
     "OKC Thunder 2025–26": [
-      "Mar 1 — at Dallas",
-      "Mar 3 — at Chicago",
-      "Mar 4 — at New York",
       "Mar 7 — vs Golden State",
       "Mar 9 — vs Denver",
       "Mar 12 — vs Boston",
@@ -67,57 +71,90 @@
     ],
 
     "OU Softball 2026": [
-      "Mar 1 — vs Southeastern Louisiana",
-      "Mar 3 — at North Texas",
-      "Mar 6 — vs Louisiana",
       "Mar 7 — vs Abilene Christian",
       "Mar 7 — vs Louisiana",
-      "Mar 8 — vs Abilene Christian"
+      "Mar 8 — vs Louisiana",
+      "Mar 8 — vs Abilene Christian",
+      "Mar 11 — vs Tulsa",
+      "Mar 13 — vs Auburn",
+      "Mar 14 — vs Auburn",
+      "Mar 15 — vs Auburn",
+      "Mar 18 — at Memphis",
+      "Mar 21 — at Ole Miss",
+      "Mar 22 — at Ole Miss",
+      "Mar 23 — at Ole Miss",
+      "Mar 27 — at LSU",
+      "Mar 28 — at LSU",
+      "Mar 29 — at LSU",
+      "Mar 31 — vs Wichita State",
+      "Apr 2 — vs Kentucky",
+      "Apr 3 — vs Kentucky",
+      "Apr 4 — vs Kentucky",
+      "Apr 10 — at Texas",
+      "Apr 11 — at Texas",
+      "Apr 12 — at Texas",
+      "Apr 15 — at Oklahoma State",
+      "Apr 17 — vs Arkansas",
+      "Apr 18 — vs Arkansas",
+      "Apr 19 — vs Arkansas",
+      "Apr 21 — vs Arkansas Pine Bluff",
+      "Apr 24 — vs Georgia",
+      "Apr 25 — vs Georgia",
+      "Apr 26 — vs Georgia",
+      "May 1 — at Texas A&M",
+      "May 2 — at Texas A&M",
+      "May 3 — at Texas A&M",
+      "May 7–10 — SEC Tournament",
+      "May 15–17 — NCAA Regionals",
+      "May 21–24 — NCAA Super Regionals",
+      "May 28–Jun 4/5 — Women’s College World Series"
     ]
   },
 
   "venues": {
-
     "PAYCOM CENTER": {
       "regular": ["Sporting events & arena shows"],
       "special": [
-        "Mar 7 — Thunder vs Golden State"
+        "Mar 7 — Thunder vs Golden State",
+        "Mar 9 — Thunder vs Denver",
+        "Mar 12 — Thunder vs Boston",
+        "Mar 15 — Thunder vs Minnesota"
       ]
     },
 
     "CIVIC CENTER MUSIC HALL": {
       "regular": ["Broadway & theater productions"],
       "special": [
-        "Mar 3–8 — A Beautiful Noise: The Neil Diamond Musical"
+        "Mar 6–8 — A Beautiful Noise: The Neil Diamond Musical"
       ]
     },
 
     "THE CRITERION": {
       "regular": ["Major concerts & touring acts"],
-      "special": [
-        "Mar 2 — Descendents & Frank Turner"
-      ]
+      "special": []
     },
 
     "RIVERWIND CASINO": {
       "regular": ["Casino & touring shows"],
       "special": [
-        "Mar 5 — John Morgan",
         "Mar 13 — Chicago (Sold Out)",
         "Mar 21 — Randy Houser",
         "Mar 27 — Nate Smith",
         "Apr 17 — Randy Rogers Band",
-        "Apr 24 — Aaron Lewis & The Stateliners",
+        "Apr 24 — Aaron Lewis and The Stateliners",
         "Apr 25 — Don Felder",
         "May 9 — Earth, Wind & Fire",
-        "May 16 — George Thorogood & The Destroyers"
+        "May 16 — George Thorogood & The Destroyers",
+        "Jun 13 — Cheap Trick with Gin Blossoms (Beats & Bites 2026)",
+        "Jul 11 — Flatland Cavalry with Jason Boland & The Stragglers (Beats & Bites 2026)",
+        "Aug 8 — Jake Owen with Jordan Rainer (Beats & Bites 2026)",
+        "Sep 4 — Clay Walker with Terri Clark (Beats & Bites 2026)"
       ]
     },
 
     "FRIENDS OF FRIENDS": {
       "regular": ["Thu–Sat live bands", "Kitchen open", "Doors 7 PM–2 AM"],
       "special": [
-        "Mar 5 — The Country Shop Band",
         "Mar 6 — What She Said",
         "Mar 7 — The Stars"
       ]
@@ -172,6 +209,8 @@
     "OKIE TONK": {
       "regular": [
         "Mon — Poker + Comedy",
+        "Tue — Local Musician Showcase",
+        "Wed — Acoustic Night",
         "Thu — Karaoke",
         "Fri/Sat — Live Country",
         "Sun — Blues Open Jam"
@@ -195,7 +234,8 @@
       "regular": ["Live concerts & touring acts"],
       "special": [
         "Mar 6 — Jason McPhail",
-        "Mar 7 — The Shawp"
+        "Mar 7 — The Shawp",
+        "Mar 21 — Kiss the Goat (A Tribute to Ghost)"
       ]
     },
 
