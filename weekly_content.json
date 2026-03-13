@@ -1,6 +1,6 @@
 {
-  "week_range": "Mar 9–15, 2026",
-  "updated_at": "2026-03-08T20:00:00Z",
+  "week_range": "Mar 9–22, 2026",
+  "updated_at": "2026-03-13T09:00:00Z",
 
   "rules_locked": {
     "data_scope": "JSON is strictly forward-looking.",
@@ -14,41 +14,39 @@
   },
 
   "weekly_highlights": [
-    "Mar 9 — Thunder vs Denver",
-    "Mar 11–15 — OU Softball vs Tulsa + Auburn",
     "Mar 13 — Chicago @ Riverwind Casino",
-    "Mar 14 — Zack Fox @ The Criterion"
+    "Mar 14 — Zack Fox @ The Criterion",
+    "Mar 19–21 — NCAA Division I Men's Basketball Championship @ Paycom Center",
+    "Mar 21 — Randy Houser @ Riverwind Casino"
   ],
 
   "metro_sports": [
-    "Mar 9 — Thunder vs Denver",
-    "Mar 11 — OU Softball vs Tulsa",
-    "Mar 12 — Thunder vs Boston",
-    "Mar 13 — OU Softball vs Auburn",
-    "Mar 14 — OU Softball vs Auburn",
-    "Mar 15 — OU Softball vs Auburn",
-    "Mar 15 — Thunder vs Minnesota"
+    "Mar 15 — Thunder vs Minnesota",
+    "Mar 18 — OU Softball at Memphis",
+    "Mar 21 — OU Softball at Ole Miss",
+    "Mar 22 — OU Softball at Ole Miss",
+    "Mar 23 — OU Softball at Ole Miss"
   ],
 
   "local_updates": [
-    "Thunder home games return Monday, Thursday, and Sunday this week.",
-    "OU softball hosts Tulsa midweek and Auburn for a full weekend series.",
-    "Concert and comedy traffic stays active across Riverwind, The Criterion, and partner venue regulars."
+    "Arena events remain active through the weekend and into NCAA tournament week.",
+    "Riverwind carries the strongest concert pull over the next two weekends.",
+    "Regular partner venue nights continue across OKC, Yukon, Mustang, Norman, Harrah, and Shawnee."
   ],
 
   "local_fun_special": [
-    "Mar 9 — Thunder vs Denver",
-    "Mar 12 — Thunder vs Boston",
     "Mar 13 — Chicago @ Riverwind Casino",
     "Mar 14 — Zack Fox @ The Criterion",
+    "Mar 14 — Winter Jam 2026 @ Paycom Center",
     "Mar 15 — Thunder vs Minnesota",
-    "Mar 14 — St. Patrick's Day Party @ Brickhouse Saloon"
+    "Mar 19–21 — NCAA Division I Men's Basketball Championship @ Paycom Center",
+    "Mar 21 — Randy Houser @ Riverwind Casino",
+    "Mar 21 — Kiss the Goat @ The Historic Ritz",
+    "Mar 22 — Bad Omens @ Paycom Center"
   ],
 
   "sports_schedules": {
     "OKC Thunder 2025–26": [
-      "Mar 9 — vs Denver",
-      "Mar 12 — vs Boston",
       "Mar 15 — vs Minnesota",
       "Mar 17 — at Orlando",
       "Mar 18 — at Brooklyn",
@@ -67,10 +65,6 @@
     ],
 
     "OU Softball 2026": [
-      "Mar 11 — vs Tulsa",
-      "Mar 13 — vs Auburn",
-      "Mar 14 — vs Auburn",
-      "Mar 15 — vs Auburn",
       "Mar 18 — at Memphis",
       "Mar 21 — at Ole Miss",
       "Mar 22 — at Ole Miss",
@@ -103,14 +97,19 @@
     ],
 
     "OU Baseball 2026": [
-      "Mar 10 — vs UT Arlington",
-      "Mar 13 — vs Texas A&M",
       "Mar 14 — vs Texas A&M",
-      "Mar 15 — vs Texas A&M"
+      "Mar 15 — vs Texas A&M",
+      "Mar 18 — at Wichita State",
+      "Mar 20 — at Alabama",
+      "Mar 21 — at Alabama",
+      "Mar 22 — at Alabama",
+      "Mar 24 — at Dallas Baptist",
+      "Mar 27 — vs Mississippi State",
+      "Mar 28 — vs Mississippi State",
+      "Mar 29 — vs Mississippi State"
     ],
 
     "OU Men's Basketball 2025–26": [],
-
     "OU Women's Basketball 2025–26": []
   },
 
@@ -118,12 +117,14 @@
     "PAYCOM CENTER": {
       "regular": ["Sporting events & arena shows"],
       "special": [
-        "Mar 9 — Thunder vs Denver",
-        "Mar 12 — Thunder vs Boston",
         "Mar 14 — Winter Jam 2026",
         "Mar 15 — Thunder vs Minnesota",
         "Mar 19–21 — NCAA Division I Men's Basketball Championship",
-        "Mar 22 — Bad Omens with Beartooth and PRESIDENT"
+        "Mar 22 — Bad Omens",
+        "Mar 24 — OKC Blue vs Rio Grande Valley Vipers",
+        "Mar 28 — Thunder vs Chicago",
+        "Mar 29 — Harlem Globetrotters",
+        "Mar 30 — Thunder vs New York"
       ]
     },
 
@@ -144,7 +145,7 @@
         "Mar 21 — Bingo Loco XL",
         "Mar 25 — The Phil Collins Story",
         "Mar 27 — WWE NXT LIVE",
-        "Mar 28 — Pure Prairie League / Atlanta Rhythm Section / Orleans / Firefall"
+        "Apr 2 — Pure Prairie League / Atlanta Rhythm Section / Orleans / Firefall"
       ]
     },
 
@@ -261,45 +262,4 @@
     },
 
     "THE HISTORIC RITZ": {
-      "regular": ["Live concerts & touring acts"],
-      "special": [
-        "Mar 21 — Kiss the Goat (A Tribute to Ghost)",
-        "Mar 28 — Ross Clayton & Auston Dixon"
-      ]
-    },
-
-    "OKIE STATE ROOM": {
-      "regular": ["Live music venue"],
-      "special": [
-        "Mar 12 — Pretty Tied Up (Guns N' Roses Tribute) w/ PERMACRUSH",
-        "Mar 15 — Ronnie and The Redwoods",
-        "Mar 15 — Felicity"
-      ]
-    },
-
-    "THE MILL BAR": {
-      "regular": ["Daily drink specials", "Sports watch parties"],
-      "special": []
-    },
-
-    "MOONEY'S PUB": {
-      "regular": ["Live music nights (when posted)"],
-      "special": []
-    },
-
-    "COWBOYS OKC": {
-      "regular": ["Line dancing & nightlife"],
-      "special": []
-    },
-
-    "NEWCASTLE CASINO": {
-      "regular": ["Casino entertainment and weekend programming"],
-      "special": []
-    },
-
-    "FIRELAKE CASINO": {
-      "regular": ["Casino entertainment"],
-      "special": []
-    }
-  }
-}
+      "regular": ["Live concerts & touring 
