@@ -1,51 +1,51 @@
 {
-  "week_range": "Mar 9–22, 2026",
-  "updated_at": "2026-03-13T09:00:00Z",
+  "week_range": "Mar 15–22, 2026",
+  "updated_at": "2026-03-15T11:15:00Z",
 
   "rules_locked": {
     "data_scope": "JSON is strictly forward-looking.",
     "weekly_highlights": "Current active window only. Max 4 items.",
     "venue_regulars": "Full core venue ecosystem must always remain present.",
-    "venue_specials": "All future-dated events retained. Specials are kept clean (no commentary).",
-    "sports": "Thunder schedule retained through end of season. OU softball retained in full from current date forward.",
-    "thunder_format": "Opponent listed by city only.",
-    "sports_format": "No venue tags in sports schedules.",
-    "revenue_filter_rule": "Only include items likely to create measurable ride demand (concerts, arena games, major campus sports, established nightlife venues)."
+    "venue_specials": "All future-dated events retained. Specials are kept clean.",
+    "sports": "Thunder retained through season. OU softball retained forward.",
+    "revenue_filter_rule": "Only include events likely to generate measurable ride demand."
   },
 
   "weekly_highlights": [
-    "Mar 13 — Chicago @ Riverwind Casino",
-    "Mar 14 — Zack Fox @ The Criterion",
-    "Mar 19–21 — NCAA Division I Men's Basketball Championship @ Paycom Center",
-    "Mar 21 — Randy Houser @ Riverwind Casino"
+    "Mar 15 — Thunder vs Minnesota",
+    "Mar 19–21 — NCAA Men's Basketball Tournament @ Paycom Center",
+    "Mar 21 — Randy Houser @ Riverwind Casino",
+    "Mar 21 — Ninety Proof @ The Alley"
   ],
 
   "metro_sports": [
     "Mar 15 — Thunder vs Minnesota",
+    "Mar 15 — OU Softball vs Auburn (Norman)",
     "Mar 18 — OU Softball at Memphis",
     "Mar 21 — OU Softball at Ole Miss",
-    "Mar 22 — OU Softball at Ole Miss",
-    "Mar 23 — OU Softball at Ole Miss"
+    "Mar 22 — OU Softball at Ole Miss"
   ],
 
   "local_updates": [
-    "Arena events remain active through the weekend and into NCAA tournament week.",
-    "Riverwind carries the strongest concert pull over the next two weekends.",
-    "Regular partner venue nights continue across OKC, Yukon, Mustang, Norman, Harrah, and Shawnee."
+    "Downtown picks up midweek as NCAA tournament teams roll into town.",
+    "Riverwind Casino brings a strong Saturday night crowd with Randy Houser on Mar 21.",
+    "OU Softball closes out its Auburn home series on Mar 15 before heading back on the road.",
+    "Bad Omens brings a big Sunday night crowd to Paycom Center on Mar 22.",
+    "Nightlife stays active across Norman, Moore, Yukon, and Shawnee through the weekend."
   ],
 
   "local_fun_special": [
-    "Mar 13 — Chicago @ Riverwind Casino",
-    "Mar 14 — Zack Fox @ The Criterion",
-    "Mar 14 — Winter Jam 2026 @ Paycom Center",
     "Mar 15 — Thunder vs Minnesota",
-    "Mar 19–21 — NCAA Division I Men's Basketball Championship @ Paycom Center",
+    "Mar 15 — OU Softball vs Auburn (Norman)",
+    "Mar 19–21 — NCAA Men's Basketball Tournament @ Paycom Center",
     "Mar 21 — Randy Houser @ Riverwind Casino",
+    "Mar 21 — Ninety Proof @ The Alley",
     "Mar 21 — Kiss the Goat @ The Historic Ritz",
     "Mar 22 — Bad Omens @ Paycom Center"
   ],
 
   "sports_schedules": {
+
     "OKC Thunder 2025–26": [
       "Mar 15 — vs Minnesota",
       "Mar 17 — at Orlando",
@@ -65,6 +65,7 @@
     ],
 
     "OU Softball 2026": [
+      "Mar 15 — vs Auburn (Norman)",
       "Mar 18 — at Memphis",
       "Mar 21 — at Ole Miss",
       "Mar 22 — at Ole Miss",
@@ -78,127 +79,58 @@
       "Apr 4 — vs Kentucky",
       "Apr 10 — at Texas",
       "Apr 11 — at Texas",
-      "Apr 12 — at Texas",
-      "Apr 15 — at Oklahoma State",
-      "Apr 17 — vs Arkansas",
-      "Apr 18 — vs Arkansas",
-      "Apr 19 — vs Arkansas",
-      "Apr 21 — vs Arkansas Pine Bluff",
-      "Apr 24 — vs Georgia",
-      "Apr 25 — vs Georgia",
-      "Apr 26 — vs Georgia",
-      "May 1 — at Texas A&M",
-      "May 2 — at Texas A&M",
-      "May 3 — at Texas A&M",
-      "May 7–10 — SEC Tournament",
-      "May 15–17 — NCAA Regionals",
-      "May 21–24 — NCAA Super Regionals",
-      "May 28–Jun 4/5 — Women’s College World Series"
-    ],
-
-    "OU Baseball 2026": [
-      "Mar 14 — vs Texas A&M",
-      "Mar 15 — vs Texas A&M",
-      "Mar 18 — at Wichita State",
-      "Mar 20 — at Alabama",
-      "Mar 21 — at Alabama",
-      "Mar 22 — at Alabama",
-      "Mar 24 — at Dallas Baptist",
-      "Mar 27 — vs Mississippi State",
-      "Mar 28 — vs Mississippi State",
-      "Mar 29 — vs Mississippi State"
-    ],
-
-    "OU Men's Basketball 2025–26": [],
-    "OU Women's Basketball 2025–26": []
+      "Apr 12 — at Texas"
+    ]
   },
 
   "venues": {
-    "PAYCOM CENTER": {
-      "regular": ["Sporting events & arena shows"],
-      "special": [
-        "Mar 14 — Winter Jam 2026",
-        "Mar 15 — Thunder vs Minnesota",
-        "Mar 19–21 — NCAA Division I Men's Basketball Championship",
-        "Mar 22 — Bad Omens",
-        "Mar 24 — OKC Blue vs Rio Grande Valley Vipers",
-        "Mar 28 — Thunder vs Chicago",
-        "Mar 29 — Harlem Globetrotters",
-        "Mar 30 — Thunder vs New York"
-      ]
-    },
 
-    "CIVIC CENTER MUSIC HALL": {
-      "regular": ["Broadway & theater productions"],
+    "PAYCOM CENTER": {
+      "regular": ["Arena events & sports"],
       "special": [
-        "Apr 7–12 — Hell's Kitchen"
+        "Mar 15 — Thunder vs Minnesota",
+        "Mar 19–21 — NCAA Men's Basketball Tournament",
+        "Mar 22 — Bad Omens"
       ]
     },
 
     "THE CRITERION": {
-      "regular": ["Major concerts & touring acts"],
+      "regular": ["Concerts & touring comedy"],
       "special": [
-        "Mar 14 — Zack Fox",
-        "Mar 17 — A.J. Croce Presents CROCE PLAYS CROCE",
-        "Mar 19 — Ali Siddiq: In The Shadows",
+        "Mar 17 — A.J. Croce",
+        "Mar 19 — Ali Siddiq",
         "Mar 20 — Gen X Takeover Comedy Tour",
         "Mar 21 — Bingo Loco XL",
         "Mar 25 — The Phil Collins Story",
-        "Mar 27 — WWE NXT LIVE",
-        "Apr 2 — Pure Prairie League / Atlanta Rhythm Section / Orleans / Firefall"
+        "Mar 27 — WWE NXT Live"
       ]
     },
 
     "RIVERWIND CASINO": {
-      "regular": ["Casino & touring shows"],
+      "regular": ["Casino entertainment"],
       "special": [
-        "Mar 13 — Chicago (Sold Out)",
         "Mar 21 — Randy Houser",
         "Mar 27 — Nate Smith",
         "Apr 17 — Randy Rogers Band",
         "Apr 24 — Aaron Lewis and The Stateliners",
         "Apr 25 — Don Felder",
         "May 9 — Earth, Wind & Fire",
-        "May 16 — George Thorogood & The Destroyers",
-        "Jun 13 — Cheap Trick with Gin Blossoms (Beats & Bites 2026)",
-        "Jul 11 — Flatland Cavalry with Jason Boland & The Stragglers (Beats & Bites 2026)",
-        "Aug 8 — Jake Owen with Jordan Rainer (Beats & Bites 2026)",
-        "Sep 4 — Clay Walker with Terri Clark (Beats & Bites 2026)"
-      ]
-    },
-
-    "THUNDERBIRD CASINO": {
-      "regular": ["Casino games + weekly karaoke"],
-      "special": [
-        "May 2 — Lyal Strickland",
-        "Jun 27 — Kurt Allen"
-      ]
-    },
-
-    "GRAND CASINO RESORT": {
-      "regular": ["Casino & live weekend entertainment"],
-      "special": [
-        "Mar 13 — Rachel & Griffin",
-        "Mar 14 — Tommy Joe Smith",
-        "Mar 20 — Wink Burcham",
-        "Mar 21 — Kalo",
-        "Mar 27 — Eventides",
-        "Mar 28 — Dustin Pittsley",
-        "May 29 — Bret Michaels"
+        "May 16 — George Thorogood & The Destroyers"
       ]
     },
 
     "FRIENDS OF FRIENDS": {
-      "regular": ["Thu–Sat live bands", "Kitchen open", "Doors 7 PM–2 AM"],
+      "regular": [
+        "Thu–Sat Live Bands",
+        "Kitchen Open",
+        "Doors 7 PM–2 AM"
+      ],
       "special": []
     },
 
     "THE ALLEY": {
-      "regular": ["Live music Saturdays", "Open until 2 AM"],
+      "regular": ["Saturday Live Music"],
       "special": [
-        "Mar 13 — After School Special",
-        "Mar 14 — Dark Prairie Sun",
-        "Mar 20 — The Williams",
         "Mar 21 — Ninety Proof",
         "Mar 27 — Not Dead Yet / Flipside",
         "Mar 28 — Jukebox Hero",
@@ -209,13 +141,13 @@
 
     "ROADHOUSE REDNECK BAR": {
       "regular": [
-        "Sunday — Pool League",
-        "Monday — Free Pool",
-        "Tuesday — Taco Tuesday + Pool League",
-        "Wednesday — Pool Tournament",
-        "Thursday — Acoustic Jam",
-        "Friday — Karaoke (8 PM)",
-        "Saturday — Karaoke (8 PM)"
+        "Sun — Pool League",
+        "Mon — Free Pool",
+        "Tue — Taco Tuesday + Pool League",
+        "Wed — Pool Tournament",
+        "Thu — Acoustic Jam",
+        "Fri — Karaoke",
+        "Sat — Karaoke"
       ],
       "special": [
         "Mar 16 — Annual Crawfish Boil"
@@ -224,13 +156,13 @@
 
     "40 WEST": {
       "regular": [
-        "Monday — 8-Ball + Board Game Night (7 PM)",
-        "Tuesday — Karaoke (9 PM)",
-        "Wednesday — Karaoke (9 PM)",
-        "Thursday — Karaoke (9 PM)",
-        "Friday — Karaoke (9 PM)",
-        "Saturday — Live Music",
-        "Sunday — Open Mic (3–6 PM) + Free Texas Hold'em (7 PM)"
+        "Mon — 8 Ball + Board Game Night",
+        "Tue — Karaoke",
+        "Wed — Karaoke",
+        "Thu — Karaoke",
+        "Fri — Karaoke",
+        "Sat — Live Music",
+        "Sun — Open Mic + Texas Hold'em"
       ],
       "special": []
     },
@@ -249,17 +181,35 @@
 
     "BRICKHOUSE SALOON": {
       "regular": [
-        "Monday — Karaoke",
-        "Tuesday — Karaoke",
-        "Wednesday — Whiskey Wednesday",
-        "Thursday — BINGO (21+)",
-        "Friday — Ladies Night",
-        "Saturday — College Night + Country Karaoke"
+        "Mon — Karaoke",
+        "Tue — Karaoke",
+        "Wed — Whiskey Wednesday",
+        "Thu — Bingo",
+        "Fri — Ladies Night",
+        "Sat — College Night"
       ],
-      "special": [
-        "Mar 14 — St. Patrick's Day Party"
-      ]
+      "special": []
     },
 
     "THE HISTORIC RITZ": {
-      "regular": ["Live concerts & touring 
+      "regular": ["Live concerts"],
+      "special": [
+        "Mar 21 — Kiss the Goat",
+        "Mar 28 — Ross Clayton & Auston Dixon"
+      ]
+    },
+
+    "OKIE STATE ROOM": {
+      "regular": ["Live music"],
+      "special": []
+    },
+
+    "THUNDERBIRD CASINO": {
+      "regular": ["Casino entertainment"],
+      "special": [
+        "May 2 — Lyal Strickland",
+        "Jun 27 — Kurt Allen"
+      ]
+    }
+  }
+}
