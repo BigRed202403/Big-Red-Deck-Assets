@@ -1,56 +1,53 @@
 {
-  "week_range": "Mar 15–22, 2026",
-  "updated_at": "2026-03-15T11:15:00Z",
+  "week_range": "Mar 22–29, 2026",
+  "updated_at": "2026-03-22T20:15:00Z",
 
   "rules_locked": {
     "data_scope": "JSON is strictly forward-looking.",
     "weekly_highlights": "Current active window only. Max 4 items.",
     "venue_regulars": "Full core venue ecosystem must always remain present.",
-    "venue_specials": "All future-dated events retained. Specials are kept clean.",
+    "venue_specials": "Only verified, demand-driving events included.",
     "sports": "Thunder retained through season. OU softball retained forward.",
     "revenue_filter_rule": "Only include events likely to generate measurable ride demand."
   },
 
   "weekly_highlights": [
-    "Mar 15 — Thunder vs Minnesota",
-    "Mar 19–21 — NCAA Men's Basketball Tournament @ Paycom Center",
-    "Mar 21 — Randy Houser @ Riverwind Casino",
-    "Mar 21 — Ninety Proof @ The Alley"
+    "Mar 27 — Thunder vs Chicago",
+    "Mar 27 — Nate Smith @ Riverwind Casino",
+    "Mar 28 — Harlem Globetrotters",
+    "Mar 29 — Thunder vs New York"
   ],
 
   "metro_sports": [
-    "Mar 15 — Thunder vs Minnesota",
-    "Mar 15 — OU Softball vs Auburn (Norman)",
-    "Mar 18 — OU Softball at Memphis",
-    "Mar 21 — OU Softball at Ole Miss",
-    "Mar 22 — OU Softball at Ole Miss"
+    "Mar 22 — OU Softball at Ole Miss",
+    "Mar 23 — OU Softball at Ole Miss",
+    "Mar 27 — Thunder vs Chicago",
+    "Mar 27 — OU Softball at LSU",
+    "Mar 28 — OU Softball at LSU",
+    "Mar 29 — Thunder vs New York",
+    "Mar 29 — OU Softball at LSU"
   ],
 
   "local_updates": [
-    "Downtown picks up midweek as NCAA tournament teams roll into town.",
-    "Riverwind Casino brings a strong Saturday night crowd with Randy Houser on Mar 21.",
-    "OU Softball closes out its Auburn home series on Mar 15 before heading back on the road.",
-    "Bad Omens brings a big Sunday night crowd to Paycom Center on Mar 22.",
-    "Nightlife stays active across Norman, Moore, Yukon, and Shawnee through the weekend."
+    "March Madness and arena events keep the city moving all week.",
+    "Paycom Center draws strong crowds with multiple major events.",
+    "Riverwind Casino brings a packed Friday night show.",
+    "Weekend nights stay active across Norman, Moore, Yukon, Harrah, and Shawnee."
   ],
 
   "local_fun_special": [
-    "Mar 15 — Thunder vs Minnesota",
-    "Mar 15 — OU Softball vs Auburn (Norman)",
-    "Mar 19–21 — NCAA Men's Basketball Tournament @ Paycom Center",
-    "Mar 21 — Randy Houser @ Riverwind Casino",
-    "Mar 21 — Ninety Proof @ The Alley",
-    "Mar 21 — Kiss the Goat @ The Historic Ritz",
-    "Mar 22 — Bad Omens @ Paycom Center"
+    "Mar 27 — Thunder vs Chicago",
+    "Mar 27 — Nate Smith @ Riverwind Casino",
+    "Mar 27 — WWE NXT Live @ The Criterion",
+    "Mar 28 — Harlem Globetrotters",
+    "Mar 28 — Pure Prairie League @ The Criterion",
+    "Mar 28 — Ross Clayton & Auston Dixon @ The Historic Ritz",
+    "Mar 29 — Thunder vs New York",
+    "Mar 28–Apr 5 — Tulip Festival @ Myriad Botanical Gardens"
   ],
 
   "sports_schedules": {
-
     "OKC Thunder 2025–26": [
-      "Mar 15 — vs Minnesota",
-      "Mar 17 — at Orlando",
-      "Mar 18 — at Brooklyn",
-      "Mar 21 — at Washington",
       "Mar 23 — at Philadelphia",
       "Mar 25 — at Boston",
       "Mar 27 — vs Chicago",
@@ -65,9 +62,6 @@
     ],
 
     "OU Softball 2026": [
-      "Mar 15 — vs Auburn (Norman)",
-      "Mar 18 — at Memphis",
-      "Mar 21 — at Ole Miss",
       "Mar 22 — at Ole Miss",
       "Mar 23 — at Ole Miss",
       "Mar 27 — at LSU",
@@ -85,31 +79,122 @@
 
   "venues": {
 
+    "MOONEY'S PUB & GRILL": {
+      "regular": [
+        "Tuesday — Acoustic Night",
+        "Wednesday — Karaoke",
+        "Thursday — Singo + Karaoke",
+        "Friday — Live Music",
+        "Saturday — Live Music",
+        "Sunday — Brunch / Jam Session",
+        "March Madness Watch Spot"
+      ],
+      "special": [
+        "Mar 27 — The Remedy OKC",
+        "Mar 28 — Ten Acre Rock"
+      ]
+    },
+
+    "BRICKHOUSE SALOON": {
+      "regular": [
+        "Monday — Karaoke",
+        "Tuesday — Karaoke",
+        "Wednesday — Whiskey Wednesday",
+        "Thursday — Bingo",
+        "Friday — Ladies Night",
+        "Saturday — College Night"
+      ],
+      "special": []
+    },
+
+    "FRIENDS OF FRIENDS": {
+      "regular": [
+        "Thursday — Live Music",
+        "Friday — Live Music",
+        "Saturday — Live Music",
+        "Kitchen Open",
+        "Doors 7 PM–2 AM"
+      ],
+      "special": [
+        "Mar 27 — Channel 3",
+        "Mar 28 — The Stars"
+      ]
+    },
+
+    "THE ALLEY": {
+      "regular": [
+        "Saturday — Live Music",
+        "Open until 2 AM"
+      ],
+      "special": [
+        "Mar 27 — Not Dead Yet / Flipside",
+        "Mar 28 — Jukebox Hero"
+      ]
+    },
+
+    "ROADHOUSE REDNECK BAR": {
+      "regular": [
+        "Sunday — Pool League",
+        "Monday — Free Pool",
+        "Tuesday — Taco Tuesday + Pool League",
+        "Wednesday — Pool Tournament",
+        "Thursday — Acoustic Jam",
+        "Friday — Karaoke",
+        "Saturday — Karaoke"
+      ],
+      "special": [
+        "Mar 28 — Pie a Bartender Fundraiser"
+      ]
+    },
+
+    "40 WEST": {
+      "regular": [
+        "Monday — 8 Ball + Board Game Night",
+        "Tuesday — Karaoke",
+        "Wednesday — Karaoke",
+        "Thursday — Karaoke",
+        "Friday — Karaoke",
+        "Saturday — Live Music",
+        "Sunday — Open Mic + Texas Hold'em"
+      ],
+      "special": []
+    },
+
+    "OKIE TONK": {
+      "regular": [
+        "Monday — Poker + Comedy",
+        "Tuesday — Local Showcase",
+        "Wednesday — Acoustic Night",
+        "Thursday — Karaoke",
+        "Friday — Live Country",
+        "Saturday — Live Country",
+        "Sunday — Blues Jam"
+      ],
+      "special": []
+    },
+
     "PAYCOM CENTER": {
       "regular": ["Arena events & sports"],
       "special": [
-        "Mar 15 — Thunder vs Minnesota",
-        "Mar 19–21 — NCAA Men's Basketball Tournament",
-        "Mar 22 — Bad Omens"
+        "Mar 27 — Thunder vs Chicago",
+        "Mar 28 — Harlem Globetrotters",
+        "Mar 29 — Thunder vs New York",
+        "Apr 2 — Thunder vs L.A. Lakers",
+        "Apr 3 — Journey"
       ]
     },
 
     "THE CRITERION": {
-      "regular": ["Concerts & touring comedy"],
+      "regular": ["Concerts & touring acts"],
       "special": [
-        "Mar 17 — A.J. Croce",
-        "Mar 19 — Ali Siddiq",
-        "Mar 20 — Gen X Takeover Comedy Tour",
-        "Mar 21 — Bingo Loco XL",
-        "Mar 25 — The Phil Collins Story",
-        "Mar 27 — WWE NXT Live"
+        "Mar 27 — WWE NXT Live",
+        "Mar 28 — Pure Prairie League"
       ]
     },
 
     "RIVERWIND CASINO": {
       "regular": ["Casino entertainment"],
       "special": [
-        "Mar 21 — Randy Houser",
         "Mar 27 — Nate Smith",
         "Apr 17 — Randy Rogers Band",
         "Apr 24 — Aaron Lewis and The Stateliners",
@@ -117,99 +202,7 @@
         "May 9 — Earth, Wind & Fire",
         "May 16 — George Thorogood & The Destroyers"
       ]
-    },
-
-    "FRIENDS OF FRIENDS": {
-      "regular": [
-        "Thu–Sat Live Bands",
-        "Kitchen Open",
-        "Doors 7 PM–2 AM"
-      ],
-      "special": []
-    },
-
-    "THE ALLEY": {
-      "regular": ["Saturday Live Music"],
-      "special": [
-        "Mar 21 — Ninety Proof",
-        "Mar 27 — Not Dead Yet / Flipside",
-        "Mar 28 — Jukebox Hero",
-        "Apr 3 — Sweet Brenda & Sour Mash",
-        "Apr 4 — Remedy"
-      ]
-    },
-
-    "ROADHOUSE REDNECK BAR": {
-      "regular": [
-        "Sun — Pool League",
-        "Mon — Free Pool",
-        "Tue — Taco Tuesday + Pool League",
-        "Wed — Pool Tournament",
-        "Thu — Acoustic Jam",
-        "Fri — Karaoke",
-        "Sat — Karaoke"
-      ],
-      "special": [
-        "Mar 16 — Annual Crawfish Boil"
-      ]
-    },
-
-    "40 WEST": {
-      "regular": [
-        "Mon — 8 Ball + Board Game Night",
-        "Tue — Karaoke",
-        "Wed — Karaoke",
-        "Thu — Karaoke",
-        "Fri — Karaoke",
-        "Sat — Live Music",
-        "Sun — Open Mic + Texas Hold'em"
-      ],
-      "special": []
-    },
-
-    "OKIE TONK": {
-      "regular": [
-        "Mon — Poker + Comedy",
-        "Tue — Local Musician Showcase",
-        "Wed — Acoustic Night",
-        "Thu — Karaoke",
-        "Fri/Sat — Live Country",
-        "Sun — Blues Open Jam"
-      ],
-      "special": []
-    },
-
-    "BRICKHOUSE SALOON": {
-      "regular": [
-        "Mon — Karaoke",
-        "Tue — Karaoke",
-        "Wed — Whiskey Wednesday",
-        "Thu — Bingo",
-        "Fri — Ladies Night",
-        "Sat — College Night"
-      ],
-      "special": []
-    },
-
-    "THE HISTORIC RITZ": {
-      "regular": ["Live concerts"],
-      "special": [
-        "Mar 21 — Kiss the Goat",
-        "Mar 28 — Ross Clayton & Auston Dixon"
-      ]
-    },
-
-    "OKIE STATE ROOM": {
-      "regular": ["Live music"],
-      "special": []
-    },
-
-    "THUNDERBIRD CASINO": {
-      "regular": ["Casino entertainment"],
-      "special": [
-        "May 2 — Lyal Strickland",
-        "Jun 27 — Kurt Allen"
-      ]
     }
+
   }
 }
