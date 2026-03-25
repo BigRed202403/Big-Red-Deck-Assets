@@ -1,79 +1,53 @@
 {
   "week_range": "Mar 22–29, 2026",
-  "updated_at": "2026-03-22T20:15:00Z",
+  "mode": "weekend_lean",
+  "updated_at": "2026-03-22T19:05:00Z",
 
   "rules_locked": {
     "data_scope": "JSON is strictly forward-looking.",
-    "weekly_highlights": "Current active window only. Max 4 items.",
-    "venue_regulars": "Full core venue ecosystem must always remain present.",
-    "venue_specials": "Only verified, demand-driving events included.",
-    "sports": "Thunder retained through season. OU softball retained forward.",
-    "revenue_filter_rule": "Only include events likely to generate measurable ride demand."
+    "weekly_highlights": "Weekend-priority ordering (Fri–Sun first).",
+    "venue_regulars": "Full ecosystem retained.",
+    "venue_specials": "Future events retained.",
+    "sports": "Only near-term relevant games prioritized.",
+    "revenue_filter_rule": "Only include events likely to generate ride demand."
   },
 
   "weekly_highlights": [
     "Mar 27 — Thunder vs Chicago",
     "Mar 27 — Nate Smith @ Riverwind Casino",
-    "Mar 28 — Harlem Globetrotters",
-    "Mar 29 — Thunder vs New York"
+    "Mar 28 — Crawfish Boil Benefit @ Roadhouse Bar",
+    "Mar 28 — Ten Acre Rock @ Mooney’s"
   ],
 
   "metro_sports": [
-    "Mar 22 — OU Softball at Ole Miss",
-    "Mar 23 — OU Softball at Ole Miss",
     "Mar 27 — Thunder vs Chicago",
-    "Mar 27 — OU Softball at LSU",
-    "Mar 28 — OU Softball at LSU",
     "Mar 29 — Thunder vs New York",
-    "Mar 29 — OU Softball at LSU"
+    "Mar 23 — Thunder at Philadelphia"
   ],
 
   "local_updates": [
-    "March Madness and arena events keep the city moving all week.",
-    "Paycom Center draws strong crowds with multiple major events.",
-    "Riverwind Casino brings a packed Friday night show.",
-    "Weekend nights stay active across Norman, Moore, Yukon, Harrah, and Shawnee."
+    "Friday night builds fast around Thunder and Riverwind crowds.",
+    "Saturday runs all day into night with Roadhouse, Mooney’s, and downtown movement.",
+    "Expect steady rides between Norman, Moore, and OKC through peak hours.",
+    "Late-night demand stacks quickly once venues fill in."
   ],
 
   "local_fun_special": [
     "Mar 27 — Thunder vs Chicago",
     "Mar 27 — Nate Smith @ Riverwind Casino",
-    "Mar 27 — WWE NXT Live @ The Criterion",
-    "Mar 28 — Harlem Globetrotters",
-    "Mar 28 — Pure Prairie League @ The Criterion",
-    "Mar 28 — Ross Clayton & Auston Dixon @ The Historic Ritz",
-    "Mar 29 — Thunder vs New York",
-    "Mar 28–Apr 5 — Tulip Festival @ Myriad Botanical Gardens"
+    "Mar 27 — The Remedy OKC @ Mooney’s",
+    "Mar 28 — Crawfish Boil Benefit @ Roadhouse Bar",
+    "Mar 28 — Ten Acre Rock @ Mooney’s",
+    "Mar 28 — Harlem Globetrotters @ Paycom Center",
+    "Mar 29 — Thunder vs New York"
   ],
 
   "sports_schedules": {
     "OKC Thunder 2025–26": [
-      "Mar 23 — at Philadelphia",
-      "Mar 25 — at Boston",
       "Mar 27 — vs Chicago",
       "Mar 29 — vs New York",
       "Mar 30 — vs Detroit",
-      "Apr 2 — vs L.A. Lakers",
-      "Apr 5 — vs Utah",
-      "Apr 7 — at L.A. Lakers",
-      "Apr 8 — at L.A. Clippers",
-      "Apr 10 — at Denver",
-      "Apr 12 — vs Phoenix"
-    ],
-
-    "OU Softball 2026": [
-      "Mar 22 — at Ole Miss",
-      "Mar 23 — at Ole Miss",
-      "Mar 27 — at LSU",
-      "Mar 28 — at LSU",
-      "Mar 29 — at LSU",
-      "Mar 31 — vs Wichita State",
-      "Apr 2 — vs Kentucky",
-      "Apr 3 — vs Kentucky",
-      "Apr 4 — vs Kentucky",
-      "Apr 10 — at Texas",
-      "Apr 11 — at Texas",
-      "Apr 12 — at Texas"
+      "Apr 2 — vs L.A. Lakers"
     ]
   },
 
@@ -81,128 +55,80 @@
 
     "MOONEY'S PUB & GRILL": {
       "regular": [
-        "Tuesday — Acoustic Night",
-        "Wednesday — Karaoke",
-        "Thursday — Singo + Karaoke",
-        "Friday — Live Music",
-        "Saturday — Live Music",
-        "Sunday — Brunch / Jam Session",
-        "March Madness Watch Spot"
+        "March Madness Watch Parties",
+        "Drink Specials & Beer Buckets",
+        "Weekend Live Music"
       ],
       "special": [
-        "Mar 27 — The Remedy OKC",
-        "Mar 28 — Ten Acre Rock"
-      ]
-    },
-
-    "BRICKHOUSE SALOON": {
-      "regular": [
-        "Monday — Karaoke",
-        "Tuesday — Karaoke",
-        "Wednesday — Whiskey Wednesday",
-        "Thursday — Bingo",
-        "Friday — Ladies Night",
-        "Saturday — College Night"
-      ],
-      "special": []
-    },
-
-    "FRIENDS OF FRIENDS": {
-      "regular": [
-        "Thursday — Live Music",
-        "Friday — Live Music",
-        "Saturday — Live Music",
-        "Kitchen Open",
-        "Doors 7 PM–2 AM"
-      ],
-      "special": [
-        "Mar 27 — Channel 3",
-        "Mar 28 — The Stars"
-      ]
-    },
-
-    "THE ALLEY": {
-      "regular": [
-        "Saturday — Live Music",
-        "Open until 2 AM"
-      ],
-      "special": [
-        "Mar 27 — Not Dead Yet / Flipside",
-        "Mar 28 — Jukebox Hero"
+        "Mar 27 — The Remedy OKC (9 PM)",
+        "Mar 28 — Ten Acre Rock (9 PM)"
       ]
     },
 
     "ROADHOUSE REDNECK BAR": {
       "regular": [
-        "Sunday — Pool League",
-        "Monday — Free Pool",
-        "Tuesday — Taco Tuesday + Pool League",
-        "Wednesday — Pool Tournament",
-        "Thursday — Acoustic Jam",
+        "Thursday — Acoustic Night",
         "Friday — Karaoke",
         "Saturday — Karaoke"
       ],
       "special": [
-        "Mar 28 — Pie a Bartender Fundraiser"
+        "Mar 28 — Crawfish Boil Benefit (Food 12:30 PM)",
+        "Mar 28 — Pie-A-Bartender Raffle"
       ]
     },
 
-    "40 WEST": {
-      "regular": [
-        "Monday — 8 Ball + Board Game Night",
-        "Tuesday — Karaoke",
-        "Wednesday — Karaoke",
-        "Thursday — Karaoke",
-        "Friday — Karaoke",
-        "Saturday — Live Music",
-        "Sunday — Open Mic + Texas Hold'em"
-      ],
-      "special": []
-    },
-
-    "OKIE TONK": {
-      "regular": [
-        "Monday — Poker + Comedy",
-        "Tuesday — Local Showcase",
-        "Wednesday — Acoustic Night",
-        "Thursday — Karaoke",
-        "Friday — Live Country",
-        "Saturday — Live Country",
-        "Sunday — Blues Jam"
-      ],
-      "special": []
+    "RIVERWIND CASINO": {
+      "regular": ["Casino entertainment & concerts"],
+      "special": [
+        "Mar 27 — Nate Smith",
+        "Mar 27 — Concert Night Crowd",
+        "Apr 17 — Randy Rogers Band",
+        "Apr 24 — Aaron Lewis and The Stateliners",
+        "Apr 25 — Don Felder"
+      ]
     },
 
     "PAYCOM CENTER": {
-      "regular": ["Arena events & sports"],
+      "regular": ["NBA & major events"],
       "special": [
         "Mar 27 — Thunder vs Chicago",
         "Mar 28 — Harlem Globetrotters",
-        "Mar 29 — Thunder vs New York",
-        "Apr 2 — Thunder vs L.A. Lakers",
-        "Apr 3 — Journey"
+        "Mar 29 — Thunder vs New York"
+      ]
+    },
+
+    "THE ALLEY": {
+      "regular": ["Live music Saturdays"],
+      "special": [
+        "Mar 28 — Jukebox Hero",
+        "Apr 3 — Sweet Brenda & Sour Mash",
+        "Apr 4 — Remedy"
+      ]
+    },
+
+    "FRIENDS OF FRIENDS": {
+      "regular": ["Thu–Sat live bands", "Kitchen open"],
+      "special": []
+    },
+
+    "BRICKHOUSE SALOON": {
+      "regular": [
+        "Tequila Tuesday",
+        "Whiskey Wednesday",
+        "Thursday Bingo",
+        "Friday Ladies Night",
+        "Saturday College Night"
+      ],
+      "special": [
+        "Apr 25 — The Red 78’s ft. Ty Ingham & The Young Guns"
       ]
     },
 
     "THE CRITERION": {
       "regular": ["Concerts & touring acts"],
       "special": [
-        "Mar 27 — WWE NXT Live",
         "Mar 28 — Pure Prairie League"
       ]
-    },
-
-    "RIVERWIND CASINO": {
-      "regular": ["Casino entertainment"],
-      "special": [
-        "Mar 27 — Nate Smith",
-        "Apr 17 — Randy Rogers Band",
-        "Apr 24 — Aaron Lewis and The Stateliners",
-        "Apr 25 — Don Felder",
-        "May 9 — Earth, Wind & Fire",
-        "May 16 — George Thorogood & The Destroyers"
-      ]
     }
-
   }
 }
