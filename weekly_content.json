@@ -1,69 +1,58 @@
 {
-  "week_start": "2026-04-05",
-  "updated_at": "2026-04-04T22:30:00",
+  "week_start": "2026-04-06",
+  "week_range": "Apr 6–12, 2026",
+  "updated_at": "2026-04-05T04:00:00-05:00",
+
+  "rules_locked": {
+    "highlights_scope": "weekly_highlights shows ONLY events in the current week (Mon–Sun). Max 4.",
+    "venue_regulars": "Do not change unless explicitly requested.",
+    "venue_specials": "Keep future-dated items only when still relevant/verified; remove expired items.",
+    "sports": "Metro Sports shows this week’s Thunder only.",
+    "expired_cleanup": "Remove past dates before 2026-04-06."
+  },
 
   "weekly_highlights": [
-    "Apr 10–12 — Medieval Fair (Norman)",
-    "Apr 18 — Earth Fest at Scissortail Park",
-    "Apr 18+ — Thunder Playoff Games (Paycom Center)",
-    "Apr 23–26 — Festival of the Arts (Downtown OKC)",
-    "Apr 23–26 — Norman Music Festival",
-    "May 9 — Norman Summer Jamz (Andrews Park)",
-    "Mid-May — OU Commencement (Norman)",
-    "May 19–24 — The Wiz (Civic Center)",
-    "May 22–24 — GalaxyCon OKC",
-    "May 23 — Shinedown (Paycom Center)",
-    "May 23–25 — Paseo Arts Festival",
-    "Late May — OKC Comets Home Games (Bricktown)",
-    "May 28–June 3 — Women’s College World Series",
-    "May 29 — Bret Michaels (Grand Casino Shawnee)"
+    "Apr 10–12 — Medieval Fair (Reaves Park, Norman)",
+    "Apr 10 — Brandon Lake @ Paycom Center",
+    "Apr 10–12 — OKC Comets vs Round Rock Express (Chickasaw Bricktown Ballpark)",
+    "Apr 12 — OKC Thunder vs Phoenix Suns (Paycom Center)"
   ],
 
   "decision_triggers": [
     {
-      "event": "Thunder Playoff Games",
+      "event": "Medieval Fair",
+      "area": "Norman",
+      "window": "Day → Evening",
+      "friction": "Reaves Park crowds + parking pressure + Norman spillover traffic",
+      "why_it_matters": "Big Norman weekend with family traffic by day and nightlife movement later"
+    },
+    {
+      "event": "Thunder regular-season close",
       "area": "Downtown OKC",
       "window": "Evenings",
-      "friction": "Arena traffic + parking congestion + late-night exits",
-      "why_it_matters": "High demand, repeat nights, strong pre-planning opportunity"
+      "friction": "Arena traffic + downtown parking + postgame exits",
+      "why_it_matters": "Final regular-season push before playoffs start the following week"
     },
     {
-      "event": "Festival of the Arts",
+      "event": "Comets weekend home series",
+      "area": "Bricktown",
+      "window": "Evening",
+      "friction": "Ballpark traffic + Bricktown nightlife overlap",
+      "why_it_matters": "Good blend of family, casual, and late-night movement in one zone"
+    },
+    {
+      "event": "Brandon Lake",
       "area": "Downtown OKC",
-      "window": "Day → Night",
-      "friction": "Street closures + full parking + overlapping nightlife",
-      "why_it_matters": "All-day crowds turning into evening congestion"
-    },
-    {
-      "event": "Norman Music Festival",
-      "area": "Norman",
-      "window": "Evening → Late Night",
-      "friction": "Campus congestion + pedestrian traffic + parking overflow",
-      "why_it_matters": "One of the biggest ride demand weekends in Norman"
-    },
-    {
-      "event": "OU Commencement",
-      "area": "Norman",
-      "window": "Morning → Afternoon",
-      "friction": "Campus gridlock + I-35 traffic + family travel",
-      "why_it_matters": "High-volume, structured travel demand"
-    },
-    {
-      "event": "Women’s College World Series",
-      "area": "Adventure District OKC",
-      "window": "All Day → Evening",
-      "friction": "National crowd + hotel overflow + traffic clusters",
-      "why_it_matters": "Multi-day sustained demand spike"
+      "window": "Pre-show → post-show",
+      "friction": "Arena arrival wave + concentrated exits",
+      "why_it_matters": "Single-event downtown spike on a Friday night"
     }
   ],
 
   "venues": {
     "Mooney's Pub & Grill": {
       "special": [
-        "Mar 27 — The Remedy OKC (Fireball Friday) • 9PM",
-        "Mar 28 — Ten Acre Rock • 9PM",
-        "Opening Week — March Madness Specials • Beer Buckets + Food Deals",
-        "Opening Day Weekend — $2 Hot Dogs • $2.50 Chili Dogs • SINGO + Karaoke"
+        "Apr 11 — Personality Disorder • 9PM"
       ],
       "regular": [
         "SINGO — 7PM–9PM",
@@ -74,16 +63,8 @@
 
     "The Alley Club": {
       "special": [
-        "Apr 3 — Sweet Brenda & Sour Mash",
-        "Apr 4 — Tightrope",
-        "Apr 10 — Remedy",
-        "Apr 11 — Meanstreak",
-        "Apr 17 — Kalo",
-        "Apr 18 — Christy Bryant & Twist of Fate",
-        "Apr 24 — Take 2",
-        "Apr 25 — Rock Candy",
-        "May 1 — The Chad Todd Band",
-        "May 2 — Ninety Proof"
+        "Apr 17 — Live Music w/ Apex Convoy • 9PM",
+        "Apr 24 — Take 2"
       ],
       "regular": [
         "Live music weekends",
@@ -92,10 +73,7 @@
     },
 
     "Brickhouse Saloon": {
-      "special": [
-        "Apr 3 — Ladies Night • Free entry until 10PM",
-        "Apr 25 — The Red 78’s ft. Ty Ingham & The Young Guns"
-      ],
+      "special": [],
       "regular": [
         "Tequila Tuesday",
         "Whiskey Wednesday",
@@ -106,30 +84,75 @@
     },
 
     "Roadhouse Bar": {
+      "special": [],
+      "regular": [
+        "Acoustic Thursday",
+        "Local events + community nights"
+      ]
+    },
+
+    "Riverwind Casino": {
       "special": [
-        "Mar 28 — Crawfish Boil Benefit (Heart Transplant Fundraiser)",
-        "Mar 28 — Pie-a-Bartender Raffle"
+        "Apr 24 — Aaron Lewis and The Stateliners • 8PM",
+        "Apr 25 — Don Felder • 8PM",
+        "May 7 — Jake’s New Face Showcase • 7PM",
+        "May 9 — Earth, Wind & Fire • 8PM"
       ],
       "regular": [
-        "Live music weekends",
-        "Local events + community nights"
+        "Concert venue & casino open 24/7"
+      ]
+    },
+
+    "Lucky Star Casino": {
+      "special": [
+        "May 9 — ZZ Top + Dwight Yoakam (Dos Amigos Tour) @ Lucky Star Amphitheater"
+      ],
+      "regular": [
+        "Gaming, slots, and live entertainment select weekends"
+      ]
+    },
+
+    "Paycom Center": {
+      "special": [
+        "Apr 10 — Brandon Lake • 7PM",
+        "Apr 12 — OKC Thunder vs Phoenix Suns • 7:30PM",
+        "May 23 — Shinedown • 7PM"
+      ],
+      "regular": [
+        "NBA & concert arena in Downtown OKC"
       ]
     }
   },
 
   "metro_sports": [
-    "Apr — OKC Thunder Playoff Games (Paycom Center)",
-    "Apr–May — OKC Comets Baseball (Bricktown Ballpark)",
-    "Apr 18 — OU Spring Football Game",
-    "May — OU Commencement Events",
-    "May–June — Women’s College World Series"
+    "Apr 7 — Thunder at Lakers • 9:30PM CDT",
+    "Apr 8 — Thunder at Clippers • 9:00PM CDT",
+    "Apr 10 — Thunder at Nuggets • 8:00PM CDT",
+    "Apr 12 — Thunder vs Suns • 7:30PM CDT"
   ],
 
   "local_updates": [
-    "Tulip Festival continues through early April",
-    "Spring outdoor events increasing across OKC metro",
-    "Downtown + Norman traffic increasing with overlapping events",
-    "Festival season beginning — expect heavier weekend congestion",
-    "Bricktown active with Comets + nightlife overlap"
+    "Thunder regular season ends Apr 12; NBA Play-In runs Apr 14–17 and playoffs begin Apr 18.",
+    "Bricktown is active this week with Comets home dates Apr 7–12, including $2 Tuesday, Field Trip Day, College Thursday, Friday fireworks, Bluey Night, and Sunday all-you-can-eat.",
+    "Norman traffic and parking pressure should rise Apr 10–12 with Medieval Fair at Reaves Park.",
+    "Earth Fest returns to Scissortail Park on Apr 18 from 10AM–3PM.",
+    "OKC Memorial Marathon weekend is Apr 24–26, with expo activity Apr 24–25 at the Convention Center."
+  ],
+
+  "forward_look": [
+    "Apr 18 — Earth Fest at Scissortail Park",
+    "Apr 23 — Norman Music Festival begins",
+    "Apr 23–26 — Festival of the Arts (Downtown OKC)",
+    "Apr 24 — Aaron Lewis and The Stateliners @ Riverwind Casino",
+    "Apr 25 — Don Felder @ Riverwind Casino",
+    "Apr 26 — OKC Memorial Marathon",
+    "May 9 — Norman Summer Jamz (Andrews Park)",
+    "May 2026 — OU Commencement Ceremonies (Lloyd Noble Center, Norman)",
+    "May 19–24 — The Wiz (Civic Center Music Hall)",
+    "May 22–24 — GalaxyCon OKC",
+    "May 23 — Shinedown @ Paycom Center",
+    "May 23–25 — Paseo Arts Festival",
+    "May 28–June 4/5 — Women’s College World Series",
+    "May 9 — ZZ Top + Dwight Yoakam @ Lucky Star Amphitheater"
   ]
 }
