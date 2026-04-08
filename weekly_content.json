@@ -1,128 +1,83 @@
 {
   "week_start": "2026-04-06",
   "week_range": "Apr 6–12, 2026",
-  "updated_at": "2026-04-05T04:00:00-05:00",
+  "updated_at": "2026-04-08T09:45:00-05:00",
 
   "rules_locked": {
     "highlights_scope": "weekly_highlights shows ONLY events in the current week (Mon–Sun). Max 4.",
     "venue_regulars": "Do not change unless explicitly requested.",
-    "venue_specials": "Keep future-dated items only when still relevant/verified; remove expired items.",
-    "sports": "Metro Sports shows this week’s Thunder only.",
-    "expired_cleanup": "Remove past dates before 2026-04-06."
+    "venue_specials": "Retain verified future-dated events that are still relevant inside the current rolling horizon; remove expired items.",
+    "sports": "metro_sports reflects broader rolling demand indicators; weekly_highlights remains current-week only.",
+    "friction_logic": "Weather, street closures, setup impacts, and overlap zones belong in local_updates and/or decision_triggers even before the headline event starts.",
+    "horizon_scope": "forward_look should cover roughly the next 14–60 days from updated_at.",
+    "expired_cleanup": "Remove all past events before 2026-04-08 unless still needed for current-week context."
   },
 
   "weekly_highlights": [
-    "Apr 10–12 — Medieval Fair (Reaves Park, Norman)",
     "Apr 10 — Brandon Lake @ Paycom Center",
-    "Apr 10–12 — OKC Comets vs Round Rock Express (Chickasaw Bricktown Ballpark)",
-    "Apr 12 — OKC Thunder vs Phoenix Suns (Paycom Center)"
+    "Apr 10–12 — Medieval Fair (Norman)",
+    "Apr 10–12 — OKC Comets vs Round Rock (Bricktown)",
+    "Apr 12 — OKC Thunder vs Suns (Paycom Center)"
   ],
 
   "decision_triggers": [
     {
+      "event": "Brandon Lake",
+      "area": "Downtown OKC",
+      "window": "Evening",
+      "friction": "Arena traffic + downtown parking + post-show exits",
+      "why_it_matters": "Strong Friday night downtown spike with clean event timing"
+    },
+    {
       "event": "Medieval Fair",
       "area": "Norman",
       "window": "Day → Evening",
-      "friction": "Reaves Park crowds + parking pressure + Norman spillover traffic",
-      "why_it_matters": "Big Norman weekend with family traffic by day and nightlife movement later"
+      "friction": "Reaves Park crowding + parking pressure + Norman spillover traffic",
+      "why_it_matters": "Large daytime draw that can convert into evening movement"
     },
     {
-      "event": "Thunder regular-season close",
-      "area": "Downtown OKC",
-      "window": "Evenings",
-      "friction": "Arena traffic + downtown parking + postgame exits",
-      "why_it_matters": "Final regular-season push before playoffs start the following week"
-    },
-    {
-      "event": "Comets weekend home series",
+      "event": "Bricktown Stack",
       "area": "Bricktown",
-      "window": "Evening",
-      "friction": "Ballpark traffic + Bricktown nightlife overlap",
-      "why_it_matters": "Good blend of family, casual, and late-night movement in one zone"
+      "window": "Evening → Late",
+      "friction": "Comets traffic + garage pressure + nightlife overlap",
+      "why_it_matters": "Layered weekend demand instead of a single isolated event"
     },
     {
-      "event": "Brandon Lake",
+      "event": "Weekend Storm Pattern",
+      "area": "Metro-wide",
+      "window": "Late Fri → Sun",
+      "friction": "Rain delays + slower traffic + tighter pickup timing + people avoiding parking walks",
+      "why_it_matters": "Weather changes behavior and makes pre-planned transportation more attractive"
+    },
+    {
+      "event": "Festival of the Arts Setup / Closure Window",
       "area": "Downtown OKC",
-      "window": "Pre-show → post-show",
-      "friction": "Arena arrival wave + concentrated exits",
-      "why_it_matters": "Single-event downtown spike on a Friday night"
+      "window": "Beginning Apr 10",
+      "friction": "Street closures + reroutes + curbside friction before the main event weekend",
+      "why_it_matters": "Pressure starts building before Apr 23–26"
+    },
+    {
+      "event": "Late-April Festival Overlap",
+      "area": "Downtown OKC + Norman",
+      "window": "Apr 23–26",
+      "friction": "Festival crowds + street closures + pedestrian congestion + parking overflow + I-35 crossover movement",
+      "why_it_matters": "One of the strongest multi-zone friction windows in this horizon"
+    },
+    {
+      "event": "OU Commencement",
+      "area": "Norman",
+      "window": "May 12–17",
+      "friction": "Campus traffic + Lloyd Noble congestion + family travel + I-35 pressure",
+      "why_it_matters": "Structured, high-volume travel demand across multiple days"
+    },
+    {
+      "event": "Women’s College World Series",
+      "area": "Adventure District OKC",
+      "window": "May 28–June 4/5",
+      "friction": "Venue parking pressure + hotel/restaurant spillover + repeated daily crowd movement",
+      "why_it_matters": "Sustained multi-day citywide demand spike"
     }
   ],
-
-  "venues": {
-    "Mooney's Pub & Grill": {
-      "special": [
-        "Apr 11 — Personality Disorder • 9PM"
-      ],
-      "regular": [
-        "SINGO — 7PM–9PM",
-        "Karaoke — 9PM–1AM",
-        "Kitchen open late"
-      ]
-    },
-
-    "The Alley Club": {
-      "special": [
-        "Apr 17 — Live Music w/ Apex Convoy • 9PM",
-        "Apr 24 — Take 2"
-      ],
-      "regular": [
-        "Live music weekends",
-        "Local bands + touring acts"
-      ]
-    },
-
-    "Brickhouse Saloon": {
-      "special": [],
-      "regular": [
-        "Tequila Tuesday",
-        "Whiskey Wednesday",
-        "Bingo Thursday",
-        "Free Pool Sunday",
-        "Live DJs + weekend crowd"
-      ]
-    },
-
-    "Roadhouse Bar": {
-      "special": [],
-      "regular": [
-        "Acoustic Thursday",
-        "Local events + community nights"
-      ]
-    },
-
-    "Riverwind Casino": {
-      "special": [
-        "Apr 24 — Aaron Lewis and The Stateliners • 8PM",
-        "Apr 25 — Don Felder • 8PM",
-        "May 7 — Jake’s New Face Showcase • 7PM",
-        "May 9 — Earth, Wind & Fire • 8PM"
-      ],
-      "regular": [
-        "Concert venue & casino open 24/7"
-      ]
-    },
-
-    "Lucky Star Casino": {
-      "special": [
-        "May 9 — ZZ Top + Dwight Yoakam (Dos Amigos Tour) @ Lucky Star Amphitheater"
-      ],
-      "regular": [
-        "Gaming, slots, and live entertainment select weekends"
-      ]
-    },
-
-    "Paycom Center": {
-      "special": [
-        "Apr 10 — Brandon Lake • 7PM",
-        "Apr 12 — OKC Thunder vs Phoenix Suns • 7:30PM",
-        "May 23 — Shinedown • 7PM"
-      ],
-      "regular": [
-        "NBA & concert arena in Downtown OKC"
-      ]
-    }
-  },
 
   "metro_sports": [
     "Apr — OKC Thunder Playoff Games (Paycom Center)",
@@ -133,27 +88,127 @@
   ],
 
   "local_updates": [
-    "Thunder regular season ends Apr 12; NBA Play-In runs Apr 14–17 and playoffs begin Apr 18.",
-    "Bricktown is active this week with Comets home dates Apr 7–12, including $2 Tuesday, Field Trip Day, College Thursday, Friday fireworks, Bluey Night, and Sunday all-you-can-eat.",
-    "Norman traffic and parking pressure should rise Apr 10–12 with Medieval Fair at Reaves Park.",
-    "Earth Fest returns to Scissortail Park on Apr 18 from 10AM–3PM.",
-    "OKC Memorial Marathon weekend is Apr 24–26, with expo activity Apr 24–25 at the Convention Center."
+    "Festival of the Arts street closures begin Apr 10 in Downtown OKC ahead of Apr 23–26.",
+    "Bricktown remains active with Comets home games and nightlife overlap.",
+    "Norman traffic increases Apr 10–12 with Medieval Fair.",
+    "Warm Friday supports turnout; storm chances build into Saturday and Sunday.",
+    "Late April is shaping up as a major overlap window with Downtown OKC and Norman both pulling heavy traffic.",
+    "Yukon, Mustang, Moore, and Shawnee remain more likely to feel spillover or fallback movement than major anchor-event pressure."
+  ],
+
+  "weather_watch": [
+    "Apr 10 — Warm, favorable turnout weather; storms possible later",
+    "Apr 11 — Mixed conditions with developing storm chances",
+    "Apr 12 — Highest weekend storm risk; stronger storms possible",
+    "Mid-April — Additional rain/storm chances possible that may affect outdoor turnout and exits",
+    "Late spring trend — Warmer pattern with increasing storm risk into festival and softball season"
   ],
 
   "forward_look": [
-    "Apr 18 — Earth Fest at Scissortail Park",
-    "Apr 23 — Norman Music Festival begins",
+    "Apr 16 — Bike Night @ Brickhouse Saloon",
+    "Apr 17 — Mud Buckle @ Mooney’s Pub & Grill",
+    "Apr 17+ — Scissortail Park activity ramps up",
+    "Apr 18 — Earth Fest @ Scissortail Park",
+    "Apr 18 — OU Spring Football Game",
     "Apr 23–26 — Festival of the Arts (Downtown OKC)",
-    "Apr 24 — Aaron Lewis and The Stateliners @ Riverwind Casino",
-    "Apr 25 — Don Felder @ Riverwind Casino",
-    "Apr 26 — OKC Memorial Marathon",
-    "May 9 — Norman Summer Jamz (Andrews Park)",
-    "May 2026 — OU Commencement Ceremonies (Lloyd Noble Center, Norman)",
-    "May 19–24 — The Wiz (Civic Center Music Hall)",
-    "May 22–24 — GalaxyCon OKC",
+    "Apr 23–25 — Norman Music Festival",
+    "Apr 24 — Vibro Kings @ Mooney’s Pub & Grill",
+    "Apr 25 — The Red 78’s @ Brickhouse Saloon",
+    "Apr 25 — Dollar 98 @ Mooney’s Pub & Grill",
+    "Late Apr — Ongoing OKC Comets home dates continue Bricktown traffic and nightlife overlap",
+    "May 9 — Luke Combs @ OU Memorial Stadium",
+    "May 12–17 — OU Commencement Ceremonies",
+    "Mid-May — Scissortail Park concert/activity season ramps up",
     "May 23 — Shinedown @ Paycom Center",
     "May 23–25 — Paseo Arts Festival",
     "May 28–June 4/5 — Women’s College World Series",
-    "May 9 — ZZ Top + Dwight Yoakam @ Lucky Star Amphitheater"
-  ]
+    "Early June — Ongoing Comets games + Bricktown + downtown seasonal activity continue baseline evening friction"
+  ],
+
+  "venues": {
+    "Mooney's Pub & Grill": {
+      "special": [
+        "Apr 11 — Recovered Live • 9PM",
+        "Apr 17 — Mud Buckle Live • 9PM",
+        "Apr 24 — Vibro Kings Live • 9PM",
+        "Apr 25 — Dollar 98 Live • 9PM"
+      ],
+      "regular": [
+        "Taco Tuesday + Acoustic Night",
+        "SINGO + Karaoke",
+        "Live music weekends"
+      ]
+    },
+
+    "Brickhouse Saloon": {
+      "special": [
+        "Apr 10 — Ladies Night w/ DJ Navi (Free entry until 10PM)",
+        "Apr 16 — Bike Night",
+        "Apr 25 — The Red 78’s Live Music • $10 Cover",
+        "Jun 13 — Jake Adams Band"
+      ],
+      "regular": [
+        "Friday — Ladies Night",
+        "Saturday — College Night",
+        "Live DJs downstairs",
+        "Karaoke upstairs",
+        "Open daily 6PM–2AM",
+        "Free parking",
+        "21+",
+        "Weekend cover + late-night crowd"
+      ]
+    },
+
+    "Roadhouse Bar": {
+      "special": [],
+      "regular": [
+        "Sunday — Pool League",
+        "Monday — Free Pool",
+        "Tuesday — Taco Tuesday + Pool League",
+        "Wednesday — Pool Tournament",
+        "Thursday — Acoustic Jam",
+        "Friday — Karaoke @ 8PM",
+        "Saturday — Karaoke @ 8PM"
+      ]
+    },
+
+    "Paycom Center": {
+      "special": [
+        "Apr 10 — Brandon Lake",
+        "Apr 12 — OKC Thunder vs Suns",
+        "May 23 — Shinedown"
+      ],
+      "regular": [
+        "NBA + major concerts in Downtown OKC"
+      ]
+    },
+
+    "Chickasaw Bricktown Ballpark": {
+      "special": [
+        "Apr — Ongoing OKC Comets home games and promotions"
+      ],
+      "regular": [
+        "Comets baseball",
+        "Bricktown spillover traffic",
+        "Evening and weekend parking demand"
+      ]
+    },
+
+    "Scissortail Park": {
+      "special": [
+        "Apr 18 — Earth Fest"
+      ],
+      "regular": [
+        "Seasonal downtown outdoor activity",
+        "Concerts and park events increase in spring"
+      ]
+    },
+
+    "Riverwind Casino": {
+      "special": [],
+      "regular": [
+        "Concert venue & casino open 24/7"
+      ]
+    }
+  }
 }
