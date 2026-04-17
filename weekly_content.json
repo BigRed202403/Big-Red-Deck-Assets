@@ -1,134 +1,129 @@
 {
-  "week_start": "2026-04-12",
-  "week_range": "Apr 12–19, 2026",
-  "updated_at": "2026-04-11T23:30:00-05:00",
+  "week_start": "2026-04-19",
+  "week_range": "Apr 19–25, 2026",
+  "updated_at": "2026-04-16T23:30:00-05:00",
 
   "rules_locked": {
-    "highlights_scope": "weekly_highlights shows ONLY events in the current week (Sun–Sat style rolling week starting 4/12). Max 4.",
+    "highlights_scope": "weekly_highlights shows ONLY events in the current week (Sun–Sat). Max 4.",
     "venue_regulars": "Do not change unless explicitly requested.",
     "venue_specials": "Retain verified future-dated events that remain relevant inside the 14–60 day horizon; remove expired items.",
     "sports": "metro_sports reflects broader rolling demand indicators; weekly_highlights remains current-week only.",
     "friction_logic": "Weather, street closures, setup impacts, and overlap zones belong in local_updates and/or decision_triggers even before the headline event starts.",
     "horizon_scope": "forward_look should cover roughly the next 14–60 days from updated_at.",
-    "expired_cleanup": "Remove all past events before 2026-04-12 unless still needed for current-week context."
+    "expired_cleanup": "Remove all past events before 2026-04-19 unless still needed for current-week context."
   },
 
   "weekly_highlights": [
-    "Apr 12 — OKC Thunder vs. Phoenix Suns @ Paycom Center",
-    "Apr 18 — Earth Fest @ Scissortail Park",
-    "Apr 18 — OU Spring Football Game",
-    "Apr 18–19 — OKC Comets home weekend games (Bricktown)"
+    "Apr 19 — NBA Playoffs First Round Game 1 @ Paycom Center • 2:30PM",
+    "Apr 22 — NBA Playoffs First Round Game 2 @ Paycom Center • 8:30PM",
+    "Apr 23–26 — Festival of the Arts (Downtown OKC)",
+    "Apr 23–25 — Norman Music Festival"
   ],
 
   "decision_triggers": [
     {
-      "event": "Thunder vs. Suns",
+      "event": "Thunder Playoff Home Games",
+      "area": "Downtown OKC / Bricktown",
+      "window": "Apr 19 + Apr 22 evenings",
+      "friction": "Sellout-level arena traffic + parking scarcity + concentrated post-game exits",
+      "why_it_matters": "This is one of the strongest downtown ride-demand windows in the current week"
+    },
+    {
+      "event": "Festival of the Arts",
       "area": "Downtown OKC",
-      "window": "Sunday evening",
-      "friction": "Arena arrivals + downtown parking pressure + post-game exits into Bricktown",
-      "why_it_matters": "Strong single-night downtown draw with a clean late exit wave"
-    },
-    {
-      "event": "Severe Weather Pattern",
-      "area": "OKC Metro / Norman / Bricktown / Shawnee",
-      "window": "Apr 12–15",
-      "friction": "Storm timing uncertainty + heavier rain + people avoiding driving + compressed pickup windows",
-      "why_it_matters": "Weather becomes a primary driver of transportation decisions instead of just background noise"
-    },
-    {
-      "event": "Earth Fest",
-      "area": "Downtown OKC / Scissortail Park",
-      "window": "Saturday daytime",
-      "friction": "Park parking pressure + downtown baseline traffic + weather-sensitive turnout shifts",
-      "why_it_matters": "Adds daytime movement and parking demand near the downtown core"
-    },
-    {
-      "event": "OU Spring Football Game",
-      "area": "Norman",
-      "window": "Saturday",
-      "friction": "Campus traffic + parking concentration + post-event restaurant and bar movement",
-      "why_it_matters": "Creates a Norman demand spike ahead of the late-April and May campus push"
-    },
-    {
-      "event": "Festival of the Arts Closure Window",
-      "area": "Downtown OKC",
-      "window": "Active now through May 4",
-      "friction": "Street closures + route changes + curbside friction before the Apr 23–26 festival",
-      "why_it_matters": "Transportation pressure builds before the actual festival weekend"
-    },
-    {
-      "event": "Late-April Downtown + Norman Overlap",
-      "area": "Downtown OKC + Norman",
       "window": "Apr 23–26",
-      "friction": "Festival of the Arts + Norman Music Festival + Memorial Marathon weekend pressure nearby",
-      "why_it_matters": "One of the strongest multi-zone friction windows in this horizon"
+      "friction": "Street closures + parking shortages + pedestrian congestion + downtown reroutes",
+      "why_it_matters": "Major all-day-to-evening friction event with transportation pressure already building before peak hours"
+    },
+    {
+      "event": "Norman Music Festival",
+      "area": "Downtown Norman",
+      "window": "Apr 23–25",
+      "friction": "Pedestrian-heavy festival footprint + downtown parking compression + late-night exits",
+      "why_it_matters": "Strong Norman-side draw that can pull riders from across the metro"
+    },
+    {
+      "event": "Memorial Marathon Weekend",
+      "area": "Downtown OKC",
+      "window": "Apr 24–26",
+      "friction": "Street closures + expo traffic + race-morning access issues + delayed vehicle movement",
+      "why_it_matters": "Creates layered transportation pressure on top of Festival of the Arts activity"
+    },
+    {
+      "event": "Late-Week Rain / Thunderstorm Window",
+      "area": "Downtown OKC / Norman / Bricktown",
+      "window": "Apr 23–25",
+      "friction": "Weather uncertainty + slower traffic + people avoiding parking walks + tighter pickup timing",
+      "why_it_matters": "Adds decision pressure on top of already crowded event zones"
     },
     {
       "event": "Luke Combs",
       "area": "Norman",
       "window": "May 9 evening",
-      "friction": "Stadium-scale parking buildup + campus congestion + I-35 exit pressure",
-      "why_it_matters": "Major Norman anchor event with heavy late-night movement"
+      "friction": "Stadium parking demand + campus congestion + major I-35 ingress/egress pressure",
+      "why_it_matters": "One of the biggest Norman ride-demand anchors in this horizon"
     },
     {
       "event": "Women’s College World Series",
       "area": "Adventure District OKC",
       "window": "May 28–June 4/5",
-      "friction": "Venue parking pressure + hotel and restaurant spillover + repeated daily crowd movement",
-      "why_it_matters": "Sustained multi-day citywide demand spike"
+      "friction": "Repeated daily crowd movement + venue parking pressure + hotel and restaurant spillover",
+      "why_it_matters": "Sustained citywide transportation demand over multiple days"
     }
   ],
 
   "metro_sports": [
-    "Apr–May — OKC Thunder playoff window (Paycom Center, pending schedule)",
-    "Apr–May — OKC Comets Baseball (Bricktown Ballpark)",
-    "Apr 18 — OU Spring Football Game",
+    "Apr–May — OKC Thunder playoff window (Paycom Center)",
+    "Apr–June — OKC Comets Baseball (Bricktown Ballpark)",
     "May — OU Commencement Events",
     "May–June — Women’s College World Series"
   ],
 
   "local_updates": [
-    "Thunder closes the regular season Apr 12 with a downtown home game against Phoenix.",
-    "Storm risk is elevated Sunday through Tuesday and may complicate exits, parking, and pickup timing.",
-    "Festival of the Arts street closures are already in place ahead of Apr 23–26.",
-    "Earth Fest hits Scissortail Park on Apr 18 and adds daytime downtown movement.",
-    "Late April is stacking up with Festival of the Arts, Norman Music Festival, and Memorial Marathon weekend all affecting core travel patterns."
+    "Festival of the Arts road closures are already active and continue through early May.",
+    "Downtown OKC stacks playoff traffic, Festival of the Arts, and Memorial Marathon pressure inside the same late-April window.",
+    "Norman Music Festival creates a second major late-April pull zone south of OKC.",
+    "Comets home dates continue to keep Bricktown active even outside the biggest headline events.",
+    "Late-week rain and thunderstorm chances could complicate festival, marathon, and downtown pickup timing."
   ],
 
   "weather_watch": [
-    "Apr 12 — Morning showers and a heavy thunderstorm possible; hail and damaging winds possible",
-    "Apr 13 — Heavy gusty thunderstorm risk with flash flooding, hail, and damaging winds possible",
-    "Apr 14 — Strong thunderstorm risk with flooding downpours, hail, and damaging wind gusts possible",
-    "Apr 15 — Conditions ease somewhat",
-    "Apr 16–17 — Warm and humid with lower but still present rain chances"
+    "Apr 19 — Plenty of sunshine",
+    "Apr 20 — Clouds and sun, breezy in the afternoon",
+    "Apr 21 — Mostly cloudy",
+    "Apr 22 — Times of clouds and sun",
+    "Apr 23 — Humid with a strong thunderstorm in spots",
+    "Apr 24 — Morning shower possible, otherwise cloudy",
+    "Apr 25 — Rain and a thunderstorm possible in the morning"
   ],
 
   "forward_look": [
-    "Apr 16 — Acoustic Jam w/ Tyler Russell @ Roadhouse Bar",
-    "Apr 17 — Mud Buckle Live @ Mooney’s Pub & Grill",
-    "Apr 18 — Earth Fest @ Scissortail Park",
-    "Apr 18 — OU Spring Football Game",
     "Apr 23 — Acoustic Jam w/ Canadian River Howlers @ Roadhouse Bar",
     "Apr 23–25 — Norman Music Festival",
     "Apr 23–26 — Festival of the Arts (Downtown OKC)",
+    "Apr 24 — Aaron Lewis and The Stateliners @ Riverwind Casino • 8PM",
+    "Apr 24 — Vibro Kings @ Mooney’s Pub & Grill • 9PM",
     "Apr 24–26 — OKC Memorial Marathon Weekend",
-    "Apr 24 — Vibro Kings @ Mooney’s Pub & Grill",
     "Apr 25 — The Red 78’s @ Brickhouse Saloon",
-    "Apr 25 — Dollar 98 @ Mooney’s Pub & Grill",
+    "Apr 25 — Dollar 98 @ Mooney’s Pub & Grill • 9PM",
+    "Apr 25 — Don Felder @ Riverwind Casino • 8PM",
     "Apr 30 — Acoustic Jam w/ Scott Miles @ Roadhouse Bar",
-    "May 9 — Luke Combs @ Gaylord Family Oklahoma Memorial Stadium",
+    "May 1 — Cinco de Mayo @ Scissortail Park",
+    "May 7 — Jake’s New Face Showcase @ Riverwind Casino • 7PM",
+    "May 9 — Luke Combs @ Gaylord Family Oklahoma Memorial Stadium • 5PM",
+    "May 9 — Earth, Wind & Fire @ Riverwind Casino • 8PM",
     "May 12–17 — OU May Commencement Ceremonies",
-    "May 19 — Sports @ Beer City Music Hall",
-    "May 23 — Shinedown @ Paycom Center",
+    "May 19 — Sports @ Beer City Music Hall • Doors 7PM / Show 8PM",
+    "May 23 — Shinedown @ Paycom Center • 7PM",
     "May 23–25 — Paseo Arts Festival",
     "May 28–June 4/5 — Women’s College World Series",
-    "Early June — Ongoing Comets games + downtown seasonal activity continue baseline evening friction"
+    "Early June — Ongoing Comets games + downtown seasonal activity continue baseline evening friction",
+    "Jun 13 — Jake Adams Band @ Brickhouse Saloon"
   ],
 
   "venues": {
     "Mooney's Pub & Grill": {
       "special": [
-        "Apr 17 — Mud Buckle Live • 9PM",
         "Apr 24 — Vibro Kings Live • 9PM",
         "Apr 25 — Dollar 98 Live • 9PM"
       ],
@@ -141,7 +136,6 @@
 
     "Brickhouse Saloon": {
       "special": [
-        "Apr 16 — Bike Night",
         "Apr 25 — The Red 78’s Live Music • $10 Cover",
         "Jun 13 — Jake Adams Band"
       ],
@@ -159,7 +153,6 @@
 
     "Roadhouse Bar": {
       "special": [
-        "Apr 16 — Acoustic Jam w/ Tyler Russell",
         "Apr 23 — Acoustic Jam w/ Canadian River Howlers",
         "Apr 30 — Acoustic Jam w/ Scott Miles"
       ],
@@ -176,17 +169,18 @@
 
     "Paycom Center": {
       "special": [
-        "Apr 12 — OKC Thunder vs. Phoenix Suns • 7:30PM",
-        "May 23 — Shinedown • 7:00PM"
+        "Apr 19 — NBA Playoffs First Round Game 1 • 2:30PM",
+        "Apr 22 — NBA Playoffs First Round Game 2 • 8:30PM",
+        "May 23 — Shinedown • 7PM"
       ],
       "regular": [
-        "NBA + major concerts in Downtown OKC"
+        "NBA playoffs + major concerts in Downtown OKC"
       ]
     },
 
     "Scissortail Park": {
       "special": [
-        "Apr 18 — Earth Fest • 10:00AM–3:00PM"
+        "May 1 — Cinco de Mayo • 4PM–10PM"
       ],
       "regular": [
         "Seasonal downtown outdoor activity",
@@ -196,7 +190,7 @@
 
     "Chickasaw Bricktown Ballpark": {
       "special": [
-        "Apr–May — Ongoing OKC Comets home games and promotions"
+        "Apr–June — Ongoing OKC Comets home games and promotions"
       ],
       "regular": [
         "Comets baseball",
@@ -205,9 +199,21 @@
       ]
     },
 
+    "Riverwind Casino": {
+      "special": [
+        "Apr 24 — Aaron Lewis and The Stateliners • 8PM",
+        "Apr 25 — Don Felder • 8PM",
+        "May 7 — Jake’s New Face Showcase • 7PM",
+        "May 9 — Earth, Wind & Fire • 8PM"
+      ],
+      "regular": [
+        "Concert venue & casino open 24/7"
+      ]
+    },
+
     "Beer City Music Hall": {
       "special": [
-        "May 19 — Sports • Doors 7:00PM / Start 8:00PM"
+        "May 19 — Sports • Doors 7PM / Start 8PM"
       ],
       "regular": [
         "Mid-size concert venue in OKC"
