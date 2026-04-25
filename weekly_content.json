@@ -1,222 +1,179 @@
 {
-  "week_start": "2026-04-19",
-  "week_range": "Apr 19–25, 2026",
-  "updated_at": "2026-04-16T23:30:00-05:00",
+  "week_start": "2026-04-26",
+  "week_range": "Apr 26–May 2, 2026",
+  "updated_at": "2026-04-25T10:45:00-05:00",
 
   "rules_locked": {
-    "highlights_scope": "weekly_highlights shows ONLY events in the current week (Sun–Sat). Max 4.",
-    "venue_regulars": "Do not change unless explicitly requested.",
-    "venue_specials": "Retain verified future-dated events that remain relevant inside the 14–60 day horizon; remove expired items.",
-    "sports": "metro_sports reflects broader rolling demand indicators; weekly_highlights remains current-week only.",
-    "friction_logic": "Weather, street closures, setup impacts, and overlap zones belong in local_updates and/or decision_triggers even before the headline event starts.",
-    "horizon_scope": "forward_look should cover roughly the next 14–60 days from updated_at.",
-    "expired_cleanup": "Remove all past events before 2026-04-19 unless still needed for current-week context."
+    "weekly_highlights": "Current week only, late-week weighted (Thu–Sat priority), max 4.",
+    "venue_regulars": "Persistent unless explicitly changed.",
+    "venue_specials": "Keep verified future demand-driving events inside 14–60 day window.",
+    "revenue_filter_rule": "Only include measurable ride-demand drivers.",
+    "friction_logic": "Closures, overlap, weather and event compression belong in updates/triggers.",
+    "expired_cleanup": "Remove events before Apr 26 unless relevant to current-week context."
   },
 
   "weekly_highlights": [
-    "Apr 19 — NBA Playoffs First Round Game 1 @ Paycom Center • 2:30PM",
-    "Apr 22 — NBA Playoffs First Round Game 2 @ Paycom Center • 8:30PM",
-    "Apr 23–26 — Festival of the Arts (Downtown OKC)",
-    "Apr 23–25 — Norman Music Festival"
+    "Apr 26 — OKC Comets vs Tacoma Rainiers @ Bricktown Ballpark (4:05 PM)",
+    "May 1 — Cinco de Mayo Fest @ Scissortail Park (4–10 PM)",
+    "May 1–2 — Weekend Live Music & Nightlife Stack (Norman/South OKC/Shawnee)",
+    "May 2 — Ninety Proof @ The Alley"
   ],
 
   "decision_triggers": [
     {
-      "event": "Thunder Playoff Home Games",
-      "area": "Downtown OKC / Bricktown",
-      "window": "Apr 19 + Apr 22 evenings",
-      "friction": "Sellout-level arena traffic + parking scarcity + concentrated post-game exits",
-      "why_it_matters": "This is one of the strongest downtown ride-demand windows in the current week"
+      "event": "Cinco de Mayo Fest",
+      "area": "Scissortail Park / Downtown OKC",
+      "window": "May 1 (4–10 PM)",
+      "friction": "Large crowds + food/music performances + limited parking + post-fest nightlife spillover",
+      "why_it_matters": "Strong Friday evening ride demand — families, groups, and late-night returns"
     },
     {
-      "event": "Festival of the Arts",
-      "area": "Downtown OKC",
-      "window": "Apr 23–26",
-      "friction": "Street closures + parking shortages + pedestrian congestion + downtown reroutes",
-      "why_it_matters": "Major all-day-to-evening friction event with transportation pressure already building before peak hours"
+      "event": "Comets Baseball Home Game",
+      "area": "Bricktown",
+      "window": "Apr 26 (4:05 PM)",
+      "friction": "Game-day parking shortages + Bricktown restaurant/bar spillover + evening traffic",
+      "why_it_matters": "Reliable Sunday evening driver right at the start of the week"
     },
     {
-      "event": "Norman Music Festival",
-      "area": "Downtown Norman",
-      "window": "Apr 23–25",
-      "friction": "Pedestrian-heavy festival footprint + downtown parking compression + late-night exits",
-      "why_it_matters": "Strong Norman-side draw that can pull riders from across the metro"
+      "event": "Weekend Venue Stack (Mooney's, Alley, Brickhouse, etc.)",
+      "area": "Norman / South OKC / Shawnee",
+      "window": "May 1–2",
+      "friction": "Simultaneous live music, karaoke, DJs, and Ladies/College Nights",
+      "why_it_matters": "Classic weekend conversion window with cross-metro pulls"
     },
     {
-      "event": "Memorial Marathon Weekend",
-      "area": "Downtown OKC",
-      "window": "Apr 24–26",
-      "friction": "Street closures + expo traffic + race-morning access issues + delayed vehicle movement",
-      "why_it_matters": "Creates layered transportation pressure on top of Festival of the Arts activity"
-    },
-    {
-      "event": "Late-Week Rain / Thunderstorm Window",
-      "area": "Downtown OKC / Norman / Bricktown",
-      "window": "Apr 23–25",
-      "friction": "Weather uncertainty + slower traffic + people avoiding parking walks + tighter pickup timing",
-      "why_it_matters": "Adds decision pressure on top of already crowded event zones"
-    },
-    {
-      "event": "Luke Combs",
-      "area": "Norman",
-      "window": "May 9 evening",
-      "friction": "Stadium parking demand + campus congestion + major I-35 ingress/egress pressure",
-      "why_it_matters": "One of the biggest Norman ride-demand anchors in this horizon"
+      "event": "Luke Combs Stadium Show",
+      "area": "Norman (OU Campus)",
+      "window": "May 9",
+      "friction": "Major stadium parking + I-35 congestion + large post-show exits",
+      "why_it_matters": "One of the biggest single-night anchors in the horizon"
     },
     {
       "event": "Women’s College World Series",
-      "area": "Adventure District OKC",
-      "window": "May 28–June 4/5",
-      "friction": "Repeated daily crowd movement + venue parking pressure + hotel and restaurant spillover",
-      "why_it_matters": "Sustained citywide transportation demand over multiple days"
+      "area": "Adventure District / Devon Park",
+      "window": "May 28–Jun 4/5",
+      "friction": "Multi-day repeated crowds + hotel/restaurant spillover + venue parking pressure",
+      "why_it_matters": "Sustained high-volume demand"
+    },
+    {
+      "event": "Route 66 Centennial Celebration",
+      "area": "Scissortail Park",
+      "window": "May 30",
+      "friction": "Large downtown celebration + evening crowds + potential closures",
+      "why_it_matters": "Major late-May seasonal spike"
     }
   ],
 
   "metro_sports": [
-    "Apr–May — OKC Thunder playoff window (Paycom Center)",
-    "Apr–June — OKC Comets Baseball (Bricktown Ballpark)",
+    "Apr–May — Thunder Playoff Window (ongoing series impact)",
+    "Apr–June — OKC Comets Home Baseball (multiple home dates this week and beyond)",
     "May — OU Commencement Events",
-    "May–June — Women’s College World Series"
+    "May 28–Jun 4/5 — Women’s College World Series"
   ],
 
   "local_updates": [
-    "Festival of the Arts road closures are already active and continue through early May.",
-    "Downtown OKC stacks playoff traffic, Festival of the Arts, and Memorial Marathon pressure inside the same late-April window.",
-    "Norman Music Festival creates a second major late-April pull zone south of OKC.",
-    "Comets home dates continue to keep Bricktown active even outside the biggest headline events.",
-    "Late-week rain and thunderstorm chances could complicate festival, marathon, and downtown pickup timing."
+    "Cinco de Mayo Fest at Scissortail Park (May 1, 4–10 PM) is sold-out for vendors — expect heavy crowds and parking pressure.",
+    "Comets home game on Apr 26 kicks off weekend sports + Bricktown activity.",
+    "Norman and South OKC nightlife (Mooney’s karaoke/live music, The Alley, Brickhouse) creates strong multi-venue weekend pull.",
+    "Ongoing downtown/Bricktown construction and potential early-May weather volatility add daily friction.",
+    "Riverwind, Luke Combs, and WCWS remain major May demand anchors."
   ],
 
   "weather_watch": [
-    "Apr 19 — Plenty of sunshine",
-    "Apr 20 — Clouds and sun, breezy in the afternoon",
-    "Apr 21 — Mostly cloudy",
-    "Apr 22 — Times of clouds and sun",
-    "Apr 23 — Humid with a strong thunderstorm in spots",
-    "Apr 24 — Morning shower possible, otherwise cloudy",
-    "Apr 25 — Rain and a thunderstorm possible in the morning"
+    "Apr 26 — Humid with possible showers (Comets game day)",
+    "May 1–2 — Early May pattern: warm days with storm chances — boosts ride preference for events"
   ],
 
   "forward_look": [
-    "Apr 23 — Acoustic Jam w/ Canadian River Howlers @ Roadhouse Bar",
-    "Apr 23–25 — Norman Music Festival",
-    "Apr 23–26 — Festival of the Arts (Downtown OKC)",
-    "Apr 24 — Aaron Lewis and The Stateliners @ Riverwind Casino • 8PM",
-    "Apr 24 — Vibro Kings @ Mooney’s Pub & Grill • 9PM",
-    "Apr 24–26 — OKC Memorial Marathon Weekend",
-    "Apr 25 — The Red 78’s @ Brickhouse Saloon",
-    "Apr 25 — Dollar 98 @ Mooney’s Pub & Grill • 9PM",
-    "Apr 25 — Don Felder @ Riverwind Casino • 8PM",
     "Apr 30 — Acoustic Jam w/ Scott Miles @ Roadhouse Bar",
-    "May 1 — Cinco de Mayo @ Scissortail Park",
-    "May 7 — Jake’s New Face Showcase @ Riverwind Casino • 7PM",
-    "May 9 — Luke Combs @ Gaylord Family Oklahoma Memorial Stadium • 5PM",
-    "May 9 — Earth, Wind & Fire @ Riverwind Casino • 8PM",
-    "May 12–17 — OU May Commencement Ceremonies",
-    "May 19 — Sports @ Beer City Music Hall • Doors 7PM / Show 8PM",
-    "May 23 — Shinedown @ Paycom Center • 7PM",
+    "May 1 — Cinco de Mayo @ Scissortail Park (4–10 PM)",
+    "May 2 — Ninety Proof @ The Alley",
+    "May 7 — Jake’s New Face Showcase @ Riverwind",
+    "May 9 — Luke Combs @ OU Stadium + Earth, Wind & Fire @ Riverwind (same night)",
+    "May 12–17 — OU Commencement",
+    "May 19 — Sports @ Beer City Music Hall",
+    "May 23 — Shinedown @ Paycom Center",
     "May 23–25 — Paseo Arts Festival",
-    "May 28–June 4/5 — Women’s College World Series",
-    "Early June — Ongoing Comets games + downtown seasonal activity continue baseline evening friction",
+    "May 28–Jun 4/5 — Women’s College World Series",
+    "May 29 — Bret Michaels @ Grand Casino",
+    "May 30 — Route 66 Centennial Celebration @ Scissortail",
     "Jun 13 — Jake Adams Band @ Brickhouse Saloon"
   ],
 
   "venues": {
-    "Mooney's Pub & Grill": {
+    "MOONEY'S PUB & GRILL": {
       "special": [
-        "Apr 24 — Vibro Kings Live • 9PM",
-        "Apr 25 — Dollar 98 Live • 9PM"
+        "May 1 — Weekend Live Music (typical Friday)",
+        "May 2 — Weekend Live Music (typical Saturday)"
       ],
       "regular": [
-        "Taco Tuesday + Acoustic Night",
-        "SINGO + Karaoke",
+        "Sunday — Sunday Funday Karaoke (8:30 PM)",
+        "Tuesday — Taco Tuesday + Acoustic Night",
+        "Wednesday — Karaoke @ 9 PM",
+        "Thursday — SINGO 7–9 PM + Karaoke @ 9 PM",
+        "Friday & Saturday — Live Music (9 PM start)"
+      ]
+    },
+
+    "THE ALLEY": {
+      "special": [
+        "May 1 — Chad Todd Band",
+        "May 2 — Ninety Proof"
+      ],
+      "regular": [
         "Live music weekends"
       ]
     },
 
-    "Brickhouse Saloon": {
+    "BRICKHOUSE SALOON": {
       "special": [
-        "Apr 25 — The Red 78’s Live Music • $10 Cover",
+        "May 1 — Ladies Night",
+        "May 2 — College Night",
         "Jun 13 — Jake Adams Band"
       ],
       "regular": [
-        "Friday — Ladies Night",
-        "Saturday — College Night",
-        "Live DJs downstairs",
-        "Karaoke upstairs",
-        "Open daily 6PM–2AM",
-        "Free parking",
-        "21+",
-        "Weekend cover + late-night crowd"
+        "Weekend DJs (e.g., DJ Pleas) + Karaoke",
+        "21+ late-night crowds"
       ]
     },
 
-    "Roadhouse Bar": {
+    "ROADHOUSE BAR": {
       "special": [
-        "Apr 23 — Acoustic Jam w/ Canadian River Howlers",
         "Apr 30 — Acoustic Jam w/ Scott Miles"
       ],
       "regular": [
-        "Sunday — Pool League",
-        "Monday — Free Pool",
-        "Tuesday — Taco Tuesday + Pool League",
-        "Wednesday — Pool Tournament",
         "Thursday — Acoustic Jam",
-        "Friday — Karaoke @ 8PM",
-        "Saturday — Karaoke @ 8PM"
+        "Friday & Saturday — Karaoke"
       ]
     },
 
-    "Paycom Center": {
+    "SCISSORTAIL PARK": {
       "special": [
-        "Apr 19 — NBA Playoffs First Round Game 1 • 2:30PM",
-        "Apr 22 — NBA Playoffs First Round Game 2 • 8:30PM",
-        "May 23 — Shinedown • 7PM"
+        "May 1 — Cinco de Mayo Fest (4–10 PM)",
+        "May 30 — Route 66 Centennial Celebration"
       ],
       "regular": [
-        "NBA playoffs + major concerts in Downtown OKC"
+        "Seasonal park events + Finish Line / outdoor activity spillover"
       ]
     },
 
-    "Scissortail Park": {
+    "RIVERWIND CASINO": {
       "special": [
-        "May 1 — Cinco de Mayo • 4PM–10PM"
+        "May 7 — Jake’s New Face Showcase • 7 PM",
+        "May 9 — Earth, Wind & Fire • 8 PM"
       ],
       "regular": [
-        "Seasonal downtown outdoor activity",
-        "Concerts and park events increase in spring"
+        "Casino + major concerts (parking + late returns create strong metro demand)"
       ]
     },
 
-    "Chickasaw Bricktown Ballpark": {
+    "CHICKASAW BRICKTOWN BALLPARK": {
       "special": [
-        "Apr–June — Ongoing OKC Comets home games and promotions"
+        "Apr 26 — vs Tacoma Rainiers • 4:05 PM",
+        "Ongoing Apr–June home games + promos"
       ],
       "regular": [
-        "Comets baseball",
-        "Bricktown spillover traffic",
-        "Evening and weekend parking demand"
-      ]
-    },
-
-    "Riverwind Casino": {
-      "special": [
-        "Apr 24 — Aaron Lewis and The Stateliners • 8PM",
-        "Apr 25 — Don Felder • 8PM",
-        "May 7 — Jake’s New Face Showcase • 7PM",
-        "May 9 — Earth, Wind & Fire • 8PM"
-      ],
-      "regular": [
-        "Concert venue & casino open 24/7"
-      ]
-    },
-
-    "Beer City Music Hall": {
-      "special": [
-        "May 19 — Sports • Doors 7PM / Start 8PM"
-      ],
-      "regular": [
-        "Mid-size concert venue in OKC"
+        "Comets baseball + Bricktown evening spillover"
       ]
     }
   }
