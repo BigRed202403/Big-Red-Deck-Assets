@@ -1,179 +1,120 @@
 {
-  "week_start": "2026-04-26",
-  "week_range": "Apr 26–May 2, 2026",
-  "updated_at": "2026-04-25T10:45:00-05:00",
-
-  "rules_locked": {
-    "weekly_highlights": "Current week only, late-week weighted (Thu–Sat priority), max 4.",
-    "venue_regulars": "Persistent unless explicitly changed.",
-    "venue_specials": "Keep verified future demand-driving events inside 14–60 day window.",
-    "revenue_filter_rule": "Only include measurable ride-demand drivers.",
-    "friction_logic": "Closures, overlap, weather and event compression belong in updates/triggers.",
-    "expired_cleanup": "Remove events before Apr 26 unless relevant to current-week context."
-  },
+  "week_start": "2026-05-03",
+  "week_range": "May 3–9, 2026",
+  "updated_at": "2026-05-02T22:45:00-05:00",
 
   "weekly_highlights": [
-    "Apr 26 — OKC Comets vs Tacoma Rainiers @ Bricktown Ballpark (4:05 PM)",
-    "May 1 — Cinco de Mayo Fest @ Scissortail Park (4–10 PM)",
-    "May 1–2 — Weekend Live Music & Nightlife Stack (Norman/South OKC/Shawnee)",
-    "May 2 — Ninety Proof @ The Alley"
+    "May 5 — Thunder vs Lakers Game 1 @ Paycom Center",
+    "May 7 — Thunder vs Lakers Game 2 @ Paycom Center + Jake’s New Face Showcase @ Riverwind",
+    "May 9 — Luke Combs @ OU Memorial Stadium",
+    "May 9 — Earth, Wind & Fire @ Riverwind + Thunder Game 3 watch parties"
   ],
 
   "decision_triggers": [
-    {
-      "event": "Cinco de Mayo Fest",
-      "area": "Scissortail Park / Downtown OKC",
-      "window": "May 1 (4–10 PM)",
-      "friction": "Large crowds + food/music performances + limited parking + post-fest nightlife spillover",
-      "why_it_matters": "Strong Friday evening ride demand — families, groups, and late-night returns"
-    },
-    {
-      "event": "Comets Baseball Home Game",
-      "area": "Bricktown",
-      "window": "Apr 26 (4:05 PM)",
-      "friction": "Game-day parking shortages + Bricktown restaurant/bar spillover + evening traffic",
-      "why_it_matters": "Reliable Sunday evening driver right at the start of the week"
-    },
-    {
-      "event": "Weekend Venue Stack (Mooney's, Alley, Brickhouse, etc.)",
-      "area": "Norman / South OKC / Shawnee",
-      "window": "May 1–2",
-      "friction": "Simultaneous live music, karaoke, DJs, and Ladies/College Nights",
-      "why_it_matters": "Classic weekend conversion window with cross-metro pulls"
-    },
-    {
-      "event": "Luke Combs Stadium Show",
-      "area": "Norman (OU Campus)",
-      "window": "May 9",
-      "friction": "Major stadium parking + I-35 congestion + large post-show exits",
-      "why_it_matters": "One of the biggest single-night anchors in the horizon"
-    },
-    {
-      "event": "Women’s College World Series",
-      "area": "Adventure District / Devon Park",
-      "window": "May 28–Jun 4/5",
-      "friction": "Multi-day repeated crowds + hotel/restaurant spillover + venue parking pressure",
-      "why_it_matters": "Sustained high-volume demand"
-    },
-    {
-      "event": "Route 66 Centennial Celebration",
-      "area": "Scissortail Park",
-      "window": "May 30",
-      "friction": "Large downtown celebration + evening crowds + potential closures",
-      "why_it_matters": "Major late-May seasonal spike"
-    }
+    "May 5 & May 7 — Downtown OKC playoff traffic, Bricktown spillover, parking pressure, late exits",
+    "May 9 — Norman stadium traffic for Luke Combs, campus parking pressure, I-35 exits stacking",
+    "May 9 — Riverwind concert traffic overlapping with Norman stadium demand",
+    "All week — early May storms and construction amplifying traffic friction"
   ],
 
   "metro_sports": [
-    "Apr–May — Thunder Playoff Window (ongoing series impact)",
-    "Apr–June — OKC Comets Home Baseball (multiple home dates this week and beyond)",
-    "May — OU Commencement Events",
-    "May 28–Jun 4/5 — Women’s College World Series"
+    "May 5 — Thunder vs Lakers Game 1",
+    "May 7 — Thunder vs Lakers Game 2",
+    "May 9 — Thunder at Lakers Game 3",
+    "May 9 — OKC Comets home baseball"
   ],
 
   "local_updates": [
-    "Cinco de Mayo Fest at Scissortail Park (May 1, 4–10 PM) is sold-out for vendors — expect heavy crowds and parking pressure.",
-    "Comets home game on Apr 26 kicks off weekend sports + Bricktown activity.",
-    "Norman and South OKC nightlife (Mooney’s karaoke/live music, The Alley, Brickhouse) creates strong multi-venue weekend pull.",
-    "Ongoing downtown/Bricktown construction and potential early-May weather volatility add daily friction.",
-    "Riverwind, Luke Combs, and WCWS remain major May demand anchors."
+    "Thunder/Lakers Games 1 and 2 create two major downtown decision windows.",
+    "Luke Combs at OU Memorial Stadium on May 9 is the largest Norman demand anchor this week.",
+    "Earth, Wind & Fire at Riverwind overlaps with Norman stadium traffic on May 9.",
+    "Jake’s New Face Showcase adds Riverwind mid-week demand on May 7.",
+    "Comets baseball keeps Bricktown active throughout the week."
   ],
 
-  "weather_watch": [
-    "Apr 26 — Humid with possible showers (Comets game day)",
-    "May 1–2 — Early May pattern: warm days with storm chances — boosts ride preference for events"
-  ],
-
-  "forward_look": [
-    "Apr 30 — Acoustic Jam w/ Scott Miles @ Roadhouse Bar",
-    "May 1 — Cinco de Mayo @ Scissortail Park (4–10 PM)",
-    "May 2 — Ninety Proof @ The Alley",
+  "local_fun_special": [
+    "May 5 — Thunder vs Lakers Game 1",
+    "May 7 — Thunder vs Lakers Game 2",
     "May 7 — Jake’s New Face Showcase @ Riverwind",
-    "May 9 — Luke Combs @ OU Stadium + Earth, Wind & Fire @ Riverwind (same night)",
-    "May 12–17 — OU Commencement",
-    "May 19 — Sports @ Beer City Music Hall",
-    "May 23 — Shinedown @ Paycom Center",
-    "May 23–25 — Paseo Arts Festival",
-    "May 28–Jun 4/5 — Women’s College World Series",
-    "May 29 — Bret Michaels @ Grand Casino",
-    "May 30 — Route 66 Centennial Celebration @ Scissortail",
-    "Jun 13 — Jake Adams Band @ Brickhouse Saloon"
+    "May 9 — Luke Combs @ OU Memorial Stadium",
+    "May 9 — Earth, Wind & Fire @ Riverwind",
+    "May 9 — Thunder at Lakers Game 3 watch parties",
+    "May 8 — Tyler Lee Band @ Mooney’s Pub",
+    "May 9 — The Flannels @ Mooney’s Pub",
+    "May 9 — Neon Party @ Brickhouse Saloon"
   ],
+
+  "sports_schedules": {
+    "OKC Thunder 2026 Playoffs — Western Conference Semifinals": [
+      "May 5 — Game 1 vs Lakers",
+      "May 7 — Game 2 vs Lakers",
+      "May 9 — Game 3 at Lakers",
+      "May 11 — Game 4 at Lakers",
+      "May 13 — Game 5 vs Lakers (If Necessary)",
+      "May 16 — Game 6 at Lakers (If Necessary)",
+      "May 18 — Game 7 vs Lakers (If Necessary)"
+    ]
+  },
 
   "venues": {
-    "MOONEY'S PUB & GRILL": {
-      "special": [
-        "May 1 — Weekend Live Music (typical Friday)",
-        "May 2 — Weekend Live Music (typical Saturday)"
-      ],
+    "MOONEY’S PUB": {
       "regular": [
-        "Sunday — Sunday Funday Karaoke (8:30 PM)",
-        "Tuesday — Taco Tuesday + Acoustic Night",
-        "Wednesday — Karaoke @ 9 PM",
-        "Thursday — SINGO 7–9 PM + Karaoke @ 9 PM",
-        "Friday & Saturday — Live Music (9 PM start)"
-      ]
-    },
-
-    "THE ALLEY": {
-      "special": [
-        "May 1 — Chad Todd Band",
-        "May 2 — Ninety Proof"
+        "Tue: Acoustic Tuesday @ 7:30 PM",
+        "Wed: Karaoke @ 9 PM",
+        "Thu: Singo @ 7:30 PM + Karaoke @ 9 PM",
+        "Fri: Live Music @ 9 PM",
+        "Sat: Live Music @ 9 PM",
+        "Sun: Sing-Along Brunch @ 11 AM + Jam Sessions @ 4 PM"
       ],
-      "regular": [
-        "Live music weekends"
+      "special": [
+        "May 8 — Tyler Lee Band",
+        "May 9 — The Flannels",
+        "May 15 — The Cover Up",
+        "May 16 — Bad Neighbors",
+        "May 22 — Haloed “Radio Replay”",
+        "May 23 — Band from Buzzard Hill",
+        "May 29 — 90 Proof",
+        "May 30 — Dollar .98"
       ]
     },
 
     "BRICKHOUSE SALOON": {
-      "special": [
-        "May 1 — Ladies Night",
-        "May 2 — College Night",
-        "Jun 13 — Jake Adams Band"
-      ],
       "regular": [
-        "Weekend DJs (e.g., DJ Pleas) + Karaoke",
-        "21+ late-night crowds"
+        "Mon & Tue: Karaoke Party @ 9 PM",
+        "Thu: Line Dancing with Aria",
+        "Fri: Ladies Night",
+        "Sat: College Night"
+      ],
+      "special": [
+        "May 5 — Cinco de Mayo: $5 Tequila & Margaritas All Night",
+        "May 9 — Neon Party",
+        "May 12 — Live Music",
+        "May 13 — National Cocktail Day",
+        "May 16 — World Wide Whiskey: $5 Whiskey All Night",
+        "May 21 — Bikes on Bell Acoustic Show w/ Kolby Visneski & TJ Tha DJ",
+        "May 22–23 — Memorial Weekend: No Cover",
+        "May 29 — K’Lees One Year Bash",
+        "May 30 — Live Music by Jeremy Fullbright"
       ]
     },
 
-    "ROADHOUSE BAR": {
+    "PAYCOM CENTER": {
       "special": [
-        "Apr 30 — Acoustic Jam w/ Scott Miles"
-      ],
-      "regular": [
-        "Thursday — Acoustic Jam",
-        "Friday & Saturday — Karaoke"
-      ]
-    },
-
-    "SCISSORTAIL PARK": {
-      "special": [
-        "May 1 — Cinco de Mayo Fest (4–10 PM)",
-        "May 30 — Route 66 Centennial Celebration"
-      ],
-      "regular": [
-        "Seasonal park events + Finish Line / outdoor activity spillover"
+        "May 5 — Thunder vs Lakers Game 1",
+        "May 7 — Thunder vs Lakers Game 2"
       ]
     },
 
     "RIVERWIND CASINO": {
       "special": [
-        "May 7 — Jake’s New Face Showcase • 7 PM",
-        "May 9 — Earth, Wind & Fire • 8 PM"
-      ],
-      "regular": [
-        "Casino + major concerts (parking + late returns create strong metro demand)"
+        "May 7 — Jake’s New Face Showcase @ 7 PM",
+        "May 9 — Earth, Wind & Fire @ 8 PM"
       ]
     },
 
-    "CHICKASAW BRICKTOWN BALLPARK": {
+    "OU MEMORIAL STADIUM": {
       "special": [
-        "Apr 26 — vs Tacoma Rainiers • 4:05 PM",
-        "Ongoing Apr–June home games + promos"
-      ],
-      "regular": [
-        "Comets baseball + Bricktown evening spillover"
+        "May 9 — Luke Combs @ 5 PM"
       ]
     }
   }
