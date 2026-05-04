@@ -1,7 +1,7 @@
 {
   "week_start": "2026-05-03",
   "week_range": "May 3–9, 2026",
-  "updated_at": "2026-05-02T22:45:00-05:00",
+  "updated_at": "2026-05-04T08:55:00-05:00",
 
   "weekly_highlights": [
     "May 5 — Thunder vs Lakers Game 1 @ Paycom Center",
@@ -11,10 +11,34 @@
   ],
 
   "decision_triggers": [
-    "May 5 & May 7 — Downtown OKC playoff traffic, Bricktown spillover, parking pressure, late exits",
-    "May 9 — Norman stadium traffic for Luke Combs, campus parking pressure, I-35 exits stacking",
-    "May 9 — Riverwind concert traffic overlapping with Norman stadium demand",
-    "All week — early May storms and construction amplifying traffic friction"
+    {
+      "event": "Thunder Home Playoff Games",
+      "area": "Paycom Center / Downtown OKC / Bricktown",
+      "window": "May 5 & May 7 evenings",
+      "friction": "Playoff traffic, Bricktown spillover, parking pressure, late exits",
+      "why_it_matters": "Two major downtown decision windows this week"
+    },
+    {
+      "event": "Luke Combs Stadium Show",
+      "area": "Norman / OU Memorial Stadium",
+      "window": "May 9 evening",
+      "friction": "Campus parking pressure, stadium exits, I-35 traffic stacking",
+      "why_it_matters": "Largest Norman demand anchor this week"
+    },
+    {
+      "event": "Riverwind Concert Overlap",
+      "area": "Riverwind Casino / Norman",
+      "window": "May 9 evening",
+      "friction": "Earth, Wind & Fire traffic overlaps with Luke Combs stadium demand",
+      "why_it_matters": "Creates a Norman/Riverwind mega-stack"
+    },
+    {
+      "event": "Early May Weather & Construction",
+      "area": "Metro-wide",
+      "window": "All week",
+      "friction": "Storm chances and construction can slow normal event traffic",
+      "why_it_matters": "Amplifies friction around games, concerts, and late exits"
+    }
   ],
 
   "metro_sports": [
@@ -45,6 +69,15 @@
   ],
 
   "sports_schedules": {
+    "OKC Thunder 2025–26": [
+      "May 5 — Game 1 vs Lakers",
+      "May 7 — Game 2 vs Lakers",
+      "May 9 — Game 3 at Lakers",
+      "May 11 — Game 4 at Lakers",
+      "May 13 — Game 5 vs Lakers (If Necessary)",
+      "May 16 — Game 6 at Lakers (If Necessary)",
+      "May 18 — Game 7 vs Lakers (If Necessary)"
+    ],
     "OKC Thunder 2026 Playoffs — Western Conference Semifinals": [
       "May 5 — Game 1 vs Lakers",
       "May 7 — Game 2 vs Lakers",
@@ -99,6 +132,9 @@
     },
 
     "PAYCOM CENTER": {
+      "regular": [
+        "NBA Playoffs and major arena events"
+      ],
       "special": [
         "May 5 — Thunder vs Lakers Game 1",
         "May 7 — Thunder vs Lakers Game 2"
@@ -106,6 +142,9 @@
     },
 
     "RIVERWIND CASINO": {
+      "regular": [
+        "Concert venue and casino open 24/7"
+      ],
       "special": [
         "May 7 — Jake’s New Face Showcase @ 7 PM",
         "May 9 — Earth, Wind & Fire @ 8 PM"
@@ -113,8 +152,20 @@
     },
 
     "OU MEMORIAL STADIUM": {
+      "regular": [
+        "Major OU stadium events and concerts"
+      ],
       "special": [
         "May 9 — Luke Combs @ 5 PM"
+      ]
+    },
+
+    "CHICKASAW BRICKTOWN BALLPARK": {
+      "regular": [
+        "OKC Comets baseball and Bricktown evening spillover"
+      ],
+      "special": [
+        "May 9 — OKC Comets home baseball"
       ]
     }
   }
