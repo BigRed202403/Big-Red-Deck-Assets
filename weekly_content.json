@@ -1,7 +1,7 @@
 {
   "week_start": "2026-05-10",
   "week_range": "May 10–16, 2026",
-  "updated_at": "2026-05-06T23:00:00-05:00",
+  "updated_at": "2026-05-11T23:40:00-05:00",
 
   "rules_locked": {
     "weekly_highlights": "Current week only, late-week weighted (Thu–Sat priority), max 4.",
@@ -35,11 +35,11 @@
       "why_it_matters": "Strong cross-metro family and group ride potential"
     },
     {
-      "event": "Calderón Dance Festival",
-      "area": "Myriad Botanical Gardens / Downtown OKC",
-      "window": "May 16 from 12 PM–8 PM",
-      "friction": "Outdoor festival traffic, downtown parking limits, evening crowd movement",
-      "why_it_matters": "Adds daytime-to-evening downtown pressure"
+      "event": "Bricktown Sports & Entertainment Stack",
+      "area": "Bricktown / Downtown OKC",
+      "window": "May 14–16",
+      "friction": "OU Baseball, comedy crowds, theater traffic, restaurants and nightlife overlapping downtown",
+      "why_it_matters": "Creates layered evening movement and parking compression"
     },
     {
       "event": "Riverwind Concert Night",
@@ -47,23 +47,42 @@
       "window": "May 16 at 7 PM",
       "friction": "Concert traffic, casino crowd overlap, late returns toward OKC and Moore",
       "why_it_matters": "Strong Saturday night anchor for planned rides"
+    },
+    {
+      "event": "Western Conference Finals Momentum",
+      "area": "Downtown OKC / Bricktown / Metro Watch Parties",
+      "window": "Remainder of week",
+      "friction": "Playoff excitement keeps bars, restaurants, and watch-party venues active after dark",
+      "why_it_matters": "Sustains downtown movement even without a scheduled home game"
+    },
+    {
+      "event": "Mid-May Weather & Construction",
+      "area": "Metro-wide",
+      "window": "All week",
+      "friction": "Storm chances and ongoing construction can amplify event traffic",
+      "why_it_matters": "Adds friction to downtown, Norman, and weekend movement"
     }
   ],
 
   "metro_sports": [
+    "May — Thunder advance to Western Conference Finals",
+    "Thunder watch parties continue across OKC venues",
     "May 10 — Salt Lake Bees at OKC Comets",
-    "May 11 — Thunder at Lakers Game 4",
-    "May 13 — Thunder vs Lakers Game 5 (If Necessary)",
-    "May 16 — Thunder at Lakers Game 6 (If Necessary)"
+    "May 14–16 — OU Baseball vs Tennessee @ Bricktown Ballpark",
+    "May 28–Jun 4/5 — Women’s College World Series"
   ],
 
   "local_updates": [
+    "Thunder sweep the Lakers and advance to the Western Conference Finals.",
+    "Watch-party traffic and downtown playoff energy continue despite no Game 5.",
     "Shucked opens May 12 at Civic Center and runs through May 17.",
     "OU Commencement ceremonies create Norman family traffic and hotel movement throughout the week.",
+    "OU Baseball vs Tennessee at Bricktown Ballpark adds Thu–Sat downtown traffic and parking pressure.",
+    "Anthony Jeselnik at Bricktown Comedy Club adds additional evening downtown movement May 14–16.",
     "Calderón Dance Festival runs May 16 from 12 PM–8 PM at Myriad Botanical Gardens.",
     "George Thorogood & The Destroyers with The Marshall Tucker Band hits Riverwind May 16 at 7 PM.",
-    "Thunder playoff watch-party traffic continues depending on series length.",
-    "Comets have a Sunday home game May 10 before heading on the road."
+    "Riverwind continues Thunder watch-party activation during playoff momentum.",
+    "Ongoing construction (I-35, downtown) and mid-May storms continue adding friction."
   ],
 
   "weather_watch": [
@@ -74,16 +93,17 @@
     "May 10 — Salt Lake Bees at OKC Comets",
     "May 12–17 — Shucked Broadway @ Civic Center",
     "May 12–17 — OU Commencement Ceremonies",
-    "May 13 — Thunder vs Lakers Game 5 (If Necessary)",
+    "May 14–16 — OU Baseball vs Tennessee @ Bricktown Ballpark",
+    "May 14–16 — Anthony Jeselnik @ Bricktown Comedy Club",
     "May 15 — The Cover Up @ Mooney’s Pub",
     "May 16 — Bad Neighbors @ Mooney’s Pub",
     "May 16 — Calderón Dance Festival @ Myriad Botanical Gardens",
     "May 16 — George Thorogood & The Destroyers with The Marshall Tucker Band @ Riverwind",
-    "May 16 — World Wide Whiskey: $5 Whiskey All Night @ Brickhouse Saloon",
-    "May 16 — Thunder at Lakers Game 6 (If Necessary)"
+    "May 16 — World Wide Whiskey: $5 Whiskey All Night @ Brickhouse Saloon"
   ],
 
   "forward_look": [
+    "Western Conference Finals schedule expected soon",
     "May 19 — Sports @ Beer City Music Hall",
     "May 19–24 — Reno Aces at OKC Comets",
     "May 23 — Shinedown @ Paycom Center",
@@ -96,10 +116,7 @@
 
   "sports_schedules": {
     "OKC Thunder 2025–26": [
-      "May 11 — Game 4 at Lakers",
-      "May 13 — Game 5 vs Lakers (If Necessary)",
-      "May 16 — Game 6 at Lakers (If Necessary)",
-      "May 18 — Game 7 vs Lakers (If Necessary)"
+      "Western Conference Finals schedule pending"
     ],
     "OKC Comets 2026": [
       "May 10 — vs Salt Lake Bees @ 3:05 PM",
@@ -181,7 +198,7 @@
         "NBA Playoffs and major arena events"
       ],
       "special": [
-        "May 13 — Thunder vs Lakers Game 5 (If Necessary)"
+        "Western Conference Finals schedule pending"
       ]
     },
 
@@ -190,7 +207,7 @@
         "OKC Comets baseball and Bricktown evening spillover"
       ],
       "special": [
-        "May 10 — Salt Lake Bees at OKC Comets @ 3:05 PM"
+        "May 14–16 — OU Baseball vs Tennessee"
       ]
     },
 
