@@ -1,7 +1,7 @@
 {
-  "week_start": "2026-05-17",
-  "week_range": "May 17–23, 2026",
-  "updated_at": "2026-05-21T07:55:00-05:00",
+  "week_start": "2026-05-24",
+  "week_range": "May 24–30, 2026",
+  "updated_at": "2026-05-23T23:15:00-05:00",
 
   "rules_locked": {
     "weekly_highlights": "Current week only, late-week weighted (Thu–Sat priority), max 4.",
@@ -9,91 +9,113 @@
     "venue_specials": "Keep verified future demand-driving events inside 14–60 day window.",
     "revenue_filter_rule": "Only include measurable ride-demand drivers.",
     "friction_logic": "Closures, overlap, weather and event compression belong in updates/triggers.",
-    "expired_cleanup": "Remove events before May 17 unless relevant to current-week context."
+    "expired_cleanup": "Remove events before May 24 unless relevant to current-week context."
   },
 
   "weekly_highlights": [
-    "May 22 — Thunder at Spurs Game 3 + OKC watch-party energy",
-    "May 19–24 — The Wiz @ Civic Center Music Hall",
-    "May 22–24 — GalaxyCon OKC",
-    "May 23 — Shinedown @ Paycom + Paseo Arts Festival buildup"
+    "May 24 — Thunder Game 4 watch parties",
+    "May 24–25 — Paseo Arts Festival + Memorial Day weekend",
+    "May 26 — Thunder vs Spurs Game 5 @ Paycom",
+    "May 30 — Route 66 Centennial Celebration @ Scissortail Park"
   ],
 
   "decision_triggers": [
     {
-      "event": "Thunder Western Conference Finals Momentum",
-      "area": "Bricktown / Downtown OKC / Metro Watch Parties",
-      "window": "May 22 evening",
-      "friction": "Watch parties, restaurants, bars and Bricktown activity create late-night movement",
-      "why_it_matters": "Playoff energy continues despite away games"
+      "event": "Thunder Western Conference Finals",
+      "area": "Bricktown / Downtown OKC / Watch Parties",
+      "window": "May 24 + May 26",
+      "friction": "Away-game watch parties, Bricktown spillover, restaurants, alcohol traffic and Paycom crowds",
+      "why_it_matters": "Playoff momentum keeps downtown moving even away from the arena"
     },
     {
-      "event": "The Wiz Broadway Run",
-      "area": "Civic Center / Downtown OKC",
-      "window": "May 19–24",
-      "friction": "Theater crowds, downtown dining spillover, parking pressure and late exits",
-      "why_it_matters": "Steady evening demand across multiple nights"
+      "event": "Paseo Memorial Weekend Stack",
+      "area": "Paseo District / Downtown OKC",
+      "window": "May 24–25",
+      "friction": "Street closures, festival crowds, parking pressure and restaurant spillover",
+      "why_it_matters": "Strong holiday weekend movement"
     },
     {
-      "event": "GalaxyCon + Paseo Weekend Compression",
-      "area": "Convention Center / Paseo District",
-      "window": "May 22–24",
-      "friction": "Convention attendees, hotel movement, artist traffic, vendor movement and street closures",
-      "why_it_matters": "Creates Memorial Day weekend buildup pressure"
+      "event": "Women's College World Series Opening Weekend",
+      "area": "Devon Park / Adventure District / Hotels",
+      "window": "May 28–30",
+      "friction": "Tournament crowds, hotels, family travel and restaurant movement",
+      "why_it_matters": "Multi-day metro demand driver"
     },
     {
-      "event": "Norman / Shawnee Weekend Stack",
-      "area": "Norman / South OKC / Shawnee",
-      "window": "May 22–23",
-      "friction": "Live music, DJs, karaoke and late exits",
-      "why_it_matters": "Reliable Friday and Saturday movement"
+      "event": "Route 66 Centennial Celebration",
+      "area": "Scissortail Park / Downtown OKC",
+      "window": "May 30 evening",
+      "friction": "Festival traffic, event exits, downtown parking pressure",
+      "why_it_matters": "Major Saturday night anchor"
+    },
+    {
+      "event": "Summer Nightlife Shift",
+      "area": "Downtown OKC / Goldsby / Shawnee / South OKC",
+      "window": "Fri–Sat evenings",
+      "friction": "Live music, bars, concerts, casino activity and concentrated late exits",
+      "why_it_matters": "Summer demand begins shifting away from OU student movement toward entertainment anchors"
     }
   ],
 
   "metro_sports": [
-    "May 22 — Thunder at Spurs Game 3",
     "May 24 — Thunder at Spurs Game 4",
-    "Apr–June — OKC Comets Baseball",
+    "May 26 — Thunder vs Spurs Game 5 @ Paycom",
+    "May 28 — Thunder at Spurs Game 6 (if necessary)",
+    "May 30 — Thunder vs Spurs Game 7 (if necessary)",
     "May 28–Jun 4/5 — Women's College World Series"
   ],
 
   "local_updates": [
-    "Thunder win Game 2 and tie the Western Conference Finals 1–1.",
-    "Game 3 moves to San Antonio on May 22 but watch-party traffic stays active around OKC.",
-    "The Wiz continues running at Civic Center through May 24.",
-    "GalaxyCon and Paseo Festival buildup increase Memorial Day weekend movement.",
-    "Downtown playoff watch parties continue creating Bricktown movement.",
-    "Late-May construction and weather continue adding friction."
+    "Thunder playoff energy remains active through watch parties and Paycom activity.",
+    "Paseo Arts Festival and Memorial Day weekend create downtown movement.",
+    "GalaxyCon wraps up May 24 with convention spillover.",
+    "The Wiz concludes May 24 at Civic Center.",
+    "Women's College World Series begins later in the week and becomes the next major metro anchor.",
+    "Route 66 Centennial Celebration creates a large Saturday downtown draw.",
+    "With OU summer slowdown beginning, evening movement shifts more toward downtown OKC, casino traffic, concerts, and nightlife venues.",
+    "Summer patterns begin favoring Cowboys OKC, Riverwind, Tower Theater, Brickhouse, Libby's, and downtown nightlife clusters."
   ],
 
   "weather_watch": [
-    "Late May warm weather with scattered storms possible, potentially affecting outdoor and weekend events."
+    "Late May warm weather with possible scattered storms affecting outdoor events and timing."
   ],
 
   "local_fun_special": [
-    "May 22 — Thunder at Spurs Game 3 watch parties",
-    "May 19–24 — The Wiz @ Civic Center",
-    "May 22–24 — GalaxyCon OKC",
-    "May 22 — Haloed 'Radio Replay' @ Mooney’s Pub",
-    "May 23 — Band from Buzzard Hill @ Mooney’s Pub",
-    "May 21 — Bikes on Bell Acoustic Show @ Brickhouse Saloon",
-    "May 23 — Shinedown @ Paycom Center",
-    "May 23–25 — Paseo Arts Festival"
+    "May 24 — Thunder Game 4 watch parties",
+    "May 24 — GalaxyCon OKC final day",
+    "May 24–25 — Paseo Arts Festival",
+    "May 24 — The Wiz @ Civic Center",
+    "May 26 — Thunder vs Spurs Game 5 @ Paycom",
+    "May 28 — Women's College World Series opening games",
+    "May 29 — Bret Michaels @ Grand Casino",
+    "May 29 — 90 Proof @ Mooney’s Pub",
+    "May 30 — Dollar .98 @ Mooney’s Pub",
+    "May 30 — Route 66 Centennial Celebration @ Scissortail Park",
+    "May 30 — Live Music by Jeremy Fullbright @ Brickhouse Saloon"
   ],
 
   "forward_look": [
-    "May 24 — Thunder at Spurs Game 4",
-    "May 26 — Thunder vs Spurs Game 5 @ Paycom",
     "May 28–Jun 4/5 — Women's College World Series",
     "May 29 — Bret Michaels @ Grand Casino",
-    "May 30 — Route 66 Centennial Celebration @ Scissortail Park"
+    "May 30 — Route 66 Centennial Celebration",
+    "Jun 13 — Jake Adams Band @ Brickhouse Saloon",
+    "Jun 13 — Cheap Trick + Gin Blossoms @ Riverwind",
+    "Aug 11–23 — Hamilton @ Civic Center"
   ],
 
   "sports_schedules": {
     "OKC Thunder 2025–26": [
-      "May 22 — Western Conference Finals Game 3 at Spurs",
-      "May 24 — Western Conference Finals Game 4 at Spurs",
-      "May 26 — Western Conference Finals Game 5 vs Spurs"
+      "May 24 — WCF Game 4 at Spurs",
+      "May 26 — WCF Game 5 vs Spurs",
+      "May 28 — WCF Game 6 at Spurs (if necessary)",
+      "May 30 — WCF Game 7 vs Spurs (if necessary)"
+    ],
+    "Women’s College World Series 2026": [
+      "May 28 — Opening games @ Devon Park",
+      "May 29 — WCWS games @ Devon Park",
+      "May 30 — WCWS games @ Devon Park",
+      "Jun 3 — Championship Series Game 1",
+      "Jun 4/5 — Championship Series continues if necessary"
     ]
   },
 
@@ -103,8 +125,44 @@
         "NBA Playoffs and major arena events"
       ],
       "special": [
-        "May 23 — Shinedown",
-        "May 26 — Thunder vs Spurs Game 5"
+        "May 26 — Thunder vs Spurs Game 5",
+        "May 30 — Thunder vs Spurs Game 7 (if necessary)"
+      ]
+    },
+
+    "DEVON PARK": {
+      "regular": [
+        "Softball and major tournament events"
+      ],
+      "special": [
+        "May 28–Jun 4/5 — Women’s College World Series"
+      ]
+    },
+
+    "SCISSORTAIL PARK": {
+      "regular": [
+        "Downtown festivals and events"
+      ],
+      "special": [
+        "May 30 — Route 66 Centennial Celebration"
+      ]
+    },
+
+    "PASEO ARTS DISTRICT": {
+      "regular": [
+        "Arts district events, galleries, restaurants, and festivals"
+      ],
+      "special": [
+        "May 24–25 — Paseo Arts Festival"
+      ]
+    },
+
+    "OKC CONVENTION CENTER": {
+      "regular": [
+        "Large conventions and public events"
+      ],
+      "special": [
+        "May 24 — GalaxyCon OKC final day"
       ]
     },
 
@@ -113,7 +171,28 @@
         "Theater and performing arts events"
       ],
       "special": [
-        "May 19–24 — The Wiz"
+        "May 24 — The Wiz"
+      ]
+    },
+
+    "RIVERWIND CASINO": {
+      "regular": [
+        "Casino and major concert events",
+        "Thunder watch-party activity",
+        "Weekend nightlife traffic"
+      ],
+      "special": [
+        "Jun 13 — Cheap Trick + Gin Blossoms"
+      ]
+    },
+
+    "LIBBY'S CAFE": {
+      "regular": [
+        "Live music and nightlife activity",
+        "Weekend evening movement"
+      ],
+      "special": [
+        "Recurring weekend entertainment"
       ]
     },
 
@@ -127,8 +206,8 @@
         "Sun: Sing-Along Brunch @ 11 AM + Jam Sessions @ 4 PM"
       ],
       "special": [
-        "May 22 — Haloed 'Radio Replay'",
-        "May 23 — Band from Buzzard Hill"
+        "May 29 — 90 Proof",
+        "May 30 — Dollar .98"
       ]
     },
 
@@ -140,18 +219,61 @@
         "Sat: College Night"
       ],
       "special": [
-        "May 21 — Bikes on Bell Acoustic Show w/ Kolby Visneski & TJ Tha DJ",
-        "May 22–23 — Memorial Weekend: No Cover"
+        "May 29 — K'Lees One Year Bash",
+        "May 30 — Live Music by Jeremy Fullbright",
+        "Jun 13 — Jake Adams Band"
       ]
     },
 
-    "OKC CONVENTION CENTER": {
+    "GRAND CASINO": {
       "regular": [
-        "Large conventions and public events"
+        "Casino and concert events"
       ],
       "special": [
-        "May 22–24 — GalaxyCon OKC"
+        "May 29 — Bret Michaels"
       ]
+    },
+
+    "COWBOYS OKC": {
+      "regular": [
+        "Country dancing",
+        "Bull riding",
+        "Late-night crowds"
+      ],
+      "special": [
+        "Recurring weekend activity"
+      ]
+    },
+
+    "KATS TAVERN": {
+      "regular": [
+        "Karaoke",
+        "Late-night crowd activity"
+      ],
+      "special": []
+    },
+
+    "LOS LOCOS": {
+      "regular": [
+        "Nightlife and weekend activity"
+      ],
+      "special": []
+    },
+
+    "TOWER THEATRE": {
+      "regular": [
+        "Concerts and live performances"
+      ],
+      "special": [
+        "Rotating live entertainment schedule"
+      ]
+    },
+
+    "INFERNO BAR & NIGHTCLUB": {
+      "regular": [
+        "Weekend nightlife traffic"
+      ],
+      "special": []
     }
   }
 }
