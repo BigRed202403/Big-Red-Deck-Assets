@@ -1,103 +1,91 @@
 {
-  "week_start": "2026-05-24",
-  "week_range": "May 24–30, 2026",
-  "updated_at": "2026-05-23T23:15:00-05:00",
+  "week_start": "2026-05-29",
+  "week_range": "May 29–Jun 5, 2026",
+  "updated_at": "2026-05-29T22:55:00-05:00",
 
   "rules_locked": {
-    "weekly_highlights": "Current week only, late-week weighted (Thu–Sat priority), max 4.",
+    "weekly_highlights": "Current/future events only from May 29 forward, late-week weighted (Fri–Sat priority), max 4.",
     "venue_regulars": "Persistent unless explicitly changed.",
     "venue_specials": "Keep verified future demand-driving events inside 14–60 day window.",
     "revenue_filter_rule": "Only include measurable ride-demand drivers.",
     "friction_logic": "Closures, overlap, weather and event compression belong in updates/triggers.",
-    "expired_cleanup": "Remove events before May 24 unless relevant to current-week context."
+    "expired_cleanup": "Remove events before May 29 unless relevant to current-week context."
   },
 
   "weekly_highlights": [
-    "May 24 — Thunder Game 4 watch parties",
-    "May 24–25 — Paseo Arts Festival + Memorial Day weekend",
-    "May 26 — Thunder vs Spurs Game 5 @ Paycom",
-    "May 30 — Route 66 Centennial Celebration @ Scissortail Park"
+    "May 29–30 — Women's College World Series continues @ Devon Park",
+    "May 30 — Thunder vs Spurs Game 7 @ Paycom",
+    "May 30 — Route 66 Centennial Celebration @ Scissortail Park",
+    "May 29–30 — Mooney’s + Brickhouse weekend live music stack"
   ],
 
   "decision_triggers": [
     {
-      "event": "Thunder Western Conference Finals",
-      "area": "Bricktown / Downtown OKC / Watch Parties",
-      "window": "May 24 + May 26",
-      "friction": "Away-game watch parties, Bricktown spillover, restaurants, alcohol traffic and Paycom crowds",
-      "why_it_matters": "Playoff momentum keeps downtown moving even away from the arena"
-    },
-    {
-      "event": "Paseo Memorial Weekend Stack",
-      "area": "Paseo District / Downtown OKC",
-      "window": "May 24–25",
-      "friction": "Street closures, festival crowds, parking pressure and restaurant spillover",
-      "why_it_matters": "Strong holiday weekend movement"
-    },
-    {
-      "event": "Women's College World Series Opening Weekend",
-      "area": "Devon Park / Adventure District / Hotels",
-      "window": "May 28–30",
-      "friction": "Tournament crowds, hotels, family travel and restaurant movement",
-      "why_it_matters": "Multi-day metro demand driver"
+      "event": "Thunder Game 7 Downtown Stack",
+      "area": "Paycom Center / Bricktown / Downtown OKC",
+      "window": "May 30 evening",
+      "friction": "Game 7 at Paycom, playoff crowds, Bricktown spillover, downtown parking pressure and late exits",
+      "why_it_matters": "Biggest single-night decision window of the week"
     },
     {
       "event": "Route 66 Centennial Celebration",
       "area": "Scissortail Park / Downtown OKC",
       "window": "May 30 evening",
-      "friction": "Festival traffic, event exits, downtown parking pressure",
-      "why_it_matters": "Major Saturday night anchor"
+      "friction": "Large outdoor celebration, concert traffic, drone show exits and downtown parking compression",
+      "why_it_matters": "Stacks directly with Thunder Game 7 and downtown nightlife"
+    },
+    {
+      "event": "Women's College World Series Opening Weekend",
+      "area": "Devon Park / Adventure District / Hotels",
+      "window": "May 29–30 and continuing into Jun 4/5",
+      "friction": "Tournament crowds, family travel, hotel movement, restaurant traffic and changing game times",
+      "why_it_matters": "Multi-day metro demand driver with visitors already in town"
     },
     {
       "event": "Summer Nightlife Shift",
       "area": "Downtown OKC / Goldsby / Shawnee / South OKC",
       "window": "Fri–Sat evenings",
-      "friction": "Live music, bars, concerts, casino activity and concentrated late exits",
-      "why_it_matters": "Summer demand begins shifting away from OU student movement toward entertainment anchors"
+      "friction": "Live music, bars, casino activity, concerts and concentrated late exits",
+      "why_it_matters": "Summer demand is shifting away from OU student movement toward entertainment anchors"
     }
   ],
 
   "metro_sports": [
-    "May 24 — Thunder at Spurs Game 4",
-    "May 26 — Thunder vs Spurs Game 5 @ Paycom",
-    "May 28 — Thunder at Spurs Game 6 (if necessary)",
-    "May 30 — Thunder vs Spurs Game 7 (if necessary)",
-    "May 28–Jun 4/5 — Women's College World Series"
+    "May 30 — Thunder vs Spurs Game 7 @ Paycom",
+    "May 29–Jun 4/5 — Women's College World Series @ Devon Park",
+    "Jun 3 — NBA Finals Game 1, opponent TBD",
+    "Apr–June — OKC Comets Baseball"
   ],
 
   "local_updates": [
-    "Thunder playoff energy remains active through watch parties and Paycom activity.",
-    "Paseo Arts Festival and Memorial Day weekend create downtown movement.",
-    "GalaxyCon wraps up May 24 with convention spillover.",
-    "The Wiz concludes May 24 at Civic Center.",
-    "Women's College World Series begins later in the week and becomes the next major metro anchor.",
-    "Route 66 Centennial Celebration creates a large Saturday downtown draw.",
-    "With OU summer slowdown beginning, evening movement shifts more toward downtown OKC, casino traffic, concerts, and nightlife venues.",
-    "Summer patterns begin favoring Cowboys OKC, Riverwind, Tower Theater, Brickhouse, Libby's, and downtown nightlife clusters."
+    "Thunder lost Game 6 and the Western Conference Finals are tied 3–3.",
+    "Thunder vs Spurs Game 7 is scheduled for May 30 at Paycom.",
+    "Game 7 stacks directly with the Route 66 Centennial Celebration downtown.",
+    "Women's College World Series continues at Devon Park with visitors, families, hotels and restaurants active across the metro.",
+    "Mooney’s Pub and Brickhouse Saloon both have Friday/Saturday live music and nightlife activity.",
+    "With OU summer slowdown underway, evening movement shifts more toward downtown OKC, casino traffic, concerts and nightlife venues."
   ],
 
   "weather_watch": [
-    "Late May warm weather with possible scattered storms affecting outdoor events and timing."
+    "Late May warm weather with possible scattered storms affecting outdoor events, WCWS timing and downtown movement."
   ],
 
   "local_fun_special": [
-    "May 24 — Thunder Game 4 watch parties",
-    "May 24 — GalaxyCon OKC final day",
-    "May 24–25 — Paseo Arts Festival",
-    "May 24 — The Wiz @ Civic Center",
-    "May 26 — Thunder vs Spurs Game 5 @ Paycom",
-    "May 28 — Women's College World Series opening games",
     "May 29 — Bret Michaels @ Grand Casino",
     "May 29 — 90 Proof @ Mooney’s Pub",
-    "May 30 — Dollar .98 @ Mooney’s Pub",
+    "May 29–30 — Women's College World Series @ Devon Park",
+    "May 30 — Thunder vs Spurs Game 7 @ Paycom",
     "May 30 — Route 66 Centennial Celebration @ Scissortail Park",
-    "May 30 — Live Music by Jeremy Fullbright @ Brickhouse Saloon"
+    "May 30 — Dollar .98 @ Mooney’s Pub",
+    "May 30 — Live Music by Jeremy Fullbright @ Brickhouse Saloon",
+    "Jun 3 — NBA Finals Game 1, opponent TBD",
+    "Jun 3 — WCWS Championship Series Game 1",
+    "Jun 4/5 — WCWS Championship Series continues if necessary"
   ],
 
   "forward_look": [
-    "May 28–Jun 4/5 — Women's College World Series",
-    "May 29 — Bret Michaels @ Grand Casino",
-    "May 30 — Route 66 Centennial Celebration",
+    "Jun 3 — NBA Finals Game 1, opponent TBD",
+    "Jun 3–4/5 — WCWS Championship Series",
     "Jun 13 — Jake Adams Band @ Brickhouse Saloon",
     "Jun 13 — Cheap Trick + Gin Blossoms @ Riverwind",
     "Aug 11–23 — Hamilton @ Civic Center"
@@ -105,13 +93,12 @@
 
   "sports_schedules": {
     "OKC Thunder 2025–26": [
-      "May 24 — WCF Game 4 at Spurs",
-      "May 26 — WCF Game 5 vs Spurs",
-      "May 28 — WCF Game 6 at Spurs (if necessary)",
-      "May 30 — WCF Game 7 vs Spurs (if necessary)"
+      "May 30 — WCF Game 7 vs Spurs"
+    ],
+    "NBA Finals 2026": [
+      "Jun 3 — Game 1: New York Knicks at Western Conference Champion"
     ],
     "Women’s College World Series 2026": [
-      "May 28 — Opening games @ Devon Park",
       "May 29 — WCWS games @ Devon Park",
       "May 30 — WCWS games @ Devon Park",
       "Jun 3 — Championship Series Game 1",
@@ -125,8 +112,7 @@
         "NBA Playoffs and major arena events"
       ],
       "special": [
-        "May 26 — Thunder vs Spurs Game 5",
-        "May 30 — Thunder vs Spurs Game 7 (if necessary)"
+        "May 30 — Thunder vs Spurs Game 7"
       ]
     },
 
@@ -135,7 +121,7 @@
         "Softball and major tournament events"
       ],
       "special": [
-        "May 28–Jun 4/5 — Women’s College World Series"
+        "May 29–Jun 4/5 — Women’s College World Series"
       ]
     },
 
@@ -145,33 +131,6 @@
       ],
       "special": [
         "May 30 — Route 66 Centennial Celebration"
-      ]
-    },
-
-    "PASEO ARTS DISTRICT": {
-      "regular": [
-        "Arts district events, galleries, restaurants, and festivals"
-      ],
-      "special": [
-        "May 24–25 — Paseo Arts Festival"
-      ]
-    },
-
-    "OKC CONVENTION CENTER": {
-      "regular": [
-        "Large conventions and public events"
-      ],
-      "special": [
-        "May 24 — GalaxyCon OKC final day"
-      ]
-    },
-
-    "CIVIC CENTER MUSIC HALL": {
-      "regular": [
-        "Theater and performing arts events"
-      ],
-      "special": [
-        "May 24 — The Wiz"
       ]
     },
 
