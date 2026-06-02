@@ -1,236 +1,218 @@
 {
-  "week_start": "2026-05-29",
-  "week_range": "May 29–Jun 5, 2026",
-  "updated_at": "2026-05-29T22:55:00-05:00",
+  "week_start": "2026-05-31",
+  "week_range": "May 31–June 6, 2026",
+  "updated_at": "2026-05-31T23:55:00-05:00",
 
   "rules_locked": {
-    "weekly_highlights": "Current/future events only from May 29 forward, late-week weighted (Fri–Sat priority), max 4.",
+    "weekly_highlights": "Current week only, late-week weighted (Thu–Sat priority), max 4.",
     "venue_regulars": "Persistent unless explicitly changed.",
     "venue_specials": "Keep verified future demand-driving events inside 14–60 day window.",
     "revenue_filter_rule": "Only include measurable ride-demand drivers.",
     "friction_logic": "Closures, overlap, weather and event compression belong in updates/triggers.",
-    "expired_cleanup": "Remove events before May 29 unless relevant to current-week context."
+    "expired_cleanup": "Remove events before May 31 unless relevant to current-week context."
   },
 
   "weekly_highlights": [
-    "May 29–30 — Women's College World Series continues @ Devon Park",
-    "May 30 — Thunder vs Spurs Game 7 @ Paycom",
-    "May 30 — Route 66 Centennial Celebration @ Scissortail Park",
-    "May 29–30 — Mooney’s + Brickhouse weekend live music stack"
+    "May 31–Jun 5 — Women's College World Series @ Devon Park",
+    "Jun 5 — Remedy @ The Alley + Midas 13 @ Friends of Friends",
+    "Jun 6 — WCWS Championship Weekend",
+    "Jun 6 — Meanstreak @ The Alley + The Stars Band @ Friends of Friends"
   ],
 
   "decision_triggers": [
     {
-      "event": "Thunder Game 7 Downtown Stack",
-      "area": "Paycom Center / Bricktown / Downtown OKC",
-      "window": "May 30 evening",
-      "friction": "Game 7 at Paycom, playoff crowds, Bricktown spillover, downtown parking pressure and late exits",
-      "why_it_matters": "Biggest single-night decision window of the week"
+      "event": "Women's College World Series",
+      "area": "Devon Park / OKC Metro",
+      "window": "May 31–Jun 5",
+      "friction": "Tournament crowds, hotel occupancy, restaurant demand, airport traffic, downtown spillover",
+      "why_it_matters": "Largest sustained metro demand driver of the week"
     },
     {
-      "event": "Route 66 Centennial Celebration",
-      "area": "Scissortail Park / Downtown OKC",
-      "window": "May 30 evening",
-      "friction": "Large outdoor celebration, concert traffic, drone show exits and downtown parking compression",
-      "why_it_matters": "Stacks directly with Thunder Game 7 and downtown nightlife"
+      "event": "WCWS Championship Weekend",
+      "area": "Devon Park / OKC Metro",
+      "window": "Jun 5–6",
+      "friction": "Championship crowds, hotel turnover, restaurant traffic, nightlife spillover",
+      "why_it_matters": "Highest ride-demand period of the week"
     },
     {
-      "event": "Women's College World Series Opening Weekend",
-      "area": "Devon Park / Adventure District / Hotels",
-      "window": "May 29–30 and continuing into Jun 4/5",
-      "friction": "Tournament crowds, family travel, hotel movement, restaurant traffic and changing game times",
-      "why_it_matters": "Multi-day metro demand driver with visitors already in town"
+      "event": "NW OKC Live Music Stack",
+      "area": "NW OKC",
+      "window": "Jun 5–6",
+      "friction": "Multiple venues drawing simultaneous live music crowds",
+      "why_it_matters": "Strong local nightlife movement without relying on downtown traffic"
     },
     {
-      "event": "Summer Nightlife Shift",
-      "area": "Downtown OKC / Goldsby / Shawnee / South OKC",
-      "window": "Fri–Sat evenings",
-      "friction": "Live music, bars, casino activity, concerts and concentrated late exits",
-      "why_it_matters": "Summer demand is shifting away from OU student movement toward entertainment anchors"
+      "event": "South OKC Live Music",
+      "area": "The Alley",
+      "window": "Jun 5–6",
+      "friction": "Weekend live music traffic and late exits",
+      "why_it_matters": "Consistent South OKC demand driver"
+    },
+    {
+      "event": "Riverwind Entertainment",
+      "area": "Goldsby / Norman",
+      "window": "All Week",
+      "friction": "Casino visitors, concerts, dining traffic",
+      "why_it_matters": "Reliable regional demand source"
     }
   ],
 
   "metro_sports": [
-    "May 30 — Thunder vs Spurs Game 7 @ Paycom",
-    "May 29–Jun 4/5 — Women's College World Series @ Devon Park",
-    "Jun 3 — NBA Finals Game 1, opponent TBD",
-    "Apr–June — OKC Comets Baseball"
+    "May 31–Jun 5 — Women's College World Series",
+    "Apr–Jun — OKC Comets Baseball",
+    "Summer Concert Season Begins Across Metro"
   ],
 
   "local_updates": [
-    "Thunder lost Game 6 and the Western Conference Finals are tied 3–3.",
-    "Thunder vs Spurs Game 7 is scheduled for May 30 at Paycom.",
-    "Game 7 stacks directly with the Route 66 Centennial Celebration downtown.",
-    "Women's College World Series continues at Devon Park with visitors, families, hotels and restaurants active across the metro.",
-    "Mooney’s Pub and Brickhouse Saloon both have Friday/Saturday live music and nightlife activity.",
-    "With OU summer slowdown underway, evening movement shifts more toward downtown OKC, casino traffic, concerts and nightlife venues."
+    "Women's College World Series remains the primary metro demand driver.",
+    "Thunder season has concluded following Game 7 of the Western Conference Finals.",
+    "Hotel occupancy and restaurant traffic remain elevated due to WCWS visitors.",
+    "The Alley and Friends of Friends both feature verified live music lineups Friday and Saturday.",
+    "Riverwind, Bricktown, Midtown and NW OKC continue drawing weekend nightlife traffic.",
+    "Typical early June storm chances may affect outdoor activities."
   ],
 
   "weather_watch": [
-    "Late May warm weather with possible scattered storms affecting outdoor events, WCWS timing and downtown movement."
-  ],
-
-  "local_fun_special": [
-    "May 29 — Bret Michaels @ Grand Casino",
-    "May 29 — 90 Proof @ Mooney’s Pub",
-    "May 29–30 — Women's College World Series @ Devon Park",
-    "May 30 — Thunder vs Spurs Game 7 @ Paycom",
-    "May 30 — Route 66 Centennial Celebration @ Scissortail Park",
-    "May 30 — Dollar .98 @ Mooney’s Pub",
-    "May 30 — Live Music by Jeremy Fullbright @ Brickhouse Saloon",
-    "Jun 3 — NBA Finals Game 1, opponent TBD",
-    "Jun 3 — WCWS Championship Series Game 1",
-    "Jun 4/5 — WCWS Championship Series continues if necessary"
+    "Early June storm chances remain possible throughout the week. Outdoor events may experience delays or crowd shifts."
   ],
 
   "forward_look": [
-    "Jun 3 — NBA Finals Game 1, opponent TBD",
-    "Jun 3–4/5 — WCWS Championship Series",
+    "Jun 5–6 — WCWS Championship Weekend",
     "Jun 13 — Jake Adams Band @ Brickhouse Saloon",
-    "Jun 13 — Cheap Trick + Gin Blossoms @ Riverwind",
-    "Aug 11–23 — Hamilton @ Civic Center"
+    "Jun 13 — Cheap Trick & Gin Blossoms @ Riverwind Casino",
+    "Jun 27 — Rock Candy Beach Party @ The Alley",
+    "Jul 3 — The Williams @ The Alley"
   ],
 
-  "sports_schedules": {
-    "OKC Thunder 2025–26": [
-      "May 30 — WCF Game 7 vs Spurs"
-    ],
-    "NBA Finals 2026": [
-      "Jun 3 — Game 1: New York Knicks at Western Conference Champion"
-    ],
-    "Women’s College World Series 2026": [
-      "May 29 — WCWS games @ Devon Park",
-      "May 30 — WCWS games @ Devon Park",
-      "Jun 3 — Championship Series Game 1",
-      "Jun 4/5 — Championship Series continues if necessary"
-    ]
-  },
-
   "venues": {
-    "PAYCOM CENTER": {
-      "regular": [
-        "NBA Playoffs and major arena events"
-      ],
+    "THE ALLEY": {
       "special": [
-        "May 30 — Thunder vs Spurs Game 7"
+        "Jun 5 — Remedy",
+        "Jun 6 — Meanstreak",
+        "Jun 12 — Mixtape Revival",
+        "Jun 13 — Bad Neighbors",
+        "Jun 19 — Hell N Back",
+        "Jun 20 — Dirty Red and Soulshakers",
+        "Jun 26 — Sweet Brenda & Sour Mash",
+        "Jun 27 — Christy Bryant & Twist of Fate (Indoor)",
+        "Jun 27 — Rock Candy (Outdoor Beach Party)",
+        "Jul 3 — The Williams"
+      ],
+      "regular": [
+        "Friday Live Music",
+        "Saturday Live Music",
+        "South OKC Nightlife"
       ]
     },
 
-    "DEVON PARK": {
-      "regular": [
-        "Softball and major tournament events"
-      ],
+    "FRIENDS OF FRIENDS": {
       "special": [
-        "May 29–Jun 4/5 — Women’s College World Series"
+        "Jun 4 — The Country Shop Band",
+        "Jun 5 — Midas 13",
+        "Jun 6 — The Stars Band"
+      ],
+      "regular": [
+        "Live Music Thursday–Saturday",
+        "Free Pool",
+        "Free Shuffleboard",
+        "Golden Tee",
+        "21+ Venue",
+        "Doors Open 7 PM–2 AM"
       ]
     },
 
-    "SCISSORTAIL PARK": {
+    "MOONEY'S PUB & GRILL": {
       "regular": [
-        "Downtown festivals and events"
+        "Sunday Funday Karaoke",
+        "Tuesday Acoustic Night",
+        "Wednesday Karaoke",
+        "Thursday SINGO + Karaoke",
+        "Friday Live Music",
+        "Saturday Live Music"
+      ],
+      "special": []
+    },
+
+    "BRICKHOUSE SALOON": {
+      "regular": [
+        "Ladies Night",
+        "College Night",
+        "Karaoke",
+        "Weekend DJs",
+        "21+ Late-Night Crowd"
       ],
       "special": [
-        "May 30 — Route 66 Centennial Celebration"
+        "Jun 13 — Jake Adams Band"
       ]
     },
 
     "RIVERWIND CASINO": {
       "regular": [
-        "Casino and major concert events",
-        "Thunder watch-party activity",
-        "Weekend nightlife traffic"
+        "Casino Gaming",
+        "Major Concerts",
+        "Dining & Entertainment"
       ],
       "special": [
-        "Jun 13 — Cheap Trick + Gin Blossoms"
+        "Jun 13 — Cheap Trick & Gin Blossoms"
       ]
     },
 
     "LIBBY'S CAFE": {
       "regular": [
-        "Live music and nightlife activity",
-        "Weekend evening movement"
+        "Live Music Events",
+        "Food Specials",
+        "Community Events"
       ],
-      "special": [
-        "Recurring weekend entertainment"
-      ]
-    },
-
-    "MOONEY’S PUB": {
-      "regular": [
-        "Tue: Acoustic Tuesday @ 7:30 PM",
-        "Wed: Karaoke @ 9 PM",
-        "Thu: Singo @ 7:30 PM + Karaoke @ 9 PM",
-        "Fri: Live Music @ 9 PM",
-        "Sat: Live Music @ 9 PM",
-        "Sun: Sing-Along Brunch @ 11 AM + Jam Sessions @ 4 PM"
-      ],
-      "special": [
-        "May 29 — 90 Proof",
-        "May 30 — Dollar .98"
-      ]
-    },
-
-    "BRICKHOUSE SALOON": {
-      "regular": [
-        "Mon & Tue: Karaoke Party @ 9 PM",
-        "Thu: Line Dancing with Aria",
-        "Fri: Ladies Night",
-        "Sat: College Night"
-      ],
-      "special": [
-        "May 29 — K'Lees One Year Bash",
-        "May 30 — Live Music by Jeremy Fullbright",
-        "Jun 13 — Jake Adams Band"
-      ]
-    },
-
-    "GRAND CASINO": {
-      "regular": [
-        "Casino and concert events"
-      ],
-      "special": [
-        "May 29 — Bret Michaels"
-      ]
+      "special": []
     },
 
     "COWBOYS OKC": {
       "regular": [
-        "Country dancing",
-        "Bull riding",
-        "Late-night crowds"
+        "Line Dancing",
+        "Bull Riding",
+        "Weekend Nightlife"
       ],
-      "special": [
-        "Recurring weekend activity"
-      ]
+      "special": []
     },
 
     "KATS TAVERN": {
       "regular": [
         "Karaoke",
-        "Late-night crowd activity"
+        "Singo",
+        "Neighborhood Nightlife"
       ],
       "special": []
     },
 
     "LOS LOCOS": {
       "regular": [
-        "Nightlife and weekend activity"
+        "Weekend Entertainment",
+        "Late-Night Activity"
+      ],
+      "special": []
+    },
+
+    "INFERNO NIGHTCLUB": {
+      "regular": [
+        "Weekend Dance Nights",
+        "Late-Night Crowd"
       ],
       "special": []
     },
 
     "TOWER THEATRE": {
       "regular": [
-        "Concerts and live performances"
+        "Concerts",
+        "Comedy",
+        "Touring Entertainment"
       ],
-      "special": [
-        "Rotating live entertainment schedule"
-      ]
+      "special": []
     },
 
-    "INFERNO BAR & NIGHTCLUB": {
+    "CHICKASAW BRICKTOWN BALLPARK": {
       "regular": [
-        "Weekend nightlife traffic"
+        "Comets Baseball",
+        "Bricktown Spillover"
       ],
       "special": []
     }
