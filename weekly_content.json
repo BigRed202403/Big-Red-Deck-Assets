@@ -1,101 +1,200 @@
 {
-  "week_start": "2026-05-31",
-  "week_range": "May 31–June 6, 2026",
-  "updated_at": "2026-05-31T23:55:00-05:00",
+  "week_start": "2026-06-08",
+  "week_range": "Jun 8–14, 2026",
+  "updated_at": "2026-06-08T19:30:00-05:00",
 
   "rules_locked": {
-    "weekly_highlights": "Current week only, late-week weighted (Thu–Sat priority), max 4.",
+    "weekly_highlights": "Current week only, late-week weighted, max 4. Mooney's remains a weekly featured venue.",
     "venue_regulars": "Persistent unless explicitly changed.",
-    "venue_specials": "Keep verified future demand-driving events inside 14–60 day window.",
+    "venue_specials": "Only verified events or provided venue flyers.",
     "revenue_filter_rule": "Only include measurable ride-demand drivers.",
-    "friction_logic": "Closures, overlap, weather and event compression belong in updates/triggers.",
-    "expired_cleanup": "Remove events before May 31 unless relevant to current-week context."
+    "friction_logic": "Event overlap, parking pressure, late exits, weather and venue clustering belong in decision_windows.",
+    "expired_cleanup": "Remove events before Jun 8 unless relevant to current-week context."
   },
 
   "weekly_highlights": [
-    "May 31–Jun 5 — Women's College World Series @ Devon Park",
-    "Jun 5 — Remedy @ The Alley + Midas 13 @ Friends of Friends",
-    "Jun 6 — WCWS Championship Weekend",
-    "Jun 6 — Meanstreak @ The Alley + The Stars Band @ Friends of Friends"
+    "Jun 12 — Benny's Birthday Bash with Jukebox Hero @ Mooney's",
+    "Jun 11 — Josh Abbott Band with Cam Allen @ The Jones Assembly",
+    "Jun 13 — Cheap Trick & Gin Blossoms @ Riverwind Casino",
+    "Jun 13 — Saturday entertainment stack across Riverwind, Tower Theatre, The Alley, Brickhouse, Friends of Friends, Libby's and The Ritz"
   ],
 
-  "decision_triggers": [
+  "decision_windows": [
     {
-      "event": "Women's College World Series",
-      "area": "Devon Park / OKC Metro",
-      "window": "May 31–Jun 5",
-      "friction": "Tournament crowds, hotel occupancy, restaurant demand, airport traffic, downtown spillover",
-      "why_it_matters": "Largest sustained metro demand driver of the week"
+      "event": "Benny's Birthday Bash with Jukebox Hero",
+      "location": "Mooney's Pub & Grill",
+      "date": "2026-06-12",
+      "friction": "Friday live music, birthday crowd, Norman nightlife and late exits"
     },
     {
-      "event": "WCWS Championship Weekend",
-      "area": "Devon Park / OKC Metro",
-      "window": "Jun 5–6",
-      "friction": "Championship crowds, hotel turnover, restaurant traffic, nightlife spillover",
-      "why_it_matters": "Highest ride-demand period of the week"
+      "event": "Josh Abbott Band with Cam Allen",
+      "location": "The Jones Assembly",
+      "date": "2026-06-11",
+      "friction": "Concert traffic, restaurant activity, Midtown parking and post-show exits"
     },
     {
-      "event": "NW OKC Live Music Stack",
-      "area": "NW OKC",
-      "window": "Jun 5–6",
-      "friction": "Multiple venues drawing simultaneous live music crowds",
-      "why_it_matters": "Strong local nightlife movement without relying on downtown traffic"
+      "event": "Cheap Trick & Gin Blossoms",
+      "location": "Riverwind Casino",
+      "date": "2026-06-13",
+      "friction": "Concert traffic, casino parking, Goldsby/Norman movement and late returns"
     },
     {
-      "event": "South OKC Live Music",
-      "area": "The Alley",
-      "window": "Jun 5–6",
-      "friction": "Weekend live music traffic and late exits",
-      "why_it_matters": "Consistent South OKC demand driver"
+      "event": "Saturday Entertainment Stack",
+      "location": "Metro OKC / Goldsby / Shawnee / South OKC",
+      "date": "2026-06-13",
+      "friction": "Riverwind, Tower Theatre, The Alley, Brickhouse, Friends of Friends, Libby's, The Ritz and nearby nightlife all active"
     },
     {
-      "event": "Riverwind Entertainment",
-      "area": "Goldsby / Norman",
-      "window": "All Week",
-      "friction": "Casino visitors, concerts, dining traffic",
-      "why_it_matters": "Reliable regional demand source"
+      "event": "WCWS Visitor Traffic",
+      "location": "Devon Park / Adventure District / Hotels / Bricktown",
+      "date": "2026-06-08 through 2026-06-12",
+      "friction": "Elevated hotel occupancy, visitor traffic, restaurants, tourism movement and evening entertainment activity"
     }
   ],
 
   "metro_sports": [
-    "May 31–Jun 5 — Women's College World Series",
     "Apr–Jun — OKC Comets Baseball",
-    "Summer Concert Season Begins Across Metro"
+    "Jun 8–12 — WCWS visitor traffic and hotel activity"
   ],
 
   "local_updates": [
-    "Women's College World Series remains the primary metro demand driver.",
-    "Thunder season has concluded following Game 7 of the Western Conference Finals.",
-    "Hotel occupancy and restaurant traffic remain elevated due to WCWS visitors.",
-    "The Alley and Friends of Friends both feature verified live music lineups Friday and Saturday.",
-    "Riverwind, Bricktown, Midtown and NW OKC continue drawing weekend nightlife traffic.",
-    "Typical early June storm chances may affect outdoor activities."
+    "Josh Abbott Band with Cam Allen plays The Jones Assembly on Jun 11.",
+    "Benny's Birthday Bash with Jukebox Hero is at Mooney's on Jun 12.",
+    "Cheap Trick & Gin Blossoms play Riverwind Casino on Jun 13.",
+    "Juvenile plays Tower Theatre on Jun 13.",
+    "Bad Neighbors plays The Alley on Jun 13.",
+    "Jake Adams Band plays Brickhouse Saloon on Jun 13.",
+    "Midas 13 plays Friends of Friends on Jun 13.",
+    "Jaxen Mannering plays Libby's Cafe on Jun 13.",
+    "John Allen with Cali Sickler plays The Ritz in Shawnee on Jun 13.",
+    "A Night of Al Green & Donny Hathaway is at Okie State Room on Jun 14.",
+    "Women's College World Series continues generating elevated hotel occupancy and visitor traffic across OKC."
   ],
 
   "weather_watch": [
-    "Early June storm chances remain possible throughout the week. Outdoor events may experience delays or crowd shifts."
+    "Early June storm chances may affect outdoor plans, venue timing and evening traffic."
+  ],
+
+  "local_fun_special": [
+    "Jun 9 — Big K.R.I.T. @ Tower Theatre",
+    "Jun 11 — Josh Abbott Band with Cam Allen @ The Jones Assembly",
+    "Jun 11 — All You Can Eat German Buffet @ Royal Bavaria",
+    "Jun 12 — Benny's Birthday Bash with Jukebox Hero @ Mooney's",
+    "Jun 12 — Between the Buried and Me @ Tower Theatre",
+    "Jun 12 — Mixtape Revival @ The Alley",
+    "Jun 12 — Country Shop Band @ Friends of Friends",
+    "Jun 13 — Cheap Trick & Gin Blossoms @ Riverwind Casino",
+    "Jun 13 — Juvenile @ Tower Theatre",
+    "Jun 13 — Bad Neighbors @ The Alley",
+    "Jun 13 — Jake Adams Band @ Brickhouse Saloon",
+    "Jun 13 — Midas 13 @ Friends of Friends",
+    "Jun 13 — Jaxen Mannering @ Libby's Cafe",
+    "Jun 13 — John Allen with Cali Sickler @ The Ritz",
+    "Jun 14 — Fruit Bats @ Tower Theatre",
+    "Jun 14 — The Stars Band @ Friends of Friends",
+    "Jun 14 — A Night of Al Green & Donny Hathaway @ Okie State Room"
   ],
 
   "forward_look": [
-    "Jun 5–6 — WCWS Championship Weekend",
-    "Jun 13 — Jake Adams Band @ Brickhouse Saloon",
-    "Jun 13 — Cheap Trick & Gin Blossoms @ Riverwind Casino",
+    "Jun 19 — Hell N Back @ The Alley",
+    "Jun 19 — Bingo Loco @ Tower Theatre",
+    "Jun 20 — Dirty Red and Soulshakers @ The Alley",
+    "Jun 20 — Please Don't Destroy Live @ Tower Theatre",
+    "Jun 24 — Topoppggen @ Tower Theatre",
+    "Jun 26 — Sweet Brenda & Sour Mash @ The Alley",
+    "Jun 26 — Blacktop Bloodline @ Okie State Room",
+    "Jun 27 — Wet T-Shirt Contest @ The Landing Zone",
     "Jun 27 — Rock Candy Beach Party @ The Alley",
-    "Jul 3 — The Williams @ The Alley"
+    "Jul 3 — The Williams @ The Alley",
+    "Aug 11–23 — Hamilton @ Civic Center",
+    "Aug 20 — Stoney LaRue @ The Jones Assembly"
   ],
 
   "venues": {
+    "MOONEY'S PUB & GRILL": {
+      "special": [
+        "Jun 12 — Benny's Birthday Bash with Jukebox Hero @ 9 PM"
+      ],
+      "regular": [
+        "Sunday — Sing-Along Brunch @ 11 AM + Jam Sessions @ 4 PM",
+        "Tuesday — Acoustic Tuesday @ 7:30 PM",
+        "Wednesday — Karaoke @ 9 PM",
+        "Thursday — Singo @ 7:30 PM + Karaoke @ 9 PM",
+        "Friday — Live Music @ 9 PM",
+        "Saturday — Live Music @ 9 PM"
+      ]
+    },
+
+    "THE JONES ASSEMBLY": {
+      "special": [
+        "Jun 11 — Josh Abbott Band with Cam Allen"
+      ],
+      "special_future": [
+        "Aug 20 — Stoney LaRue"
+      ],
+      "regular": [
+        "Live Concerts",
+        "Touring Artists",
+        "Restaurant & Entertainment Venue",
+        "Midtown OKC Nightlife"
+      ]
+    },
+
+    "TOWER THEATRE": {
+      "special": [
+        "Jun 9 — Big K.R.I.T.",
+        "Jun 12 — Between the Buried and Me",
+        "Jun 13 — Juvenile",
+        "Jun 14 — Fruit Bats",
+        "Jun 19 — Bingo Loco",
+        "Jun 20 — Please Don't Destroy Live",
+        "Jun 24 — Topoppggen",
+        "Jun 26 — Bop To The Top",
+        "Jun 27 — My So Called Band",
+        "Jun 28 — Shordie Shordie"
+      ],
+      "regular": [
+        "Concert Venue",
+        "Touring Artists",
+        "Uptown 23rd District",
+        "Weekend Entertainment"
+      ]
+    },
+
+    "RIVERWIND CASINO": {
+      "special": [
+        "Jun 13 — Cheap Trick & Gin Blossoms"
+      ],
+      "regular": [
+        "Casino traffic",
+        "Major concerts",
+        "Weekend nightlife",
+        "Goldsby / Norman late-night movement"
+      ]
+    },
+
+    "LIBBY'S CAFE": {
+      "special": [
+        "Jun 13 — Jaxen Mannering Live @ 9 PM"
+      ],
+      "regular": [
+        "Live Music",
+        "Weekend Bands",
+        "Outdoor Entertainment",
+        "Goldsby Nightlife",
+        "Food & Drinks"
+      ]
+    },
+
     "THE ALLEY": {
       "special": [
-        "Jun 5 — Remedy",
-        "Jun 6 — Meanstreak",
         "Jun 12 — Mixtape Revival",
         "Jun 13 — Bad Neighbors",
         "Jun 19 — Hell N Back",
         "Jun 20 — Dirty Red and Soulshakers",
         "Jun 26 — Sweet Brenda & Sour Mash",
         "Jun 27 — Christy Bryant & Twist of Fate (Indoor)",
-        "Jun 27 — Rock Candy (Outdoor Beach Party)",
+        "Jun 27 — Rock Candy Outdoor Beach Party",
         "Jul 3 — The Williams"
       ],
       "regular": [
@@ -105,11 +204,23 @@
       ]
     },
 
+    "BRICKHOUSE SALOON": {
+      "special": [
+        "Jun 13 — Jake Adams Band"
+      ],
+      "regular": [
+        "Mon & Tue — Karaoke Party @ 9 PM",
+        "Thu — Line Dancing with Aria",
+        "Fri — Ladies Night",
+        "Sat — College Night"
+      ]
+    },
+
     "FRIENDS OF FRIENDS": {
       "special": [
-        "Jun 4 — The Country Shop Band",
-        "Jun 5 — Midas 13",
-        "Jun 6 — The Stars Band"
+        "Jun 12 — Country Shop Band",
+        "Jun 13 — Midas 13",
+        "Jun 14 — The Stars Band"
       ],
       "regular": [
         "Live Music Thursday–Saturday",
@@ -121,100 +232,108 @@
       ]
     },
 
-    "MOONEY'S PUB & GRILL": {
-      "regular": [
-        "Sunday Funday Karaoke",
-        "Tuesday Acoustic Night",
-        "Wednesday Karaoke",
-        "Thursday SINGO + Karaoke",
-        "Friday Live Music",
-        "Saturday Live Music"
-      ],
-      "special": []
-    },
-
-    "BRICKHOUSE SALOON": {
-      "regular": [
-        "Ladies Night",
-        "College Night",
-        "Karaoke",
-        "Weekend DJs",
-        "21+ Late-Night Crowd"
-      ],
+    "THE RITZ": {
       "special": [
-        "Jun 13 — Jake Adams Band"
+        "Jun 13 — John Allen with Cali Sickler"
+      ],
+      "regular": [
+        "Country Music Events",
+        "Regional Touring Acts",
+        "Downtown Shawnee Entertainment"
       ]
     },
 
-    "RIVERWIND CASINO": {
-      "regular": [
-        "Casino Gaming",
-        "Major Concerts",
-        "Dining & Entertainment"
-      ],
+    "ROYAL BAVARIA": {
       "special": [
-        "Jun 13 — Cheap Trick & Gin Blossoms"
+        "Jun 11 — All You Can Eat German Buffet"
+      ],
+      "regular": [
+        "Thursday German Buffet",
+        "Reservations Recommended",
+        "Moore Dining Destination"
       ]
     },
 
-    "LIBBY'S CAFE": {
-      "regular": [
-        "Live Music Events",
-        "Food Specials",
-        "Community Events"
+    "OKIE STATE ROOM": {
+      "special": [
+        "Jun 14 — A Night of Al Green & Donny Hathaway featuring Adam Aguilar and Rod Porter",
+        "Jun 26 — Blacktop Bloodline with Koby Allen"
       ],
-      "special": []
+      "regular": [
+        "Live Music",
+        "Concert Venue",
+        "Harrah Entertainment"
+      ]
+    },
+
+    "THE LANDING ZONE": {
+      "special": [
+        "Jun 27 — Wet T-Shirt Contest"
+      ],
+      "regular": [
+        "Live Music",
+        "Weekend Entertainment",
+        "Midwest City Nightlife"
+      ]
     },
 
     "COWBOYS OKC": {
+      "special": [],
       "regular": [
-        "Line Dancing",
-        "Bull Riding",
-        "Weekend Nightlife"
-      ],
-      "special": []
+        "Country dancing",
+        "Bull riding",
+        "Weekend nightlife"
+      ]
     },
 
     "KATS TAVERN": {
+      "special": [],
       "regular": [
         "Karaoke",
         "Singo",
-        "Neighborhood Nightlife"
-      ],
-      "special": []
+        "Late-night activity"
+      ]
     },
 
     "LOS LOCOS": {
+      "special": [],
       "regular": [
-        "Weekend Entertainment",
-        "Late-Night Activity"
-      ],
-      "special": []
+        "Weekend nightlife activity"
+      ]
     },
 
-    "INFERNO NIGHTCLUB": {
+    "INFERNO BAR & NIGHTCLUB": {
+      "special": [],
       "regular": [
-        "Weekend Dance Nights",
-        "Late-Night Crowd"
-      ],
-      "special": []
+        "Weekend nightlife activity",
+        "Norman nightlife"
+      ]
     },
 
-    "TOWER THEATRE": {
+    "PAYCOM CENTER": {
+      "special": [],
+      "regular": [
+        "Arena events",
+        "Concerts",
+        "Downtown OKC event traffic"
+      ]
+    },
+
+    "THE CRITERION": {
+      "special": [],
       "regular": [
         "Concerts",
-        "Comedy",
-        "Touring Entertainment"
-      ],
-      "special": []
+        "Live Events",
+        "Bricktown / East Downtown traffic"
+      ]
     },
 
     "CHICKASAW BRICKTOWN BALLPARK": {
+      "special": [],
       "regular": [
-        "Comets Baseball",
-        "Bricktown Spillover"
-      ],
-      "special": []
+        "OKC Comets Baseball",
+        "Bricktown restaurant and nightlife spillover"
+      ]
     }
   }
 }
