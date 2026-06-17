@@ -1,187 +1,248 @@
 {
   "week_start": "2026-06-15",
   "week_range": "June 15–21, 2026",
-  "updated_at": "2026-06-17T09:30:00-05:00",
-
+  "updated_at": "2026-06-17T11:45:00-05:00",
   "rules_locked": {
-    "weekly_highlights": "Current week only. Specific dated events and measurable transportation friction. Max 4.",
-    "venue_regulars": "Keep partner and recurring venues even if no specific performer is announced.",
-    "venue_specials": "Specific dated events, bands, concerts, or demand drivers.",
+    "weekly_highlights": "Current week only. Specific dated events and measurable transportation friction. Max 4. Mooney's remains a weekly featured venue.",
+    "venue_regulars": "Persistent unless explicitly changed.",
+    "venue_specials": "Specific dated events, bands, concerts, recurring verified venue anchors, or provided venue flyers.",
     "revenue_filter_rule": "Only include events likely to create parking, alcohol, late-night, crowd, or group transportation demand.",
+    "friction_logic": "Event overlap, parking pressure, late exits, weather and venue clustering belong in decision_triggers.",
     "expired_cleanup": "Remove events before June 15 unless required for operational context.",
     "future_watch": "Maintain major future events separately from current-week demand."
   },
-
   "weekly_highlights": [
+    "June 18–20 — Jazz in June Festival @ Norman",
+    "June 18 & June 20 — Ella Langley + Lupe Fiasco @ OKC Zoo Amphitheatre",
     "June 16–19 — OKC Comets vs Sacramento River Cats @ Chickasaw Bricktown Ballpark",
-    "June 18 — Ella Langley @ OKC Zoo Amphitheatre",
-    "June 19–21 — Friends of Friends, Mooney's, Brickhouse, Alley, Libby's and Okie State Room weekend stack",
-    "June 20 — Lupe Fiasco @ OKC Zoo Amphitheatre (Juneteenth weekend event)"
+    "June 20–21 — Mooney's weekend live music + Sunday Funday"
   ],
-
   "decision_triggers": [
     {
-      "event": "OKC Comets Home Series",
-      "area": "Bricktown",
-      "window": "June 16–19",
-      "friction": "Game-day parking shortages, restaurant spillover, bar traffic, post-game crowds",
-      "why_it_matters": "Reliable evening transportation demand in Bricktown"
-    },
-    {
-      "event": "Zoo Amphitheatre Concert Weekend",
-      "area": "Northeast Oklahoma City",
-      "window": "June 18 & June 20",
-      "friction": "Large concert crowds, parking congestion, rideshare pickups, post-show exits",
-      "why_it_matters": "One of the largest transportation drivers of the week"
-    },
-    {
-      "event": "Friends of Friends Weekend Lineup",
-      "area": "Northwest Oklahoma City",
+      "event": "Jazz in June Festival",
+      "area": "Norman / Andrews Park / Downtown Norman",
       "window": "June 18–20",
-      "friction": "Live music, alcohol, late-night departures, group transportation",
-      "why_it_matters": "Reliable recurring nightlife demand"
+      "friction": "Festival crowds, downtown Norman parking pressure, restaurant spillover and evening exits",
+      "why_it_matters": "Major Norman summer event with sustained evening movement"
     },
     {
-      "event": "Norman / Shawnee Weekend Venue Stack",
-      "area": "Norman, Goldsby, Shawnee",
+      "event": "OKC Zoo Amphitheatre Concerts",
+      "area": "OKC Zoo Amphitheatre / Northeast OKC",
+      "window": "June 18 & June 20",
+      "friction": "Large concert crowds, parking congestion, rideshare pickups and post-show exits",
+      "why_it_matters": "One of the largest metro concert drivers of the week"
+    },
+    {
+      "event": "OKC Comets Home Series",
+      "area": "Chickasaw Bricktown Ballpark / Bricktown",
+      "window": "June 16–19",
+      "friction": "Bricktown game traffic, parking pressure, restaurant spillover and post-game exits",
+      "why_it_matters": "Reliable evening traffic and Bricktown movement"
+    },
+    {
+      "event": "Norman Juneteenth Festival",
+      "area": "Reaves Park / Norman",
+      "window": "June 19, 6–10 PM",
+      "friction": "Community crowd, park parking pressure, family/group movement and evening exits",
+      "why_it_matters": "Localized Norman event with group and family movement"
+    },
+    {
+      "event": "Weekend Venue Stack",
+      "area": "Bricktown / Norman / South OKC / NW OKC / Shawnee / Goldsby",
       "window": "June 19–21",
-      "friction": "Live music, DJs, karaoke, bar traffic, late-night exits",
-      "why_it_matters": "Core Big Red operating area with repeat transportation demand"
-    },
-    {
-      "event": "Riverwind Casino Summer Activity",
-      "area": "Norman",
-      "window": "Ongoing",
-      "friction": "Casino traffic, concerts, weekend crowds, parking pressure",
-      "why_it_matters": "Consistent regional draw with transportation demand"
+      "friction": "Jazz in June, Comets, Friends of Friends, The Alley, Tower Theatre, Mooney's, Brickhouse, Libby's, Riverwind and nearby nightlife all active",
+      "why_it_matters": "Distributed weekend demand across Big Red's strongest operating areas"
     }
   ],
-
   "metro_sports": [
-    "June 16–19 — OKC Comets vs Sacramento River Cats (Home Series)"
+    "June 16–19 — OKC Comets vs Sacramento River Cats @ Chickasaw Bricktown Ballpark"
   ],
-
   "local_updates": [
-    "OKC Comets continue drawing Bricktown traffic and evening crowd activity.",
-    "Zoo Amphitheatre summer concert season is underway with major touring acts.",
-    "Friends of Friends updated weekend lineup posted.",
-    "Mooney's, Brickhouse, Alley, Libby's and Okie State Room continue weekend entertainment schedules.",
-    "Riverwind remains a major regional attraction with ongoing summer traffic.",
-    "Summer tourism, warm weather and weekend nightlife continue supporting transportation demand across the metro."
+    "Jazz in June runs June 18–20 in Norman.",
+    "Norman Juneteenth Festival is June 19 at Reaves Park from 6–10 PM.",
+    "OKC Comets host Sacramento River Cats June 16–19 at Chickasaw Bricktown Ballpark.",
+    "Ella Langley plays OKC Zoo Amphitheatre on June 18.",
+    "Lupe Fiasco plays OKC Zoo Amphitheatre on June 20.",
+    "Friends of Friends features The Country Shop Band, The Stars Band, and Almost Yesterday this week.",
+    "Hell N Back plays The Alley on June 19.",
+    "Dirty Red and Soulshakers play The Alley on June 20.",
+    "Bingo Loco is at Tower Theatre on June 19.",
+    "Please Don't Destroy Live is at Tower Theatre on June 20.",
+    "Mooney's remains a featured weekly venue with Friday/Saturday live music and Sunday Funday activity."
   ],
-
   "weather_watch": [
-    "Warm June evenings with potential scattered storms may increase preference for planned transportation."
+    "Mid-June heat and scattered storm chances may affect outdoor festivals, concerts, venue timing and evening traffic."
   ],
-
-  "future_watch": [
-    "June 27 — Alley Beach Party",
-    "June 27 — Landing Zone Wet T-Shirt Contest",
+  "local_fun_special": [
+    "June 16 — OKC Comets vs Sacramento River Cats @ Chickasaw Bricktown Ballpark",
+    "June 17 — OKC Comets vs Sacramento River Cats @ Chickasaw Bricktown Ballpark",
+    "June 18 — OKC Comets vs Sacramento River Cats @ Chickasaw Bricktown Ballpark",
+    "June 18 — Ella Langley @ OKC Zoo Amphitheatre",
+    "June 18 — Jazz in June Festival @ Norman",
+    "June 18 — The Country Shop Band @ Friends of Friends",
+    "June 19 — OKC Comets vs Sacramento River Cats @ Chickasaw Bricktown Ballpark",
+    "June 19 — Jazz in June Festival @ Norman",
+    "June 19 — Norman Juneteenth Festival @ Reaves Park",
+    "June 19 — The Stars Band @ Friends of Friends",
+    "June 19 — Hell N Back @ The Alley",
+    "June 19 — Bingo Loco @ Tower Theatre",
+    "June 20 — Jazz in June Festival @ Norman",
+    "June 20 — Lupe Fiasco @ OKC Zoo Amphitheatre",
+    "June 20 — Almost Yesterday @ Friends of Friends",
+    "June 20 — Dirty Red and Soulshakers @ The Alley",
+    "June 20 — Please Don't Destroy Live @ Tower Theatre",
+    "June 20 — 2000s Dance Party @ 51st Street Speakeasy",
+    "June 20 — Mooney's Saturday Live Music",
+    "June 21 — Mooney's Sunday Funday"
+  ],
+  "forward_look": [
+    "June 24 — Topoppggen @ Tower Theatre",
+    "June 26 — Sweet Brenda & Sour Mash @ The Alley",
+    "June 26 — Blacktop Bloodline @ Okie State Room",
+    "June 27 — Wet T-Shirt Contest @ The Landing Zone",
+    "June 27 — Christy Bryant & Twist of Fate indoor + Rock Candy outdoor Beach Party @ The Alley",
+    "June 27 — My So Called Band @ Tower Theatre",
+    "June 28 — Shordie Shordie @ Tower Theatre",
     "July 2 — Billy Bob Thornton @ Riverwind Casino",
-    "July 11 — Jones Assembly All Day Frose (9th Birthday Celebration)",
-    "August 20 — Stoney LaRue @ Jones Assembly",
+    "July 11 — All Day Frosé 9th Birthday Celebration @ The Jones Assembly",
+    "August 11–23 — Hamilton @ Civic Center",
+    "August 20 — Stoney LaRue @ The Jones Assembly",
     "November 4 — Daughtry: 20 Years Unplugged @ The Criterion"
   ],
-
+  "sports_schedules": {
+    "OKC Comets Baseball": [
+      "June 16 — vs Sacramento River Cats",
+      "June 17 — vs Sacramento River Cats",
+      "June 18 — vs Sacramento River Cats",
+      "June 19 — vs Sacramento River Cats"
+    ]
+  },
   "venues": {
-    "CHICKASAW BRICKTOWN BALLPARK": {
+    "JAZZ IN JUNE": {
       "special": [
-        "June 16–19 — OKC Comets vs Sacramento River Cats"
+        "June 18–20 — Jazz in June Festival"
       ],
       "regular": [
-        "Comets Baseball",
-        "Bricktown nightlife spillover"
+        "Norman summer festival",
+        "Live music",
+        "Downtown Norman traffic",
+        "Outdoor evening crowds"
       ]
     },
-
+    "NORMAN JUNETEENTH FESTIVAL": {
+      "special": [
+        "June 19 — Norman Juneteenth Festival @ Reaves Park, 6–10 PM"
+      ],
+      "regular": [
+        "Community festival",
+        "Outdoor event",
+        "Norman park traffic"
+      ]
+    },
     "OKC ZOO AMPHITHEATRE": {
       "special": [
         "June 18 — Ella Langley",
         "June 20 — Lupe Fiasco"
       ],
       "regular": [
-        "Summer concert season"
+        "Summer concert season",
+        "Large outdoor concerts",
+        "Northeast OKC event traffic"
       ]
     },
-
+    "CHICKASAW BRICKTOWN BALLPARK": {
+      "special": [
+        "June 16–19 — OKC Comets vs Sacramento River Cats"
+      ],
+      "regular": [
+        "OKC Comets Baseball",
+        "Bricktown restaurant and nightlife spillover"
+      ]
+    },
+    "MOONEY'S PUB & GRILL": {
+      "special": [
+        "June 20 — Saturday Live Music",
+        "June 21 — Sunday Funday Karaoke"
+      ],
+      "regular": [
+        "Sunday — Sing-Along Brunch @ 11 AM + Jam Sessions @ 4 PM",
+        "Tuesday — Acoustic Tuesday @ 7:30 PM",
+        "Wednesday — Karaoke @ 9 PM",
+        "Thursday — Singo @ 7:30 PM + Karaoke @ 9 PM",
+        "Friday — Live Music @ 9 PM",
+        "Saturday — Live Music @ 9 PM"
+      ]
+    },
     "FRIENDS OF FRIENDS": {
       "special": [
         "June 18 — The Country Shop Band",
-        "June 19 — The Stars Band",
+        "June 19 — The Stars Band + $3 Domestic Beers, 7–11 PM",
         "June 20 — Almost Yesterday"
       ],
       "regular": [
-        "Weekend live music",
-        "21+ venue",
-        "$5 cover Thursday-Saturday"
+        "$5 Cover Thursday–Saturday",
+        "Kitchen Open",
+        "21+ Venue",
+        "Live Music Thursday–Saturday",
+        "Late Night Entertainment",
+        "3705 W Memorial Rd, OKC"
       ]
     },
-
-    "MOONEY'S PUB & GRILL": {
+    "THE ALLEY": {
       "special": [
-        "Weekend live music and entertainment"
+        "June 19 — Hell N Back",
+        "June 20 — Dirty Red and Soulshakers",
+        "June 26 — Sweet Brenda & Sour Mash",
+        "June 27 — Christy Bryant & Twist of Fate (Indoor)",
+        "June 27 — Rock Candy Outdoor Beach Party",
+        "July 3 — The Williams"
       ],
       "regular": [
-        "Sunday Karaoke",
-        "Taco Tuesday",
-        "SINGO",
-        "Weekend live music"
+        "Friday Live Music",
+        "Saturday Live Music",
+        "South OKC Nightlife"
       ]
     },
-
-    "THE ALLEY BAR & GRILL": {
+    "TOWER THEATRE": {
       "special": [
-        "Weekend live music"
+        "June 19 — Bingo Loco",
+        "June 20 — Please Don't Destroy Live",
+        "June 24 — Topoppggen",
+        "June 26 — Bop To The Top",
+        "June 27 — My So Called Band",
+        "June 28 — Shordie Shordie"
       ],
       "regular": [
-        "Live music venue",
-        "Weekend entertainment"
+        "Concert Venue",
+        "Touring Artists",
+        "Uptown 23rd District",
+        "Weekend Entertainment"
       ]
     },
-
+    "51ST STREET SPEAKEASY": {
+      "special": [
+        "June 20 — Speakeasy 2000s Dance Party @ 10 PM"
+      ],
+      "regular": [
+        "21+ nightlife",
+        "Theme parties",
+        "Late-night entertainment"
+      ]
+    },
     "BRICKHOUSE SALOON": {
       "special": [
-        "Weekend DJs",
-        "Ladies Night",
-        "College Night"
+        "June 20 — College Night",
+        "June 21 — Weekend nightlife"
       ],
       "regular": [
-        "DJs",
-        "Karaoke",
+        "Mon & Tue — Karaoke Party @ 9 PM",
+        "Thu — Line Dancing with Aria",
+        "Fri — Ladies Night",
+        "Sat — College Night",
+        "Weekend DJs",
         "21+ nightlife"
       ]
     },
-
-    "ROADHOUSE REDNECK BAR & GRILL": {
-      "special": [
-        "Weekend bar specials",
-        "Weekend entertainment"
-      ],
-      "regular": [
-        "Country bar atmosphere",
-        "Weekend nightlife"
-      ]
-    },
-
-    "LIBBY'S CAFE (Goldsby)": {
-      "special": [
-        "June 20 — Jaxen Mannering (9 PM–11 PM)"
-      ],
-      "regular": [
-        "Live local music"
-      ]
-    },
-
-    "OKIE STATE ROOM": {
-      "special": [
-        "June 20 — Adam Aguilar & Rod Porter Tribute to Al Green and Donny Hathaway"
-      ],
-      "regular": [
-        "Live music events",
-        "Regional entertainment venue"
-      ]
-    },
-
     "RIVERWIND CASINO": {
       "special": [
         "Summer concert season",
@@ -190,7 +251,91 @@
       "regular": [
         "Concerts",
         "Casino traffic",
-        "Weekend crowds"
+        "Weekend crowds",
+        "Goldsby / Norman late-night movement"
+      ]
+    },
+    "LIBBY'S CAFE": {
+      "special": [
+        "Weekend live music watch"
+      ],
+      "regular": [
+        "Live Music",
+        "Weekend Bands",
+        "Outdoor Entertainment",
+        "Goldsby Nightlife",
+        "Food & Drinks"
+      ]
+    },
+    "OKIE STATE ROOM": {
+      "special": [
+        "June 26 — Blacktop Bloodline with Koby Allen"
+      ],
+      "regular": [
+        "Live Music",
+        "Concert Venue",
+        "Harrah Entertainment"
+      ]
+    },
+    "THE LANDING ZONE": {
+      "special": [
+        "June 27 — Wet T-Shirt Contest"
+      ],
+      "regular": [
+        "Live Music",
+        "Weekend Entertainment",
+        "Midwest City Nightlife"
+      ]
+    },
+    "THE JONES ASSEMBLY": {
+      "special": [
+        "July 11 — All Day Frosé 9th Birthday Celebration"
+      ],
+      "special_future": [
+        "August 20 — Stoney LaRue"
+      ],
+      "regular": [
+        "Live Concerts",
+        "Touring Artists",
+        "Restaurant & Entertainment Venue",
+        "Midtown OKC Nightlife"
+      ]
+    },
+    "THE CRITERION": {
+      "special": [
+        "November 4 — Daughtry: 20 Years Unplugged"
+      ],
+      "regular": [
+        "Concerts",
+        "Live Events",
+        "Bricktown / East Downtown traffic"
+      ]
+    },
+    "PAYCOM CENTER": {
+      "special": [],
+      "regular": [
+        "Arena events",
+        "Concerts",
+        "Downtown OKC event traffic"
+      ]
+    },
+    "REMINGTON PARK": {
+      "special": [],
+      "regular": [
+        "Horse racing",
+        "Casino traffic",
+        "Special events",
+        "Northeast OKC activity"
+      ]
+    },
+    "EMBASSY SUITES NORMAN HOTEL & CONVENTION CENTER": {
+      "special": [
+        "June 19–21 — SoonerCon"
+      ],
+      "regular": [
+        "Convention traffic",
+        "Hotel guest movement",
+        "Norman event traffic"
       ]
     }
   }
