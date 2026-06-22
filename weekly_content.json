@@ -1,135 +1,97 @@
 {
-  "week_start": "2026-06-15",
-  "week_range": "June 15–21, 2026",
-  "updated_at": "2026-06-17T12:45:00-05:00",
+  "week_start": "2026-06-22",
+  "week_range": "June 22–28, 2026",
+  "updated_at": "2026-06-22T09:45:00-05:00",
   "rules_locked": {
-    "weekly_highlights": "Specific dated events/bands only. Max 4. Measurable friction focus.",
-    "venue_regulars": "Keep partner anchors and recurring relationship venues unless explicitly changed.",
-    "venue_specials": "Dated + band-specific where available.",
-    "revenue_filter_rule": "Only parking, late-night, alcohol, group, dining, event, or crowd demand drivers.",
-    "expired_cleanup": "Remove anything before June 15 unless useful as forward intelligence."
+    "weekly_highlights": "Current week only. Public-facing, slide-safe events. Max 4.",
+    "venue_regulars": "Keep partner and relationship venues unless explicitly changed.",
+    "venue_specials": "Specific dated events only when available.",
+    "expired_cleanup": "Remove events before June 22 unless useful for forward planning."
   },
   "weekly_highlights": [
-    "June 18–20 — Jazz in June Festival @ Norman",
-    "June 18 & June 20 — Ella Langley + Lupe Fiasco @ OKC Zoo Amphitheatre",
-    "June 20–21 — Mooney's weekend live music + Sunday Funday",
-    "June 21 — Royal Bavaria Father's Day Dinner @ Moore"
+    "June 26–27 — Bricktown Blues & BBQ Festival @ Bricktown Canal District",
+    "June 27 — Alley Club Annual Beach Party @ OKC",
+    "June 27 — Mixtape Revival @ Brickhouse Saloon",
+    "June 27 — Temple202 with Jukebox Hero @ The Ritz of Shawnee"
   ],
   "decision_triggers": [
     {
-      "event": "Jazz in June Festival",
-      "area": "Norman",
-      "window": "June 18–20",
-      "friction": "Festival crowds + parking pressure + evening exits + Norman nightlife spillover",
-      "why_it_matters": "Strong Norman-specific event with group and evening ride demand"
+      "event": "Bricktown Blues & BBQ Festival",
+      "area": "Bricktown Canal District",
+      "window": "June 26–27",
+      "friction": "Live music, BBQ vendors, evening crowds, downtown parking, and Bricktown activity",
+      "why_it_matters": "A strong downtown weekend event with food, music, and local crowd movement"
     },
     {
-      "event": "OKC Zoo Amphitheatre Opening Week",
-      "area": "OKC Zoo Amphitheatre",
-      "window": "June 18 and June 20",
-      "friction": "Large concert crowds + parking congestion + post-show exits",
-      "why_it_matters": "Major metro event pressure with predictable ride demand"
+      "event": "Alley Club Annual Beach Party",
+      "area": "OKC",
+      "window": "June 27",
+      "friction": "Afternoon activities, outdoor stage, indoor stage, live music, and late evening crowd",
+      "why_it_matters": "A full-day local event with music and group activity"
     },
     {
-      "event": "Jones Assembly USA vs AUS Watch Party",
-      "area": "The Jones Assembly / West Village OKC",
-      "window": "Friday, June 19",
-      "friction": "Early opening + 2 PM match + patio/group seating + food and drinks",
-      "why_it_matters": "Daytime group activity with dining and watch-party demand"
+      "event": "Brickhouse Saloon Rock Night",
+      "area": "Downtown Shawnee",
+      "window": "June 27",
+      "friction": "Mixtape Revival, doors at 8 PM, show at 9 PM, and late-night music crowd",
+      "why_it_matters": "Strong Shawnee venue activity with a clear Saturday night draw"
     },
     {
-      "event": "Royal Bavaria Father's Day Weekend",
-      "area": "Moore",
-      "window": "June 20–21",
-      "friction": "Biergarten music + Father's Day dinner + reservations encouraged",
-      "why_it_matters": "Moore family/dining pull with predictable evening movement"
-    },
-    {
-      "event": "Mooney's / Libby's / Royal Bavaria Local Dining Stack",
-      "area": "Norman / Goldsby / Moore",
-      "window": "Weekend peak",
-      "friction": "Dinner specials + live music + local weekend traffic",
-      "why_it_matters": "Relationship-friendly local demand outside the usual nightlife lane"
+      "event": "The Ritz of Shawnee Concert",
+      "area": "Shawnee",
+      "window": "June 27",
+      "friction": "Temple202 tribute show with Jukebox Hero and evening concert traffic",
+      "why_it_matters": "Adds another Shawnee music event on the same night"
     }
   ],
   "metro_sports": [
-    "June 16–19 — OKC Comets vs Sacramento River Cats @ Chickasaw Bricktown Ballpark",
-    "June 19 — USA vs Australia watch party @ The Jones Assembly"
+    "Monitor — OKC Comets home schedule @ Chickasaw Bricktown Ballpark"
   ],
   "local_updates": [
-    "Norman: Jazz in June runs June 18–20 and should create parking pressure and evening movement.",
-    "OKC Zoo Amphitheatre has major opening-week shows with Ella Langley and Lupe Fiasco.",
-    "Jones Assembly opens at noon Friday for the USA vs Australia match at 2 PM.",
-    "Royal Bavaria has Father's Day dinner June 21 plus Route 66 Friday and Canyon Echo Saturday in the Biergarten.",
-    "Libby's Cafe continues daily specials with Friday and Saturday specials starting at 5 PM.",
+    "Bricktown Blues & BBQ Festival runs June 26–27 with live blues bands, BBQ, free entry, and outdoor activity along the canal.",
+    "The Alley Club hosts its Annual Beach Party on June 27 with Rock Candy, DJ Aundrea Meyer, and Christy Bryant & Twist of Fate.",
+    "Brickhouse Saloon hosts Mixtape Revival on June 27 with doors at 8 PM and show at 9 PM.",
+    "The Ritz of Shawnee hosts Temple202 with special guest Jukebox Hero on June 27 at 8 PM.",
+    "Friends of Friends has music Wednesday through Saturday, including Jukebox Hero on Friday and Weekend Allstars on Saturday.",
+    "Okie State Room has a full week of local music and entertainment, including Blacktop Bloodline Friday and Austin Dixon Saturday.",
+    "Libby's Cafe in Goldsby hosts Heather & Chris on Saturday, June 27 from 10 PM–12 AM.",
     "Mooney's remains a standing weekly relationship venue while open."
   ],
   "weather_watch": [
-    "Mid-June — Warm evenings with possible scattered storms may increase ride preference for outdoor events, patios, and festivals"
+    "Late June — Hot evenings and possible scattered storms may affect outdoor events, patios, and weekend plans"
   ],
   "forward_look": [
-    "June 27 — Mixtape Revival @ Brickhouse Saloon, doors 8 PM, show 9 PM, $10 cover",
-    "June 27 — Wet T-Shirt Contest @ The Landing Zone",
+    "July 4 — Independence Day Party with 151 Remix @ The Alley Club",
+    "July 11 — Ninety Proof @ The Alley Club",
     "July 11 — All Day Frosé / 9th Birthday @ The Jones Assembly",
-    "November 4 — Daughtry 20 Years Unplugged w/ Ryan Perdz @ The Criterion"
+    "August 7–8 — FireLake Fireflight Balloon Festival @ Shawnee",
+    "August 7 — Oklahoma Line, 7 PM @ FireLake Fireflight Balloon Festival",
+    "August 8 — Kaleb Austin, 7 PM + Austin Snell, 9 PM @ FireLake Fireflight Balloon Festival",
+    "November 4 — Daughtry 20 Years Unplugged with Ryan Perdz @ The Criterion",
+    "OU Norman — Start Sooner begins July 12",
+    "OU Norman — Panhellenic/Pride move-in August 6–7",
+    "OU Norman — First-year move-in August 17–18",
+    "OU Norman — Camp Crimson August 19–23",
+    "OU Norman — Fall Family Weekend September 18–20"
   ],
   "venues": {
-    "JAZZ IN JUNE": {
+    "BRICKTOWN BLUES & BBQ FESTIVAL": {
       "special": [
-        "June 18–20 — Jazz in June Festival @ Norman"
+        "June 26 — Gates open 5 PM with Shortt and Broke, KALO, and Dirty Red & The Soulshakers",
+        "June 27 — Gates open 3 PM with The David Michaels Band, AJ's Allstars, Tyler Lee Band, and Ray Fuller & The Blues Rockers"
       ],
       "regular": [
-        "Annual Norman music festival with evening crowd movement"
+        "Outdoor Bricktown event with BBQ, live blues bands, cold drinks, yard games, and free entry"
       ]
     },
-    "NORMAN JUNETEENTH FESTIVAL": {
+    "THE ALLEY CLUB OKC": {
       "special": [
-        "June 19 — Norman Juneteenth Festival @ Reaves Park, 6–10 PM"
+        "June 27 — Annual Beach Party, DJ Aundrea Meyer 3–5 PM",
+        "June 27 — Rock Candy outdoor stage, 5–11 PM",
+        "June 27 — Christy Bryant & Twist of Fate indoor stage, 9 PM–1 AM"
       ],
       "regular": [
-        "Community event with family/group traffic"
-      ]
-    },
-    "OKC ZOO AMPHITHEATRE": {
-      "special": [
-        "June 18 — Ella Langley",
-        "June 20 — Lupe Fiasco"
-      ],
-      "regular": [
-        "Large concert venue with parking and post-show exit pressure"
-      ]
-    },
-    "MOONEY'S PUB & GRILL": {
-      "special": [
-        "June 20–21 — Weekend live music + Sunday Funday"
-      ],
-      "regular": [
-        "Sunday Funday, karaoke, live music, local Norman relationship venue"
-      ]
-    },
-    "THE JONES ASSEMBLY": {
-      "special": [
-        "June 19 — USA vs AUS watch party, opens noon, match at 2 PM"
-      ],
-      "regular": [
-        "Food, drinks, patio seating, events, and West Village activity"
-      ]
-    },
-    "ROYAL BAVARIA": {
-      "special": [
-        "June 20 — Canyon Echo in the Biergarten",
-        "June 21 — Father's Day Dinner, 5 PM–8:30 PM"
-      ],
-      "regular": [
-        "Biergarten open daily weather permitting, dining and music pull in Moore"
-      ]
-    },
-    "LIBBY'S CAFE": {
-      "special": [
-        "Friday and Saturday specials start at 5 PM"
-      ],
-      "regular": [
-        "Tuesday street tacos, Wednesday brisket, Thursday meatloaf, Friday ribs, Saturday fajitas"
+        "OKC live music venue with themed events, outdoor activity, and late-night crowds"
       ]
     },
     "BRICKHOUSE SALOON": {
@@ -137,15 +99,71 @@
         "June 27 — Mixtape Revival, doors 8 PM, show 9 PM, $10 cover"
       ],
       "regular": [
-        "Downtown Shawnee live music, DJs, 21+ crowds, free parking"
+        "Downtown Shawnee live music, DJs, 21+ crowds, and free parking"
       ]
     },
-    "THE BLUEBONNET BAR": {
+    "THE RITZ OF SHAWNEE": {
       "special": [
-        "Wednesday — Pool tournament, sign-up 6:30 PM, start 7 PM, $10 buy-in"
+        "June 27 — Temple202 tribute to Scott Weiland with special guest Jukebox Hero, 8 PM"
       ],
       "regular": [
-        "Recurring pool tournament and local bar activity"
+        "Shawnee concert venue with live music and ticketed shows"
+      ]
+    },
+    "FRIENDS OF FRIENDS OKC": {
+      "special": [
+        "June 24 — Open Mic Live featuring Austin Duplantis",
+        "June 25 — The Country Shop Band",
+        "June 26 — Jukebox Hero plus $3 domestic beers from 7–11 PM",
+        "June 27 — Weekend Allstars"
+      ],
+      "regular": [
+        "Live music venue with Wednesday through Saturday entertainment, kitchen open, free pool, free shuffleboard, Golden Tee, and 21+ crowds"
+      ]
+    },
+    "OKIE STATE ROOM": {
+      "special": [
+        "June 23 — Kara-Okie Night, 7–10 PM",
+        "June 24 — Open Mic Night, 7–9 PM",
+        "June 25 — Just a Bar Night, 5–10 PM",
+        "June 26 — Blacktop Bloodline, doors 5 PM, show 8 PM",
+        "June 27 — Austin Dixon, doors 5 PM, show 7 PM"
+      ],
+      "regular": [
+        "Harrah-area music venue with karaoke, open mic, bar nights, and weekend live music"
+      ]
+    },
+    "LIBBY'S CAFE": {
+      "special": [
+        "June 27 — Heather & Chris live acoustic performance, 10 PM–12 AM",
+        "Friday and Saturday specials start at 5 PM"
+      ],
+      "regular": [
+        "Tuesday street tacos, Wednesday brisket, Thursday meatloaf, Friday ribs, Saturday fajitas, and Goldsby local pull"
+      ]
+    },
+    "MOONEY'S PUB & GRILL": {
+      "special": [
+        "June 26–28 — Weekend live music and Sunday Funday"
+      ],
+      "regular": [
+        "Sunday Funday, karaoke, live music, and local Norman relationship venue"
+      ]
+    },
+    "ROYAL BAVARIA": {
+      "special": [
+        "Monitor — Friday and Saturday Biergarten music schedule"
+      ],
+      "regular": [
+        "Biergarten open daily weather permitting with dining and music in Moore"
+      ]
+    },
+    "THE JONES ASSEMBLY": {
+      "special": [
+        "July 11 — All Day Frosé / 9th Birthday"
+      ],
+      "regular": [
+        "Food, drinks, patio seating, brunch, events, and West Village activity"
       ]
     },
     "THE CRITERION": {
@@ -154,6 +172,36 @@
       ],
       "regular": [
         "Downtown OKC concert venue with future event pull"
+      ]
+    },
+    "FIRELAKE FIREFLIGHT BALLOON FESTIVAL": {
+      "special": [
+        "August 7 — Oklahoma Line, 7 PM",
+        "August 8 — Kaleb Austin, 7 PM",
+        "August 8 — Austin Snell, 9 PM"
+      ],
+      "regular": [
+        "Annual Shawnee balloon festival with concerts, family attendance, evening crowds, and regional draw"
+      ]
+    }
+  },
+  "demand_drivers": {
+    "OU_NORMAN": {
+      "june_july": [
+        "New Sooner Orientation sessions continue through July",
+        "Family travel, hotel stays, airport pickups, and Norman-to-OKC movement"
+      ],
+      "july": [
+        "Start Sooner Program July 12–August 7"
+      ],
+      "august": [
+        "Panhellenic and Pride of Oklahoma move-in August 6–7",
+        "General first-year move-in August 17–18",
+        "Camp Crimson August 19–23"
+      ],
+      "september": [
+        "Fall Family Weekend September 18–20",
+        "Football season demand increases"
       ]
     }
   }
