@@ -1,55 +1,55 @@
 {
+  "database_name": "Big Red Metro Intelligence",
+  "version": "3.0",
   "week_start": "2026-06-29",
   "week_range": "June 29–July 5, 2026",
-  "updated_at": "2026-06-29T14:30:00-05:00",
-  "rules_locked": {
-    "weekly_highlights": "Current week only. Public-facing, slide-safe events. Max 4.",
-    "venue_regulars": "Keep partner, relationship, and recurring venues unless explicitly changed.",
-    "venue_specials": "Specific dated events only when available.",
-    "expired_cleanup": "Remove events before June 29 unless useful for forward planning."
-  },
+  "updated_at": "2026-06-29T15:30:00-05:00",
+
   "weekly_highlights": [
     "July 3 — Red, White & Boom @ Scissortail Park",
     "July 3–4 — OKC Comets vs Sugar Land Space Cowboys with post-game fireworks @ Chickasaw Bricktown Ballpark",
     "July 4 — NFourth Fest 250 Celebration @ Norman",
     "July 4 — LibertyFest Finale @ Edmond"
   ],
+
   "decision_triggers": [
     {
       "event": "Independence Day Weekend",
       "area": "OKC Metro",
       "window": "July 2–5",
-      "friction": "Fireworks, concerts, festivals, family outings, busy parking areas, and late evening exits",
-      "why_it_matters": "A good week to plan rides before the crowds start moving"
+      "friction": "Fireworks, concerts, festivals, busy parking areas, and late evening exits",
+      "why_it_matters": "A good week to line up rides before crowds start moving"
     },
     {
       "event": "Bricktown Holiday Weekend",
       "area": "Bricktown",
       "window": "July 1–4",
-      "friction": "Comets baseball, post-game fireworks, Bricktown Canal Boat Parade, restaurants, bars, and downtown foot traffic",
-      "why_it_matters": "Bricktown will likely stay active later than usual"
+      "friction": "Comets baseball, post-game fireworks, canal activity, restaurants, bars, and downtown foot traffic",
+      "why_it_matters": "Bricktown should stay active later than usual"
     },
     {
       "event": "Norman NFourth Fest",
       "area": "Norman / Reaves Park / Westwood Park",
       "window": "July 3–4",
       "friction": "Outdoor movie, family activities, 5K, live music, swimming events, fireworks, and festival traffic",
-      "why_it_matters": "Strong Norman activity during Big Red's local operating area"
+      "why_it_matters": "Strong Norman activity during a holiday weekend"
     },
     {
-      "event": "Casino Fireworks Weekend",
+      "event": "Shawnee Casino Fireworks Weekend",
       "area": "Kickapoo Casino / FireLake Casino / Grand Casino",
       "window": "July 2–4",
       "friction": "Casino guests, fireworks crowds, late exits, and regional traffic",
       "why_it_matters": "Useful Shawnee-area awareness for holiday weekend movement"
     }
   ],
+
   "metro_sports": [
     "July 3 — OKC Comets vs Sugar Land Space Cowboys with post-game fireworks @ Chickasaw Bricktown Ballpark",
     "July 4 — OKC Comets vs Sugar Land Space Cowboys with post-game fireworks @ Chickasaw Bricktown Ballpark",
-    "June 28–July 4 — National Little Britches Rodeo Association National Finals @ OG&E Coliseum",
+    "Through July 4 — National Little Britches Rodeo Association National Finals @ OG&E Coliseum",
     "Monitor — World Cup knockout watch parties at local sports bars"
   ],
+
   "local_updates": [
     "Red, White & Boom is July 3 at Scissortail Park with fireworks.",
     "OKC Comets host Sugar Land July 3–4 with post-game fireworks in Bricktown.",
@@ -61,28 +61,11 @@
     "Shawnee has multiple America 250 and fireworks events July 2–4.",
     "World Cup watch parties may continue at sports bars when major matches are active."
   ],
+
   "weather_watch": [
     "Independence Day week — Hot evenings and scattered storm chances may affect outdoor festivals, fireworks, patio plans, and waterpark activity"
   ],
-  "forward_look": [
-    "July 10 — Women of Music @ The Historic Ritz",
-    "July 11 — American Slang @ The Historic Ritz",
-    "July 11 — Flatland Cavalry with Jason Boland & The Stragglers @ Riverwind / Beats & Bites",
-    "July 11 — Ninety Proof @ The Alley Club",
-    "July 11 — All Day Frosé / 9th Birthday @ The Jones Assembly",
-    "July 12–17 — International Finals Youth Rodeo @ Shawnee",
-    "July 18 — Brothers Osborne @ Grand Casino Resort",
-    "July 18 — CRUEligans @ The Historic Ritz",
-    "August 7–8 — FireLake Fireflight Balloon Festival @ Shawnee",
-    "August 7 — Oklahoma Line, 7 PM @ FireLake Fireflight Balloon Festival",
-    "August 8 — Kaleb Austin, 7 PM + Austin Snell, 9 PM @ FireLake Fireflight Balloon Festival",
-    "OU Norman — Start Sooner begins July 12",
-    "OU Norman — Panhellenic/Pride of Oklahoma move-in August 6–7",
-    "OU Norman — First-year move-in August 17–18",
-    "OU Norman — Camp Crimson August 19–23",
-    "OU Norman — Fall Family Weekend September 18–20",
-    "November 4 — Daughtry 20 Years Unplugged with Ryan Perdz @ The Criterion"
-  ],
+
   "venues": {
     "SCISSORTAIL PARK": {
       "special": [
@@ -113,8 +96,8 @@
     },
     "NFOURTH FESTIVAL": {
       "special": [
-        "July 3 — Outdoor Movie Night: Top Gun Maverick @ Norman Parks and Recreation",
-        "July 3 — Wiffle Ball Home Run Derby @ Norman Parks and Recreation",
+        "July 3 — Outdoor Movie Night: Top Gun Maverick",
+        "July 3 — Wiffle Ball Home Run Derby",
         "July 4 — NFourth Fest 250 Celebration",
         "July 4 — NFourth Fest Firecracker 5K Big Birthday Run",
         "July 4 — NFourth Fest Live Music",
@@ -149,14 +132,6 @@
         "Resort, dining, waterpark, outdoor beach activity, and special event traffic near the Oklahoma River"
       ]
     },
-    "YUKON FREEDOM FEST": {
-      "special": [
-        "July 3–4 — Yukon Freedom Fest"
-      ],
-      "regular": [
-        "Community Independence Day festival with fireworks and family activity"
-      ]
-    },
     "RIVERWIND CASINO": {
       "special": [
         "July 2 — Billy Bob Thornton and The Boxmasters",
@@ -169,11 +144,13 @@
     "SHAWNEE FOURTH OF JULY EVENTS": {
       "special": [
         "July 2 — Freedom Fest 250 @ Woodland Park, 11 AM–1 PM",
+        "July 2 — Mac District Honors the Brave, 11 AM–2 PM",
         "July 2 — Fireworks launched from Kickapoo Casino",
         "July 3 — Fireworks launched from FireLake Casino",
-        "July 4 — Independence Day Parade on Main, 7 AM",
+        "July 4 — Independence Day Jazz Style Parade on Main, 7:30 AM",
         "July 4 — Red, White & Boom Market, 8 AM–1 PM",
-        "July 4 — Fireworks launched from Grand Casino"
+        "July 4 — Fireworks launched from Grand Casino",
+        "July 5 — LOCO Model Train Rides"
       ],
       "regular": [
         "Holiday events, casino fireworks, downtown activity, and family-friendly celebrations"
@@ -181,19 +158,37 @@
     },
     "THE ALLEY CLUB OKC": {
       "special": [
-        "July 4 — Independence Day Party with 151 Remix",
-        "July 11 — Ninety Proof"
+        "July 3 — The Williams",
+        "July 4 — 151 Remix",
+        "July 10 — The Flipside",
+        "July 11 — Ninety Proof",
+        "July 17 — Stinnet Brothers",
+        "July 18 — Meanstreak / Karma indoor stage",
+        "July 18 — The Redemption outdoor stage, 7 PM–11 PM",
+        "July 24 — Not Dead Yet",
+        "July 25 — Jukebox Hero",
+        "July 31 — One for the Road - MLP"
       ],
       "regular": [
-        "OKC live music venue with themed events, outdoor activity, and late-night crowds"
+        "Friday live music",
+        "Saturday live music",
+        "Outdoor summer stage",
+        "Indoor performances",
+        "Late-night entertainment"
       ]
     },
     "BRICKHOUSE SALOON": {
       "special": [
-        "Monitor — Holiday weekend nightlife and recurring Thursday Bingo"
+        "July 25 — Country Music Night, doors 8 PM, live music 9 PM, $10 cover"
       ],
       "regular": [
-        "Downtown Shawnee live music, DJs, 21+ crowds, and free parking"
+        "Thursday Bingo",
+        "First Saturday monthly pool contest",
+        "Live music",
+        "Country nights",
+        "Rock nights",
+        "21+ nightlife",
+        "Free parking"
       ]
     },
     "THE RITZ OF SHAWNEE": {
@@ -230,6 +225,35 @@
       ],
       "regular": [
         "Casino activity and holiday events"
+      ]
+    },
+    "MUSIC UNLIMITED": {
+      "special": [
+        "July 3 — Singer Songwriter Night"
+      ],
+      "regular": [
+        "Singer-songwriter performances and local music nights"
+      ]
+    },
+    "MAIN STREET SHAWNEE": {
+      "special": [
+        "July 7 — Main Street Shop & Stroll, 5 PM–8 PM",
+        "July 16 — Bikes & Rods Downtown, 6 PM–10 PM"
+      ],
+      "regular": [
+        "Monthly Shop & Stroll",
+        "Downtown retail promotions",
+        "Restaurants open late",
+        "Live music",
+        "Community events"
+      ]
+    },
+    "BLACK HAWK CASINO": {
+      "special": [
+        "July 10 — Lee Mullen"
+      ],
+      "regular": [
+        "Casino activity and local entertainment"
       ]
     },
     "FIRELAKE FIREFLIGHT BALLOON FESTIVAL": {
@@ -290,15 +314,6 @@
         "Farmers market, Ferris wheel, restaurants, family activity, and seasonal events"
       ]
     },
-    "SAILOR & THE DOCK": {
-      "special": [
-        "July 3 — Bingo @ The Dock",
-        "July 4 — First Wave Saturdays @ The Dock"
-      ],
-      "regular": [
-        "Monthly events, community gatherings, and downtown activity"
-      ]
-    },
     "BLUE NOTE": {
       "special": [
         "July 5 — Jazz Night"
@@ -315,17 +330,9 @@
         "Sunday brunch, dining, and downtown visitor activity"
       ]
     },
-    "AMERICAN BANJO MUSEUM": {
-      "special": [
-        "July 5 — Old Time Jam"
-      ],
-      "regular": [
-        "Monthly music gatherings and Bricktown visitor activity"
-      ]
-    },
     "NATIONAL LITTLE BRITCHES RODEO": {
       "special": [
-        "June 28–July 4 — National Little Britches Rodeo Association National Finals @ OG&E Coliseum"
+        "Through July 4 — National Little Britches Rodeo Association National Finals @ OG&E Coliseum"
       ],
       "regular": [
         "Youth rodeo finals with family travel, hotel stays, and fairgrounds-area traffic"
@@ -348,6 +355,7 @@
       ]
     }
   },
+
   "recurring_events": {
     "OKC": [
       "First Fridays on the Paseo",
@@ -356,8 +364,6 @@
       "Friday Fire Dancing Shows @ OKANA",
       "Live Music at The Vault",
       "Dance Party at Ponyboy",
-      "Bingo @ The Dock",
-      "First Wave Saturdays @ The Dock",
       "Jazz Night @ Blue Note",
       "Sunday Jazz Brunch @ Tellers",
       "Old Time Jam @ American Banjo Museum",
@@ -365,6 +371,9 @@
       "Drop In and Create @ Pinot's Palette Bricktown"
     ],
     "Norman": [
+      "Second Friday Art Walk",
+      "Summer Breeze Concert Series",
+      "FourthFest / NFourth annual Independence Day events",
       "RALLY Kitchen + Bar Local Legend Dining Discount through July 31",
       "Visit Norman seasonal parks and recreation events",
       "Fred Jones Jr. Museum of Art exhibits"
@@ -372,10 +381,76 @@
     "Shawnee": [
       "Brickhouse Saloon Thursday Bingo",
       "Brickhouse Saloon first Saturday pool contest",
+      "Main Street Shop & Stroll",
+      "Bikes & Rods Downtown",
       "Shawnee Farmers Market",
-      "OneSixty Farmers Market on 1st and 3rd Saturdays"
+      "OneSixty Farmers Market on 1st and 3rd Saturdays",
+      "Shawnee Splash summer season",
+      "LOCO Model Train Rides",
+      "Guilded Grayland gaming nights",
+      "Play Space trivia and game nights"
     ]
   },
+
+  "community_calendar": {
+    "OKC": [
+      "OKC Zoo Dinosaur Expedition",
+      "Route 66 Centennial exhibits",
+      "Oklahoma History Center exhibits",
+      "Oklahoma Contemporary exhibits",
+      "First Americans Museum exhibits",
+      "RIVERSPORT summer activity",
+      "Hurricane Harbor Oklahoma City"
+    ],
+    "Norman": [
+      "Norman public art",
+      "Norman BBQ and dining features",
+      "Budget-friendly summer attractions",
+      "Local parks and museums",
+      "Summer Breeze Concert Series"
+    ],
+    "Shawnee": [
+      "Free admission to Mabee-Gerrer Museum of Art during June and July",
+      "Echoes of Time and Place: Sauk Art & Culture through August 30",
+      "Shawnee Splash Water Park open Tuesday–Sunday",
+      "Recurring library, family, and gaming events"
+    ]
+  },
+
+  "forward_look": [
+    "July 7 — Main Street Shop & Stroll @ Downtown Shawnee",
+    "July 10 — Women of Music @ The Historic Ritz",
+    "July 10 — Lee Mullen @ Black Hawk Casino",
+    "July 10 — The Flipside @ The Alley Club",
+    "July 10–11 — OK Classics Car & Memorabilia Auction @ FireLake Arena",
+    "July 11 — American Slang @ The Historic Ritz",
+    "July 11 — Flatland Cavalry with Jason Boland & The Stragglers @ Riverwind / Beats & Bites",
+    "July 11 — Ninety Proof @ The Alley Club",
+    "July 11 — All Day Frosé / 9th Birthday @ The Jones Assembly",
+    "July 12 — Summer Breeze Concert Series @ Lions Park",
+    "July 12–17 — International Finals Youth Rodeo @ Shawnee",
+    "July 16 — Bikes & Rods Downtown Shawnee, 6 PM–10 PM",
+    "July 17 — Alex Reymundo Comedy @ The Historic Ritz",
+    "July 17 — Stinnet Brothers @ The Alley Club",
+    "July 18 — Brothers Osborne @ Grand Casino Resort",
+    "July 18 — CRUEligans @ The Historic Ritz",
+    "July 18 — Meanstreak / Karma indoor stage @ The Alley Club",
+    "July 18 — The Redemption outdoor stage @ The Alley Club",
+    "July 24 — Not Dead Yet @ The Alley Club",
+    "July 25 — Country Music Night @ Brickhouse Saloon",
+    "July 25 — Jukebox Hero @ The Alley Club",
+    "July 26 — Summer Breeze Concert Series @ Lions Park",
+    "July 31 — One for the Road - MLP @ The Alley Club",
+    "August 7–8 — FireLake Fireflight Balloon Festival @ Shawnee",
+    "August 7–8 — 71st Annual Roy LeBlanc Invitational Rodeo",
+    "OU Norman — Start Sooner begins July 12",
+    "OU Norman — Panhellenic/Pride of Oklahoma move-in August 6–7",
+    "OU Norman — First-year move-in August 17–18",
+    "OU Norman — Camp Crimson August 19–23",
+    "OU Norman — Fall Family Weekend September 18–20",
+    "November 4 — Daughtry 20 Years Unplugged with Ryan Perdz @ The Criterion"
+  ],
+
   "seasonal_awareness": {
     "summer": [
       "OKANA Resort & Indoor Waterpark",
@@ -391,6 +466,30 @@
       "2026 Route 66 Centennial activity across Oklahoma City and the state"
     ]
   },
+
+  "source_intelligence": {
+    "tier_1_sources": [
+      "Visit OKC",
+      "Visit Norman",
+      "Visit Shawnee",
+      "Riverwind Casino",
+      "Grand Casino",
+      "The Alley Club",
+      "Brickhouse Saloon",
+      "The Historic Ritz",
+      "OKC Comets",
+      "OU Norman"
+    ],
+    "monitoring_notes": [
+      "Visit Shawnee provides the strongest weekly tourism-style event intelligence.",
+      "Visit OKC is strong for major city events, recurring attractions, and downtown activity.",
+      "Visit Norman monthly newsletter is useful for seasonal Norman events and featured city activity.",
+      "The Alley Club publishes monthly entertainment calendars.",
+      "Brickhouse generally announces events several weeks ahead.",
+      "World Cup watch parties should be monitored but not treated as primary Big Red promotional content."
+    ]
+  },
+
   "demand_drivers": {
     "OU_NORMAN": {
       "july": [
