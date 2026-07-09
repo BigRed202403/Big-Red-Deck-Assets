@@ -1,21 +1,11 @@
 {
   "database_name": "Big Red Metro Intelligence",
-  "version": "3.3",
+  "version": "3.5",
   "week_start": "2026-07-06",
   "week_range": "July 6–12, 2026",
-  "updated_at": "2026-07-05T16:30:00-05:00",
+  "updated_at": "2026-07-09T10:30:00-05:00",
 
   "weekly_highlights": [
-    {
-      "date": "2026-07-06",
-      "event": "USA vs Belgium World Cup Watch Party",
-      "venue": "The Jones Assembly",
-      "area": "West Village / Downtown OKC",
-      "time": "7:00 PM kickoff",
-      "type": "sports_watch_party",
-      "friction": "Soccer HQ watch party with Team USA crowd. Monday evening sports traffic, alcohol service, and concentrated post-match exits.",
-      "priority": "HIGH"
-    },
     {
       "date": "2026-07-10",
       "event": "Second Friday Art Walk",
@@ -35,6 +25,26 @@
       "type": "fireworks",
       "friction": "FourthFest fireworks moved from July 4 to July 10 following extensive storm damage. Expect concentrated evening traffic and post-fireworks exits.",
       "priority": "HIGH"
+    },
+    {
+      "date": "2026-07-10",
+      "event": "Hollywood Corners Live Music Weekend",
+      "venue": "Hollywood Corners",
+      "area": "North Norman / Hollywood Corners",
+      "time": "Friday–Saturday evenings",
+      "type": "live_music",
+      "friction": "Kyle Rainer Friday and Cutter Elliott plus Etowah Road Saturday. Established live music activity with late evening exits.",
+      "priority": "MEDIUM"
+    },
+    {
+      "date": "2026-07-10",
+      "event": "Shawnee Live Music and Car Weekend",
+      "venue": "Multiple Shawnee Venues",
+      "area": "Shawnee",
+      "time": "July 10–11",
+      "type": "regional_entertainment",
+      "friction": "Live music at multiple venues alongside the OK Classics Car & Memorabilia Auction at FireLake Arena creates distributed visitor and evening activity.",
+      "priority": "MEDIUM"
     },
     {
       "date": "2026-07-11",
@@ -70,25 +80,15 @@
 
   "decision_triggers": [
     {
-      "date": "2026-07-06",
-      "trigger": "Team USA World Cup match",
-      "areas": [
-        "The Jones Assembly",
-        "Bricktown",
-        "Downtown OKC",
-        "Norman sports bars"
-      ],
-      "watch_for": "Watch-party announcements, match result, overtime or extended post-match crowds."
-    },
-    {
       "date": "2026-07-09",
-      "trigger": "Hot Bingo Frosé Takeover",
+      "trigger": "Thursday entertainment activity",
       "areas": [
         "The Jones Assembly",
+        "Hollywood Corners",
         "West Village",
-        "Downtown OKC"
+        "North Norman"
       ],
-      "watch_for": "8 PM party start, cocktail traffic, Thursday nightlife movement, and late exits."
+      "watch_for": "Hot Bingo Frosé Takeover activity, Hollywood Corners Hot Rod and Songwriter Night, Thursday nightlife movement, and late exits."
     },
     {
       "date": "2026-07-10",
@@ -96,9 +96,10 @@
       "areas": [
         "Downtown Norman",
         "Main Street Norman",
-        "FourthFest fireworks area"
+        "FourthFest fireworks area",
+        "Hollywood Corners"
       ],
-      "watch_for": "Weather updates, road closures, fireworks timing, and concentrated post-event exits."
+      "watch_for": "Weather updates, road closures, fireworks timing, Hollywood Corners live music, and concentrated post-event exits."
     },
     {
       "date": "2026-07-11",
@@ -106,10 +107,11 @@
       "areas": [
         "Riverwind Casino",
         "The Jones Assembly",
+        "Hollywood Corners",
         "Downtown OKC",
         "Norman"
       ],
-      "watch_for": "Concert exits, All Day Frosé crowd progression, rideshare saturation, and late-night demand."
+      "watch_for": "Concert exits, All Day Frosé crowd progression, Hollywood Corners live music exits, rideshare saturation, and late-night demand."
     },
     {
       "date": "2026-07-12",
@@ -130,17 +132,8 @@
       "status": "ACTIVE",
       "dates": "Through mid-July 2026",
       "area": "Metro-wide",
-      "friction": "Watch parties remain relevant around Team USA and high-profile knockout matches.",
-      "priority": "HIGH"
-    },
-    {
-      "team": "Team USA",
-      "event": "USA vs Belgium",
-      "date": "2026-07-06",
-      "time": "7:00 PM",
-      "local_watch": "The Jones Assembly Soccer HQ",
-      "friction": "Confirmed local watch-party activity.",
-      "priority": "HIGH"
+      "friction": "Watch parties remain relevant around high-profile knockout matches.",
+      "priority": "MEDIUM"
     },
     {
       "team": "Oklahoma City Comets",
@@ -161,8 +154,14 @@
     },
     {
       "area": "Norman",
-      "update": "Mooney's status remains a high-interest local topic.",
-      "impact": "Continue monitoring local discussion and official venue updates. Do not treat the venue as a routine active nightlife anchor until status is clearer.",
+      "update": "Mooney's status remains a high-interest local topic with reported relocation activity involving Hollywood Corners.",
+      "impact": "Continue monitoring official Mooney's and Hollywood Corners updates. Hollywood Corners remains inside the current and future Big Red operating area and is now a relationship-priority venue.",
+      "priority": "HIGH"
+    },
+    {
+      "area": "North Norman",
+      "update": "Hollywood Corners maintains recurring live music, songwriter programming, hot rod activity, bike nights, and community fundraising events.",
+      "impact": "Venue demonstrates repeatable entertainment activity across multiple days of the week and should be monitored as a developing transportation and relationship anchor.",
       "priority": "HIGH"
     },
     {
@@ -190,7 +189,13 @@
       "area": "OKC Metro",
       "status": "SUMMER WEATHER",
       "note": "Continue monitoring severe storms and extreme heat for event schedule changes.",
-      "monitor": "Outdoor concerts, festivals, fireworks, and venue announcements."
+      "monitor": "Outdoor concerts, festivals, fireworks, rodeos, and venue announcements."
+    },
+    {
+      "area": "Shawnee",
+      "status": "OUTDOOR EVENT AWARENESS",
+      "note": "Visit Shawnee specifically advises visitors to remain weather aware and check event updates.",
+      "monitor": "IFYR, Bikes & Rods, Balloon Fest, rodeos, and outdoor community events."
     }
   ],
 
@@ -200,12 +205,6 @@
       "type": "restaurant_live_music_nightlife",
       "regular": "Major concerts, DJs, parties, sports watch events, and nightlife.",
       "specials": [
-        {
-          "date": "2026-07-06",
-          "event": "USA vs Belgium — Soccer HQ",
-          "time": "7:00 PM kickoff",
-          "friction": "Team USA World Cup watch party."
-        },
         {
           "date": "2026-07-09",
           "event": "Hot Bingo — Frosé Takeover",
@@ -235,16 +234,55 @@
       ]
     },
 
+    "HOLLYWOOD CORNERS": {
+      "area": "North Norman / Hollywood Corners",
+      "type": "restaurant_live_music_community",
+      "regular": "Live music, songwriter showcases, hot rod nights, bike nights, and community events.",
+      "specials": [
+        {
+          "date": "2026-07-09",
+          "event": "Hot Rod + Songwriter Night",
+          "time": "7:00 PM–10:00 PM",
+          "friction": "Thursday evening live music and hot rod gathering."
+        },
+        {
+          "date": "2026-07-10",
+          "event": "Kyle Rainer",
+          "time": "8:00 PM–11:30 PM",
+          "friction": "Friday night live music and late evening exits."
+        },
+        {
+          "date": "2026-07-11",
+          "event": "Cutter Elliott + Etowah Road",
+          "time": "8:00 PM–11:30 PM",
+          "friction": "Saturday night live music and late evening exits."
+        }
+      ],
+      "monitor": "Weekly live music calendar, Thursday Singer/Songwriter + Hot Rod Night, Solo Sunday songwriter showcases, bike nights, community fundraising events, and Mooney's relocation developments."
+    },
+
     "BRICKHOUSE SALOON": {
       "area": "Downtown Shawnee",
       "type": "nightlife_live_music",
-      "regular": "Thursday Bingo, first Saturday pool contest, weekend nightlife.",
+      "regular": "Thursday Bingo, first Saturday pool contest, and weekend nightlife.",
       "specials": [
         {
+          "date": "2026-07-18",
+          "event": "College Night",
+          "age": "21+"
+        },
+        {
           "date": "2026-07-25",
-          "event": "Country Music Night",
-          "time": "Doors 8:00 PM / Show 9:00 PM",
-          "friction": "$10 cover, live country music, and late-night downtown Shawnee traffic."
+          "event": "Birthday Bash!",
+          "friction": "Venue birthday event and Saturday nightlife activity."
+        },
+        {
+          "date": "2026-07-31",
+          "event": "Ladies Night with DJ TA"
+        },
+        {
+          "date": "2026-08-01",
+          "event": "College Night"
         }
       ]
     },
@@ -292,18 +330,41 @@
       ]
     },
 
-    "HISTORIC RITZ THEATER": {
+    "THEOPOLIS SOCIAL CLUB": {
       "area": "Downtown Shawnee",
-      "type": "live_entertainment",
-      "regular": "Concerts and comedy.",
+      "type": "restaurant_live_music",
+      "regular": "Dining, social activity, and scheduled live music.",
       "specials": [
         {
           "date": "2026-07-10",
-          "event": "Women of Music"
+          "event": "Derek Harris Duo"
+        },
+        {
+          "date": "2026-07-25",
+          "event": "The Band Called Quest"
+        },
+        {
+          "date": "2026-07-31",
+          "event": "Edgar Cruz LIVE"
+        }
+      ],
+      "monitor": "Weekend live music announcements and downtown Shawnee activity."
+    },
+
+    "HISTORIC RITZ THEATER": {
+      "area": "Downtown Shawnee",
+      "type": "live_entertainment",
+      "regular": "Concerts, comedy, and all-ages entertainment.",
+      "specials": [
+        {
+          "date": "2026-07-10",
+          "event": "Women of Music — Dani Carson, Cali Sickler, Miranda Mulkey and Alana",
+          "age": "All Ages"
         },
         {
           "date": "2026-07-11",
-          "event": "American Slang"
+          "event": "American Slang",
+          "age": "All Ages"
         },
         {
           "date": "2026-07-17",
@@ -312,6 +373,10 @@
         {
           "date": "2026-07-18",
           "event": "CRUEligans — Tribute to Motley Crue"
+        },
+        {
+          "date": "2026-07-25",
+          "event": "Who's the Singer Contest"
         }
       ]
     },
@@ -327,6 +392,41 @@
           "time": "7:00 PM",
           "age": "18+",
           "friction": "Major country concert with regional draw and late casino exits."
+        },
+        {
+          "date": "2026-07-23",
+          "event": "BINGO for Babies!",
+          "friction": "Community fundraiser activity at Grand Casino."
+        }
+      ]
+    },
+
+    "BLACK HAWK CASINO": {
+      "area": "Shawnee",
+      "type": "casino_live_music",
+      "regular": "Casino activity and scheduled live music.",
+      "specials": [
+        {
+          "date": "2026-07-10",
+          "event": "Lee Mullen"
+        },
+        {
+          "date": "2026-07-24",
+          "event": "Casey Young LIVE"
+        }
+      ]
+    },
+
+    "FIRELAKE ARENA": {
+      "area": "Shawnee",
+      "type": "arena_event",
+      "regular": "Regional sporting, entertainment, and special events.",
+      "specials": [
+        {
+          "date": "2026-07-10",
+          "dates": "July 10–11",
+          "event": "OK Classics Car & Memorabilia Auction",
+          "friction": "Regional car and memorabilia event with visitor activity."
         }
       ]
     },
@@ -422,17 +522,41 @@
       "recurrence": "Thursdays",
       "age": "21+",
       "type": "nightlife"
+    },
+    {
+      "event": "Singer/Songwriter + Hot Rod Night",
+      "venue": "Hollywood Corners",
+      "area": "North Norman / Hollywood Corners",
+      "recurrence": "Thursdays",
+      "time": "7:00 PM–10:00 PM",
+      "type": "live_music_community"
+    },
+    {
+      "event": "Solo Sundays Songwriter Showcase",
+      "venue": "Hollywood Corners",
+      "area": "North Norman / Hollywood Corners",
+      "recurrence": "Sundays",
+      "time": "5:00 PM–7:00 PM",
+      "type": "live_music"
+    },
+    {
+      "event": "Shawnee Board Game Club",
+      "venue": "Guilded Grayland",
+      "area": "Shawnee",
+      "recurrence": "Thursdays",
+      "time": "6:30 PM–10:00 PM",
+      "type": "community_activity"
+    },
+    {
+      "event": "American Legion All Ages BINGO",
+      "venue": "American Legion Post 16",
+      "area": "Shawnee",
+      "recurrence": "Saturdays",
+      "type": "community_activity"
     }
   ],
 
   "community_calendar": [
-    {
-      "date": "2026-07-07",
-      "event": "Main Street Shop & Stroll",
-      "area": "Downtown Shawnee",
-      "time": "5:00 PM–8:00 PM",
-      "friction": "30+ stores and restaurants open later with live music and increased downtown activity."
-    },
     {
       "date": "2026-07-10",
       "event": "Second Friday Art Walk",
@@ -447,6 +571,26 @@
     },
     {
       "date": "2026-07-10",
+      "event": "Kyle Rainer",
+      "venue": "Hollywood Corners",
+      "area": "North Norman",
+      "time": "8:00 PM–11:30 PM"
+    },
+    {
+      "date": "2026-07-10",
+      "event": "Derek Harris Duo",
+      "venue": "Theopolis Social Club",
+      "area": "Downtown Shawnee"
+    },
+    {
+      "date": "2026-07-10",
+      "event": "Women of Music",
+      "venue": "Historic Ritz Theater",
+      "area": "Downtown Shawnee",
+      "age": "All Ages"
+    },
+    {
+      "date": "2026-07-10",
       "event": "Lee Mullen",
       "venue": "Black Hawk Casino",
       "area": "Shawnee"
@@ -457,6 +601,26 @@
       "venue": "FireLake Arena",
       "area": "Shawnee",
       "dates": "July 10–11"
+    },
+    {
+      "date": "2026-07-11",
+      "event": "Cutter Elliott + Etowah Road",
+      "venue": "Hollywood Corners",
+      "area": "North Norman",
+      "time": "8:00 PM–11:30 PM"
+    },
+    {
+      "date": "2026-07-11",
+      "event": "Biscuit's Book Club",
+      "venue": "Lost Pages Bookstore",
+      "area": "Shawnee"
+    },
+    {
+      "date": "2026-07-11",
+      "event": "American Slang",
+      "venue": "Historic Ritz Theater",
+      "area": "Downtown Shawnee",
+      "age": "All Ages"
     },
     {
       "date": "2026-07-12",
@@ -473,20 +637,130 @@
       "dates": "July 12–17"
     },
     {
+      "date": "2026-07-12",
+      "event": "Shawnee Indie Author Showcase",
+      "area": "Shawnee"
+    },
+    {
+      "date": "2026-07-14",
+      "event": "Trivia Night",
+      "venue": "Play Space",
+      "area": "Shawnee",
+      "time": "6:00 PM–9:00 PM"
+    },
+    {
+      "date": "2026-07-15",
+      "event": "Waves & Worship",
+      "venue": "Shawnee Splash",
+      "area": "Shawnee",
+      "time": "7:00 PM"
+    },
+    {
       "date": "2026-07-16",
       "event": "Bikes & Rods Downtown",
       "area": "Downtown Shawnee",
       "time": "6:00 PM–10:00 PM"
     },
     {
+      "date": "2026-07-17",
+      "event": "Alex Reymundo Comedy",
+      "venue": "Historic Ritz Theater",
+      "area": "Downtown Shawnee"
+    },
+    {
+      "date": "2026-07-18",
+      "event": "Brothers Osborne",
+      "venue": "Grand Casino Resort",
+      "area": "Shawnee",
+      "time": "7:00 PM",
+      "age": "18+"
+    },
+    {
+      "date": "2026-07-18",
+      "event": "CRUEligans — Tribute to Motley Crue",
+      "venue": "Historic Ritz Theater",
+      "area": "Downtown Shawnee"
+    },
+    {
+      "date": "2026-07-18",
+      "event": "College Night",
+      "venue": "Brickhouse Saloon",
+      "area": "Downtown Shawnee",
+      "age": "21+"
+    },
+    {
+      "date": "2026-07-23",
+      "event": "BINGO for Babies!",
+      "venue": "Grand Casino Resort",
+      "area": "Shawnee"
+    },
+    {
+      "date": "2026-07-24",
+      "event": "Casey Young LIVE",
+      "venue": "Black Hawk Casino",
+      "area": "Shawnee"
+    },
+    {
+      "date": "2026-07-25",
+      "event": "Brickhouse Birthday Bash!",
+      "venue": "Brickhouse Saloon",
+      "area": "Downtown Shawnee"
+    },
+    {
+      "date": "2026-07-25",
+      "event": "Who's the Singer Contest",
+      "venue": "Historic Ritz Theater",
+      "area": "Downtown Shawnee"
+    },
+    {
+      "date": "2026-07-25",
+      "event": "The Band Called Quest",
+      "venue": "Theopolis Social Club",
+      "area": "Downtown Shawnee"
+    },
+    {
+      "date": "2026-07-31",
+      "event": "Ladies Night with DJ TA",
+      "venue": "Brickhouse Saloon",
+      "area": "Downtown Shawnee"
+    },
+    {
+      "date": "2026-07-31",
+      "event": "Edgar Cruz LIVE",
+      "venue": "Theopolis Social Club",
+      "area": "Downtown Shawnee"
+    },
+    {
+      "date": "2026-08-01",
+      "event": "Brickhouse College Night",
+      "venue": "Brickhouse Saloon",
+      "area": "Downtown Shawnee"
+    },
+    {
+      "date": "2026-08-02",
+      "event": "LOCO Model Train Rides",
+      "area": "Shawnee"
+    },
+    {
+      "date": "2026-08-04",
+      "event": "Main Street Shop & Stroll",
+      "area": "Downtown Shawnee"
+    },
+    {
       "date": "2026-08-07",
-      "event": "FireLake Fireflight Balloon Fest",
+      "event": "FireLake FireFlight Hot Air Balloon Festival",
       "area": "Shawnee",
       "dates": "August 7–8"
     },
     {
       "date": "2026-08-07",
       "event": "71st Annual Roy LeBlanc Invitational Rodeo",
+      "area": "Shawnee",
+      "dates": "August 7–8"
+    },
+    {
+      "date": "2026-08-07",
+      "event": "Automobilia Swap Meet",
       "area": "Shawnee",
       "dates": "August 7–8"
     }
@@ -507,6 +781,13 @@
       "priority": "HIGH"
     },
     {
+      "window": "July 18",
+      "event": "College Night",
+      "venue": "Brickhouse Saloon",
+      "area": "Downtown Shawnee",
+      "priority": "MEDIUM"
+    },
+    {
       "window": "July 21",
       "event": "The Black Keys",
       "venue": "OKC Zoo Amphitheatre",
@@ -515,14 +796,14 @@
     },
     {
       "window": "July 25",
-      "event": "Country Music Night",
+      "event": "Brickhouse Birthday Bash!",
       "venue": "Brickhouse Saloon",
       "area": "Downtown Shawnee",
       "priority": "MEDIUM"
     },
     {
       "window": "August 7–8",
-      "event": "FireLake Fireflight Balloon Fest",
+      "event": "FireLake FireFlight Hot Air Balloon Festival",
       "area": "Shawnee",
       "priority": "HIGH"
     },
@@ -531,6 +812,18 @@
       "event": "71st Annual Roy LeBlanc Invitational Rodeo",
       "area": "Shawnee",
       "priority": "HIGH"
+    },
+    {
+      "window": "August 7–8",
+      "event": "Automobilia Swap Meet",
+      "area": "Shawnee",
+      "priority": "MEDIUM"
+    },
+    {
+      "window": "Summer 2026",
+      "event": "Hollywood Corners Weekly Entertainment",
+      "area": "North Norman / Hollywood Corners",
+      "priority": "MONITOR"
     },
     {
       "window": "Summer 2026",
@@ -562,7 +855,12 @@
     {
       "topic": "Summer Concert Season",
       "status": "ACTIVE",
-      "note": "Riverwind, Zoo Amphitheatre, casinos, Scissortail, and nightlife venues remain key announcement sources."
+      "note": "Riverwind, Zoo Amphitheatre, casinos, Scissortail, Hollywood Corners, and nightlife venues remain key announcement sources."
+    },
+    {
+      "topic": "Shawnee Summer Events",
+      "status": "ACTIVE",
+      "note": "IFYR, Grand Casino entertainment, Brickhouse programming, Balloon Fest, and rodeo activity create recurring visitor and entertainment windows."
     },
     {
       "topic": "Severe Weather",
@@ -593,6 +891,11 @@
       "use": "OKC event calendar, seasonal guides, and major attraction awareness."
     },
     {
+      "source": "Hollywood Corners Social Media",
+      "status": "ACTIVE",
+      "use": "Weekly live music calendar, songwriter events, car and bike activity, community fundraisers, and Mooney's relocation awareness."
+    },
+    {
       "source": "Venue Social Media",
       "status": "ACTIVE",
       "use": "Nightlife, live music, watch parties, and short-notice venue specials."
@@ -610,11 +913,14 @@
     "World Cup watch parties",
     "Alcohol-focused day parties",
     "Live music",
+    "Recurring songwriter events",
+    "Car and hot rod gatherings",
     "Fireworks",
     "Rodeos and regional visitor events",
     "Downtown festivals",
     "Sports home games",
     "Weather-driven event changes",
-    "Venue-specific nightlife events"
+    "Venue-specific nightlife events",
+    "Community fundraising events"
   ]
 }
