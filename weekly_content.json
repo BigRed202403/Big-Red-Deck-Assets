@@ -1,95 +1,75 @@
 {
   "database_name": "Big Red Rider Feed",
-  "version": "4.4",
-  "updated_at": "2026-07-14T21:15:00-05:00",
+  "version": "5.0",
+  "updated_at": "2026-07-14T13:30:00-05:00",
   "week_start": "2026-07-13",
   "week_range": "July 13–19, 2026",
 
   "rules_locked": {
     "weekly_highlights": "Current week only. Rider-facing. Maximum 4–6 items.",
     "venue_watch": "Partner and high-interest venues with current dated events only.",
-    "featured_weekend": "Highest rider-demand events occurring Thursday through Sunday.",
-    "metro_sports": "Only upcoming rider-relevant sporting events. Remove completed events during weekly refresh.",
+    "featured_this_weekend": "Major nightlife, concerts, and destination events for the upcoming weekend.",
+    "sports_schedule": "Forward-looking schedules only. Actual upcoming games, series, tournaments, or sports events.",
     "coming_up": "Next 30 days only unless specifically designated long-range awareness.",
-    "community_spotlight": "Major local venue openings, relocations, or community milestones.",
     "expired_cleanup": "Remove expired dated events during each weekly refresh."
   },
 
   "weekly_highlights": [
     "July 13–17 — International Finals Youth Rodeo @ Heart of Oklahoma Expo Center (Shawnee)",
-    "July 16 — Bike Night @ Brickhouse Saloon",
+    "July 16 — Brickhouse Bike Night featuring The Highway Rejects",
     "July 18 — Brothers Osborne @ Grand Casino Resort",
-    "July 18 — Anthony Spencer Live @ Libby's Cafe",
-    "July 18 — College Night @ Brickhouse Saloon",
-    "July 19 — FIFA World Cup Final watch parties"
+    "July 18 — Anthony Spencer live @ Libby's Cafe",
+    "July 19 — FIFA World Cup Final watch parties across the metro"
   ],
 
   "venue_watch": {
-
-    "Hollywood Corners / Mooney's": {
+    "Hollywood Corners": {
       "special": [
-        "August 15 — Planned Grand Opening of Mooney's at Hollywood Corners (pending final licensing approval)"
+        "July 31–August 1 — Final weekend before transition to Mooney's at Hollywood Corners",
+        "August 15 — Planned Grand Opening of Mooney's at Hollywood Corners"
       ],
       "regular": [
         "Thursday Singer/Songwriter Night",
-        "Hot Rod Night",
-        "Sunday Solo Sundays",
-        "Live music and community events"
-      ]
-    },
-
-    "Libby's Cafe": {
-      "special": [
-        "July 18 — Anthony Spencer • 9:00–11:00 PM"
-      ],
-      "regular": [
-        "Weekend live music"
+        "Thursday Hot Rod Night",
+        "Sunday Solo Sundays"
       ]
     },
 
     "Brickhouse Saloon": {
       "special": [
-        "July 16 — Bike Night with The Highway Rejects",
-        "July 18 — College Night (21+)",
-        "July 25 — Live Country Music"
+        "July 16 — Bike Night featuring The Highway Rejects",
+        "July 18 — College Night",
+        "July 25 — Live Country Music Night"
       ],
       "regular": [
         "Thursday Bingo",
-        "Weekend nightlife",
-        "Live music"
+        "Weekend nightlife"
+      ]
+    },
+
+    "Libby's Cafe": {
+      "special": [
+        "July 18 — Anthony Spencer live (9–11 PM)"
       ]
     },
 
     "Grand Casino Resort": {
       "special": [
-        "July 18 — Brothers Osborne"
-      ],
-      "regular": [
-        "Casino entertainment",
-        "Concerts"
-      ]
-    },
-
-    "Friends of Friends": {
-      "special": [
-        "July 16 — Country Shop Band",
-        "July 17 — Bad Genes",
-        "July 18 — Weekend Allstars"
-      ],
-      "regular": [
-        "Three nights of live music",
-        "Kitchen open",
-        "Weekend nightlife"
+        "July 18 — Brothers Osborne Concert",
+        "July 23 — BINGO for Babies"
       ]
     },
 
     "Club Keno": {
       "special": [
-        "Karaoke Jackpot through Labor Day Weekend",
-        "School Supply Drive through August 2"
-      ],
-      "regular": [
-        "Karaoke Wednesday–Sunday"
+        "July 5–August 2 — Back-to-School Supply Drive",
+        "Labor Day Weekend — $1,000 Karaoke Jackpot Drawing"
+      ]
+    },
+
+    "Friends of Friends": {
+      "special": [
+        "July 16–18 — Three nights of live music"
       ]
     },
 
@@ -97,82 +77,71 @@
       "special": [
         "July 16 — FIFA World Cup Semi-Final Watch Party",
         "July 24 — SHIFT with DROIDA"
-      ],
-      "regular": [
-        "Live music",
-        "Sports watch parties"
+      ]
+    },
+
+    "Okie State Room": {
+      "special": [
+        "Weekly karaoke, open mic, live music, and weekend shows"
       ]
     },
 
     "Riverwind Casino": {
       "regular": [
-        "Concerts",
-        "Casino entertainment",
-        "Weekend nightlife"
+        "Concerts and Showplace Theatre performances"
       ]
     }
   },
 
-  "featured_weekend": [
-    "International Finals Youth Rodeo",
-    "Brothers Osborne @ Grand Casino Resort",
-    "Anthony Spencer @ Libby's Cafe",
-    "College Night @ Brickhouse Saloon",
-    "Friends of Friends Weekend Music",
-    "FIFA World Cup Final watch parties"
+  "featured_this_weekend": [
+    "July 18 — Brothers Osborne @ Grand Casino Resort",
+    "July 18 — Anthony Spencer @ Libby's Cafe",
+    "July 18 — College Night @ Brickhouse Saloon",
+    "July 16–18 — Friends of Friends Weekend Live Music",
+    "July 16 — Brickhouse Bike Night",
+    "July 19 — FIFA World Cup Final Watch Parties"
   ],
 
-  "metro_sports": [
+  "sports_schedule": [
     {
+      "team": "Oklahoma City Thunder",
+      "date": "July 14–20",
+      "event": "NBA Summer League",
+      "location": "Salt Lake City"
+    },
+    {
+      "team": "Oklahoma City Comets",
+      "date": "July 18–20",
+      "event": "Home Series vs Tacoma Rainiers",
+      "venue": "Chickasaw Bricktown Ballpark"
+    },
+    {
+      "team": "FIFA World Cup",
       "date": "July 16",
-      "league": "FIFA World Cup",
       "event": "Semi-Finals"
     },
     {
-      "date": "July 18",
-      "league": "Oklahoma City Comets",
-      "event": "Home vs Tacoma Rainiers",
-      "venue": "Chickasaw Bricktown Ballpark"
-    },
-    {
+      "team": "FIFA World Cup",
       "date": "July 19",
-      "league": "FIFA World Cup",
-      "event": "Final"
+      "event": "World Cup Final"
     },
     {
-      "date": "July 19",
-      "league": "Oklahoma City Comets",
-      "event": "Home vs Tacoma Rainiers",
-      "venue": "Chickasaw Bricktown Ballpark"
-    },
-    {
+      "team": "Oklahoma Sooners Football",
       "date": "September 4",
-      "league": "OU Football",
-      "event": "Season Opener vs UTEP"
-    },
-    {
-      "date": "October 6",
-      "league": "Oklahoma City Thunder",
-      "event": "Preseason vs New Orleans Pelicans",
-      "venue": "BOK Center - Tulsa"
+      "event": "Season Opener vs UTEP",
+      "venue": "Gaylord Family Oklahoma Memorial Stadium"
     }
   ],
 
   "coming_up": [
     "July 21 — The Black Keys @ OKC Zoo Amphitheatre",
-    "July 23 — Bingo for Babies @ Grand Casino Resort",
-    "July 24 — SHIFT @ 51st Street Speakeasy",
-    "July 25 — Live Country Music @ Brickhouse Saloon",
-    "August 1 — Hollywood Corners concludes current operations",
+    "July 23 — BINGO for Babies @ Grand Casino",
+    "July 24 — SHIFT with DROIDA @ 51st Street Speakeasy",
+    "July 25 — Brickhouse Live Country Music Night",
+    "July 31–August 1 — Hollywood Corners transition weekend",
     "August 7–8 — FireLake FireFlight Balloon Festival",
     "August 7–8 — Roy LeBlanc Invitational Rodeo",
     "Early August — OU Move-In begins",
-    "August 15 — Planned Grand Opening of Mooney's at Hollywood Corners (pending final licensing approval)"
-  ],
-
-  "community_spotlight": [
-    "August 1 — Hollywood Corners concludes current operations.",
-    "August 2–14 — Renovations and preparations for Mooney's at Hollywood Corners.",
-    "August 15 — Planned Grand Opening of Mooney's at Hollywood Corners (pending final licensing approval)."
+    "August 15 — Planned Grand Opening of Mooney's at Hollywood Corners"
   ]
 }
