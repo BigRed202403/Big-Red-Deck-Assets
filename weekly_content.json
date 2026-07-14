@@ -1,108 +1,69 @@
 {
-  "week_start": "2026-07-13",
-  "week_range": "July 13–19, 2026",
-  "updated_at": "2026-07-13T21:30:00-05:00",
-  "rules_locked": {
-    "weekly_highlights": "Current week only. Public-facing, slide-safe events. Max 4.",
-    "venue_regulars": "Keep partner and relationship venues unless explicitly changed.",
-    "venue_specials": "Specific dated events only when available.",
-    "expired_cleanup": "Remove events before July 13 unless useful for forward planning."
+  "database_name":"Big Red Weekly Rider Feed",
+  "version":"4.0",
+  "week_start":"2026-07-13",
+  "week_range":"July 13–19, 2026",
+  "updated_at":"2026-07-14T09:00:00-05:00",
+  "rules_locked":{
+    "purpose":"Rider-facing slide content only.",
+    "time_horizon":"Current week plus meaningful forward-looking events.",
+    "expired_cleanup":"Automatically remove expired dated events.",
+    "tone":"Informative, local, community-focused.",
+    "max_weekly_highlights":5,
+    "max_featured_venues":8,
+    "max_forward_look":8
   },
-  "weekly_highlights": [
-    "July 13–17 — International Finals Youth Rodeo @ Heart of Oklahoma Expo Center",
-    "July 17 — Alex Reymundo Comedy @ Historic Ritz Theater",
-    "July 18 — Brothers Osborne @ Grand Casino Resort",
-    "July 18 — College Night @ Brickhouse Saloon"
-  ],
-  "decision_triggers": [
+  "weekly_highlights":[
     {
-      "event": "International Finals Youth Rodeo",
-      "area": "Shawnee",
-      "window": "July 13–17",
-      "friction": "Hotels, restaurants, Expo Center traffic, family travel, and sustained evening activity.",
-      "why_it_matters": "Largest transportation driver in Shawnee this week."
+      "date":"2026-07-18",
+      "event":"Brothers Osborne",
+      "venue":"Grand Casino Resort",
+      "area":"Shawnee",
+      "description":"Major country concert expected to draw regional visitors."
     },
     {
-      "event": "Brothers Osborne",
-      "area": "Grand Casino Resort",
-      "window": "July 18",
-      "friction": "Major concert traffic with concentrated post-show departures.",
-      "why_it_matters": "Regional draw creating evening transportation demand."
-    },
-    {
-      "event": "College Night",
-      "area": "Downtown Shawnee",
-      "window": "July 18",
-      "friction": "Weekend nightlife activity centered around Brickhouse Saloon.",
-      "why_it_matters": "Strong late-night transportation opportunity."
-    },
-    {
-      "event": "Alex Reymundo Comedy",
-      "area": "Historic Ritz Theater",
-      "window": "July 17",
-      "friction": "Evening entertainment and downtown Shawnee activity.",
-      "why_it_matters": "Adds another destination driving evening movement."
+      "date":"2026-07-17",
+      "event":"Weekend Live Music",
+      "venue":"Hollywood Corners",
+      "area":"North Norman",
+      "description":"Live music and community atmosphere continue through the weekend."
     }
   ],
-  "metro_sports": [
-    "Monitor — Oklahoma City Comets home schedule @ Chickasaw Bricktown Ballpark"
+  "this_weekend":[
+    {"event":"Brothers Osborne","venue":"Grand Casino Resort","area":"Shawnee"},
+    {"event":"Weekend Live Music","venue":"Hollywood Corners","area":"North Norman"}
   ],
-  "local_updates": [
-    "International Finals Youth Rodeo continues through July 17.",
-    "Hollywood Corners remains a relationship-priority venue with recurring live music.",
-    "Mooney's relocation to Hollywood Corners remains a community topic to monitor.",
-    "Summer concert season continues across OKC and Shawnee."
+  "local_updates":[
+    {"title":"Hollywood Corners","description":"Continues growing as one of Norman's premier live music destinations."},
+    {"title":"Shawnee","description":"International Finals Youth Rodeo continues bringing visitors into the area."}
   ],
-  "weather_watch": [
-    "Mid-July heat and isolated thunderstorms may affect outdoor events."
-  ],
-  "forward_look": [
-    "July 21 — The Black Keys @ OKC Zoo Amphitheatre",
-    "July 23 — BINGO for Babies! @ Grand Casino",
-    "July 25 — Brickhouse Birthday Bash!",
-    "August 7–8 — FireLake FireFlight Balloon Festival",
-    "August 7–8 — Roy LeBlanc Invitational Rodeo",
-    "August 17–18 — OU First-Year Move-In"
-  ],
-  "venues": {
-    "HOLLYWOOD CORNERS": {
-      "regular": [
-        "Thursday Singer/Songwriter + Hot Rod Night",
-        "Weekend live music",
-        "Solo Sundays",
-        "Community events"
-      ]
-    },
-    "BRICKHOUSE SALOON": {
-      "special": [
-        "July 18 — College Night"
-      ],
-      "regular": [
-        "Thursday Bingo",
-        "Weekend nightlife"
-      ]
-    },
-    "HISTORIC RITZ THEATER": {
-      "special": [
-        "July 17 — Alex Reymundo Comedy"
-      ]
-    },
-    "GRAND CASINO RESORT": {
-      "special": [
-        "July 18 — Brothers Osborne"
-      ]
-    }
+  "featured_venues":{
+    "HOLLYWOOD CORNERS":{"regular":["Weekly live music","Singer/Songwriter Thursdays","Solo Sundays"],"this_week":["Weekend live entertainment"]},
+    "BRICKHOUSE SALOON":{"regular":["Downtown Shawnee nightlife","Thursday Bingo"],"this_week":[]},
+    "RIVERWIND CASINO":{"regular":["Casino entertainment"],"this_week":[]},
+    "THE JONES ASSEMBLY":{"regular":["Dining, events and nightlife"],"this_week":[]},
+    "THE ALLEY":{"regular":["Weekend live music"],"this_week":[]}
   },
-  "demand_drivers": {
-    "OU_NORMAN": {
-      "july": [
-        "Start Sooner continues",
-        "Orientation travel"
-      ],
-      "august": [
-        "Move-in",
-        "Camp Crimson"
-      ]
-    }
-  }
+  "seasonal_awareness":[
+    "Summer concert season is in full swing.",
+    "Road trips and airport travel remain busy.",
+    "Extreme heat may affect outdoor events."
+  ],
+  "big_red_tips":[
+    "Planning ahead usually gives me the most flexibility.",
+    "Airport rides are available too.",
+    "Save my number so next time is easy.",
+    "Flat-rate pricing means no surge surprises."
+  ],
+  "did_you_know":[
+    "Oklahoma City will host Olympic events in 2028.",
+    "Hollywood Corners has become a popular destination for live music.",
+    "Summer is one of Oklahoma's busiest event seasons."
+  ],
+  "forward_look":[
+    {"date":"2026-08-07","event":"FireLake FireFlight Balloon Festival"},
+    {"date":"2026-08-07","event":"Roy LeBlanc Invitational Rodeo"},
+    {"date":"2026-08-17","event":"OU First-Year Move-In"},
+    {"date":"2026-09-18","event":"OU Family Weekend"}
+  ]
 }
