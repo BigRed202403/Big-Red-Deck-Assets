@@ -1,23 +1,27 @@
 {
   "database_name": "Big Red Rider Feed",
-  "version": "4.0",
-  "updated_at": "2026-07-14T09:30:00-05:00",
+  "version": "4.1",
+  "updated_at": "2026-07-14T20:45:00-05:00",
   "week_start": "2026-07-13",
-  "week_range": "July 13\u201319, 2026",
+  "week_range": "July 13–19, 2026",
+
   "rules_locked": {
-    "weekly_highlights": "Current week only. Rider-facing. Maximum 4\u20136 items.",
-    "venue_watch": "Partner and high-interest venues with current dated events only.",
-    "metro_sports": "Thunder, OU, Comets, World Cup, Olympics and other rider-relevant sports.",
-    "coming_up": "Next 30 days only unless specifically designated long-range awareness.",
-    "expired_cleanup": "Remove expired dated events each weekly refresh."
+    "around_the_metro": "Current week only. Maximum 4–6 rider-facing events.",
+    "venue_hotlist": "Relationship venues with current events only.",
+    "featured_this_weekend": "Major entertainment draws for the upcoming weekend.",
+    "metro_sports": "Rider-focused sports headlines only.",
+    "coming_up": "Next 30 days only unless specifically designated.",
+    "expired_cleanup": "Remove all expired dated events during weekly refresh."
   },
-  "weekly_highlights": [
-    "July 13\u201317 \u2014 International Finals Youth Rodeo @ Heart of Oklahoma Expo Center (Shawnee)",
-    "July 18 \u2014 Brothers Osborne @ Grand Casino Resort (Shawnee)",
-    "July 18 \u2014 College Night @ Brickhouse Saloon (Shawnee)",
-    "July 19 \u2014 FIFA World Cup Final watch-party activity"
+
+  "around_the_metro": [
+    "July 13–17 — International Finals Youth Rodeo @ Heart of Oklahoma Expo Center (Shawnee)",
+    "July 18 — Brothers Osborne @ Grand Casino Resort (Shawnee)",
+    "July 18 — College Night @ Brickhouse Saloon (Shawnee)",
+    "July 19 — FIFA World Cup Final watch-party activity across the metro"
   ],
-  "venue_watch": {
+
+  "venue_hotlist": {
     "Hollywood Corners": {
       "special": [
         "Weekly live music, songwriter nights, and community events."
@@ -27,69 +31,80 @@
         "Sunday Solo Sundays"
       ]
     },
+
     "Brickhouse Saloon": {
       "special": [
-        "July 18 \u2014 College Night (21+)",
-        "July 25 \u2014 Birthday Bash"
+        "July 18 — College Night (21+)",
+        "July 25 — Birthday Bash"
       ],
       "regular": [
         "Thursday Bingo",
         "Weekend nightlife"
       ]
     },
+
     "Grand Casino Resort": {
       "special": [
-        "July 18 \u2014 Brothers Osborne"
+        "July 18 — Brothers Osborne"
       ],
       "regular": [
-        "Casino entertainment and concerts"
+        "Major concerts and casino entertainment"
       ]
     },
+
     "Riverwind Casino": {
+      "special": [],
       "regular": [
-        "Casino entertainment and major concerts"
+        "Major concerts and casino entertainment"
+      ]
+    },
+
+    "The Jones Assembly": {
+      "special": [],
+      "regular": [
+        "Live music, brunch, patio, and West Village nightlife"
+      ]
+    },
+
+    "The Alley": {
+      "special": [],
+      "regular": [
+        "Weekend live music and South OKC nightlife"
+      ]
+    },
+
+    "Libby's Cafe": {
+      "special": [],
+      "regular": [
+        "Weekend dining and entertainment in Goldsby"
       ]
     }
   },
+
+  "featured_this_weekend": [
+    "July 18 — Brothers Osborne @ Grand Casino Resort",
+    "July 18 — College Night @ Brickhouse Saloon",
+    "July 18 — International Finals Youth Rodeo continues in Shawnee",
+    "July 19 — FIFA World Cup Final watch parties"
+  ],
+
   "metro_sports": [
-    "Oklahoma City Comets home schedule and fireworks nights",
-    "FIFA World Cup semifinals and Final (July 14\u201319)",
-    "OU Start Sooner begins July 12",
-    "Olympic awareness \u2014 Oklahoma City venues preparing for LA 2028 events"
+    "⚾ Oklahoma City Comets summer baseball",
+    "⚽ FIFA World Cup Final — July 19",
+    "🏈 OU football season is getting closer",
+    "🇺🇸 Oklahoma City preparing for LA 2028 Olympic events"
   ],
+
   "coming_up": [
-    "July 21 \u2014 The Black Keys @ OKC Zoo Amphitheatre",
-    "July 23 \u2014 BINGO for Babies @ Grand Casino",
-    "July 25 \u2014 Brickhouse Birthday Bash",
-    "August 7\u20138 \u2014 FireLake FireFlight Balloon Festival",
-    "August 7\u20138 \u2014 Roy LeBlanc Invitational Rodeo",
-    "OU Move-In begins in early August"
-  ],
-  "seasonal_awareness": [
-    "Summer concert season",
-    "Airport travel season",
-    "Weekend nightlife",
-    "OU summer programs and move-in",
-    "Family vacations",
-    "Extreme summer heat"
-  ],
-  "demand_drivers": {
-    "summer": [
-      "Concerts",
-      "Casinos",
-      "Nightlife",
-      "Airport travel"
-    ],
-    "ou": [
-      "Start Sooner",
-      "Move-in",
-      "Football season"
-    ],
-    "sports": [
-      "Thunder",
-      "Comets",
-      "World Cup",
-      "Olympics 2028"
-    ]
-  }
+    "July 21 — The Black Keys @ OKC Zoo Amphitheatre",
+    "July 23 — BINGO for Babies @ Grand Casino Resort",
+    "July 25 — Brickhouse Birthday Bash",
+    "Late July — Continued International Finals Youth Rodeo activities conclude",
+    "Early August — OU move-in season begins",
+    "August 7–8 — FireLake FireFlight Balloon Festival",
+    "August 7–8 — Roy LeBlanc Invitational Rodeo",
+    "August 17–18 — OU First-Year Move-In",
+    "August 19–23 — Camp Crimson",
+    "September 18–20 — OU Family Weekend"
+  ]
 }
