@@ -1,59 +1,108 @@
-{ “week_start”: “2026-07-13”, “week_range”: “July 13–19, 2026”,
-“updated_at”: “2026-07-13T21:30:00-05:00”,
-
-“rules_locked”: { “weekly_highlights”: “Current week only.
-Public-facing, slide-safe events. Max 4.”, “venue_regulars”: “Keep
-partner and relationship venues unless explicitly changed.”,
-“venue_specials”: “Specific dated events only when available.”,
-“expired_cleanup”: “Remove events before July 13 unless useful for
-forward planning.” },
-
-“weekly_highlights”: [ “July 13–17 — International Finals Youth Rodeo @
-Heart of Oklahoma Expo Center”, “July 17 — Alex Reymundo Comedy @
-Historic Ritz Theater”, “July 18 — Brothers Osborne @ Grand Casino
-Resort”, “July 18 — College Night @ Brickhouse Saloon” ],
-
-“decision_triggers”: [ { “event”: “International Finals Youth Rodeo”,
-“area”: “Shawnee”, “window”: “July 13–17”, “friction”: “Hotels,
-restaurants, Expo Center traffic, family travel, and sustained evening
-activity.”, “why_it_matters”: “Largest transportation driver in Shawnee
-this week.” }, { “event”: “Brothers Osborne”, “area”: “Grand Casino
-Resort”, “window”: “July 18”, “friction”: “Major concert traffic with
-concentrated post-show departures.”, “why_it_matters”: “Regional draw
-creating evening transportation demand.” }, { “event”: “College Night”,
-“area”: “Downtown Shawnee”, “window”: “July 18”, “friction”: “Weekend
-nightlife activity centered around Brickhouse Saloon.”,
-“why_it_matters”: “Strong late-night transportation opportunity.” }, {
-“event”: “Alex Reymundo Comedy”, “area”: “Historic Ritz Theater”,
-“window”: “July 17”, “friction”: “Evening entertainment and downtown
-Shawnee activity.”, “why_it_matters”: “Adds another destination driving
-evening movement.” } ],
-
-“metro_sports”: [ “Monitor — Oklahoma City Comets home schedule @
-Chickasaw Bricktown Ballpark” ],
-
-“local_updates”: [ “International Finals Youth Rodeo continues through
-July 17.”, “Hollywood Corners remains a relationship-priority venue with
-recurring live music.”, “Mooney’s relocation to Hollywood Corners
-remains a community topic to monitor.”, “Summer concert season continues
-across OKC and Shawnee.” ],
-
-“weather_watch”: [ “Mid-July heat and isolated thunderstorms may affect
-outdoor events.” ],
-
-“forward_look”: [ “July 21 — The Black Keys @ OKC Zoo Amphitheatre”,
-“July 23 — BINGO for Babies! @ Grand Casino”, “July 25 — Brickhouse
-Birthday Bash!”, “August 7–8 — FireLake FireFlight Balloon Festival”,
-“August 7–8 — Roy LeBlanc Invitational Rodeo”, “August 17–18 — OU
-First-Year Move-In” ],
-
-“venues”: { “HOLLYWOOD CORNERS”: { “regular”: [ “Thursday
-Singer/Songwriter + Hot Rod Night”, “Weekend live music”, “Solo
-Sundays”, “Community events” ] }, “BRICKHOUSE SALOON”: { “special”: [
-“July 18 — College Night” ], “regular”: [ “Thursday Bingo”, “Weekend
-nightlife” ] }, “HISTORIC RITZ THEATER”: { “special”: [ “July 17 — Alex
-Reymundo Comedy” ] }, “GRAND CASINO RESORT”: { “special”: [ “July 18 —
-Brothers Osborne” ] } },
-
-“demand_drivers”: { “OU_NORMAN”: { “july”: [ “Start Sooner continues”,
-“Orientation travel” ], “august”: [ “Move-in”, “Camp Crimson” ] } } }
+{
+  "week_start": "2026-07-13",
+  "week_range": "July 13–19, 2026",
+  "updated_at": "2026-07-13T21:30:00-05:00",
+  "rules_locked": {
+    "weekly_highlights": "Current week only. Public-facing, slide-safe events. Max 4.",
+    "venue_regulars": "Keep partner and relationship venues unless explicitly changed.",
+    "venue_specials": "Specific dated events only when available.",
+    "expired_cleanup": "Remove events before July 13 unless useful for forward planning."
+  },
+  "weekly_highlights": [
+    "July 13–17 — International Finals Youth Rodeo @ Heart of Oklahoma Expo Center",
+    "July 17 — Alex Reymundo Comedy @ Historic Ritz Theater",
+    "July 18 — Brothers Osborne @ Grand Casino Resort",
+    "July 18 — College Night @ Brickhouse Saloon"
+  ],
+  "decision_triggers": [
+    {
+      "event": "International Finals Youth Rodeo",
+      "area": "Shawnee",
+      "window": "July 13–17",
+      "friction": "Hotels, restaurants, Expo Center traffic, family travel, and sustained evening activity.",
+      "why_it_matters": "Largest transportation driver in Shawnee this week."
+    },
+    {
+      "event": "Brothers Osborne",
+      "area": "Grand Casino Resort",
+      "window": "July 18",
+      "friction": "Major concert traffic with concentrated post-show departures.",
+      "why_it_matters": "Regional draw creating evening transportation demand."
+    },
+    {
+      "event": "College Night",
+      "area": "Downtown Shawnee",
+      "window": "July 18",
+      "friction": "Weekend nightlife activity centered around Brickhouse Saloon.",
+      "why_it_matters": "Strong late-night transportation opportunity."
+    },
+    {
+      "event": "Alex Reymundo Comedy",
+      "area": "Historic Ritz Theater",
+      "window": "July 17",
+      "friction": "Evening entertainment and downtown Shawnee activity.",
+      "why_it_matters": "Adds another destination driving evening movement."
+    }
+  ],
+  "metro_sports": [
+    "Monitor — Oklahoma City Comets home schedule @ Chickasaw Bricktown Ballpark"
+  ],
+  "local_updates": [
+    "International Finals Youth Rodeo continues through July 17.",
+    "Hollywood Corners remains a relationship-priority venue with recurring live music.",
+    "Mooney's relocation to Hollywood Corners remains a community topic to monitor.",
+    "Summer concert season continues across OKC and Shawnee."
+  ],
+  "weather_watch": [
+    "Mid-July heat and isolated thunderstorms may affect outdoor events."
+  ],
+  "forward_look": [
+    "July 21 — The Black Keys @ OKC Zoo Amphitheatre",
+    "July 23 — BINGO for Babies! @ Grand Casino",
+    "July 25 — Brickhouse Birthday Bash!",
+    "August 7–8 — FireLake FireFlight Balloon Festival",
+    "August 7–8 — Roy LeBlanc Invitational Rodeo",
+    "August 17–18 — OU First-Year Move-In"
+  ],
+  "venues": {
+    "HOLLYWOOD CORNERS": {
+      "regular": [
+        "Thursday Singer/Songwriter + Hot Rod Night",
+        "Weekend live music",
+        "Solo Sundays",
+        "Community events"
+      ]
+    },
+    "BRICKHOUSE SALOON": {
+      "special": [
+        "July 18 — College Night"
+      ],
+      "regular": [
+        "Thursday Bingo",
+        "Weekend nightlife"
+      ]
+    },
+    "HISTORIC RITZ THEATER": {
+      "special": [
+        "July 17 — Alex Reymundo Comedy"
+      ]
+    },
+    "GRAND CASINO RESORT": {
+      "special": [
+        "July 18 — Brothers Osborne"
+      ]
+    }
+  },
+  "demand_drivers": {
+    "OU_NORMAN": {
+      "july": [
+        "Start Sooner continues",
+        "Orientation travel"
+      ],
+      "august": [
+        "Move-in",
+        "Camp Crimson"
+      ]
+    }
+  }
+}
