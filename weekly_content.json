@@ -1,7 +1,7 @@
 {
   "database_name": "Big Red Rider Feed",
-  "version": "5.3",
-  "updated_at": "2026-08-04T15:45:00-05:00",
+  "version": "5.4",
+  "updated_at": "2026-08-04T15:55:00-05:00",
   "week_start": "2026-08-03",
   "week_range": "August 3–9, 2026",
   "rules_locked": {
@@ -138,34 +138,34 @@
     "August 8 — Taste of Downtown @ The Studio of the Sooner Theatre, 5–8 PM (21+)"
   ],
   "sports_schedule": {
-    "ou_football": [
-      "September 4 — OU vs UTEP, 7:00 PM CT (Norman)",
-      "September 12 — OU at Michigan, 11:00 AM CT",
-      "September 19 — OU vs New Mexico, 6:30 PM CT (Norman)",
-      "September 26 — OU at Georgia, 2:30–3:30 PM or 5:00–7:00 PM CT window",
-      "October 10 — OU vs Texas, 2:30 PM CT (Dallas)",
-      "October 17 — OU vs Kentucky, 2:30–3:30 PM or 5:00–7:00 PM CT window (Norman)",
-      "October 24 — OU at Mississippi State, 2:30–3:30 PM or 5:00–7:00 PM CT window",
-      "October 31 — OU vs South Carolina, 2:30–3:30 PM or 5:00–7:00 PM CT window (Norman)",
-      "November 7 — OU at Florida, 2:30–3:30 PM or 5:00–7:00 PM CT window",
-      "November 14 — OU vs Ole Miss, 2:30–3:30 PM CT window (Norman)",
-      "November 21 — OU vs Texas A&M, 11:00 AM–12:00 PM CT window (Norman)",
-      "November 28 — OU at Missouri, 2:30–3:30 PM CT window"
+    "Oklahoma City Comets": [
+      "August 8–13 — vs Sugar Land Space Cowboys"
     ],
-    "okc_comets": [
-      "August 8–13 — Oklahoma City Comets vs Sugar Land Space Cowboys @ Chickasaw Bricktown Ballpark"
+    "Oklahoma Sooners Football": [
+      "September 4 — vs UTEP, 7 PM",
+      "September 12 — at Michigan, 11 AM",
+      "September 19 — vs New Mexico, 6:30 PM",
+      "September 26 — at Georgia, time window TBD",
+      "October 10 — vs Texas, 2:30 PM",
+      "October 17 — vs Kentucky, time window TBD",
+      "October 24 — at Mississippi State, time window TBD",
+      "October 31 — vs South Carolina, time window TBD",
+      "November 7 — at Florida, time window TBD",
+      "November 14 — vs Ole Miss, time window TBD",
+      "November 21 — vs Texas A&M, time window TBD",
+      "November 28 — at Missouri, time window TBD"
     ],
-    "usa_softball": [
-      "August 3–8 — USA Softball All-American Games @ Devon Park",
-      "August 20–22 — Oklahoma High School Fast Pitch Festival @ Devon Park",
-      "August 25–30 — Armed Forces Men’s & Women’s Softball Championship @ Devon Park"
+    "USA Softball": [
+      "August 3–8 — All-American Games",
+      "August 20–22 — Oklahoma High School Fast Pitch Festival",
+      "August 25–30 — Armed Forces Men’s & Women’s Championship"
     ],
-    "special_sports_events": [
-      "July 31–August 9 — AQHYA World Championship @ OG&E Coliseum",
-      "August 7–8 — 71st Annual Roy LeBlanc Invitational Rodeo @ Heart of Oklahoma Expo Center",
-      "August 21–23 — Professional jet ski racing @ Lake Thunderbird"
+    "Special Sporting Events": [
+      "July 31–August 9 — AQHYA World Championship",
+      "August 7–8 — 71st Annual Roy LeBlanc Invitational Rodeo",
+      "August 21–23 — Professional Jet Ski Racing at Lake Thunderbird"
     ],
-    "metro_sports_news": [
+    "Metro Sports News": [
       "OKC United announced as Oklahoma City’s USL Championship soccer team; debut planned for 2028"
     ]
   },
