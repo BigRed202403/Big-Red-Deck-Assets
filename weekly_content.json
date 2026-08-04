@@ -1,147 +1,198 @@
 {
   "database_name": "Big Red Rider Feed",
-  "version": "5.0",
-  "updated_at": "2026-07-14T13:30:00-05:00",
-  "week_start": "2026-07-13",
-  "week_range": "July 13–19, 2026",
-
+  "version": "5.1",
+  "updated_at": "2026-08-04T08:52:00-05:00",
+  "week_start": "2026-08-03",
+  "week_range": "August 3–9, 2026",
   "rules_locked": {
-    "weekly_highlights": "Current week only. Rider-facing. Maximum 4–6 items.",
-    "venue_watch": "Partner and high-interest venues with current dated events only.",
-    "featured_this_weekend": "Major nightlife, concerts, and destination events for the upcoming weekend.",
-    "sports_schedule": "Forward-looking schedules only. Actual upcoming games, series, tournaments, or sports events.",
-    "coming_up": "Next 30 days only unless specifically designated long-range awareness.",
-    "expired_cleanup": "Remove expired dated events during each weekly refresh."
+    "weekly_highlights": "Current week only. Maximum 4–6 rider-facing events.",
+    "venue_watch": "Relationship venues with current and forward-looking events only.",
+    "featured_this_weekend": "Major entertainment draws for the upcoming weekend.",
+    "sports_schedule": "Rider-focused sports headlines and confirmed schedules only.",
+    "coming_up": "Next 30 days only unless specifically designated.",
+    "expired_cleanup": "Remove all expired dated events during weekly refresh."
   },
-
   "weekly_highlights": [
-    "July 13–17 — International Finals Youth Rodeo @ Heart of Oklahoma Expo Center (Shawnee)",
-    "July 16 — Brickhouse Bike Night featuring The Highway Rejects",
-    "July 18 — Brothers Osborne @ Grand Casino Resort",
-    "July 18 — Anthony Spencer live @ Libby's Cafe",
-    "July 19 — FIFA World Cup Final watch parties across the metro"
+    "July 31–August 9 — AQHYA World Championship @ OG&E Coliseum",
+    "August 4 — Main Street Shop & Stroll in Downtown Shawnee",
+    "August 7–8 — FireLake FireFlight Hot Air Balloon Festival in Shawnee",
+    "August 7–8 — 71st Annual Roy LeBlanc Invitational Rodeo @ Heart of Oklahoma Expo Center",
+    "August 7–8 — So Watt Band and Take 2 @ The Alley",
+    "August 8 — Taste of Downtown @ The Studio of the Sooner Theatre, 5–8 PM (21+)"
   ],
-
   "venue_watch": {
-    "Hollywood Corners": {
-      "special": [
-        "July 31–August 1 — Final weekend before transition to Mooney's at Hollywood Corners",
-        "August 15 — Planned Grand Opening of Mooney's at Hollywood Corners"
-      ],
+    "Mooney's at Hollywood Corners": {
+      "special": [],
       "regular": [
-        "Thursday Singer/Songwriter Night",
-        "Thursday Hot Rod Night",
-        "Sunday Solo Sundays"
+        "Wednesday Bike Night",
+        "Thursday Singer/Songwriter + Hot Rod Night",
+        "Sunday Solo Sundays",
+        "Live music, songwriter nights, and community events"
       ]
     },
-
     "Brickhouse Saloon": {
       "special": [
-        "July 16 — Bike Night featuring The Highway Rejects",
-        "July 18 — College Night",
-        "July 25 — Live Country Music Night"
+        "August 22 — Ty Junah & The Young Guns (doors 8 PM, show 9 PM; 21+; $10 cover)"
       ],
       "regular": [
-        "Thursday Bingo",
+        "Thursday Bingo (21+)",
+        "First Saturday monthly pool contest",
         "Weekend nightlife"
       ]
     },
-
+    "Grand Casino Resort": {
+      "special": [],
+      "regular": [
+        "Major concerts and casino entertainment"
+      ]
+    },
+    "Riverwind Casino": {
+      "special": [
+        "September 3 — Beats & Bites featuring Clay Walker and Terri Clark (show 7:30 PM; gates 7 PM)"
+      ],
+      "regular": [
+        "Major concerts and casino entertainment"
+      ]
+    },
+    "The Jones Assembly": {
+      "special": [],
+      "regular": [
+        "Live music, brunch, patio, and West Village nightlife"
+      ]
+    },
+    "The Alley": {
+      "special": [
+        "August 7 — So Watt Band",
+        "August 8 — Take 2",
+        "August 14 — Texas Tightrope SRV Tribute Band",
+        "August 15 — The Vice Presidents",
+        "August 21 — Hell N Bakk",
+        "August 22 — Jokers to the Right (indoor)",
+        "August 22 — Street Kings (outdoor, 7–11 PM)",
+        "August 28 — 151 Remix",
+        "August 29 — Christy Bryant & Twist of Fate"
+      ],
+      "regular": [
+        "Friday and Saturday live music",
+        "South OKC nightlife"
+      ]
+    },
     "Libby's Cafe": {
       "special": [
-        "July 18 — Anthony Spencer live (9–11 PM)"
-      ]
-    },
-
-    "Grand Casino Resort": {
-      "special": [
-        "July 18 — Brothers Osborne Concert",
-        "July 23 — BINGO for Babies"
-      ]
-    },
-
-    "Club Keno": {
-      "special": [
-        "July 5–August 2 — Back-to-School Supply Drive",
-        "Labor Day Weekend — $1,000 Karaoke Jackpot Drawing"
-      ]
-    },
-
-    "Friends of Friends": {
-      "special": [
-        "July 16–18 — Three nights of live music"
-      ]
-    },
-
-    "51st Street Speakeasy": {
-      "special": [
-        "July 16 — FIFA World Cup Semi-Final Watch Party",
-        "July 24 — SHIFT with DROIDA"
-      ]
-    },
-
-    "Okie State Room": {
-      "special": [
-        "Weekly karaoke, open mic, live music, and weekend shows"
-      ]
-    },
-
-    "Riverwind Casino": {
+        "August 8 — John Dobson (acoustic, 9–11 PM)",
+        "August 14 — Back to School Bash featuring Browning Snider (full band, 9–11 PM)",
+        "August 22 — 34th Anniversary Party: Bryant Smith (6:30–8:30 PM) and Gage Wilkerson & The Young Guns (9–11 PM)",
+        "August 29 — Mixtape Revival (full band, 9–11 PM)"
+      ],
       "regular": [
-        "Concerts and Showplace Theatre performances"
+        "Weekend dining and entertainment in Goldsby"
+      ]
+    },
+    "Royal Bavaria": {
+      "special": [
+        "August 7 — Tim Brauer",
+        "August 8 — Redgrass Dirt Band",
+        "August 14 — Evantides",
+        "August 15 — Route 66",
+        "August 21 — John the Franklin",
+        "August 22 — Shawn Proffitt",
+        "August 28 — Tim Brauer",
+        "August 29 — Evantides",
+        "September 4 — Redgrass Dirt Band",
+        "September 5 — Canyon Echo",
+        "September 11 — Tim Brauer",
+        "September 12 — John the Franklin"
+      ],
+      "regular": [
+        "Biergarten open daily, 5–9:30 PM, weather permitting",
+        "Reservations recommended; walk-ins welcome"
+      ]
+    },
+    "The Historic Ritz": {
+      "special": [
+        "August 15 — Marshal Rock Radio Fest (all ages)",
+        "August 22 — Get Leppard: A Def Leppard Tribute",
+        "August 27 — Carvin Jones"
+      ],
+      "regular": [
+        "Historic downtown Shawnee live entertainment venue"
+      ]
+    },
+    "Music Unlimited": {
+      "special": [
+        "August 7 — Singer-Songwriter Night"
+      ],
+      "regular": [
+        "Live music and community entertainment in Shawnee"
       ]
     }
   },
-
   "featured_this_weekend": [
-    "July 18 — Brothers Osborne @ Grand Casino Resort",
-    "July 18 — Anthony Spencer @ Libby's Cafe",
-    "July 18 — College Night @ Brickhouse Saloon",
-    "July 16–18 — Friends of Friends Weekend Live Music",
-    "July 16 — Brickhouse Bike Night",
-    "July 19 — FIFA World Cup Final Watch Parties"
+    "August 7–8 — FireLake FireFlight Hot Air Balloon Festival in Shawnee",
+    "August 7–8 — 71st Annual Roy LeBlanc Invitational Rodeo @ Heart of Oklahoma Expo Center",
+    "August 8 — Taste of Downtown @ The Studio of the Sooner Theatre",
+    "August 8 — Downtown at Sundown Car Show in Downtown Shawnee, starting at 5 PM",
+    "August 7–8 — So Watt Band and Take 2 @ The Alley",
+    "July 31–August 9 — AQHYA World Championship @ OG&E Coliseum"
   ],
-
   "sports_schedule": [
-    {
-      "team": "Oklahoma City Thunder",
-      "date": "July 14–20",
-      "event": "NBA Summer League",
-      "location": "Salt Lake City"
-    },
-    {
-      "team": "Oklahoma City Comets",
-      "date": "July 18–20",
-      "event": "Home Series vs Tacoma Rainiers",
-      "venue": "Chickasaw Bricktown Ballpark"
-    },
-    {
-      "team": "FIFA World Cup",
-      "date": "July 16",
-      "event": "Semi-Finals"
-    },
-    {
-      "team": "FIFA World Cup",
-      "date": "July 19",
-      "event": "World Cup Final"
-    },
-    {
-      "team": "Oklahoma Sooners Football",
-      "date": "September 4",
-      "event": "Season Opener vs UTEP",
-      "venue": "Gaylord Family Oklahoma Memorial Stadium"
-    }
+    "🏈 September 4 — OU vs UTEP, 8:00 PM",
+    "🏈 September 12 — OU at Michigan, 12:00 PM",
+    "🏈 September 19 — OU vs New Mexico, 7:30 PM",
+    "🏈 September 26 — OU at Georgia, time TBD",
+    "🏈 October 10 — OU vs Texas (neutral site), 3:30 PM",
+    "🏈 October 17 — OU vs Kentucky, time TBD",
+    "🏈 October 24 — OU at Mississippi State, time TBD",
+    "🏈 October 31 — OU vs South Carolina, time TBD",
+    "🏈 November 7 — OU at Florida, time TBD",
+    "🏈 November 14 — OU vs Ole Miss, time TBD",
+    "🏈 November 21 — OU vs Texas A&M, time TBD",
+    "🏈 November 28 — OU at Missouri, time TBD",
+    "⚽ OKC United announced as Oklahoma City’s USL Championship soccer team; debut planned for 2028"
   ],
-
   "coming_up": [
-    "July 21 — The Black Keys @ OKC Zoo Amphitheatre",
-    "July 23 — BINGO for Babies @ Grand Casino",
-    "July 24 — SHIFT with DROIDA @ 51st Street Speakeasy",
-    "July 25 — Brickhouse Live Country Music Night",
-    "July 31–August 1 — Hollywood Corners transition weekend",
-    "August 7–8 — FireLake FireFlight Balloon Festival",
-    "August 7–8 — Roy LeBlanc Invitational Rodeo",
-    "Early August — OU Move-In begins",
-    "August 15 — Planned Grand Opening of Mooney's at Hollywood Corners"
+    "August 4 — Main Street Shop & Stroll in Downtown Shawnee",
+    "August 6–9 — An Occasional Sale on Main in Shawnee",
+    "August 7 — Singer-Songwriter Night @ Music Unlimited",
+    "August 7 — So Watt Band @ The Alley",
+    "August 7 — Tim Brauer @ Royal Bavaria",
+    "August 7–8 — FireLake FireFlight Hot Air Balloon Festival in Shawnee",
+    "August 7–8 — 71st Annual Roy LeBlanc Invitational Rodeo @ Heart of Oklahoma Expo Center",
+    "August 7–8 — Automobilia Swap Meet in Shawnee",
+    "August 7–9 — Oklahoma Tax-Free Shopping Weekend",
+    "August 8 — Downtown at Sundown Car Show in Downtown Shawnee, starting at 5 PM",
+    "August 8 — John Dobson @ Libby's Cafe, 9–11 PM",
+    "August 8 — Redgrass Dirt Band @ Royal Bavaria",
+    "August 8 — Take 2 @ The Alley",
+    "August 8 — Taste of Downtown @ The Studio of the Sooner Theatre, 5–8 PM (21+)",
+    "August 8–9 — Indian Territory Antique & Collector Arms Show @ Heart of Oklahoma Expo Center",
+    "August 11 — Hamilton @ Civic Center Music Hall",
+    "August 14 — Back to School Bash featuring Browning Snider @ Libby's Cafe, 9–11 PM",
+    "August 14 — Evantides @ Royal Bavaria",
+    "August 14 — SKATE! on the Plaza @ Plaza District",
+    "August 14 — Texas Tightrope SRV Tribute Band @ The Alley",
+    "August 15 — Marshal Rock Radio Fest @ The Historic Ritz",
+    "August 15 — Route 66 @ Royal Bavaria",
+    "August 15 — The Vice Presidents @ The Alley",
+    "August 17–18 — OU First-Year Move-In",
+    "August 19–23 — Camp Crimson",
+    "August 20 — Bikes & Rods Downtown in Shawnee, 6–10 PM",
+    "August 21 — Hell N Bakk @ The Alley",
+    "August 21 — John the Franklin @ Royal Bavaria",
+    "August 22 — 34th Anniversary Party @ Libby's Cafe",
+    "August 22 — Get Leppard: A Def Leppard Tribute @ The Historic Ritz",
+    "August 22 — Jokers to the Right (indoor) and Street Kings (outdoor, 7–11 PM) @ The Alley",
+    "August 22 — Rocket Man Run & Fun Walk in Shawnee",
+    "August 22 — Shawn Proffitt @ Royal Bavaria",
+    "August 22 — Ty Junah & The Young Guns @ Brickhouse Saloon, show 9 PM",
+    "August 25–30 — The Outsiders @ Civic Center Music Hall",
+    "August 27 — Carvin Jones @ The Historic Ritz",
+    "August 27–30 — An Occasional Sale on Main in Shawnee",
+    "August 28 — 151 Remix @ The Alley",
+    "August 28 — Tim Brauer @ Royal Bavaria",
+    "August 29 — Christy Bryant & Twist of Fate @ The Alley",
+    "August 29 — Evantides @ Royal Bavaria",
+    "August 29 — Mixtape Revival @ Libby's Cafe, 9–11 PM",
+    "September 3 — Beats & Bites featuring Clay Walker and Terri Clark @ Riverwind Casino, 7:30 PM"
   ]
 }
