@@ -1,9 +1,9 @@
 {
   "database_name": "Big Red Rider Feed",
-  "version": "5.4",
-  "updated_at": "2026-08-04T15:55:00-05:00",
-  "week_start": "2026-08-03",
-  "week_range": "August 3–9, 2026",
+  "version": "5.6",
+  "updated_at": "2026-08-09T04:02:00-05:00",
+  "week_start": "2026-08-10",
+  "week_range": "August 10–16, 2026",
   "rules_locked": {
     "weekly_highlights": "Current week only. Maximum 4–6 rider-facing events.",
     "venue_watch": "Relationship venues with current and forward-looking events only.",
@@ -13,12 +13,12 @@
     "expired_cleanup": "Remove all expired dated events during weekly refresh."
   },
   "weekly_highlights": [
-    "July 31–August 9 — AQHYA World Championship @ OG&E Coliseum",
-    "August 7–8 — FireLake FireFlight Hot Air Balloon Festival in Shawnee",
-    "August 7–8 — 71st Annual Roy LeBlanc Invitational Rodeo @ Heart of Oklahoma Expo Center",
-    "August 7 — TailSpin: A Scissortail Park Music Festival, 6–10 PM",
-    "August 8 — Cody Johnson @ Paycom Center",
-    "August 8 — Taste of Downtown @ The Studio of the Sooner Theatre, 5–8 PM (21+)"
+    "August 11 — Hamilton @ Civic Center Music Hall",
+    "August 14 — Second Friday Art Walk in Downtown Norman, 6–9 PM",
+    "August 14 — Back to School Bash featuring Browning Snider @ Libby's Cafe, 9–11 PM",
+    "August 14 — SKATE! on the Plaza @ Plaza District",
+    "August 15 — Planned Mooney's at Hollywood Corners grand opening celebration (pending licenses and final confirmation)",
+    "August 15 — Marshal Rock Radio Fest @ The Historic Ritz"
   ],
   "venue_watch": {
     "Mooney's at Hollywood Corners": {
@@ -34,7 +34,8 @@
     },
     "Brickhouse Saloon": {
       "special": [
-        "August 22 — Ty Junah & The Young Guns (doors 8 PM, show 9 PM; 21+; $10 cover)"
+        "August 22 — Ty Junah & The Young Guns (doors 8 PM, show 9 PM; 21+; $10 cover)",
+        "August 29 — Birthday Bash"
       ],
       "regular": [
         "Thursday Bingo (21+)",
@@ -43,7 +44,9 @@
       ]
     },
     "Grand Casino Resort": {
-      "special": [],
+      "special": [
+        "August 28 — Rachel & Griffin @ Fire & Ice Bar"
+      ],
       "regular": [
         "Major concerts and casino entertainment"
       ]
@@ -64,8 +67,6 @@
     },
     "The Alley": {
       "special": [
-        "August 7 — So Watt Band",
-        "August 8 — Take 2",
         "August 14 — Texas Tightrope SRV Tribute Band",
         "August 15 — The Vice Presidents",
         "August 21 — Hell N Bakk",
@@ -81,19 +82,21 @@
     },
     "Libby's Cafe": {
       "special": [
-        "August 8 — John Dobson (acoustic, 9–11 PM)",
         "August 14 — Back to School Bash featuring Browning Snider (full band, 9–11 PM)",
         "August 22 — 34th Anniversary Party: Bryant Smith (6:30–8:30 PM) and Gage Wilkerson & The Young Guns (9–11 PM)",
         "August 29 — Mixtape Revival (full band, 9–11 PM)"
       ],
       "regular": [
-        "Weekend dining and entertainment in Goldsby"
+        "Tuesday — College Night: half-price appetizers with college ID; happy hour 5–7 PM",
+        "Wednesday — SINGO at 7 PM; happy hour 5–7 PM",
+        "Thursday — Open Mic with Rick Fowble, 7–10 PM; happy hour 5–7 PM",
+        "Friday — Karaoke with Kylee at 9 PM; happy hour 5–7 PM",
+        "Saturday — Live Music at 9 PM, no cover; happy hour 5–7 PM",
+        "Free pool daily"
       ]
     },
     "Royal Bavaria": {
       "special": [
-        "August 7 — Tim Brauer",
-        "August 8 — Redgrass Dirt Band",
         "August 14 — Evantides",
         "August 15 — Route 66",
         "August 21 — John the Franklin",
@@ -114,28 +117,27 @@
       "special": [
         "August 15 — Marshal Rock Radio Fest (all ages)",
         "August 22 — Get Leppard: A Def Leppard Tribute",
-        "August 27 — Carvin Jones"
+        "August 27 — Carvin Jones",
+        "August 29 — Run to You"
       ],
       "regular": [
         "Historic downtown Shawnee live entertainment venue"
       ]
     },
     "Music Unlimited": {
-      "special": [
-        "August 7 — Singer-Songwriter Night"
-      ],
+      "special": [],
       "regular": [
         "Live music and community entertainment in Shawnee"
       ]
     }
   },
   "featured_this_weekend": [
-    "July 31–August 9 — AQHYA World Championship @ OG&E Coliseum",
-    "August 7–8 — FireLake FireFlight Hot Air Balloon Festival in Shawnee",
-    "August 7–8 — 71st Annual Roy LeBlanc Invitational Rodeo @ Heart of Oklahoma Expo Center",
-    "August 7 — TailSpin: A Scissortail Park Music Festival, 6–10 PM",
-    "August 8 — Cody Johnson @ Paycom Center",
-    "August 8 — Taste of Downtown @ The Studio of the Sooner Theatre, 5–8 PM (21+)"
+    "August 14 — Second Friday Art Walk in Downtown Norman, 6–9 PM",
+    "August 14 — Back to School Bash featuring Browning Snider @ Libby's Cafe, 9–11 PM",
+    "August 14 — SKATE! on the Plaza @ Plaza District",
+    "August 15 — Planned Mooney's at Hollywood Corners grand opening celebration (pending licenses and final confirmation)",
+    "August 15 — Marshal Rock Radio Fest @ The Historic Ritz",
+    "August 15 — The Vice Presidents @ The Alley"
   ],
   "sports_schedule": {
     "Oklahoma City Comets": [
@@ -156,42 +158,26 @@
       "November 28 — at Missouri, time window TBD"
     ],
     "USA Softball": [
-      "August 3–8 — All-American Games",
       "August 20–22 — Oklahoma High School Fast Pitch Festival",
       "August 25–30 — Armed Forces Men’s & Women’s Championship"
     ],
     "Special Sporting Events": [
       "July 31–August 9 — AQHYA World Championship",
-      "August 7–8 — 71st Annual Roy LeBlanc Invitational Rodeo",
-      "August 21–23 — Professional Jet Ski Racing at Lake Thunderbird"
+      "August 15 — Battle on the Big Screen: Q3 Esports in Shawnee",
+      "August 21–23 — Professional Jet Ski Racing at Lake Thunderbird",
+      "August 22 — Rocket Man Run & Fun Walk in Shawnee",
+      "August 28 — Gametime 2K17 & Gametime 2010 Freund Golf in Shawnee"
     ],
     "Metro Sports News": [
       "OKC United announced as Oklahoma City’s USL Championship soccer team; debut planned for 2028"
     ]
   },
   "coming_up": [
-    "August 4 — Main Street Shop & Stroll in Downtown Shawnee",
+    "July 31–August 9 — AQHYA World Championship @ OG&E Coliseum",
     "August 6–9 — An Occasional Sale on Main in Shawnee",
-    "August 7 — Singer-Songwriter Night @ Music Unlimited",
-    "August 7 — So Watt Band @ The Alley",
-    "August 7 — Tim Brauer @ Royal Bavaria",
-    "August 7–8 — FireLake FireFlight Hot Air Balloon Festival in Shawnee",
-    "August 7–8 — 71st Annual Roy LeBlanc Invitational Rodeo @ Heart of Oklahoma Expo Center",
-    "August 7–8 — Automobilia Swap Meet in Shawnee",
     "August 7–9 — Oklahoma Tax-Free Shopping Weekend",
-    "August 7 — Chasin' U: The Morgan Wallen Experience @ Diamond Ballroom, 7 PM",
-    "August 7 — Oklahoma Line LIVE @ FireLake FireFlight Balloon Festival, 7–8:30 PM",
-    "August 7 — TailSpin: A Scissortail Park Music Festival, 6–10 PM",
-    "August 7 — United We Dance @ Tower Theatre, 9 PM",
     "August 7–9 — CatVideoFest 2026 @ Oklahoma City Museum of Art",
-    "August 8 — Downtown at Sundown Car Show in Downtown Shawnee, starting at 5 PM",
-    "August 8 — John Dobson @ Libby's Cafe, 9–11 PM",
-    "August 8 — Redgrass Dirt Band @ Royal Bavaria",
-    "August 8 — Take 2 @ The Alley",
-    "August 8 — Taste of Downtown @ The Studio of the Sooner Theatre, 5–8 PM (21+)",
     "August 8–9 — Indian Territory Antique & Collector Arms Show @ Heart of Oklahoma Expo Center",
-    "August 8 — Cody Johnson @ Paycom Center",
-    "August 8 — Little Stranger with Tropidelic, Jarv and Damn Skippy @ Tower Theatre, 7 PM",
     "August 9 — Summer Breeze Concert Series @ Lions Park, 7:30 PM",
     "August 11 — Hamilton @ Civic Center Music Hall",
     "August 14 — Back to School Bash featuring Browning Snider @ Libby's Cafe, 9–11 PM",
@@ -203,13 +189,16 @@
     "August 15 — Route 66 @ Royal Bavaria",
     "August 15 — The Vice Presidents @ The Alley",
     "August 15 — Planned Mooney's at Hollywood Corners grand opening celebration (pending licenses and final confirmation)",
+    "August 15 — Battle on the Big Screen: Q3 Esports in Shawnee",
     "August 17–18 — OU First-Year Move-In",
     "August 19–23 — Camp Crimson",
     "August 20 — Bikes & Rods Downtown in Shawnee, 6–10 PM",
+    "August 20–22 — Oklahoma High School Fast Pitch Festival @ Devon Park",
     "August 21 — Hell N Bakk @ The Alley",
     "August 21 — John the Franklin @ Royal Bavaria",
     "August 21 — Outdoor Movie: Super Mario Bros. @ Lions Park, 7 PM",
-    "August 21–23 — Professional jet ski racing @ Lake Thunderbird",
+    "August 21–23 — Professional Jet Ski Racing @ Lake Thunderbird",
+    "August 21–22 — Bricktown Reggae Fest 2026 in Downtown OKC (outdoors along the canal at Reno & Oklahoma Ave; free admission; all ages; Friday gates 5 PM, Saturday gates 3 PM)",
     "August 22 — 34th Anniversary Party @ Libby's Cafe",
     "August 22 — Get Leppard: A Def Leppard Tribute @ The Historic Ritz",
     "August 22 — Jokers to the Right (indoor) and Street Kings (outdoor, 7–11 PM) @ The Alley",
@@ -219,13 +208,22 @@
     "August 22 — Le Tour de Vin @ Cleveland County Event Center, 6:30–10 PM (21+)",
     "August 23 — Summer Breeze Concert Series @ Lions Park, 7:30 PM",
     "August 25–30 — The Outsiders @ Civic Center Music Hall",
+    "August 25–30 — Armed Forces Men’s & Women’s Softball Championship @ Devon Park",
     "August 27 — Carvin Jones @ The Historic Ritz",
     "August 27–30 — An Occasional Sale on Main in Shawnee",
     "August 28 — 151 Remix @ The Alley",
     "August 28 — Tim Brauer @ Royal Bavaria",
+    "August 28 — Rachel & Griffin @ Grand Casino Fire & Ice Bar",
+    "August 28 — Gametime 2K17 & Gametime 2010 Freund Golf in Shawnee",
     "August 29 — Christy Bryant & Twist of Fate @ The Alley",
     "August 29 — Evantides @ Royal Bavaria",
     "August 29 — Mixtape Revival @ Libby's Cafe, 9–11 PM",
-    "September 3 — Beats & Bites featuring Clay Walker and Terri Clark @ Riverwind Casino, 7:30 PM"
+    "August 29 — Run to You @ The Historic Ritz",
+    "August 29 — Brickhouse Saloon Birthday Bash",
+    "August 29 — Atlas Spas & Swim Spas Show in Shawnee",
+    "September 1 — Main Street Shop & Stroll in Downtown Shawnee",
+    "September 3 — Beats & Bites featuring Clay Walker and Terri Clark @ Riverwind Casino, 7:30 PM",
+    "September 3 — Red Earth Chamber Series inaugural concert, “Foundations,” @ OBU Shawnee Hall",
+    "September 25 — ZOObrew @ Oklahoma City Zoo (21+; after-hours tastings, food and animal experiences; ticketed event)"
   ]
 }
