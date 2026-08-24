@@ -1,9 +1,9 @@
 {
   "database_name": "Big Red Rider Feed",
-  "version": "5.7",
-  "updated_at": "2026-08-17T19:10:00-05:00",
-  "week_start": "2026-08-17",
-  "week_range": "August 17–23, 2026",
+  "version": "5.8",
+  "updated_at": "2026-08-24T08:52:00-05:00",
+  "week_start": "2026-08-24",
+  "week_range": "August 24–30, 2026",
   "rules_locked": {
     "weekly_highlights": "Current week only. Maximum 4–6 rider-facing events.",
     "venue_watch": "Relationship venues with current and forward-looking events only.",
@@ -13,12 +13,12 @@
     "expired_cleanup": "Remove all expired dated events during weekly refresh."
   },
   "weekly_highlights": [
-    "August 20 — Bikes & Rods Downtown in Shawnee, 6–10 PM",
-    "August 21–22 — Bricktown Reggae Fest 2026 in Downtown OKC",
-    "August 21–23 — Professional Jet Ski Racing @ Lake Thunderbird",
-    "August 22 — Ty Junah & The Young Guns @ Brickhouse Saloon, 9 PM",
-    "August 22 — Le Tour de Vin @ Cleveland County Event Center, 6:30–10 PM (21+)",
-    "August 22 — SPARK! Benefiting Bright Futures Gala in Norman, 6–8 PM; afterparty at NOUN Hotel / ONE Bar, 8:30–10 PM"
+    "August 25–30 — The Outsiders @ Civic Center Music Hall",
+    "August 25–30 — Armed Forces Men’s & Women’s Softball Championship @ Devon Park",
+    "August 27 — OBU Women’s Soccer vs Midwestern State @ OBU Soccer Complex, 7–9 PM",
+    "August 27 — Carvin Jones @ The Historic Ritz",
+    "August 29 — Smells Like Stein Spirit: Skydance Oktoberfest @ Skydance Brewing Co., 4 PM–midnight",
+    "August 29 — Brickhouse Saloon Birthday Bash"
   ],
   "venue_watch": {
     "Mooney's at Hollywood Corners": {
@@ -36,8 +36,6 @@
     },
     "Brickhouse Saloon": {
       "special": [
-        "August 20 — Bike Night featuring Patrick Winsett (doors 5 PM; no cover; 21+)",
-        "August 22 — Ty Junah & The Young Guns (doors 8 PM; show 9 PM; $10 cover; 21+)",
         "August 29 — Birthday Bash"
       ],
       "regular": [
@@ -71,9 +69,6 @@
     },
     "The Alley": {
       "special": [
-        "August 21 — Hell N Bakk",
-        "August 22 — Jokers to the Right (indoor)",
-        "August 22 — Street Kings (outdoor, 7–11 PM)",
         "August 28 — 151 Remix",
         "August 29 — Christy Bryant & Twist of Fate"
       ],
@@ -84,7 +79,6 @@
     },
     "Libby's Cafe": {
       "special": [
-        "August 22 — 34th Anniversary Party: Bryant Smith (6:30–8:30 PM) and Gage Wilkerson & The Young Guns (9–11 PM)",
         "August 29 — Mixtape Revival (full band, 9–11 PM)"
       ],
       "regular": [
@@ -98,8 +92,6 @@
     },
     "Royal Bavaria": {
       "special": [
-        "August 21 — John the Franklin",
-        "August 22 — Shawn Proffitt",
         "August 28 — Tim Brauer",
         "August 29 — Evantides",
         "September 4 — Redgrass Dirt Band",
@@ -114,9 +106,9 @@
     },
     "The Historic Ritz": {
       "special": [
-        "August 22 — Get Leppard: A Def Leppard Tribute",
         "August 27 — Carvin Jones",
-        "August 29 — Run to You"
+        "August 29 — Run to You: Bryan Adams Tribute",
+        "September 11 — Darren McKnight AKA Southern Momma"
       ],
       "regular": [
         "Historic downtown Shawnee live entertainment venue"
@@ -142,15 +134,21 @@
       "regular": [
         "Live music and community events in Harrah"
       ]
+    },
+    "Skydance Brewing Co.": {
+      "special": [
+        "August 29 — Smells Like Stein Spirit: Skydance Oktoberfest, 4 PM–midnight; German-inspired food, Rachel & Griffin at 4 PM, The Flannels at 8 PM, stein race, pretzel toss and stein-holding contest"
+      ],
+      "regular": []
     }
   },
   "featured_this_weekend": [
-    "August 21–22 — Bricktown Reggae Fest 2026 in Downtown OKC",
-    "August 21–23 — Professional Jet Ski Racing @ Lake Thunderbird",
-    "August 22 — Ty Junah & The Young Guns @ Brickhouse Saloon, 9 PM",
-    "August 22 — Le Tour de Vin @ Cleveland County Event Center, 6:30–10 PM (21+)",
-    "August 22 — Get Leppard: A Def Leppard Tribute @ The Historic Ritz",
-    "August 22 — SPARK! Benefiting Bright Futures Gala in Norman, 6–8 PM; afterparty at NOUN Hotel / ONE Bar, 8:30–10 PM"
+    "August 28 — Diamond Rio @ Riverwind Casino (sold out)",
+    "August 29 — Smells Like Stein Spirit: Skydance Oktoberfest @ Skydance Brewing Co., 4 PM–midnight",
+    "August 29 — Brickhouse Saloon Birthday Bash",
+    "August 29 — Run to You: Bryan Adams Tribute @ The Historic Ritz",
+    "August 29 — Mixtape Revival @ Libby's Cafe, 9–11 PM",
+    "August 29–30 — Atlas Spas & Swim Spas Show in Shawnee"
   ],
   "sports_schedule": {
     "Oklahoma City Comets": [
@@ -171,13 +169,13 @@
       "November 28 — at Missouri, time window TBD"
     ],
     "USA Softball": [
-      "August 20–22 — Oklahoma High School Fast Pitch Festival",
-      "August 25–30 — Armed Forces Men’s & Women’s Championship"
+      "August 25–30 — Armed Forces Men’s & Women’s Championship @ Devon Park"
     ],
     "Special Sporting Events": [
-      "August 21–23 — Professional Jet Ski Racing at Lake Thunderbird",
-      "August 22 — Rocket Man Run & Fun Walk in Shawnee",
-      "August 28 — Gametime 2K17 & Gametime 2010 Freund Golf in Shawnee"
+      "August 28 — Gametime 2K17 & Gametime 2010 Freund Golf in Shawnee",
+      "September 25 — City of Norman Annual Golf Scramble @ Westwood Park Norman",
+      "October 8–10 — OSSAA State Fastpitch Tournament, Classes B, A & 2A @ FireLake Ball Fields, Shawnee",
+      "October 15–17 — OSSAA State Fastpitch Tournament, Classes 3A, 4A, 5A & 6A @ FireLake Ball Fields, Shawnee"
     ],
     "Metro Sports News": [
       "OKC United announced as Oklahoma City’s USL Championship soccer team; debut planned for 2028"
@@ -187,56 +185,48 @@
     ]
   },
   "coming_up": [
-    "August 17–18 — OU First-Year Move-In",
-    "August 18 — Karaoke with Kristen Billington @ Okie State Room",
-    "August 19–23 — Camp Crimson",
-    "August 19 — Open Mic @ Okie State Room",
-    "August 20 — Bikes & Rods Downtown in Shawnee, 6–10 PM",
-    "August 20–22 — Oklahoma High School Fast Pitch Festival @ Devon Park",
-    "August 20 — Sun Deep + Moondoor Band @ Okie State Room (free)",
-    "August 20 — Bike Night featuring Patrick Winsett @ Brickhouse Saloon (doors 5 PM; no cover; 21+)",
-    "August 21 — Hell N Bakk @ The Alley",
-    "August 21 — John the Franklin @ Royal Bavaria",
-    "August 21 — Outdoor Movie: Super Mario Bros. @ Lions Park, 7 PM",
-    "August 21–23 — Professional Jet Ski Racing @ Lake Thunderbird",
-    "August 21–22 — Bricktown Reggae Fest 2026 in Downtown OKC (outdoors along the canal at Reno & Oklahoma Ave; free admission; all ages; Friday gates 5 PM, Saturday gates 3 PM)",
-    "August 21 — Daniel Burgess & the Two $ Tallboys @ Okie State Room ($10)",
-    "August 21–22 — Bricktown Reggae Fest 2026 in Downtown OKC (free admission; all ages)",
-    "August 22 — 34th Anniversary Party @ Libby's Cafe",
-    "August 22 — Get Leppard: A Def Leppard Tribute @ The Historic Ritz",
-    "August 22 — Jokers to the Right (indoor) and Street Kings (outdoor, 7–11 PM) @ The Alley",
-    "August 22 — Rocket Man Run & Fun Walk in Shawnee",
-    "August 22 — Shawn Proffitt @ Royal Bavaria",
-    "August 22 — Ty Junah & The Young Guns @ Brickhouse Saloon, show 9 PM",
-    "August 22 — Le Tour de Vin @ Cleveland County Event Center, 6:30–10 PM (21+)",
-    "August 22 — 90s Xennial Party @ Okie State Room (free)",
-    "August 22 — SPARK! Benefiting Bright Futures Gala in Norman, 6–8 PM; afterparty at NOUN Hotel / ONE Bar, 8:30–10 PM",
-    "August 23 — Summer Breeze Concert Series @ Lions Park, 7:30 PM",
-    "August 23 — Bread and Roses @ Okie State Room (free)",
-    "August 25–30 — The Outsiders @ Civic Center Music Hall",
     "August 25–30 — Armed Forces Men’s & Women’s Softball Championship @ Devon Park",
+    "August 25–30 — The Outsiders @ Civic Center Music Hall",
+    "August 26 — Stop the Hack: Security Awareness Training for Everyone in Shawnee",
     "August 27 — Carvin Jones @ The Historic Ritz",
-    "August 27–30 — An Occasional Sale on Main in Shawnee",
     "August 27 — OBU Women’s Soccer vs Midwestern State @ OBU Soccer Complex, 7–9 PM",
+    "August 27 — Spotlight on Shawnee — OBU Student Welcome",
+    "August 27–30 — An Occasional Sale on Main in Shawnee",
     "August 28 — 151 Remix @ The Alley",
-    "August 28 — Tim Brauer @ Royal Bavaria",
-    "August 28 — Rachel & Griffin @ Grand Casino Fire & Ice Bar",
-    "August 28 — Gametime 2K17 & Gametime 2010 Freund Golf in Shawnee",
     "August 28 — Diamond Rio @ Riverwind Casino (sold out)",
+    "August 28 — Gametime 2K17 & Gametime 2010 Freund Golf in Shawnee",
+    "August 28 — Museum After Dark @ Mabee-Gerrer Museum of Art",
+    "August 28 — Rachel & Griffin @ Grand Casino Fire & Ice Bar",
+    "August 28 — Tim Brauer @ Royal Bavaria",
+    "August 29 — Brickhouse Saloon Birthday Bash",
     "August 29 — Christy Bryant & Twist of Fate @ The Alley",
     "August 29 — Evantides @ Royal Bavaria",
     "August 29 — Mixtape Revival @ Libby's Cafe, 9–11 PM",
     "August 29 — Run to You @ The Historic Ritz",
-    "August 29 — Brickhouse Saloon Birthday Bash",
-    "August 29 — Atlas Spas & Swim Spas Show in Shawnee",
+    "August 29 — Run to You: Bryan Adams Tribute @ The Historic Ritz",
+    "August 29 — Smells Like Stein Spirit: Skydance Oktoberfest @ Skydance Brewing Co., 4 PM–midnight",
+    "August 29–30 — Atlas Spas & Swim Spas Show in Shawnee",
     "September 1 — Main Street Shop & Stroll in Downtown Shawnee",
+    "September 2 — LOCO Model Train Rides in Shawnee",
     "September 3 — Beats & Bites featuring Clay Walker and Terri Clark @ Riverwind Casino, 7:30 PM",
     "September 3 — Red Earth Chamber Series inaugural concert, “Foundations,” @ OBU Shawnee Hall",
+    "September 3 — Shawnee Safety Night for Autistic Drivers with Shawnee PD",
     "September 4 — Mooney's at Hollywood Corners Soft Opening",
+    "September 4 — Singer-Songwriter Night @ Music Unlimited",
+    "September 5 — Adult Pumpkin Pottery @ Mabee-Gerrer Museum of Art",
+    "September 5 — Healing Hearts Meet & Greet for Cancer Survivors in Shawnee",
+    "September 5–6 — Labor Day Classic Boer Goat Sale in Shawnee",
+    "September 9–12 — Pottawatomie County Free Fair",
+    "September 10 — Trivia & Tapas for Legacy Parenting in Shawnee",
+    "September 11 — Darren McKnight AKA Southern Momma @ The Historic Ritz",
     "September 11 — Mooney's at Hollywood Corners Grand Opening Weekend: Jukebox Hero",
+    "September 12 — Adult Pumpkin Pottery @ Mabee-Gerrer Museum of Art",
     "September 12 — Mooney's at Hollywood Corners Grand Opening Weekend: Etowah Road",
+    "September 25 — City of Norman Annual Golf Scramble @ Westwood Park Norman",
     "September 25 — ZOObrew @ Oklahoma City Zoo (21+; after-hours tastings, food and animal experiences; ticketed event)",
     "October 3 — Rocky Horror Campus Corner Crawl in Norman, 7 PM ($25)",
+    "October 8–10 — OSSAA State Fastpitch Tournament, Classes B, A & 2A @ FireLake Ball Fields, Shawnee",
+    "October 15–17 — OSSAA State Fastpitch Tournament, Classes 3A, 4A, 5A & 6A @ FireLake Ball Fields, Shawnee",
     "October 25 — 15th Annual Howl-O-Ween on Campus Corner in Norman, 1–4 PM (free; all ages)"
   ]
 }
