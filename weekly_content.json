@@ -1,7 +1,7 @@
 {
   "database_name": "Big Red Rider Feed",
-  "version": "6.1",
-  "updated_at": "2026-08-30T22:02:00-05:00",
+  "version": "6.3",
+  "updated_at": "2026-09-04T15:00:00-05:00",
   "week_start": "2026-08-31",
   "week_range": "August 31–September 6, 2026",
   "rules_locked": {
@@ -13,9 +13,6 @@
     "expired_cleanup": "Remove all expired dated events during weekly refresh."
   },
   "weekly_highlights": [
-    "September 1 — Main Street Shop & Stroll in Downtown Shawnee, 5–8 PM",
-    "September 3 — Beats & Bites featuring Clay Walker and Terri Clark @ Riverwind Casino, 7:30 PM",
-    "September 3 — Red Earth Chamber Series inaugural concert, “Foundations,” @ OBU Shawnee Hall",
     "September 4 — OU Game Day and Live Music After! @ Mooney's at Hollywood Corners, starts 11 AM",
     "September 4 — First Fridays on the Paseo @ Paseo Arts District",
     "September 4 — Oklahoma Sooners vs UTEP @ Gaylord Family–Oklahoma Memorial Stadium"
@@ -47,23 +44,27 @@
       ]
     },
     "Grand Casino Resort": {
-      "special": [
-        "August 28 — Rachel & Griffin @ Fire & Ice Bar"
-      ],
+      "special": [],
       "regular": [
         "Major concerts and casino entertainment"
       ]
     },
     "Riverwind Casino": {
       "special": [
-        "September 3 — Beats & Bites featuring Clay Walker and Terri Clark (show 7:30 PM; gates 7 PM)"
+        "September 18 — Gabriel Iglesias",
+        "September 25 — Alison Krauss",
+        "October 2 — Foreigner",
+        "October 16 — Brett Young",
+        "October 23 — Barenaked Ladies"
       ],
       "regular": [
         "Major concerts and casino entertainment"
       ]
     },
     "The Jones Assembly": {
-      "special": [],
+      "special": [
+        "October 3 — Jonestoberfest (open to close; live music, Oktoberfest food/drink and biergarten games)"
+      ],
       "regular": [
         "Live music, brunch, patio, and West Village nightlife"
       ]
@@ -86,9 +87,7 @@
       ]
     },
     "Libby's Cafe": {
-      "special": [
-        "August 29 — Mixtape Revival (full band, 9–11 PM)"
-      ],
+      "special": [],
       "regular": [
         "Tuesday — College Night: half-price appetizers with college ID; happy hour 5–7 PM",
         "Wednesday — SINGO at 7 PM; happy hour 5–7 PM",
@@ -100,7 +99,6 @@
     },
     "Royal Bavaria": {
       "special": [
-        "August 29 — Evantides",
         "September 4 — Redgrass Dirt Band",
         "September 5 — Canyon Echo",
         "September 11 — Tim Brauer",
@@ -113,8 +111,8 @@
     },
     "The Historic Ritz": {
       "special": [
-        "September 11 — Darren McKnight AKA Southern Momma with Guests, 7 PM",
-        "September 19 — Who's That Singer?"
+        "September 19 — Who's That Singer?",
+        "September 25 — Adysen Malek & Cali Sickler LIVE"
       ],
       "regular": [
         "Historic downtown Shawnee live entertainment venue"
@@ -129,22 +127,13 @@
       ]
     },
     "Okie State Room": {
-      "special": [
-        "August 18 — Karaoke with Kristen Billington",
-        "August 19 — Open Mic",
-        "August 20 — Sun Deep + Moondoor Band (free)",
-        "August 21 — Daniel Burgess & the Two $ Tallboys ($10)",
-        "August 22 — 90s Xennial Party (free)",
-        "August 23 — Bread and Roses (free)"
-      ],
+      "special": [],
       "regular": [
         "Live music and community events in Harrah"
       ]
     },
     "Skydance Brewing Co.": {
-      "special": [
-        "August 29 — Smells Like Stein Spirit: Skydance Oktoberfest, 4 PM–midnight"
-      ],
+      "special": [],
       "regular": []
     },
     "Black Hawk Casino": {
@@ -154,6 +143,14 @@
       ],
       "regular": [
         "Casino entertainment and live music"
+      ]
+    },
+    "Campus Corner District": {
+      "special": [
+        "September 4 — OU Game Day: Asp Ave, White St. and Buchanan Ave closed all day; Boyd Ave closes at 3 PM"
+      ],
+      "regular": [
+        "OU home game days — free shuttle service between Downtown Norman and Campus Corner with free Downtown parking"
       ]
     }
   },
@@ -166,11 +163,9 @@
     "September 5–6 — Labor Day Classic Boer Goat Sale in Shawnee"
   ],
   "sports_schedule": {
-    "Oklahoma City Comets": [
-      "August 8–13 — vs Sugar Land Space Cowboys"
-    ],
+    "Oklahoma City Comets": [],
     "Oklahoma Sooners Football": [
-      "September 5 — vs UTEP @ Gaylord Family–Oklahoma Memorial Stadium",
+      "September 4 — vs UTEP @ Gaylord Family–Oklahoma Memorial Stadium",
       "September 12 — at Michigan",
       "September 19 — vs New Mexico @ Gaylord Family–Oklahoma Memorial Stadium",
       "September 26 — at Georgia",
@@ -193,18 +188,17 @@
       "September 19 — Pedal Palooza Bike Festival in Shawnee",
       "September 25 — City of Norman Annual Golf Scramble @ Westwood Park Norman",
       "October 8–10 — OSSAA State Fastpitch Tournament, Classes B, A & 2A @ FireLake Ball Fields, Shawnee",
-      "October 15–17 — OSSAA State Fastpitch Tournament, Classes 3A, 4A, 5A & 6A @ FireLake Ball Fields, Shawnee"
+      "October 15–17 — OSSAA State Fastpitch Tournament, Classes 3A, 4A, 5A & 6A @ FireLake Ball Fields, Shawnee",
+      "March 7, 2027 — Stormin’ Norman Half Marathon, 10K & 5K"
     ],
     "Metro Sports News": [
       "OKC United announced as Oklahoma City’s USL Championship soccer team; debut planned for 2028"
     ],
-    "OBU Sports": [
-      "August 27 — OBU Women’s Soccer vs Midwestern State @ OBU Soccer Complex, 7–9 PM"
-    ],
+    "OBU Sports": [],
     "Fairs & Festivals": [
       "September 9–12 — Pottawatomie County Free Fair @ Heart of Oklahoma Exposition Center, Shawnee",
-      "September 10–13 — Cleveland County Fair @ Cleveland County Fairgrounds, Norman",
-      "September 17–27 — Oklahoma State Fair @ OKC Fair Park"
+      "September 17–27 — Oklahoma State Fair @ OKC Fair Park",
+      "September 11–13 — Cleveland County Fair @ Cleveland County Fairgrounds, Norman"
     ],
     "Oklahoma City Thunder": [
       "October 6 — vs New Orleans @ BOK Center (preseason)",
@@ -225,53 +219,20 @@
       "December 22 — vs Detroit @ Paycom Center",
       "December 25 — at Minnesota (Christmas Day)",
       "December 29 — vs Milwaukee @ Paycom Center",
-      "December 31 — vs Miami @ Paycom Center",
-      "January 2 — vs Utah @ Paycom Center",
-      "January 3 — vs Sacramento @ Paycom Center",
-      "January 13 — vs Houston @ Paycom Center",
-      "January 15 — vs Utah @ Paycom Center",
-      "January 17 — vs Portland @ Paycom Center",
-      "January 22 — vs Memphis @ Paycom Center",
-      "January 28 — vs Memphis @ Paycom Center",
-      "January 30 — vs Denver @ Paycom Center",
-      "January 31 — vs Chicago @ Paycom Center",
-      "February 5 — vs Indiana @ Paycom Center",
-      "February 7 — vs New York @ Paycom Center",
-      "February 9 — vs Portland @ Paycom Center",
-      "February 11 — vs San Antonio @ Paycom Center",
-      "February 13 — vs Philadelphia @ Paycom Center",
-      "February 15 — vs Orlando @ Paycom Center",
-      "February 17 — vs Boston @ Paycom Center",
-      "March 2 — vs Minnesota @ Paycom Center",
-      "March 8 — vs Dallas @ Paycom Center",
-      "March 14 — vs San Antonio @ Paycom Center",
-      "March 16 — vs Charlotte @ Paycom Center",
-      "March 17 — vs Dallas @ Paycom Center",
-      "March 26 — vs LA Clippers @ Paycom Center",
-      "April 1 — vs LA Lakers @ Paycom Center",
-      "April 3 — vs New Orleans @ Paycom Center",
-      "April 8 — vs Golden State @ Paycom Center",
-      "April 9 — vs Golden State @ Paycom Center"
+      "December 31 — vs Miami @ Paycom Center"
     ]
   },
   "coming_up": [
-    "September 1 — Main Street Shop & Stroll in Downtown Shawnee, 5–8 PM",
-    "September 3 — Beats & Bites featuring Clay Walker and Terri Clark @ Riverwind Casino, 7:30 PM",
-    "September 3 — Red Earth Chamber Series inaugural concert, “Foundations,” @ OBU Shawnee Hall",
-    "September 3 — Shawnee Safety Night for Autistic Drivers with Shawnee PD",
     "September 4 — First Fridays on the Paseo @ Paseo Arts District",
     "September 4 — Lee Mullen Band @ Black Hawk Casino",
     "September 4 — OU Game Day and Live Music After! @ Mooney's at Hollywood Corners, starts 11 AM",
     "September 4 — Singer-Songwriter Night @ Music Unlimited",
     "September 4 — The Flipside @ The Alley",
     "September 5 — Ninety Proof @ The Alley",
-    "September 5 — Oklahoma Sooners vs UTEP @ Gaylord Family–Oklahoma Memorial Stadium",
     "September 5–6 — Labor Day Classic Boer Goat Sale in Shawnee",
     "September 6 — LOCO Model Train Rides in Shawnee, 1–4 PM",
     "September 9–12 — Pottawatomie County Free Fair @ Heart of Oklahoma Exposition Center, Shawnee",
-    "September 10–13 — Cleveland County Fair @ Cleveland County Fairgrounds, Norman",
     "September 11 — Ballet Under the Stars by OKC Ballet @ Scissortail Park",
-    "September 11 — Darren McKnight AKA Southern Momma with Guests @ The Historic Ritz, 7 PM",
     "September 11 — Grand Opening Friday with Jukebox Hero @ Mooney's at Hollywood Corners, 8 PM",
     "September 11 — Sweet Brenda @ The Alley",
     "September 12 — Bandwagon Bricktown Music Fest @ various Bricktown venues",
@@ -306,6 +267,29 @@
     "October 22 — Oklahoma City Thunder vs Denver @ Paycom Center",
     "October 25 — 15th Annual Howl-O-Ween on Campus Corner in Norman, 1–4 PM (free; all ages)",
     "October 25 — Oklahoma City Thunder vs LA Clippers @ Paycom Center",
-    "October 26 — Oklahoma City Thunder vs Phoenix @ Paycom Center"
+    "October 26 — Oklahoma City Thunder vs Phoenix @ Paycom Center",
+    "September 4 — Oklahoma Sooners vs UTEP @ Gaylord Family–Oklahoma Memorial Stadium",
+    "September 4 — Campus Corner Game Day: Asp Ave, White St. and Buchanan Ave closed all day; Boyd Ave closes 3 PM",
+    "September 5 — Oklahoma Water Lantern Festival @ Legacy Park, 5–9 PM",
+    "September 11 — Second Friday Art Walk @ Downtown Norman, 6–9 PM",
+    "September 11–13 — Cleveland County Fair @ Cleveland County Fairgrounds, Norman",
+    "September 17–20 — Shrek the Musical LIVE @ Shawnee Little Theatre",
+    "September 18 — Sunshine Shelly’s Pumpkin Patch Opening Day in Shawnee",
+    "September 19 — Ink The Block Party @ Oscillator Press, 2–8 PM",
+    "September 22 — Shrek the Musical LIVE @ Shawnee Little Theatre",
+    "September 24–27 — Shrek the Musical LIVE @ Shawnee Little Theatre",
+    "September 25 — Adysen Malek & Cali Sickler LIVE @ The Historic Ritz",
+    "September 25 — Shawnee Homecoming Parade",
+    "September 25 — Micro-Wrestling @ Heart of Oklahoma Expo Center",
+    "September 26 — Classic Car Show @ Black Hawk Casino",
+    "September 26 — Out of the Darkness Walk in Shawnee",
+    "September 28–30 — Neustadt Lit Fest @ University of Oklahoma",
+    "October 3 — Jonestoberfest @ The Jones Assembly (open to close)",
+    "March 7, 2027 — Stormin’ Norman Half Marathon, 10K & 5K",
+    "September 18 — Gabriel Iglesias @ Riverwind Casino",
+    "September 25 — Alison Krauss @ Riverwind Casino",
+    "October 2 — Foreigner @ Riverwind Casino",
+    "October 16 — Brett Young @ Riverwind Casino",
+    "October 23 — Barenaked Ladies @ Riverwind Casino"
   ]
 }
