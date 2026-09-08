@@ -1,7 +1,7 @@
 {
   "database_name": "Big Red Rider Feed",
-  "version": "6.3",
-  "updated_at": "2026-09-04T15:00:00-05:00",
+  "version": "6.4",
+  "updated_at": "2026-09-06T00:35:00-05:00",
   "week_start": "2026-08-31",
   "week_range": "August 31–September 6, 2026",
   "rules_locked": {
@@ -44,7 +44,9 @@
       ]
     },
     "Grand Casino Resort": {
-      "special": [],
+      "special": [
+        "October 17 — Gretchen Wilson — “Still Here for the Party” Tour, 7 PM"
+      ],
       "regular": [
         "Major concerts and casino entertainment"
       ]
@@ -290,6 +292,7 @@
     "September 25 — Alison Krauss @ Riverwind Casino",
     "October 2 — Foreigner @ Riverwind Casino",
     "October 16 — Brett Young @ Riverwind Casino",
-    "October 23 — Barenaked Ladies @ Riverwind Casino"
+    "October 23 — Barenaked Ladies @ Riverwind Casino",
+    "October 17 — Gretchen Wilson — “Still Here for the Party” Tour @ Grand Casino Hotel & Resort, 7 PM"
   ]
 }
