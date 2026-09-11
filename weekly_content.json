@@ -1,7 +1,7 @@
 {
   "database_name": "Big Red Rider Feed",
-  "version": "6.6",
-  "updated_at": "2026-09-09T20:04:00-05:00",
+  "version": "6.7",
+  "updated_at": "2026-09-10T19:06:00-05:00",
   "week_start": "2026-09-07",
   "week_range": "September 7–13, 2026",
   "rules_locked": {
@@ -51,6 +51,13 @@
         "September 26 — Brickhouse Birthday Bash"
       ],
       "regular": [
+        "Monday — Karaoke",
+        "Tuesday — Karaoke",
+        "Friday — DJ night",
+        "Saturday — DJ night",
+        "Sunday — Free pool",
+        "Recurring live music and nightlife throughout the week",
+        "Pool, beer pong and multi-level bar/nightlife venue",
         "Thursday Bingo (21+)",
         "First Saturday monthly pool contest",
         "Weekend nightlife"
@@ -198,6 +205,97 @@
       "special": [],
       "regular": [
         "OU home game days — free shuttle service between Downtown Norman and Campus Corner with free Downtown parking"
+      ]
+    },
+    "Cowboys OKC": {
+      "special": [],
+      "regular": [
+        "Thursday — Ladies Night",
+        "Friday — Live bull riding",
+        "Friday — Line-dance lessons, 9–10 PM",
+        "Saturday — Live bull riding",
+        "Saturday — Line-dance lessons, 9–10 PM",
+        "Open Thursday–Saturday, 8 PM–2 AM; 21+"
+      ]
+    },
+    "Roadhouse": {
+      "special": [],
+      "regular": [
+        "Recurring live music",
+        "Recurring karaoke-style entertainment",
+        "Pool and darts",
+        "Neighborhood bar / late-night hangout"
+      ]
+    },
+    "The Lokal Yukon": {
+      "special": [],
+      "regular": [
+        "Thursday — Live music, 6–9 PM",
+        "Saturday — Live music, 6–9 PM"
+      ]
+    },
+    "Grady's 66 Pub": {
+      "special": [],
+      "regular": [
+        "Rotating live music and Red Dirt/country/rock shows",
+        "Pool and sports-bar atmosphere"
+      ]
+    },
+    "40 WEST Bar & Grill": {
+      "special": [],
+      "regular": [
+        "Frequent karaoke nights",
+        "Frequent live music and entertainment"
+      ]
+    },
+    "Club Keno": {
+      "special": [],
+      "regular": [
+        "Wednesday–Sunday — Karaoke",
+        "Pool and darts"
+      ]
+    },
+    "Cookie's on Western": {
+      "special": [],
+      "regular": [
+        "Nightly karaoke"
+      ]
+    },
+    "Kat's Tavern": {
+      "special": [],
+      "regular": [
+        "Wednesday — Karaoke, 9 PM",
+        "Thursday — Karaoke, 9 PM",
+        "Friday — Karaoke, 9 PM"
+      ]
+    },
+    "Vortex Alley Brewing - Shawnee": {
+      "special": [],
+      "regular": [
+        "Recurring SINGO followed by karaoke",
+        "Community taproom events and live entertainment"
+      ]
+    },
+    "Watering Hole Saloon": {
+      "special": [],
+      "regular": [
+        "Recurring karaoke",
+        "Pool and neighborhood-bar nightlife"
+      ]
+    },
+    "Theopolis Social Club": {
+      "special": [],
+      "regular": [
+        "Recurring live music when weather permits",
+        "Game watch parties and community events"
+      ]
+    },
+    "Thunderbird Casino Shawnee": {
+      "special": [],
+      "regular": [
+        "Recurring live music",
+        "Weekly karaoke",
+        "Casino promotions and themed entertainment"
       ]
     }
   },
