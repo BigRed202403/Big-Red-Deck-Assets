@@ -1,7 +1,7 @@
 {
   "database_name": "Big Red Rider Feed",
-  "version": "6.8",
-  "updated_at": "2026-09-13T20:55:00-05:00",
+  "version": "6.9",
+  "updated_at": "2026-09-15T19:06:00-05:00",
   "week_start": "2026-09-14",
   "week_range": "September 14–20, 2026",
   "rules_locked": {
@@ -14,10 +14,10 @@
   },
   "weekly_highlights": [
     "September 17–27 — Oklahoma State Fair @ OKC Fair Park",
-    "September 17–20 — Disney On Ice @ Oklahoma State Fair",
     "September 18 — Gabriel Iglesias @ Riverwind Casino, 7 PM & 10 PM",
+    "September 18 — Kehlani World Tour @ Zoo Amphitheatre, 6 PM",
     "September 19 — OU vs New Mexico @ Gaylord Family–Oklahoma Memorial Stadium, 6:30 PM",
-    "September 19 — Route 66 Red Dirt Music Festival @ Oklahoma State Fair, 7 PM",
+    "September 19 — It's A 2000's Party @ Tower Theatre, 9 PM, 18+",
     "September 19 — Shawna Russell & the Ranch Hands @ Brickhouse Saloon, 9 PM"
   ],
   "venue_watch": {
@@ -242,7 +242,9 @@
       ]
     },
     "Grady's 66 Pub": {
-      "special": [],
+      "special": [
+        "September 18 — Tyce Delk @ Grady's 66 Pub, 10 PM; doors 8 PM, 21+"
+      ],
       "regular": [
         "Rotating live music and Red Dirt/country/rock shows",
         "Pool and sports-bar atmosphere"
@@ -322,6 +324,44 @@
         "Chickasaw Country Entertainment Stage — nightly concerts free with fair admission",
         "Bandshell — daily performances, 11 AM–10:30 PM"
       ]
+    },
+    "Tower Theatre": {
+      "special": [
+        "September 19 — It's A 2000's Party @ Tower Theatre, 9 PM, 18+"
+      ],
+      "regular": []
+    },
+    "Oklahoma Opry": {
+      "special": [],
+      "regular": [
+        "Most Saturday nights — Oklahoma's Official Country Music Show @ ACM@UCO, 25 S Oklahoma Ave, Bricktown"
+      ]
+    },
+    "Zoo Amphitheatre": {
+      "special": [
+        "September 18 — Kehlani World Tour @ Zoo Amphitheatre, 6 PM"
+      ],
+      "regular": []
+    },
+    "The Criterion": {
+      "special": [
+        "September 20 — Amy Grant @ The Criterion, 8 PM"
+      ],
+      "regular": []
+    },
+    "JoJo's Bar & Grill - Yukon": {
+      "special": [
+        "October 3 — After School Special @ JoJo's Bar & Grill, Yukon, 9 PM"
+      ],
+      "regular": []
+    },
+    "152 Bar - Mustang": {
+      "special": [],
+      "regular": []
+    },
+    "Chrome Pony Bar - Mustang": {
+      "special": [],
+      "regular": []
     }
   },
   "featured_this_weekend": [
@@ -330,7 +370,7 @@
     "September 19 — OU vs New Mexico @ Gaylord Family–Oklahoma Memorial Stadium, 6:30 PM",
     "September 19 — Route 66 Red Dirt Music Festival @ Oklahoma State Fair, 7 PM",
     "September 19 — Tyler Lee Band @ Mooney's at Hollywood Corners, 8:30 PM",
-    "September 20 — Let's Sing Taylor @ Oklahoma State Fair, 7 PM"
+    "September 19 — It's A 2000's Party @ Tower Theatre, 9 PM, 18+"
   ],
   "sports_schedule": {
     "Oklahoma City Comets": [],
@@ -359,7 +399,8 @@
       "October 3 — Driven for Justice Car Show, Shawnee",
       "September 18–20 — Barrel Bash Seniors Only @ Heart of Oklahoma Expo Center, Shawnee",
       "September 19 — Pedal Palooza Bike Festival 2026 @ Rotary Briscoe Boy Scout Park, Shawnee, 10 AM–1 PM",
-      "September 19–21 — Wildcatters PBR Teams Challenge @ Oklahoma State Fair"
+      "September 19–21 — Wildcatters PBR Teams Challenge @ Oklahoma State Fair",
+      "September 19 — Oklahoma Warriors vs New Mexico Ice Wolves @ Blazers Ice Centre, 7 PM"
     ],
     "Metro Sports News": [
       "OKC United announced as Oklahoma City’s USL Championship soccer team; debut planned for 2028"
@@ -370,7 +411,8 @@
     ],
     "Fairs & Festivals": [
       "September 17–27 — Oklahoma State Fair @ OKC Fair Park",
-      "September 19–October 31 — Fall Festival @ Orr Family Farm"
+      "September 19–October 31 — Fall Festival @ Orr Family Farm",
+      "September 20 — India Food & Arts Festival @ Scissortail Park, 11 AM–9 PM"
     ],
     "Oklahoma City Thunder": [
       "October 6 — vs New Orleans @ BOK Center (preseason)",
@@ -525,6 +567,16 @@
     "December 5 — Neal McCoy and Mark Chesnutt @ Riverwind Casino, 8 PM",
     "December 18 — Boyz II Men @ Riverwind Casino, 8 PM",
     "December 26 — Brickhouse Birthday Bash! @ Brickhouse Saloon, 8 PM",
-    "March 7, 2027 — Stormin’ Norman Half Marathon, 10K & 5K"
+    "March 7, 2027 — Stormin’ Norman Half Marathon, 10K & 5K",
+    "September 18 — Kehlani World Tour @ Zoo Amphitheatre, 6 PM",
+    "September 18 — Tyce Delk @ Grady's 66 Pub, 10 PM; doors 8 PM, 21+",
+    "September 19 — It's A 2000's Party @ Tower Theatre, 9 PM, 18+",
+    "September 19 — Oklahoma Warriors vs New Mexico Ice Wolves @ Blazers Ice Centre, 7 PM",
+    "September 20 — Amy Grant @ The Criterion, 8 PM",
+    "September 20 — India Food & Arts Festival @ Scissortail Park, 11 AM–9 PM",
+    "October 3 — After School Special @ JoJo's Bar & Grill, Yukon, 9 PM",
+    "October 7 — Oklahoma City Thunder vs Milwaukee @ Paycom Center (preseason)",
+    "October 13 — Oklahoma City Thunder vs Indiana @ Paycom Center (preseason)",
+    "October 22 — Oklahoma City Thunder vs Denver @ Paycom Center (regular-season home opener)"
   ]
 }
