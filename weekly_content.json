@@ -1,7 +1,7 @@
 {
   "database_name": "Big Red Rider Feed",
-  "version": "6.9",
-  "updated_at": "2026-09-15T19:06:00-05:00",
+  "version": "6.10",
+  "updated_at": "2026-09-15T19:30:00-05:00",
   "week_start": "2026-09-14",
   "week_range": "September 14–20, 2026",
   "rules_locked": {
@@ -16,22 +16,13 @@
     "September 17–27 — Oklahoma State Fair @ OKC Fair Park",
     "September 18 — Gabriel Iglesias @ Riverwind Casino, 7 PM & 10 PM",
     "September 18 — Kehlani World Tour @ Zoo Amphitheatre, 6 PM",
-    "September 19 — OU vs New Mexico @ Gaylord Family–Oklahoma Memorial Stadium, 6:30 PM",
     "September 19 — It's A 2000's Party @ Tower Theatre, 9 PM, 18+",
-    "September 19 — Shawna Russell & the Ranch Hands @ Brickhouse Saloon, 9 PM"
+    "September 19 — Shawna Russell & the Ranch Hands @ Brickhouse Saloon, 9 PM",
+    "September 20 — India Food & Arts Festival @ Scissortail Park, 11 AM–9 PM"
   ],
   "venue_watch": {
     "Mooney's at Hollywood Corners": {
-      "special": [
-        "September 19 — Tyler Lee Band LIVE, 8 PM",
-        "September 25 — John Arnold Band LIVE, 8 PM",
-        "September 18 — Brian Lynn Jones @ Mooney's at Hollywood Corners, 8:30 PM",
-        "September 19 — Tyler Lee Band @ Mooney's at Hollywood Corners, 8:30 PM",
-        "September 25 — John Arnold Band + Dolly Parton Theme Night @ Mooney's at Hollywood Corners, 8:30 PM",
-        "September 25 — Norman High 50th Class Reunion @ Mooney's at Hollywood Corners",
-        "September 26 — Paisley Project Music Festival @ Mooney's at Hollywood Corners, 8:30 PM",
-        "September 26 — Moore Class of '76 Reunion @ Mooney's at Hollywood Corners"
-      ],
+      "special": [],
       "regular": [
         "Monday — Open Mic Night hosted by Tyler Lee, 7 PM",
         "Tuesday — Acoustic Tuesday hosted by Aaron Wall",
@@ -40,16 +31,7 @@
       ]
     },
     "Brickhouse Saloon": {
-      "special": [
-        "September 19 — Shawna Russell & the Ranch Hands",
-        "September 19 — Shawna Russell & the Ranch Hands, 9 PM",
-        "September 26 — Brickhouse Birthday Bash!, 8 PM",
-        "October 31 — Brickhouse Birthday Bash!, 8 PM",
-        "November 28 — Brickhouse Birthday Bash!, 8 PM",
-        "December 26 — Brickhouse Birthday Bash!, 8 PM",
-        "September 26 — Brickhouse Birthday Bash",
-        "September 19 — Shawna Russell & the Ranch Hands @ Brickhouse Saloon, 9 PM"
-      ],
+      "special": [],
       "regular": [
         "Monday — Karaoke",
         "Tuesday — Karaoke",
@@ -64,64 +46,20 @@
       ]
     },
     "Grand Casino Resort": {
-      "special": [
-        "October 2 — Andy Adams @ Fire & Ice Stage, 9–11 PM",
-        "October 3 — Dustin Pittsley @ Fire & Ice Stage, 9–11 PM",
-        "October 9 — Dan Martin @ Fire & Ice Stage, 9–11 PM",
-        "October 10 — Fire & Ice Stage performer TBD, 9–11 PM",
-        "October 16 — Shiloh Steel @ Fire & Ice Stage, 9–11 PM",
-        "October 17 — Gretchen Wilson — “Still Here for the Party” Tour, 7 PM",
-        "October 17 — Ben Brock @ Fire & Ice Stage, 9–11 PM",
-        "October 23 — Rachel & Griffin @ Fire & Ice Stage, 9–11 PM",
-        "October 24 — Grand Casino Fireworks Show",
-        "October 24 — Tommy Joe Smith @ Fire & Ice Stage, 9–11 PM",
-        "October 30 — Erick Taylor @ Fire & Ice Stage, 9–11 PM",
-        "October 31 — Mike Hosty @ Fire & Ice Stage, 9–11 PM",
-        "November 6 — Andy Adams @ Fire & Ice Stage, 9–11 PM",
-        "November 8 — Dustin Pittsley @ Fire & Ice Stage, 9–11 PM",
-        "November 13 — John Russell @ Fire & Ice Stage, 9–11 PM",
-        "November 15 — Ben Brock @ Fire & Ice Stage, 9–11 PM",
-        "November 20 — Tommy Joe Smith @ Fire & Ice Stage, 9–11 PM",
-        "November 21 — Fire & Ice Stage performer TBD, 9–11 PM",
-        "November 27 — Rachel & Griffin @ Fire & Ice Stage, 9–11 PM",
-        "November 28 — Erick Taylor @ Fire & Ice Stage, 9–11 PM",
-        "December 4 — Andy Adams @ Fire & Ice Stage, 9–11 PM",
-        "December 5 — Fire & Ice Stage performer TBD, 9–11 PM",
-        "December 11 — Shiloh Steel @ Fire & Ice Stage, 9–11 PM",
-        "December 12 — Ben Brock @ Fire & Ice Stage, 9–11 PM",
-        "December 18 — Tommy Joe Smith @ Fire & Ice Stage, 9–11 PM",
-        "December 19 — Dustin Pittsley @ Fire & Ice Stage, 9–11 PM",
-        "December 26 — Rachel & Griffin @ Fire & Ice Stage, 9–11 PM"
-      ],
+      "special": [],
       "regular": [
         "Major concerts and casino entertainment",
         "Fire & Ice Stage — live music Friday and Saturday nights, 9–11 PM"
       ]
     },
     "Riverwind Casino": {
-      "special": [
-        "September 18 — Gabriel Iglesias",
-        "October 2 — Foreigner",
-        "October 16 — Brett Young",
-        "October 23 — Barenaked Ladies",
-        "September 18 — Gabriel Iglesias @ Riverwind Casino, 7 PM",
-        "September 18 — Gabriel Iglesias @ Riverwind Casino, 10 PM",
-        "October 2 — Foreigner @ Riverwind Casino, 8 PM",
-        "October 16 — Brett Young @ Riverwind Casino, 8 PM",
-        "October 23 — Barenaked Ladies @ Riverwind Casino, 8 PM",
-        "November 27 — Trailer Trash Tammy @ Riverwind Casino, 7 PM",
-        "November 28 — Jodeci @ Riverwind Casino, 8 PM",
-        "December 5 — Neal McCoy and Mark Chesnutt @ Riverwind Casino, 8 PM",
-        "December 18 — Boyz II Men @ Riverwind Casino, 8 PM"
-      ],
+      "special": [],
       "regular": [
         "Major concerts and casino entertainment"
       ]
     },
     "The Jones Assembly": {
-      "special": [
-        "October 3 — Jonestoberfest (open to close; live music, Oktoberfest food/drink and biergarten games)"
-      ],
+      "special": [],
       "regular": [
         "Live music, brunch, patio, and West Village nightlife"
       ]
@@ -130,9 +68,7 @@
       "special": [
         "September 18 — Stinnet Brothers",
         "September 19 — Radio Replay aka Haloed (outdoor, 7–11 PM)",
-        "September 19 — After School Special",
-        "September 25 — Not Dead Yet",
-        "September 26 — Jukebox Hero"
+        "September 19 — After School Special"
       ],
       "regular": [
         "Friday and Saturday live music",
@@ -158,28 +94,13 @@
       ]
     },
     "The Historic Ritz": {
-      "special": [
-        "September 19 — Who's That Singer?",
-        "September 25 — Adysen Malek & Cali Sickler LIVE",
-        "September 19 — Who's That Singer?, 7 PM",
-        "September 25 — Adysen Malek & Cali Sickler LIVE, 8 PM",
-        "October 2 — KISS THE GOAT — A Tribute to Ghost (All Ages), 8 PM",
-        "October 3 — CCE — Chris Cornell Experience / 16 Stone-Bush Tribute, 8 PM",
-        "October 9 — Girls Night Out @ The Historic Ritz (21+), 8 PM",
-        "December 4 — Red Dirt Comedy Christmas Show with William Lee Martin (All Ages), 7:30 PM",
-        "September 25 — Adysen Malek & Cali Sickler LIVE @ Ritz",
-        "October 2 — Kiss the Goat — A Tribute to Ghost (all ages)",
-        "October 3 — CCE Chris Cornell Experience",
-        "September 19 — Who's That Singer? @ The Historic Ritz, 7 PM"
-      ],
+      "special": [],
       "regular": [
         "Historic downtown Shawnee live entertainment venue"
       ]
     },
     "Music Unlimited": {
-      "special": [
-        "October 2 — Singer-Songwriter Night"
-      ],
+      "special": [],
       "regular": [
         "Live music and community entertainment in Shawnee"
       ]
@@ -195,20 +116,13 @@
       "regular": []
     },
     "Black Hawk Casino": {
-      "special": [
-        "September 18 — Casey Young",
-        "September 18 — Casey Young @ Black Hawk",
-        "September 26 — Classic Car Show @ Black Hawk",
-        "September 18 — Casey Young LIVE @ Black Hawk Casino, 8 PM"
-      ],
+      "special": [],
       "regular": [
         "Casino entertainment and live music"
       ]
     },
     "Campus Corner District": {
-      "special": [
-        "September 19 — OU vs New Mexico home game, 6:30 PM; free Downtown Norman ↔ Campus Corner shuttle runs 3:30–6:30 PM and for two hours after the final whistle"
-      ],
+      "special": [],
       "regular": [
         "OU home game days — free shuttle service between Downtown Norman and Campus Corner with free Downtown parking",
         "OU home game days — free VisitNorman golf-cart shuttle between Downtown Norman and Campus Corner"
@@ -310,11 +224,9 @@
     "Oklahoma State Fair": {
       "special": [
         "September 17 — Aaron Watson with Alex Miller @ Oklahoma State Fair, 7:30 PM",
-        "September 18 — Sebastian Bach with Great White @ Oklahoma State Fair, 7:30 PM",
         "September 19 — Route 66 Red Dirt Music Festival @ Oklahoma State Fair, 7 PM",
         "September 20 — Let's Sing Taylor @ Oklahoma State Fair, 7 PM",
         "September 17–20 — Disney On Ice @ Oklahoma State Fair",
-        "September 19–21 — Wildcatters PBR Teams Challenge @ Oklahoma State Fair",
         "September 18 — Film Friday @ Oklahoma State Fair, noon–8 PM",
         "September 19–20 — Oklahoma Mural Challenge @ Oklahoma State Fair",
         "September 19 — Route 66 Centennial Salute @ Oklahoma State Fair, noon–7 PM"
@@ -326,9 +238,7 @@
       ]
     },
     "Tower Theatre": {
-      "special": [
-        "September 19 — It's A 2000's Party @ Tower Theatre, 9 PM, 18+"
-      ],
+      "special": [],
       "regular": []
     },
     "Oklahoma Opry": {
@@ -338,21 +248,15 @@
       ]
     },
     "Zoo Amphitheatre": {
-      "special": [
-        "September 18 — Kehlani World Tour @ Zoo Amphitheatre, 6 PM"
-      ],
+      "special": [],
       "regular": []
     },
     "The Criterion": {
-      "special": [
-        "September 20 — Amy Grant @ The Criterion, 8 PM"
-      ],
+      "special": [],
       "regular": []
     },
     "JoJo's Bar & Grill - Yukon": {
-      "special": [
-        "October 3 — After School Special @ JoJo's Bar & Grill, Yukon, 9 PM"
-      ],
+      "special": [],
       "regular": []
     },
     "152 Bar - Mustang": {
@@ -365,12 +269,12 @@
     }
   },
   "featured_this_weekend": [
-    "September 18 — Gabriel Iglesias @ Riverwind Casino, 7 PM & 10 PM",
     "September 18 — Sebastian Bach with Great White @ Oklahoma State Fair, 7:30 PM",
-    "September 19 — OU vs New Mexico @ Gaylord Family–Oklahoma Memorial Stadium, 6:30 PM",
-    "September 19 — Route 66 Red Dirt Music Festival @ Oklahoma State Fair, 7 PM",
+    "September 18 — Brian Lynn Jones @ Mooney's at Hollywood Corners, 8:30 PM",
+    "September 18 — Casey Young @ Black Hawk Casino, 8 PM",
     "September 19 — Tyler Lee Band @ Mooney's at Hollywood Corners, 8:30 PM",
-    "September 19 — It's A 2000's Party @ Tower Theatre, 9 PM, 18+"
+    "September 19 — Who's That Singer? @ The Historic Ritz, 7 PM",
+    "September 20 — Amy Grant @ The Criterion, 8 PM"
   ],
   "sports_schedule": {
     "Oklahoma City Comets": [],
@@ -398,7 +302,6 @@
       "September 26 — Out of the Darkness Walk, Shawnee",
       "October 3 — Driven for Justice Car Show, Shawnee",
       "September 18–20 — Barrel Bash Seniors Only @ Heart of Oklahoma Expo Center, Shawnee",
-      "September 19 — Pedal Palooza Bike Festival 2026 @ Rotary Briscoe Boy Scout Park, Shawnee, 10 AM–1 PM",
       "September 19–21 — Wildcatters PBR Teams Challenge @ Oklahoma State Fair",
       "September 19 — Oklahoma Warriors vs New Mexico Ice Wolves @ Blazers Ice Centre, 7 PM"
     ],
@@ -410,9 +313,7 @@
       "September 26 — OBU Football vs Southwestern Oklahoma State University — Kid's Day"
     ],
     "Fairs & Festivals": [
-      "September 17–27 — Oklahoma State Fair @ OKC Fair Park",
-      "September 19–October 31 — Fall Festival @ Orr Family Farm",
-      "September 20 — India Food & Arts Festival @ Scissortail Park, 11 AM–9 PM"
+      "September 19–October 31 — Fall Festival @ Orr Family Farm"
     ],
     "Oklahoma City Thunder": [
       "October 6 — vs New Orleans @ BOK Center (preseason)",
@@ -463,70 +364,28 @@
     ]
   },
   "coming_up": [
-    "September 15 — Community Matters: National Night Out @ Rotary Boy Scout Park, Shawnee, 5–7 PM",
-    "September 16–October 4 — Come From Away @ Lyric Theatre",
-    "September 17 — Aaron Watson with Alex Miller @ Oklahoma State Fair, 7:30 PM",
-    "September 17 — Bikes & Rods Downtown in Shawnee, 6–10 PM",
-    "September 17 — Bikes & Rods Downtown Shawnee, 6–10 PM",
-    "September 17 — Poetry Reading @ the Lunch Box with Sharon Edge Martin",
-    "September 17–20 — Disney On Ice @ Oklahoma State Fair",
-    "September 17–20 — Shrek the Musical @ Shawnee Little Theatre",
-    "September 17–20 — Shrek the Musical LIVE @ Shawnee Little Theatre",
-    "September 17–27 — Oklahoma State Fair @ OKC Fair Park",
-    "September 18 — Brian Lynn Jones @ Mooney's at Hollywood Corners, 8:30 PM",
-    "September 18 — Casey Young @ Black Hawk Casino",
-    "September 18 — Casey Young LIVE @ Black Hawk Casino, 8 PM",
-    "September 18 — Gabriel Iglesias @ Riverwind Casino",
-    "September 18 — Gabriel Iglesias @ Riverwind Casino, 10 PM",
-    "September 18 — Gabriel Iglesias @ Riverwind Casino, 7 PM",
-    "September 18 — Sebastian Bach with Great White @ Oklahoma State Fair, 7:30 PM",
-    "September 18 — Stinnet Brothers @ The Alley",
-    "September 18 — Sunshine Shelly's Pumpkin Patch Opening Day",
-    "September 18 — Sunshine Shelly’s Pumpkin Patch Opening Day in Shawnee",
-    "September 18–20 — Barrel Bash Seniors Only @ Heart of Oklahoma Expo Center, Shawnee",
-    "September 18–20 — Barrel Bash Seniors Only in Shawnee",
-    "September 18–20 — Barrel Bash Seniors Only, Shawnee",
-    "September 19 — After School Special @ The Alley",
-    "September 19 — Free Downtown Norman ↔ Campus Corner game-day shuttle, 3:30–6:30 PM and two hours after the final whistle",
-    "September 19 — Ink The Block Party @ Oscillator Press, 2–8 PM",
-    "September 19 — OU vs New Mexico @ Gaylord Family–Oklahoma Memorial Stadium, 6:30 PM",
-    "September 19 — Pedal Palooza Bike Festival 2026 @ Rotary Briscoe Boy Scout Park, Shawnee, 10 AM–1 PM",
-    "September 19 — Pedal Palooza Bike Festival in Shawnee",
-    "September 19 — Pedal Palooza Bike Festival, Shawnee",
-    "September 19 — Radio Replay aka Haloed @ The Alley (outdoor, 7–11 PM)",
-    "September 19 — Route 66 Centennial Salute @ Oklahoma State Fair, noon–7 PM",
-    "September 19 — Route 66 Red Dirt Music Festival @ Oklahoma State Fair, 7 PM",
-    "September 19 — Shawna Russell & the Ranch Hands @ Brickhouse Saloon",
-    "September 19 — Shawna Russell & the Ranch Hands @ Brickhouse Saloon, 9 PM",
-    "September 19 — Tyler Lee Band @ Mooney's at Hollywood Corners, 8:30 PM",
-    "September 19 — Tyler Lee Band LIVE @ Mooney's at Hollywood Corners, 8 PM",
-    "September 19 — Who's That Singer? @ The Historic Ritz",
-    "September 19 — Who's That Singer? @ The Historic Ritz, 7 PM",
-    "September 19–20 — Oklahoma Mural Challenge @ Oklahoma State Fair",
-    "September 19–21 — Wildcatters PBR Teams Challenge @ Oklahoma State Fair",
-    "September 19–October 31 — Fall Festival @ Orr Family Farm",
-    "September 20 — Let's Sing Taylor @ Oklahoma State Fair, 7 PM",
-    "September 20 — Shrek the Musical @ Shawnee Little Theatre, 2 PM",
-    "September 20 — Sunshine Shelly's Pumpkin Patch, 1–6 PM",
-    "September 22 — Shrek the Musical LIVE @ Shawnee Little Theatre",
     "September 22–27 — The Sound of Music by OKC Broadway @ Civic Center Music Hall",
-    "September 24 — Community Market's Harvest Moon",
-    "September 24 — Worksite Wellbeing Summit 2026",
+    "September 22 — Shrek the Musical LIVE @ Shawnee Little Theatre",
     "September 24–27 — An Occasional Sale on Main",
     "September 24–27 — An Occasional Sale on Main in Shawnee",
     "September 24–27 — Shrek the Musical LIVE @ Shawnee Little Theatre",
+    "September 24 — Community Market's Harvest Moon",
+    "September 24 — Worksite Wellbeing Summit 2026",
+    "September 25 — Adysen Malek & Cali Sickler LIVE @ Ritz @ The Historic Ritz",
     "September 25 — Adysen Malek & Cali Sickler LIVE @ The Historic Ritz",
     "September 25 — John Arnold Band + Dolly Parton Theme Night @ Mooney's at Hollywood Corners, 8:30 PM",
-    "September 25 — John Arnold Band LIVE @ Mooney's at Hollywood Corners, 8 PM",
     "September 25 — Micro-Wrestling @ Heart of Oklahoma Expo Center",
+    "September 25 — Norman High 50th Class Reunion @ Mooney's at Hollywood Corners",
     "September 25 — Not Dead Yet @ The Alley",
     "September 25 — Parker McCollum @ Paycom Center",
     "September 25 — Shawnee Homecoming Parade",
     "September 26 — Brickhouse Birthday Bash! @ Brickhouse Saloon, 8 PM",
+    "September 26 — Classic Car Show @ Black Hawk @ Black Hawk Casino",
     "September 26 — Classic Car Show @ Black Hawk Casino",
     "September 26 — DiscoverFest @ Science Museum Oklahoma",
     "September 26 — Girl Scouts Bestie Bash",
     "September 26 — Jukebox Hero @ The Alley",
+    "September 26 — Moore Class of '76 Reunion @ Mooney's at Hollywood Corners",
     "September 26 — Out of the Darkness Walk in Shawnee",
     "September 26 — Paisley Project Music Festival @ Mooney's at Hollywood Corners, 8:30 PM",
     "September 26 — Plaza District Festival @ Plaza District",
@@ -535,48 +394,73 @@
     "September 27 — Auditions: The Game's Afoot @ Shawnee Little Theatre",
     "September 28–30 — Neustadt Lit Fest @ University of Oklahoma",
     "October 1–3 — Monkey Business Kids Consignment",
+    "October 2 — Andy Adams @ Fire & Ice Stage, 9–11 PM @ Grand Casino Resort",
     "October 2 — Foreigner @ Riverwind Casino",
-    "October 2 — Kiss the Goat — A Tribute to Ghost @ The Historic Ritz (all ages)",
+    "October 2 — KISS THE GOAT — A Tribute to Ghost (All Ages), 8 PM @ The Historic Ritz",
     "October 2 — KISS THE GOAT — A Tribute to Ghost @ The Historic Ritz, 8 PM",
+    "October 2 — Kiss the Goat — A Tribute to Ghost @ The Historic Ritz (all ages)",
     "October 2 — Singer-Songwriter Night @ Music Unlimited",
     "October 3 — 20th Annual Aviation Festival @ Max Westheimer Airport, Norman, 9 AM–1 PM",
-    "October 3 — CCE Chris Cornell Experience @ The Historic Ritz",
+    "October 3 — After School Special @ JoJo's Bar & Grill, Yukon, 9 PM",
+    "October 3 — After School Special @ JoJo's Bar & Grill, Yukon, 9 PM @ JoJo's Bar & Grill - Yukon",
     "October 3 — CCE — Chris Cornell Experience / 16 Stone-Bush Tribute @ The Historic Ritz, 8 PM",
+    "October 3 — CCE Chris Cornell Experience @ The Historic Ritz",
     "October 3 — Driven for Justice Car Show, Shawnee",
+    "October 3 — Dustin Pittsley @ Fire & Ice Stage, 9–11 PM @ Grand Casino Resort",
+    "October 3 — Jonestoberfest (open to close; live music, Oktoberfest food/drink and biergarten games) @ The Jones Assembly",
     "October 3 — Jonestoberfest @ The Jones Assembly (open to close)",
     "October 3 — LOCO Model Train Rides",
     "October 3 — Meet Author John William Sonnenberg @ Lost Pages",
     "October 3 — Rocky Horror Campus Corner Crawl in Norman, 7 PM ($25)",
     "October 3 — Sunshine Shelly's Pumpkin Patch open for the season",
+    "October 7 — Oklahoma City Thunder vs Milwaukee @ Paycom Center (preseason)",
     "October 8–10 — OSSAA State Fastpitch Tournament, Classes B, A & 2A @ FireLake Ball Fields, Shawnee",
+    "October 9 — Dan Martin @ Fire & Ice Stage, 9–11 PM @ Grand Casino Resort",
     "October 9 — Girls Night Out @ The Historic Ritz (21+), 8 PM",
+    "October 10 — Fire & Ice Stage performer TBD, 9–11 PM @ Grand Casino Resort",
+    "October 13 — Oklahoma City Thunder vs Indiana @ Paycom Center (preseason)",
     "October 15–17 — OSSAA State Fastpitch Tournament, Classes 3A, 4A, 5A & 6A @ FireLake Ball Fields, Shawnee",
     "October 16 — Brett Young @ Riverwind Casino",
+    "October 16 — Shiloh Steel @ Fire & Ice Stage, 9–11 PM @ Grand Casino Resort",
+    "October 17 — Ben Brock @ Fire & Ice Stage, 9–11 PM @ Grand Casino Resort",
     "October 17 — Gretchen Wilson — “Still Here for the Party” Tour @ Grand Casino Hotel & Resort, 7 PM",
+    "October 17 — Gretchen Wilson — “Still Here for the Party” Tour, 7 PM @ Grand Casino Resort",
     "October 22 — Oklahoma City Thunder vs Denver @ Paycom Center",
+    "October 22 — Oklahoma City Thunder vs Denver @ Paycom Center (regular-season home opener)",
     "October 23 — Barenaked Ladies @ Riverwind Casino",
+    "October 23 — Rachel & Griffin @ Fire & Ice Stage, 9–11 PM @ Grand Casino Resort",
     "October 24 — Grand Casino Fireworks Show @ Grand Casino Hotel & Resort",
+    "October 24 — Grand Casino Fireworks Show @ Grand Casino Resort",
+    "October 24 — Tommy Joe Smith @ Fire & Ice Stage, 9–11 PM @ Grand Casino Resort",
     "October 25 — 15th Annual Howl-O-Ween on Campus Corner in Norman, 1–4 PM (free; all ages)",
     "October 25 — Oklahoma City Thunder vs LA Clippers @ Paycom Center",
     "October 26 — Oklahoma City Thunder vs Phoenix @ Paycom Center",
+    "October 30 — Erick Taylor @ Fire & Ice Stage, 9–11 PM @ Grand Casino Resort",
     "October 31 — Brickhouse Birthday Bash! @ Brickhouse Saloon, 8 PM",
+    "October 31 — Mike Hosty @ Fire & Ice Stage, 9–11 PM @ Grand Casino Resort",
+    "November 6 — Andy Adams @ Fire & Ice Stage, 9–11 PM @ Grand Casino Resort",
+    "November 8 — Dustin Pittsley @ Fire & Ice Stage, 9–11 PM @ Grand Casino Resort",
+    "November 13 — John Russell @ Fire & Ice Stage, 9–11 PM @ Grand Casino Resort",
+    "November 15 — Ben Brock @ Fire & Ice Stage, 9–11 PM @ Grand Casino Resort",
+    "November 20 — Tommy Joe Smith @ Fire & Ice Stage, 9–11 PM @ Grand Casino Resort",
+    "November 21 — Fire & Ice Stage performer TBD, 9–11 PM @ Grand Casino Resort",
+    "November 27 — Rachel & Griffin @ Fire & Ice Stage, 9–11 PM @ Grand Casino Resort",
     "November 27 — Trailer Trash Tammy @ Riverwind Casino, 7 PM",
     "November 28 — Brickhouse Birthday Bash! @ Brickhouse Saloon, 8 PM",
+    "November 28 — Erick Taylor @ Fire & Ice Stage, 9–11 PM @ Grand Casino Resort",
     "November 28 — Jodeci @ Riverwind Casino, 8 PM",
+    "December 4 — Andy Adams @ Fire & Ice Stage, 9–11 PM @ Grand Casino Resort",
+    "December 4 — Red Dirt Comedy Christmas Show with William Lee Martin (All Ages), 7:30 PM @ The Historic Ritz",
     "December 4 — Red Dirt Comedy Christmas Show with William Lee Martin @ The Historic Ritz, 7:30 PM",
+    "December 5 — Fire & Ice Stage performer TBD, 9–11 PM @ Grand Casino Resort",
     "December 5 — Neal McCoy and Mark Chesnutt @ Riverwind Casino, 8 PM",
+    "December 11 — Shiloh Steel @ Fire & Ice Stage, 9–11 PM @ Grand Casino Resort",
+    "December 12 — Ben Brock @ Fire & Ice Stage, 9–11 PM @ Grand Casino Resort",
     "December 18 — Boyz II Men @ Riverwind Casino, 8 PM",
+    "December 18 — Tommy Joe Smith @ Fire & Ice Stage, 9–11 PM @ Grand Casino Resort",
+    "December 19 — Dustin Pittsley @ Fire & Ice Stage, 9–11 PM @ Grand Casino Resort",
     "December 26 — Brickhouse Birthday Bash! @ Brickhouse Saloon, 8 PM",
-    "March 7, 2027 — Stormin’ Norman Half Marathon, 10K & 5K",
-    "September 18 — Kehlani World Tour @ Zoo Amphitheatre, 6 PM",
-    "September 18 — Tyce Delk @ Grady's 66 Pub, 10 PM; doors 8 PM, 21+",
-    "September 19 — It's A 2000's Party @ Tower Theatre, 9 PM, 18+",
-    "September 19 — Oklahoma Warriors vs New Mexico Ice Wolves @ Blazers Ice Centre, 7 PM",
-    "September 20 — Amy Grant @ The Criterion, 8 PM",
-    "September 20 — India Food & Arts Festival @ Scissortail Park, 11 AM–9 PM",
-    "October 3 — After School Special @ JoJo's Bar & Grill, Yukon, 9 PM",
-    "October 7 — Oklahoma City Thunder vs Milwaukee @ Paycom Center (preseason)",
-    "October 13 — Oklahoma City Thunder vs Indiana @ Paycom Center (preseason)",
-    "October 22 — Oklahoma City Thunder vs Denver @ Paycom Center (regular-season home opener)"
+    "December 26 — Rachel & Griffin @ Fire & Ice Stage, 9–11 PM @ Grand Casino Resort",
+    "March 7, 2027 — Stormin’ Norman Half Marathon, 10K & 5K"
   ]
 }
