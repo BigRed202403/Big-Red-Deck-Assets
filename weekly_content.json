@@ -1,7 +1,7 @@
 {
   "database_name": "Big Red Rider Feed",
-  "version": "6.10",
-  "updated_at": "2026-09-15T19:30:00-05:00",
+  "version": "6.11",
+  "updated_at": "2026-09-17T12:09:00-05:00",
   "week_start": "2026-09-14",
   "week_range": "September 14–20, 2026",
   "rules_locked": {
@@ -16,9 +16,9 @@
     "September 17–27 — Oklahoma State Fair @ OKC Fair Park",
     "September 18 — Gabriel Iglesias @ Riverwind Casino, 7 PM & 10 PM",
     "September 18 — Kehlani World Tour @ Zoo Amphitheatre, 6 PM",
+    "September 18–20 — OU Fall Family Weekend @ University of Oklahoma, Norman",
     "September 19 — It's A 2000's Party @ Tower Theatre, 9 PM, 18+",
-    "September 19 — Shawna Russell & the Ranch Hands @ Brickhouse Saloon, 9 PM",
-    "September 20 — India Food & Arts Festival @ Scissortail Park, 11 AM–9 PM"
+    "September 19 — Shawna Russell & the Ranch Hands @ Brickhouse Saloon, 9 PM"
   ],
   "venue_watch": {
     "Mooney's at Hollywood Corners": {
@@ -27,7 +27,8 @@
         "Monday — Open Mic Night hosted by Tyler Lee, 7 PM",
         "Tuesday — Acoustic Tuesday hosted by Aaron Wall",
         "Wednesday — Karaoke, 9 PM",
-        "Thursday — Music Bingo, 7:30 PM; Karaoke, 9 PM"
+        "Thursday — Music Bingo, 7:30 PM; Karaoke, 9 PM",
+        "OU Fall Family Weekend (September 18–20) — Mooney's is a Norman/Hollywood Corners nightlife stop to watch during Parent & Family Weekend"
       ]
     },
     "Brickhouse Saloon": {
