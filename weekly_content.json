@@ -1,7 +1,7 @@
 {
   "database_name": "Big Red Rider Feed",
-  "version": "6.12",
-  "updated_at": "2026-09-20T11:30:00-05:00",
+  "version": "6.13",
+  "updated_at": "2026-09-20T15:55:00-05:00",
   "week_start": "2026-09-21",
   "week_range": "September 21–27, 2026",
   "rules_locked": {
@@ -13,11 +13,11 @@
     "expired_cleanup": "Remove all expired dated events during weekly refresh."
   },
   "weekly_highlights": [
-    "September 17–27 — Oklahoma State Fair @ OKC Fair Park",
     "September 22–27 — The Sound of Music by OKC Broadway @ Civic Center Music Hall",
+    "September 23 — Dan & Phil @ The Criterion",
+    "September 23 — Kylie Morgan @ Beer City Music Hall",
     "September 25 — Parker McCollum @ Paycom Center, 7:30 PM",
     "September 26 — 27th Annual Plaza District Festival, noon–11 PM",
-    "September 26 — CU in the Park featuring Russell Dickerson @ Scissortail Park, 7–10 PM",
     "September 27 — Phil Wickham @ Paycom Center, 7 PM"
   ],
   "venue_watch": {
@@ -30,24 +30,19 @@
         "Monday — Open Mic Night hosted by Tyler Lee, 7 PM",
         "Tuesday — Acoustic Tuesday hosted by Aaron Wall",
         "Wednesday — Karaoke, 9 PM",
-        "Thursday — Music Bingo, 7:30 PM; Karaoke, 9 PM"
+        "Thursday — Music Bingo, 7:30 PM; Karaoke, 9 PM",
+        "Thursday — Hot Rod Night, 4–6 PM"
       ]
     },
     "Brickhouse Saloon": {
       "special": [],
       "regular": [
-        "Monday — Karaoke",
-        "Tuesday — Karaoke",
+        "Wednesday — SINGO (21+)",
+        "Thursday — BINGO (21+)",
         "Friday — DJ night",
         "Saturday — DJ night",
-        "Sunday — Free pool",
-        "Recurring live music and nightlife throughout the week",
-        "Pool, beer pong and multi-level bar/nightlife venue",
-        "Thursday Bingo (21+)",
-        "First Saturday monthly pool contest",
-        "Weekend nightlife",
-        "Wednesday — SINGO (21+)",
-        "Sunday — Free Pool all day"
+        "Sunday — Free Pool all day",
+        "Recurring live music and nightlife throughout the week"
       ]
     },
     "Grand Casino Resort": {
@@ -64,7 +59,10 @@
       ]
     },
     "The Jones Assembly": {
-      "special": [],
+      "special": [
+        "September 21 — My So Called Band @ The Jones Assembly",
+        "September 22 — Jones County Fair @ The Jones Assembly"
+      ],
       "regular": [
         "Live music, brunch, patio, and West Village nightlife"
       ]
@@ -81,11 +79,8 @@
     "Libby's Cafe": {
       "special": [],
       "regular": [
-        "Tuesday — College Night: half-price appetizers with college ID; happy hour 5–7 PM",
-        "Wednesday — SINGO at 7 PM; happy hour 5–7 PM",
-        "Thursday — Open Mic with Rick Fowble, 7–10 PM; happy hour 5–7 PM",
-        "Friday — Karaoke with Kylee at 9 PM; happy hour 5–7 PM",
-        "Saturday — Live Music at 9 PM, no cover; happy hour 5–7 PM",
+        "Wednesday — SINGO, 7 PM",
+        "Wednesday — Happy Hour, 5–7 PM",
         "Free pool daily"
       ]
     },
@@ -247,18 +242,21 @@
       "regular": []
     },
     "The Criterion": {
-      "special": [],
+      "special": [
+        "September 23 — Dan & Phil @ The Criterion",
+        "September 26 — Artemas @ The Criterion"
+      ],
       "regular": []
     },
     "JoJo's Bar & Grill - Yukon": {
       "special": [
         "October 3 — After School Special @ JoJo's Bar & Grill, Yukon, 9 PM"
       ],
-      "regular": []
-    },
-    "152 Bar - Mustang": {
-      "special": [],
-      "regular": []
+      "regular": [
+        "Tuesday — SINGO",
+        "Friday — DJ",
+        "Select Saturdays — Live bands"
+      ]
     },
     "Chrome Pony Bar - Mustang": {
       "special": [],
@@ -270,7 +268,8 @@
       "special": [],
       "regular": [
         "Wednesday — Free Pool",
-        "Sunday — Free Pool"
+        "Sunday — Free Pool",
+        "Regular karaoke, poker, trivia and Friday live music"
       ]
     },
     "Shawnee Little Theatre": {
@@ -291,15 +290,27 @@
         "September 26 — DiscoverFest @ Science Museum Oklahoma"
       ],
       "regular": []
+    },
+    "Beer City Music Hall": {
+      "special": [
+        "September 23 — Kylie Morgan @ Beer City Music Hall"
+      ],
+      "regular": []
+    },
+    "Bricktown Comedy Club": {
+      "special": [
+        "September 25–26 — Earthquake @ Bricktown Comedy Club"
+      ],
+      "regular": []
     }
   },
   "featured_this_weekend": [
     "September 25 — John Arnold Band + Dolly Parton Theme Night @ Mooney's at Hollywood Corners, 8:30 PM",
-    "September 25 — Micro-Wrestling @ Heart of Oklahoma Expo Center, Shawnee",
+    "September 25–26 — Earthquake @ Bricktown Comedy Club",
+    "September 26 — Artemas @ The Criterion",
     "September 26 — Brickhouse Birthday Bash @ Brickhouse Saloon, 8 PM",
     "September 26 — Paisley Project Music Festival @ Mooney's at Hollywood Corners, 8:30 PM",
-    "September 26 — Classic Car Show @ Black Hawk Casino",
-    "September 27 — Monarchs in the Park @ Ruby Grant Park, Norman, 11 AM–4 PM"
+    "September 26 — CU in the Park featuring Russell Dickerson @ Scissortail Park, 7–10 PM"
   ],
   "sports_schedule": {
     "Oklahoma City Comets": [],
@@ -419,7 +430,6 @@
     "October 3 — Jonestoberfest @ The Jones Assembly (open to close)",
     "October 3 — LOCO Model Train Rides",
     "October 3 — Meet Author John William Sonnenberg @ Lost Pages",
-    "October 3 — Rocky Horror Campus Corner Crawl in Norman, 7 PM ($25)",
     "October 3 — Rocky Horror Campus Corner Crawl, Norman, 7 PM",
     "October 3 — Sunshine Shelly's Pumpkin Patch open for the season",
     "October 7 — Oklahoma City Thunder vs Milwaukee @ Paycom Center (preseason)",
