@@ -1,9 +1,9 @@
 {
   "database_name": "Big Red Rider Feed",
-  "version": "6.11",
-  "updated_at": "2026-09-17T12:09:00-05:00",
-  "week_start": "2026-09-14",
-  "week_range": "September 14–20, 2026",
+  "version": "6.12",
+  "updated_at": "2026-09-20T11:30:00-05:00",
+  "week_start": "2026-09-21",
+  "week_range": "September 21–27, 2026",
   "rules_locked": {
     "weekly_highlights": "Current week only. Maximum 4–6 rider-facing events.",
     "venue_watch": "Relationship venues with current and forward-looking events only.",
@@ -14,21 +14,23 @@
   },
   "weekly_highlights": [
     "September 17–27 — Oklahoma State Fair @ OKC Fair Park",
-    "September 18 — Gabriel Iglesias @ Riverwind Casino, 7 PM & 10 PM",
-    "September 18 — Kehlani World Tour @ Zoo Amphitheatre, 6 PM",
-    "September 18–20 — OU Fall Family Weekend @ University of Oklahoma, Norman",
-    "September 19 — It's A 2000's Party @ Tower Theatre, 9 PM, 18+",
-    "September 19 — Shawna Russell & the Ranch Hands @ Brickhouse Saloon, 9 PM"
+    "September 22–27 — The Sound of Music by OKC Broadway @ Civic Center Music Hall",
+    "September 25 — Parker McCollum @ Paycom Center, 7:30 PM",
+    "September 26 — 27th Annual Plaza District Festival, noon–11 PM",
+    "September 26 — CU in the Park featuring Russell Dickerson @ Scissortail Park, 7–10 PM",
+    "September 27 — Phil Wickham @ Paycom Center, 7 PM"
   ],
   "venue_watch": {
     "Mooney's at Hollywood Corners": {
-      "special": [],
+      "special": [
+        "September 25 — Norman High 50th Class Reunion @ Mooney's at Hollywood Corners",
+        "September 26 — Moore Class of '76 Reunion @ Mooney's at Hollywood Corners"
+      ],
       "regular": [
         "Monday — Open Mic Night hosted by Tyler Lee, 7 PM",
         "Tuesday — Acoustic Tuesday hosted by Aaron Wall",
         "Wednesday — Karaoke, 9 PM",
-        "Thursday — Music Bingo, 7:30 PM; Karaoke, 9 PM",
-        "OU Fall Family Weekend (September 18–20) — Mooney's is a Norman/Hollywood Corners nightlife stop to watch during Parent & Family Weekend"
+        "Thursday — Music Bingo, 7:30 PM; Karaoke, 9 PM"
       ]
     },
     "Brickhouse Saloon": {
@@ -43,7 +45,9 @@
         "Pool, beer pong and multi-level bar/nightlife venue",
         "Thursday Bingo (21+)",
         "First Saturday monthly pool contest",
-        "Weekend nightlife"
+        "Weekend nightlife",
+        "Wednesday — SINGO (21+)",
+        "Sunday — Free Pool all day"
       ]
     },
     "Grand Casino Resort": {
@@ -67,9 +71,7 @@
     },
     "The Alley": {
       "special": [
-        "September 18 — Stinnet Brothers",
-        "September 19 — Radio Replay aka Haloed (outdoor, 7–11 PM)",
-        "September 19 — After School Special"
+        "September 25 — Not Dead Yet @ The Alley"
       ],
       "regular": [
         "Friday and Saturday live music",
@@ -95,7 +97,9 @@
       ]
     },
     "The Historic Ritz": {
-      "special": [],
+      "special": [
+        "September 25 — Adysen Malek & Cali Sickler LIVE @ The Historic Ritz"
+      ],
       "regular": [
         "Historic downtown Shawnee live entertainment venue"
       ]
@@ -157,9 +161,7 @@
       ]
     },
     "Grady's 66 Pub": {
-      "special": [
-        "September 18 — Tyce Delk @ Grady's 66 Pub, 10 PM; doors 8 PM, 21+"
-      ],
+      "special": [],
       "regular": [
         "Rotating live music and Red Dirt/country/rock shows",
         "Pool and sports-bar atmosphere"
@@ -223,15 +225,7 @@
       ]
     },
     "Oklahoma State Fair": {
-      "special": [
-        "September 17 — Aaron Watson with Alex Miller @ Oklahoma State Fair, 7:30 PM",
-        "September 19 — Route 66 Red Dirt Music Festival @ Oklahoma State Fair, 7 PM",
-        "September 20 — Let's Sing Taylor @ Oklahoma State Fair, 7 PM",
-        "September 17–20 — Disney On Ice @ Oklahoma State Fair",
-        "September 18 — Film Friday @ Oklahoma State Fair, noon–8 PM",
-        "September 19–20 — Oklahoma Mural Challenge @ Oklahoma State Fair",
-        "September 19 — Route 66 Centennial Salute @ Oklahoma State Fair, noon–7 PM"
-      ],
+      "special": [],
       "regular": [
         "September 17–27 — Oklahoma State Fair @ OKC Fair Park",
         "Chickasaw Country Entertainment Stage — nightly concerts free with fair admission",
@@ -257,7 +251,9 @@
       "regular": []
     },
     "JoJo's Bar & Grill - Yukon": {
-      "special": [],
+      "special": [
+        "October 3 — After School Special @ JoJo's Bar & Grill, Yukon, 9 PM"
+      ],
       "regular": []
     },
     "152 Bar - Mustang": {
@@ -266,21 +262,48 @@
     },
     "Chrome Pony Bar - Mustang": {
       "special": [],
+      "regular": [
+        "Thursday — Industry Night, 10 PM to close; happy hour prices for industry workers"
+      ]
+    },
+    "One-52 Bar & Grill - Mustang": {
+      "special": [],
+      "regular": [
+        "Wednesday — Free Pool",
+        "Sunday — Free Pool"
+      ]
+    },
+    "Shawnee Little Theatre": {
+      "special": [
+        "September 22 — Shrek the Musical LIVE @ Shawnee Little Theatre",
+        "September 24–27 — Shrek the Musical LIVE @ Shawnee Little Theatre"
+      ],
+      "regular": []
+    },
+    "OKC Zoo": {
+      "special": [
+        "September 26 — ZOObrew @ OKC Zoo, 21+"
+      ],
+      "regular": []
+    },
+    "Science Museum Oklahoma": {
+      "special": [
+        "September 26 — DiscoverFest @ Science Museum Oklahoma"
+      ],
       "regular": []
     }
   },
   "featured_this_weekend": [
-    "September 18 — Sebastian Bach with Great White @ Oklahoma State Fair, 7:30 PM",
-    "September 18 — Brian Lynn Jones @ Mooney's at Hollywood Corners, 8:30 PM",
-    "September 18 — Casey Young @ Black Hawk Casino, 8 PM",
-    "September 19 — Tyler Lee Band @ Mooney's at Hollywood Corners, 8:30 PM",
-    "September 19 — Who's That Singer? @ The Historic Ritz, 7 PM",
-    "September 20 — Amy Grant @ The Criterion, 8 PM"
+    "September 25 — John Arnold Band + Dolly Parton Theme Night @ Mooney's at Hollywood Corners, 8:30 PM",
+    "September 25 — Micro-Wrestling @ Heart of Oklahoma Expo Center, Shawnee",
+    "September 26 — Brickhouse Birthday Bash @ Brickhouse Saloon, 8 PM",
+    "September 26 — Paisley Project Music Festival @ Mooney's at Hollywood Corners, 8:30 PM",
+    "September 26 — Classic Car Show @ Black Hawk Casino",
+    "September 27 — Monarchs in the Park @ Ruby Grant Park, Norman, 11 AM–4 PM"
   ],
   "sports_schedule": {
     "Oklahoma City Comets": [],
     "Oklahoma Sooners Football": [
-      "September 19 — vs New Mexico @ Gaylord Family–Oklahoma Memorial Stadium, 6:30 PM",
       "September 26 — at Georgia",
       "October 10 — vs Texas @ Cotton Bowl, Dallas",
       "October 17 — vs Kentucky @ Gaylord Family–Oklahoma Memorial Stadium",
@@ -293,29 +316,21 @@
     ],
     "USA Softball": [],
     "Special Sporting Events": [
-      "September 18–20 — Barrel Bash Seniors Only in Shawnee",
-      "September 19 — Pedal Palooza Bike Festival in Shawnee",
       "September 25 — City of Norman Annual Golf Scramble @ Westwood Park Norman",
       "October 8–10 — OSSAA State Fastpitch Tournament, Classes B, A & 2A @ FireLake Ball Fields, Shawnee",
       "October 15–17 — OSSAA State Fastpitch Tournament, Classes 3A, 4A, 5A & 6A @ FireLake Ball Fields, Shawnee",
       "March 7, 2027 — Stormin’ Norman Half Marathon, 10K & 5K",
-      "September 25 — Micro-Wrestling @ Heart of Oklahoma Expo Center, Shawnee",
-      "September 26 — Out of the Darkness Walk, Shawnee",
       "October 3 — Driven for Justice Car Show, Shawnee",
-      "September 18–20 — Barrel Bash Seniors Only @ Heart of Oklahoma Expo Center, Shawnee",
       "September 19–21 — Wildcatters PBR Teams Challenge @ Oklahoma State Fair",
-      "September 19 — Oklahoma Warriors vs New Mexico Ice Wolves @ Blazers Ice Centre, 7 PM"
+      "September 27 — Monarch Migration 5K @ Ruby Grant Park, Norman"
     ],
     "Metro Sports News": [
       "OKC United announced as Oklahoma City’s USL Championship soccer team; debut planned for 2028"
     ],
     "OBU Sports": [
-      "September 17 — OBU Women's Volleyball vs Southern Nazarene University — Green Out, 7 PM",
       "September 26 — OBU Football vs Southwestern Oklahoma State University — Kid's Day"
     ],
-    "Fairs & Festivals": [
-      "September 19–October 31 — Fall Festival @ Orr Family Farm"
-    ],
+    "Fairs & Festivals": [],
     "Oklahoma City Thunder": [
       "October 6 — vs New Orleans @ BOK Center (preseason)",
       "October 7 — vs Milwaukee @ Paycom Center (preseason)",
@@ -362,39 +377,31 @@
       "April 3, 2027 — vs New Orleans @ Paycom Center",
       "April 8, 2027 — vs Golden State @ Paycom Center",
       "April 9, 2027 — vs Golden State @ Paycom Center"
+    ],
+    "Oklahoma Sooners Women's Basketball": [
+      "October 25 — vs Southern Nazarene @ home (exhibition)",
+      "November 8 — vs Morgan State @ home",
+      "November 10 — vs San Jose State @ home",
+      "November 13 — vs Oral Roberts @ home",
+      "November 15 — vs Southern @ home",
+      "November 17 — vs Texas Southern @ home",
+      "November 19 — vs Northwestern State @ home",
+      "December 9 — vs Southern Illinois @ home",
+      "December 21 — vs Louisiana Monroe @ home",
+      "January 3 — vs Missouri @ home",
+      "January 7 — vs Georgia @ home",
+      "January 24 — vs Kentucky @ home",
+      "January 28 — vs Vanderbilt @ home",
+      "February 4 — vs Alabama @ home",
+      "February 8 — vs South Carolina @ home",
+      "February 21 — vs Auburn @ home",
+      "February 25 — vs Texas @ home"
     ]
   },
   "coming_up": [
-    "September 22–27 — The Sound of Music by OKC Broadway @ Civic Center Music Hall",
-    "September 22 — Shrek the Musical LIVE @ Shawnee Little Theatre",
-    "September 24–27 — An Occasional Sale on Main",
-    "September 24–27 — An Occasional Sale on Main in Shawnee",
-    "September 24–27 — Shrek the Musical LIVE @ Shawnee Little Theatre",
-    "September 24 — Community Market's Harvest Moon",
-    "September 24 — Worksite Wellbeing Summit 2026",
-    "September 25 — Adysen Malek & Cali Sickler LIVE @ Ritz @ The Historic Ritz",
-    "September 25 — Adysen Malek & Cali Sickler LIVE @ The Historic Ritz",
-    "September 25 — John Arnold Band + Dolly Parton Theme Night @ Mooney's at Hollywood Corners, 8:30 PM",
-    "September 25 — Micro-Wrestling @ Heart of Oklahoma Expo Center",
-    "September 25 — Norman High 50th Class Reunion @ Mooney's at Hollywood Corners",
-    "September 25 — Not Dead Yet @ The Alley",
-    "September 25 — Parker McCollum @ Paycom Center",
-    "September 25 — Shawnee Homecoming Parade",
-    "September 26 — Brickhouse Birthday Bash! @ Brickhouse Saloon, 8 PM",
-    "September 26 — Classic Car Show @ Black Hawk @ Black Hawk Casino",
-    "September 26 — Classic Car Show @ Black Hawk Casino",
-    "September 26 — DiscoverFest @ Science Museum Oklahoma",
-    "September 26 — Girl Scouts Bestie Bash",
-    "September 26 — Jukebox Hero @ The Alley",
-    "September 26 — Moore Class of '76 Reunion @ Mooney's at Hollywood Corners",
-    "September 26 — Out of the Darkness Walk in Shawnee",
-    "September 26 — Paisley Project Music Festival @ Mooney's at Hollywood Corners, 8:30 PM",
-    "September 26 — Plaza District Festival @ Plaza District",
-    "September 26 — Shawnee Community Out of the Darkness Walk",
-    "September 26 — ZOObrew @ Oklahoma City Zoo (21+)",
-    "September 27 — Auditions: The Game's Afoot @ Shawnee Little Theatre",
     "September 28–30 — Neustadt Lit Fest @ University of Oklahoma",
     "October 1–3 — Monkey Business Kids Consignment",
+    "October 1 — Brooks & Dunn with Tucker Wetmore @ Paycom Center, 7 PM",
     "October 2 — Andy Adams @ Fire & Ice Stage, 9–11 PM @ Grand Casino Resort",
     "October 2 — Foreigner @ Riverwind Casino",
     "October 2 — KISS THE GOAT — A Tribute to Ghost (All Ages), 8 PM @ The Historic Ritz",
@@ -413,6 +420,7 @@
     "October 3 — LOCO Model Train Rides",
     "October 3 — Meet Author John William Sonnenberg @ Lost Pages",
     "October 3 — Rocky Horror Campus Corner Crawl in Norman, 7 PM ($25)",
+    "October 3 — Rocky Horror Campus Corner Crawl, Norman, 7 PM",
     "October 3 — Sunshine Shelly's Pumpkin Patch open for the season",
     "October 7 — Oklahoma City Thunder vs Milwaukee @ Paycom Center (preseason)",
     "October 8–10 — OSSAA State Fastpitch Tournament, Classes B, A & 2A @ FireLake Ball Fields, Shawnee",
@@ -424,6 +432,7 @@
     "October 16 — Brett Young @ Riverwind Casino",
     "October 16 — Shiloh Steel @ Fire & Ice Stage, 9–11 PM @ Grand Casino Resort",
     "October 17 — Ben Brock @ Fire & Ice Stage, 9–11 PM @ Grand Casino Resort",
+    "October 17 — Gretchen Wilson @ Grand Casino Hotel & Resort, 7 PM",
     "October 17 — Gretchen Wilson — “Still Here for the Party” Tour @ Grand Casino Hotel & Resort, 7 PM",
     "October 17 — Gretchen Wilson — “Still Here for the Party” Tour, 7 PM @ Grand Casino Resort",
     "October 22 — Oklahoma City Thunder vs Denver @ Paycom Center",
@@ -434,9 +443,12 @@
     "October 24 — Grand Casino Fireworks Show @ Grand Casino Resort",
     "October 24 — Tommy Joe Smith @ Fire & Ice Stage, 9–11 PM @ Grand Casino Resort",
     "October 25 — 15th Annual Howl-O-Ween on Campus Corner in Norman, 1–4 PM (free; all ages)",
+    "October 25 — Howl-O-Ween on Campus Corner, Norman, 1–4 PM",
     "October 25 — Oklahoma City Thunder vs LA Clippers @ Paycom Center",
+    "October 25 — Oklahoma Sooners Women's Basketball vs Southern Nazarene @ home (exhibition)",
     "October 26 — Oklahoma City Thunder vs Phoenix @ Paycom Center",
     "October 30 — Erick Taylor @ Fire & Ice Stage, 9–11 PM @ Grand Casino Resort",
+    "October 30 — Old Crow Medicine Show @ The Jones Assembly",
     "October 31 — Brickhouse Birthday Bash! @ Brickhouse Saloon, 8 PM",
     "October 31 — Mike Hosty @ Fire & Ice Stage, 9–11 PM @ Grand Casino Resort",
     "November 6 — Andy Adams @ Fire & Ice Stage, 9–11 PM @ Grand Casino Resort",
