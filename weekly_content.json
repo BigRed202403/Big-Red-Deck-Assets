@@ -1,9 +1,9 @@
 {
   "database_name": "Big Red Rider Feed",
-  "version": "6.13",
-  "updated_at": "2026-09-20T15:55:00-05:00",
-  "week_start": "2026-09-21",
-  "week_range": "September 21–27, 2026",
+  "version": "6.15",
+  "updated_at": "2026-09-26T12:00:00-05:00",
+  "week_start": "2026-09-28",
+  "week_range": "September 28–October 4, 2026",
   "rules_locked": {
     "weekly_highlights": "Current week only. Maximum 4–6 rider-facing events.",
     "venue_watch": "Relationship venues with current and forward-looking events only.",
@@ -13,36 +13,31 @@
     "expired_cleanup": "Remove all expired dated events during weekly refresh."
   },
   "weekly_highlights": [
-    "September 22–27 — The Sound of Music by OKC Broadway @ Civic Center Music Hall",
-    "September 23 — Dan & Phil @ The Criterion",
-    "September 23 — Kylie Morgan @ Beer City Music Hall",
-    "September 25 — Parker McCollum @ Paycom Center, 7:30 PM",
-    "September 26 — 27th Annual Plaza District Festival, noon–11 PM",
-    "September 27 — Phil Wickham @ Paycom Center, 7 PM"
+    "October 1 — Brooks & Dunn with Tucker Wetmore and Angie K @ Paycom Center, 7 PM",
+    "October 2 — Foreigner @ Riverwind Casino, 8 PM",
+    "October 2–4 — Oklahoma Regatta Festival @ Boathouse District / RIVERSPORT OKC",
+    "October 2–3 — Asian Night Market Festival @ Oklahoma City Asian District",
+    "October 3 — Fiestas de las Américas @ Historic Capitol Hill, 11 AM–9 PM",
+    "October 3 — The LefTobers: Celebrating the Music of Toby Keith @ Diamond Ballroom"
   ],
   "venue_watch": {
     "Mooney's at Hollywood Corners": {
-      "special": [
-        "September 25 — Norman High 50th Class Reunion @ Mooney's at Hollywood Corners",
-        "September 26 — Moore Class of '76 Reunion @ Mooney's at Hollywood Corners"
-      ],
+      "special": [],
       "regular": [
         "Monday — Open Mic Night hosted by Tyler Lee, 7 PM",
         "Tuesday — Acoustic Tuesday hosted by Aaron Wall",
         "Wednesday — Karaoke, 9 PM",
-        "Thursday — Music Bingo, 7:30 PM; Karaoke, 9 PM",
-        "Thursday — Hot Rod Night, 4–6 PM"
+        "Thursday — Music Bingo, 7:30 PM; Karaoke, 9 PM"
       ]
     },
     "Brickhouse Saloon": {
       "special": [],
       "regular": [
-        "Wednesday — SINGO (21+)",
-        "Thursday — BINGO (21+)",
+        "Wednesday — SINGO, 9 PM (21+)",
+        "Thursday — BINGO, 6 PM (21+)",
         "Friday — DJ night",
         "Saturday — DJ night",
-        "Sunday — Free Pool all day",
-        "Recurring live music and nightlife throughout the week"
+        "Sunday — Free Pool all day"
       ]
     },
     "Grand Casino Resort": {
@@ -59,10 +54,7 @@
       ]
     },
     "The Jones Assembly": {
-      "special": [
-        "September 21 — My So Called Band @ The Jones Assembly",
-        "September 22 — Jones County Fair @ The Jones Assembly"
-      ],
+      "special": [],
       "regular": [
         "Live music, brunch, patio, and West Village nightlife"
       ]
@@ -92,15 +84,15 @@
       ]
     },
     "The Historic Ritz": {
-      "special": [
-        "September 25 — Adysen Malek & Cali Sickler LIVE @ The Historic Ritz"
-      ],
+      "special": [],
       "regular": [
         "Historic downtown Shawnee live entertainment venue"
       ]
     },
     "Music Unlimited": {
-      "special": [],
+      "special": [
+        "October 2 — Singer-Songwriter Night @ Music Unlimited, 7–9 PM"
+      ],
       "regular": [
         "Live music and community entertainment in Shawnee"
       ]
@@ -228,7 +220,9 @@
       ]
     },
     "Tower Theatre": {
-      "special": [],
+      "special": [
+        "October 2 — Cannons @ Tower Theatre"
+      ],
       "regular": []
     },
     "Oklahoma Opry": {
@@ -242,16 +236,11 @@
       "regular": []
     },
     "The Criterion": {
-      "special": [
-        "September 23 — Dan & Phil @ The Criterion",
-        "September 26 — Artemas @ The Criterion"
-      ],
+      "special": [],
       "regular": []
     },
     "JoJo's Bar & Grill - Yukon": {
-      "special": [
-        "October 3 — After School Special @ JoJo's Bar & Grill, Yukon, 9 PM"
-      ],
+      "special": [],
       "regular": [
         "Tuesday — SINGO",
         "Friday — DJ",
@@ -293,7 +282,7 @@
     },
     "Beer City Music Hall": {
       "special": [
-        "September 23 — Kylie Morgan @ Beer City Music Hall"
+        "October 2 — Silverada @ Beer City Music Hall"
       ],
       "regular": []
     },
@@ -302,20 +291,58 @@
         "September 25–26 — Earthquake @ Bricktown Comedy Club"
       ],
       "regular": []
+    },
+    "Diamond Ballroom": {
+      "special": [
+        "October 2 — Jackyl @ Diamond Ballroom"
+      ],
+      "regular": []
+    },
+    "Sunshine Shelly's": {
+      "special": [
+        "October 2 — Sunshine Shelly's Pumpkin Patch opening day, 4–10 PM",
+        "October 3 — Sunshine Shelly's Pumpkin Patch, 10 AM–10 PM",
+        "October 4 — Sunshine Shelly's Pumpkin Patch, 1–6 PM"
+      ],
+      "regular": []
+    },
+    "Shawnee Fall / Halloween Events": {
+      "special": [
+        "October 3 — St. Benedict Fall Festival, 9 AM–5 PM",
+        "October 3 — Driven for Justice Car Show, 9 AM"
+      ],
+      "regular": []
+    },
+    "Asian District": {
+      "special": [
+        "October 2–3 — Asian Night Market Festival @ Oklahoma City Asian District"
+      ],
+      "regular": []
+    },
+    "Historic Capitol Hill": {
+      "special": [
+        "October 3 — Fiestas de las Américas @ Historic Capitol Hill, 11 AM–9 PM"
+      ],
+      "regular": []
+    },
+    "RIVERSPORT / Boathouse District": {
+      "special": [
+        "October 2–4 — Oklahoma Regatta Festival @ Boathouse District / RIVERSPORT OKC"
+      ],
+      "regular": []
     }
   },
   "featured_this_weekend": [
-    "September 25 — John Arnold Band + Dolly Parton Theme Night @ Mooney's at Hollywood Corners, 8:30 PM",
-    "September 25–26 — Earthquake @ Bricktown Comedy Club",
-    "September 26 — Artemas @ The Criterion",
-    "September 26 — Brickhouse Birthday Bash @ Brickhouse Saloon, 8 PM",
-    "September 26 — Paisley Project Music Festival @ Mooney's at Hollywood Corners, 8:30 PM",
-    "September 26 — CU in the Park featuring Russell Dickerson @ Scissortail Park, 7–10 PM"
+    "October 2 — Nightmare Harvest Haunted Corn Maze opening weekend @ Sunshine Shelly's, Shawnee, 7–11:15 PM",
+    "October 2 — KISS THE GOAT — A Tribute to Ghost @ The Historic Ritz, Shawnee, 8 PM, all ages",
+    "October 3 — 20th Annual Aviation Festival @ Max Westheimer Airport, Norman, 9 AM–1 PM",
+    "October 3 — Jonestoberfest @ The Jones Assembly",
+    "October 3 — After School Special @ JoJo's Bar & Grill, Yukon, 9 PM",
+    "October 3 — City of Shawnee Fall Fest @ Woodland Veterans Park, noon–8 PM"
   ],
   "sports_schedule": {
     "Oklahoma City Comets": [],
     "Oklahoma Sooners Football": [
-      "September 26 — at Georgia",
       "October 10 — vs Texas @ Cotton Bowl, Dallas",
       "October 17 — vs Kentucky @ Gaylord Family–Oklahoma Memorial Stadium",
       "October 24 — at Mississippi State",
@@ -327,19 +354,17 @@
     ],
     "USA Softball": [],
     "Special Sporting Events": [
-      "September 25 — City of Norman Annual Golf Scramble @ Westwood Park Norman",
       "October 8–10 — OSSAA State Fastpitch Tournament, Classes B, A & 2A @ FireLake Ball Fields, Shawnee",
       "October 15–17 — OSSAA State Fastpitch Tournament, Classes 3A, 4A, 5A & 6A @ FireLake Ball Fields, Shawnee",
       "March 7, 2027 — Stormin’ Norman Half Marathon, 10K & 5K",
-      "October 3 — Driven for Justice Car Show, Shawnee",
-      "September 19–21 — Wildcatters PBR Teams Challenge @ Oklahoma State Fair",
-      "September 27 — Monarch Migration 5K @ Ruby Grant Park, Norman"
+      "October 2–4 — Oklahoma Regatta Festival @ Boathouse District / RIVERSPORT OKC"
     ],
     "Metro Sports News": [
       "OKC United announced as Oklahoma City’s USL Championship soccer team; debut planned for 2028"
     ],
     "OBU Sports": [
-      "September 26 — OBU Football vs Southwestern Oklahoma State University — Kid's Day"
+      "October 2 — OBU Women's Volleyball vs Arkansas Tech University — Camper Appreciation Night, 4–6 PM",
+      "October 3 — OBU Football vs Ouachita Baptist University — The Weekend / Gold Rush, 2–5 PM"
     ],
     "Fairs & Festivals": [],
     "Oklahoma City Thunder": [
@@ -390,48 +415,27 @@
       "April 9, 2027 — vs Golden State @ Paycom Center"
     ],
     "Oklahoma Sooners Women's Basketball": [
-      "October 25 — vs Southern Nazarene @ home (exhibition)",
-      "November 8 — vs Morgan State @ home",
-      "November 10 — vs San Jose State @ home",
-      "November 13 — vs Oral Roberts @ home",
-      "November 15 — vs Southern @ home",
-      "November 17 — vs Texas Southern @ home",
-      "November 19 — vs Northwestern State @ home",
-      "December 9 — vs Southern Illinois @ home",
-      "December 21 — vs Louisiana Monroe @ home",
-      "January 3 — vs Missouri @ home",
-      "January 7 — vs Georgia @ home",
-      "January 24 — vs Kentucky @ home",
-      "January 28 — vs Vanderbilt @ home",
-      "February 4 — vs Alabama @ home",
-      "February 8 — vs South Carolina @ home",
-      "February 21 — vs Auburn @ home",
-      "February 25 — vs Texas @ home"
+      "October 25, 2026 — vs Southern Nazarene @ home (exhibition)",
+      "November 8, 2026 — vs Morgan State @ home",
+      "November 10, 2026 — vs San Jose State @ home",
+      "November 13, 2026 — vs Oral Roberts @ home",
+      "November 15, 2026 — vs Southern @ home",
+      "November 17, 2026 — vs Texas Southern @ home",
+      "November 19, 2026 — vs Northwestern State @ home",
+      "December 9, 2026 — vs Southern Illinois @ home",
+      "December 21, 2026 — vs Louisiana Monroe @ home",
+      "January 3, 2027 — vs Missouri @ home",
+      "January 7, 2027 — vs Georgia @ home",
+      "January 24, 2027 — vs Kentucky @ home",
+      "January 28, 2027 — vs Vanderbilt @ home",
+      "February 4, 2027 — vs Alabama @ home",
+      "February 8, 2027 — vs South Carolina @ home",
+      "February 21, 2027 — vs Auburn @ home",
+      "February 25, 2027 — vs Texas @ home"
     ]
   },
   "coming_up": [
-    "September 28–30 — Neustadt Lit Fest @ University of Oklahoma",
-    "October 1–3 — Monkey Business Kids Consignment",
-    "October 1 — Brooks & Dunn with Tucker Wetmore @ Paycom Center, 7 PM",
-    "October 2 — Andy Adams @ Fire & Ice Stage, 9–11 PM @ Grand Casino Resort",
-    "October 2 — Foreigner @ Riverwind Casino",
-    "October 2 — KISS THE GOAT — A Tribute to Ghost (All Ages), 8 PM @ The Historic Ritz",
-    "October 2 — KISS THE GOAT — A Tribute to Ghost @ The Historic Ritz, 8 PM",
-    "October 2 — Kiss the Goat — A Tribute to Ghost @ The Historic Ritz (all ages)",
-    "October 2 — Singer-Songwriter Night @ Music Unlimited",
-    "October 3 — 20th Annual Aviation Festival @ Max Westheimer Airport, Norman, 9 AM–1 PM",
-    "October 3 — After School Special @ JoJo's Bar & Grill, Yukon, 9 PM",
-    "October 3 — After School Special @ JoJo's Bar & Grill, Yukon, 9 PM @ JoJo's Bar & Grill - Yukon",
-    "October 3 — CCE — Chris Cornell Experience / 16 Stone-Bush Tribute @ The Historic Ritz, 8 PM",
-    "October 3 — CCE Chris Cornell Experience @ The Historic Ritz",
-    "October 3 — Driven for Justice Car Show, Shawnee",
-    "October 3 — Dustin Pittsley @ Fire & Ice Stage, 9–11 PM @ Grand Casino Resort",
-    "October 3 — Jonestoberfest (open to close; live music, Oktoberfest food/drink and biergarten games) @ The Jones Assembly",
-    "October 3 — Jonestoberfest @ The Jones Assembly (open to close)",
-    "October 3 — LOCO Model Train Rides",
-    "October 3 — Meet Author John William Sonnenberg @ Lost Pages",
-    "October 3 — Rocky Horror Campus Corner Crawl, Norman, 7 PM",
-    "October 3 — Sunshine Shelly's Pumpkin Patch open for the season",
+    "October 6 — Suki Waterhouse @ The Criterion, 8 PM",
     "October 7 — Oklahoma City Thunder vs Milwaukee @ Paycom Center (preseason)",
     "October 8–10 — OSSAA State Fastpitch Tournament, Classes B, A & 2A @ FireLake Ball Fields, Shawnee",
     "October 9 — Dan Martin @ Fire & Ice Stage, 9–11 PM @ Grand Casino Resort",
@@ -439,10 +443,12 @@
     "October 10 — Fire & Ice Stage performer TBD, 9–11 PM @ Grand Casino Resort",
     "October 13 — Oklahoma City Thunder vs Indiana @ Paycom Center (preseason)",
     "October 15–17 — OSSAA State Fastpitch Tournament, Classes 3A, 4A, 5A & 6A @ FireLake Ball Fields, Shawnee",
+    "October 15 — Bikes & Rods Downtown Shawnee — final ride of the season",
     "October 16 — Brett Young @ Riverwind Casino",
     "October 16 — Shiloh Steel @ Fire & Ice Stage, 9–11 PM @ Grand Casino Resort",
     "October 17 — Ben Brock @ Fire & Ice Stage, 9–11 PM @ Grand Casino Resort",
     "October 17 — Gretchen Wilson @ Grand Casino Hotel & Resort, 7 PM",
+    "October 17 — Gretchen Wilson @ Grand Casino Resort, 7 PM",
     "October 17 — Gretchen Wilson — “Still Here for the Party” Tour @ Grand Casino Hotel & Resort, 7 PM",
     "October 17 — Gretchen Wilson — “Still Here for the Party” Tour, 7 PM @ Grand Casino Resort",
     "October 22 — Oklahoma City Thunder vs Denver @ Paycom Center",
@@ -453,6 +459,7 @@
     "October 24 — Grand Casino Fireworks Show @ Grand Casino Resort",
     "October 24 — Tommy Joe Smith @ Fire & Ice Stage, 9–11 PM @ Grand Casino Resort",
     "October 25 — 15th Annual Howl-O-Ween on Campus Corner in Norman, 1–4 PM (free; all ages)",
+    "October 25, 2026 — Oklahoma Sooners Women's Basketball vs Southern Nazarene @ home (exhibition)",
     "October 25 — Howl-O-Ween on Campus Corner, Norman, 1–4 PM",
     "October 25 — Oklahoma City Thunder vs LA Clippers @ Paycom Center",
     "October 25 — Oklahoma Sooners Women's Basketball vs Southern Nazarene @ home (exhibition)",
@@ -484,6 +491,8 @@
     "December 19 — Dustin Pittsley @ Fire & Ice Stage, 9–11 PM @ Grand Casino Resort",
     "December 26 — Brickhouse Birthday Bash! @ Brickhouse Saloon, 8 PM",
     "December 26 — Rachel & Griffin @ Fire & Ice Stage, 9–11 PM @ Grand Casino Resort",
-    "March 7, 2027 — Stormin’ Norman Half Marathon, 10K & 5K"
+    "March 7, 2027 — Stormin’ Norman Half Marathon, 10K & 5K",
+    "October 5 — Turnstile @ The Criterion",
+    "October 10 — Oklahoma vs Texas — Red River Rivalry @ Cotton Bowl, Dallas, 2:30 PM CT"
   ]
 }
