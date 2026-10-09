@@ -1,25 +1,25 @@
 {
   "database_name": "Big Red Rider Feed",
-  "version": "6.20",
-  "updated_at": "2026-10-03T03:30:00-05:00",
-  "week_start": "2026-10-05",
-  "week_range": "October 5–11, 2026",
+  "version": "6.21",
+  "updated_at": "2026-10-09T15:55:00-05:00",
+  "week_start": "2026-10-10",
+  "week_range": "October 10–18, 2026",
   "rules_locked": {
-    "weekly_highlights": "Current week only. Maximum 4–6 rider-facing events. Prioritize Thursday–Sunday evening/night events, major concerts, district nightlife, and strong ride-friction windows. Sports stay in sports_schedule unless intentionally promoted.",
-    "venue_watch": "Relationship and nightlife venues only. Prioritize current-week live music, karaoke, dancing, bar events, and late-night activity. Under a venue header, do not repeat the venue name. Do not duplicate current-week events owned by weekly_highlights or featured_this_weekend.",
-    "featured_this_weekend": "Friday–Sunday nightlife/live-music focus. Maximum 4–6 items. Favor relationship venues, local live bands, late-night activity, and events likely to produce ride demand after dark.",
-    "sports_schedule": "Rider-focused sports only. Prioritize local Thunder games, OU football, and meaningful metro ride-impact events. Keep sports here instead of repeating them in What's Hot.",
-    "coming_up": "Next 30 days only. Curate for future nighttime ride demand: major concerts, Thunder home games, relationship-venue events, Halloween/nightlife, and other high-friction evening draws.",
-    "expired_cleanup": "Remove all expired dated events during weekly refresh.",
-    "single_owner": "A current-week event should have one primary slide-section owner to reduce repetition across What's Hot, Featured Weekend, Venue Hotlist, and Metro Sports."
+    "weekly_highlights": "Target slide window only. Maximum 4–6 rider-facing events. Prioritize Thursday–Sunday evening/night events, major concerts, district nightlife, OU home-game friction, and major festival windows. Standalone items must include venue/location.",
+    "venue_watch": "Relationship and nightlife venues with current and forward-looking activity. Prioritize live music, karaoke, dancing, bar events, and late-night activity. Under a venue header, do not repeat the venue name.",
+    "featured_this_weekend": "Weekend-forward nightlife/live-music focus. Maximum 4–6 items. Favor relationship venues, local live bands, late-night events, and ride-demand windows after dark.",
+    "sports_schedule": "Rider-focused sports only. Prioritize Thunder home games, OU football, and other events with meaningful metro ride impact. Keep sports here unless intentionally promoted.",
+    "coming_up": "Forward-looking only. Preserve high-value future events beyond the target slide window, especially major concerts, Thunder home games, OU home weekends, Halloween/nightlife, and relationship-venue events.",
+    "expired_cleanup": "Remove events that end before the target slide window.",
+    "single_owner": "A target-window event should have one primary slide-section owner to reduce repetition across What's Hot, Featured Weekend, Venue Hotlist, and Metro Sports."
   },
   "weekly_highlights": [
-    "October 8 — Parcels: LOVED Tour 2026 @ The Criterion, doors 7 PM",
-    "October 9 — GHOUL'S NIGHT! @ Plaza District, 6–10 PM",
-    "October 9 — Levity @ The Criterion, doors 7 PM",
-    "October 10 — Role Model: Chuck On Tour @ Zoo Amphitheatre, doors 6:30 PM; show 8 PM",
-    "October 10 — Hermanos Espinoza: LINAJE Tour @ The Criterion, doors 7 PM",
-    "October 11 — Demon Hunter: Storm the Gates of Hell 20th Anniversary Tour @ Tower Theatre, doors 6:30 PM; show 7:30 PM"
+    "October 13 — Oklahoma City Thunder vs Indiana Pacers @ Paycom Center, 7 PM (preseason)",
+    "October 15–18 — OK!toberfest @ OKC Fair Park",
+    "October 16 — SOMBR @ Paycom Center, 7:30 PM",
+    "October 16 — Brett Young @ Riverwind Casino, 8 PM",
+    "October 17 — Oklahoma vs Kentucky @ Gaylord Family–Oklahoma Memorial Stadium, 6:30 PM CT",
+    "October 17 — Gretchen Wilson: Still Here for the Party Tour @ Grand Casino Resort, 7 PM"
   ],
   "venue_watch": {
     "Mooney's at Hollywood Corners": {
@@ -59,7 +59,6 @@
     },
     "Grand Casino Resort": {
       "special": [
-        "October 9 — Dan Martin, Fire & Ice Stage, 9–11 PM",
         "October 16 — Shiloh Steel, Fire & Ice Stage, 9–11 PM",
         "October 17 — Ben Brock, Fire & Ice Stage, 9–11 PM",
         "October 17 — Gretchen Wilson: Still Here for the Party Tour, 7 PM",
@@ -76,8 +75,8 @@
     },
     "Riverwind Casino": {
       "special": [
-        "October 16 — Brett Young",
-        "October 23 — Barenaked Ladies",
+        "October 16 — Brett Young, 8 PM",
+        "October 23 — Barenaked Ladies, 8 PM",
         "November 27 — Trailer Trash Tammy",
         "November 28 — Jodeci",
         "December 5 — Neal McCoy & Mark Chesnutt",
@@ -111,7 +110,9 @@
       ]
     },
     "Libby's Cafe": {
-      "special": [],
+      "special": [
+        "October 30 — Halloween Bash with The Doghouse + special guest Asher Myers, 8:30 PM, all ages"
+      ],
       "regular": [
         "Wednesday — Open Mic, 7 PM",
         "Friday — Karaoke, 9:30 PM",
@@ -134,17 +135,15 @@
       ]
     },
     "Music Unlimited": {
-      "special": [],
+      "special": [
+        "November 6 — Singer-Songwriter Night"
+      ],
       "regular": [
         "Live music and community entertainment in Shawnee"
       ]
     },
     "Okie State Room": {
       "special": [
-        "October 5 — Worship Night Revival, 7–9 PM",
-        "October 6 — Karaoke Night, 7 PM–midnight",
-        "October 7 — Open Mic, 8 PM–midnight",
-        "October 8 — Bike Night, 6–10 PM",
         "October 10 — Showcase, rock, 8 PM",
         "October 11 — The Sons, country-rock Christian, 4 PM",
         "October 13 — Rod's 50th Birthday Jam Session, 7 PM",
@@ -281,12 +280,9 @@
     },
     "Tower Theatre": {
       "special": [
-        "October 6 — Łaszewo: Road to Breakaway Tour, doors 7 PM; show 8 PM",
-        "October 7 — The Beths: By Request Tour, doors 7 PM; show 8 PM",
-        "October 9 — Akeem Ali: The Texture Tour, doors 7 PM; show 8:30 PM",
-        "October 15 — I See Stars",
-        "October 16 — Snarky Puppy",
-        "October 17 — DEMOLA LIVE!",
+        "October 15 — I See Stars, doors 7 PM; show 8 PM",
+        "October 16 — Snarky Puppy, doors 7 PM; show 8 PM",
+        "October 17 — DEMOLA LIVE!, doors 7 PM; show 8 PM",
         "October 21 — Medium Build",
         "October 22 — Prof",
         "October 23 — Mom Jeans",
@@ -313,14 +309,16 @@
     },
     "The Criterion": {
       "special": [
-        "October 5 — Turnstile: The Never Enough Tour Pt. 2, doors 6:30 PM",
-        "October 6 — Suki Waterhouse: The Loveland Tour, doors 7 PM",
-        "October 11 — Sonic: Live In Concert, doors 2 PM",
         "October 13 — Leonid & Friends, doors 7 PM",
         "October 17 — Indigo Girls, doors 6 PM",
         "October 22 — Prof, doors 7 PM",
         "October 24 — Brincos Dieras, doors 7 PM",
-        "October 29 — Los Gemelos De Sinaloa, doors 7 PM"
+        "October 29 — Los Gemelos De Sinaloa, doors 7 PM",
+        "November 4 — Daughtry",
+        "November 6 — Underoath",
+        "November 7 — Wheel of Fortune LIVE",
+        "November 12 — Thundercat, doors 7 PM",
+        "November 13 — Switchfoot with Anberlin, doors 7 PM"
       ],
       "regular": []
     },
@@ -348,11 +346,7 @@
       ]
     },
     "Beer City Music Hall": {
-      "special": [
-        "October 7 — Bad Nerves",
-        "October 8 — Blitzkid",
-        "October 9 — The Mountain Grass Unit"
-      ],
+      "special": [],
       "regular": []
     },
     "Bricktown Comedy Club": {
@@ -369,36 +363,63 @@
     },
     "Paycom Center": {
       "special": [
-        "October 7 — Oklahoma City Thunder vs Milwaukee Bucks, 7 PM (preseason)",
-        "October 10–11 — Hot Wheels Monster Trucks Live: Glow-N-Fire",
         "October 13 — Oklahoma City Thunder vs Indiana Pacers, 7 PM (preseason)",
         "October 16 — SOMBR, 7:30 PM",
         "October 17 — Elevation Worship",
         "October 22 — Oklahoma City Thunder vs Denver Nuggets, 8:30 PM (home opener)",
         "October 24 — The Smashing Pumpkins",
         "October 25 — Oklahoma City Thunder vs LA Clippers, 6 PM",
-        "October 26 — Oklahoma City Thunder vs Phoenix Suns, 7 PM"
+        "October 26 — Oklahoma City Thunder vs Phoenix Suns, 7 PM",
+        "November 4 — Oklahoma City Thunder vs Cleveland Cavaliers, 7 PM",
+        "November 7 — Oklahoma City Thunder vs Washington Wizards, 7 PM",
+        "November 8 — MercyMe, 7 PM",
+        "November 9 — Jonas Brothers, 7:30 PM",
+        "November 15 — Leanne Morgan, 7 PM"
       ],
       "regular": []
     },
     "Plaza District": {
       "special": [],
       "regular": []
+    },
+    "OKC Fair Park": {
+      "special": [
+        "October 15–18 — OK!toberfest",
+        "October 23–25 — Braum's Affair of the Heart"
+      ],
+      "regular": []
+    },
+    "Shawnee Fall / Halloween Events": {
+      "special": [
+        "October 10–11 — Nightmare Harvest Haunted Corn Maze",
+        "October 10 — Bloody Hollow Haunted Trail",
+        "October 11–12 — Rose Rock Cards & Comics Show @ Heart of Oklahoma Expo Center, 10 AM–6 PM",
+        "October 15 — Bikes & Rods Downtown Shawnee, 6–10 PM",
+        "October 17–18 — Clay Birds NSCA Trap Shoot",
+        "October 22–24 — 4th Annual Shawnee Classic Barrel Race"
+      ],
+      "regular": []
+    },
+    "Oklahoma Baptist University": {
+      "special": [
+        "October 23 — Brickle Duo"
+      ],
+      "regular": []
     }
   },
   "featured_this_weekend": [
-    "October 9 — Classic Rewind @ Mooney's at Hollywood Corners, live music 9 PM–1 AM",
-    "October 9 — Remedy @ The Alley",
-    "October 9 — Maddox Ross @ Okie State Room, 8 PM",
-    "October 9 — Igorrr: North American Tour 2026 @ Diamond Ballroom, doors 6:30 PM",
-    "October 10 — LP: All Is Not Lost Tour @ Tower Theatre, doors 7 PM; show 8 PM",
-    "October 10 — Dead Aces @ Mooney's at Hollywood Corners, live music 9 PM–1 AM"
+    "October 16 — Snarky Puppy @ Tower Theatre, doors 7 PM; show 8 PM",
+    "October 16 — Shiloh Steel @ Grand Casino Fire & Ice Stage, 9–11 PM",
+    "October 17 — Elevation Worship @ Paycom Center",
+    "October 17 — Indigo Girls @ The Criterion, doors 6 PM",
+    "October 17 — DEMOLA LIVE! @ Tower Theatre, doors 7 PM; show 8 PM",
+    "October 17 — Ben Brock @ Grand Casino Fire & Ice Stage, 9–11 PM"
   ],
   "sports_schedule": {
     "Oklahoma City Comets": [],
     "Oklahoma Sooners Football": [
       "October 10 — vs Texas @ Cotton Bowl, Dallas, 2:30 PM CT",
-      "October 17 — vs Kentucky @ Gaylord Family–Oklahoma Memorial Stadium",
+      "October 17 — vs Kentucky @ Gaylord Family–Oklahoma Memorial Stadium, 6:30 PM CT",
       "October 24 — at Mississippi State",
       "October 31 — vs South Carolina @ Gaylord Family–Oklahoma Memorial Stadium",
       "November 7 — at Florida",
@@ -414,9 +435,6 @@
     "OBU Sports": [],
     "Fairs & Festivals": [],
     "Oklahoma City Thunder": [
-      "October 6 — vs New Orleans @ BOK Center, Tulsa (preseason)",
-      "October 7 — vs Milwaukee @ Paycom Center, 7 PM (preseason)",
-      "October 12 — at Atlanta (preseason)",
       "October 13 — vs Indiana @ Paycom Center, 7 PM (preseason)",
       "October 15 — at Houston (preseason)",
       "October 20 — at San Antonio (regular-season opener)",
@@ -483,22 +501,30 @@
     ]
   },
   "coming_up": [
-    "October 13 — Oklahoma City Thunder vs Indiana Pacers @ Paycom Center, 7 PM (preseason)",
-    "October 16 — Brett Young @ Riverwind Casino",
-    "October 16 — SOMBR @ Paycom Center, 7:30 PM",
-    "October 17 — Gretchen Wilson: Still Here for the Party Tour @ Grand Casino Resort, 7 PM",
-    "October 17 — Elevation Worship @ Paycom Center",
     "October 22 — Oklahoma City Thunder vs Denver Nuggets @ Paycom Center, 8:30 PM (regular-season home opener)",
     "October 22 — OLE 60: Off The Grid Tour @ Zoo Amphitheatre, doors 5 PM",
-    "October 23 — Barenaked Ladies @ Riverwind Casino",
+    "October 23 — Barenaked Ladies @ Riverwind Casino, 8 PM",
     "October 23 — Downtown Norman Fall Fest @ Downtown Norman, 6–9 PM",
     "October 24 — The Smashing Pumpkins @ Paycom Center",
     "October 25 — Oklahoma City Thunder vs LA Clippers @ Paycom Center, 6 PM",
     "October 26 — Oklahoma City Thunder vs Phoenix Suns @ Paycom Center, 7 PM",
     "October 30 — Artoberfest: A Night to Dismember @ The Depot, Norman, 7 PM",
     "October 30 — Old Crow Medicine Show @ The Jones Assembly",
+    "October 30 — Libby's Halloween Bash @ Libby's Cafe, 8:30 PM",
     "October 30 — Brickhouse Halloween Bash @ Brickhouse Saloon, doors 6 PM",
     "October 31 — Brickhouse Halloween Bash @ Brickhouse Saloon, doors 6 PM",
-    "October 31 — Hollywood Horror at the Corners @ Mooney's at Hollywood Corners"
+    "October 31 — Hollywood Horror at the Corners @ Mooney's at Hollywood Corners",
+    "October 31 — Oklahoma vs South Carolina @ Gaylord Family–Oklahoma Memorial Stadium",
+    "November 4 — Oklahoma City Thunder vs Cleveland Cavaliers @ Paycom Center, 7 PM",
+    "November 4 — Daughtry @ The Criterion",
+    "November 6 — Underoath @ The Criterion",
+    "November 7 — Oklahoma City Thunder vs Washington Wizards @ Paycom Center, 7 PM",
+    "November 7 — Wheel of Fortune LIVE @ The Criterion",
+    "November 8 — MercyMe @ Paycom Center, 7 PM",
+    "November 9 — Jonas Brothers @ Paycom Center, 7:30 PM",
+    "November 12 — Thundercat @ The Criterion, doors 7 PM",
+    "November 13 — Switchfoot with Anberlin @ The Criterion, doors 7 PM",
+    "November 14 — Oklahoma vs Ole Miss @ Gaylord Family–Oklahoma Memorial Stadium",
+    "November 15 — Leanne Morgan @ Paycom Center, 7 PM"
   ]
 }
