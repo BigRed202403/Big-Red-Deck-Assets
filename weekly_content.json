@@ -1,17 +1,18 @@
 {
   "database_name": "Big Red Rider Feed",
-  "version": "6.21",
-  "updated_at": "2026-10-09T15:55:00-05:00",
-  "week_start": "2026-10-10",
-  "week_range": "October 10–18, 2026",
+  "version": "6.22",
+  "updated_at": "2026-10-09T21:25:00-05:00",
+  "week_start": "2026-10-11",
+  "week_range": "October 11–18, 2026",
   "rules_locked": {
-    "weekly_highlights": "Target slide window only. Maximum 4–6 rider-facing events. Prioritize Thursday–Sunday evening/night events, major concerts, district nightlife, OU home-game friction, and major festival windows. Standalone items must include venue/location.",
-    "venue_watch": "Relationship and nightlife venues with current and forward-looking activity. Prioritize live music, karaoke, dancing, bar events, and late-night activity. Under a venue header, do not repeat the venue name.",
-    "featured_this_weekend": "Weekend-forward nightlife/live-music focus. Maximum 4–6 items. Favor relationship venues, local live bands, late-night events, and ride-demand windows after dark.",
-    "sports_schedule": "Rider-focused sports only. Prioritize Thunder home games, OU football, and other events with meaningful metro ride impact. Keep sports here unless intentionally promoted.",
-    "coming_up": "Forward-looking only. Preserve high-value future events beyond the target slide window, especially major concerts, Thunder home games, OU home weekends, Halloween/nightlife, and relationship-venue events.",
-    "expired_cleanup": "Remove events that end before the target slide window.",
-    "single_owner": "A target-window event should have one primary slide-section owner to reduce repetition across What's Hot, Featured Weekend, Venue Hotlist, and Metro Sports."
+    "weekly_highlights": "Slide-facing current window begins Sunday after the Friday-night/Saturday build. Include Sunday–Thursday only when genuinely significant; prioritize the following Friday–Sunday evening/night events. Maximum 4–6 rider-facing events. Standalone items must include venue/location.",
+    "venue_watch": "Keep forward-looking relationship/nightlife venue intelligence in the JSON, including future events beyond the slide window. Under a venue header, do not repeat the venue name. The slide generator must ignore events before week_start when building rider-facing slides.",
+    "featured_this_weekend": "Focus on the Friday–Sunday weekend following week_start. Favor nightlife, live music, relationship venues, major concerts, and strong ride-demand windows after dark. Maximum 4–6 items.",
+    "sports_schedule": "Keep forward-looking sports schedules in the JSON. For rider-facing slides, select only games on or after week_start, prioritizing Thunder home games and OU home football.",
+    "coming_up": "Keep forward-looking high-value future events beyond the primary slide window, especially major concerts, Thunder home games, OU home weekends, Halloween/nightlife, and relationship-venue events.",
+    "expired_cleanup": "Do not treat Saturday build-day events as slide-current. Rider-facing slide selection begins at week_start (Sunday).",
+    "single_owner": "A slide-window event should have one primary slide-section owner to reduce repetition across What's Hot, Featured Weekend, Venue Hotlist, and Metro Sports.",
+    "build_cycle": "Friday night/Saturday build -> Sunday-forward slides -> primary emphasis on the following Friday/Saturday/Sunday."
   },
   "weekly_highlights": [
     "October 13 — Oklahoma City Thunder vs Indiana Pacers @ Paycom Center, 7 PM (preseason)",
