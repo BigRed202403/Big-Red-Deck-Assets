@@ -1,9 +1,9 @@
 {
   "database_name": "Big Red Rider Feed",
-  "version": "6.24",
-  "updated_at": "2026-10-22T13:35:00-05:00",
-  "week_start": "2026-10-25",
-  "week_range": "October 25–November 1, 2026",
+  "version": "6.25",
+  "updated_at": "2026-10-30T21:43:00-05:00",
+  "week_start": "2026-11-01",
+  "week_range": "November 1–8, 2026",
   "rules_locked": {
     "weekly_highlights": "Slide-facing current window begins Sunday after the Friday-night/Saturday build. Include Sunday–Thursday only when genuinely significant; prioritize the following Friday–Sunday evening/night events. Maximum 4–6 rider-facing events. Standalone items must include venue/location.",
     "venue_watch": "Keep forward-looking relationship/nightlife venue intelligence in the JSON, including future events beyond the slide window. Under a venue header, do not repeat the venue name. The slide generator must ignore events before week_start when building rider-facing slides.",
@@ -16,33 +16,42 @@
     "crawl_priority": "Always prioritize Paycom Center, Riverwind Casino, Grand Casino Resort, and The Criterion. Also track Tower Theatre, Mooney's at Hollywood Corners, The Alley, Chrome Pony, Brickhouse Saloon, One-52, JoJo's, Cowboys OKC, Okie State Room, Beer City Music Hall, Diamond Ballroom, The Jones Assembly, Zoo Amphitheatre, and other meaningful live-music/nightlife venues."
   },
   "weekly_highlights": [
-    "October 26 — Oklahoma City Thunder vs Phoenix Suns @ Paycom Center, 7 PM",
-    "October 29 — Los Gemelos De Sinaloa @ The Criterion, doors 7 PM",
-    "October 30 — Old Crow Medicine Show w/ Ken Pomeroy @ The Jones Assembly",
-    "October 31 — Oklahoma vs South Carolina @ Gaylord Family–Oklahoma Memorial Stadium",
-    "November 1 — Ryan Bingham and The Texas Gentlemen @ The Criterion, doors 7 PM"
+    "November 1 — Ryan Bingham and The Texas Gentlemen @ The Criterion, doors 7 PM",
+    "November 2 — Shakey Graves @ The Jones Assembly",
+    "November 4 — Daughtry @ The Criterion",
+    "November 6 — Underoath @ The Criterion",
+    "November 7 — Mini Kiss: The KATT 50th Birthday Bash @ Diamond Ballroom, 7 PM",
+    "November 8 — MercyMe @ Paycom Center, 7 PM"
   ],
   "venue_watch": {
     "Mooney's at Hollywood Corners": {
       "special": [
-        "October 30 — 151 Remix",
-        "October 31 — Halloween Bash, 9 PM; MSG live; costume contest at midnight; $5 cover; 21+",
-        "October 31 — OU vs South Carolina Watch Party"
+        "November 6 — Dirt Rich",
+        "November 7 — Jukebox Hero",
+        "November 7 — OU at Florida watch party",
+        "November 13 — Kyle Rainer",
+        "November 14 — Ten Acre Rock",
+        "November 14 — OU vs Ole Miss watch party",
+        "November 20 — Remedy",
+        "November 21 — Tyler Lee",
+        "November 21 — OU vs Texas A&M watch party",
+        "November 25 — Drinksgiving, 9 PM",
+        "November 26 — The Great Thanksgiving Escape: karaoke + drink specials",
+        "November 27 — Personality Disorder",
+        "November 28 — Karma",
+        "November 28 — OU at Missouri watch party"
       ],
       "regular": [
-        "Monday — Open Mic Night hosted by Tyler Lee, 7 PM",
+        "Monday — Open Mic Night with Tyler Lee, 7 PM",
         "Tuesday — Acoustic Tuesday hosted by Aaron Wall",
         "Wednesday — Karaoke, 9 PM",
-        "Thursday — Music Bingo, 7:30 PM; Karaoke, 9 PM",
-        "Friday + Saturday — Live Music, 9 PM–1 AM; $5 cover starts 8:30 PM",
+        "Thursday — Bingo, 7:30 PM; Karaoke, 9 PM",
+        "Friday + Saturday — Live music, 8 PM–midnight; $5 cover starts 7:30 PM",
         "Sunday — Karaoke, 8:30 PM"
       ]
     },
     "Brickhouse Saloon": {
-      "special": [
-        "October 30 — Halloween Bash, doors 6 PM; Pleas OKC + Karaoke with Dr. K; costume contest: $100 Sexiest + $100 Scariest; $10 cover; 21+",
-        "October 31 — Halloween Bash, doors 6 PM; DJ Flatline + Patrick Winsett & The Foolish Pride + Karaoke with Dr. K; costume contest: $100 Most Creative + $200 Best Duo; $10 cover; 21+"
-      ],
+      "special": [],
       "regular": [
         "Wednesday — SINGO, 9 PM (21+)",
         "Thursday — BINGO, 6 PM (21+)",
@@ -53,8 +62,13 @@
     },
     "Grand Casino Resort": {
       "special": [
-        "October 30 — Erick Taylor, Fire & Ice Stage, 9–11 PM",
-        "October 31 — Mike Hosty, Fire & Ice Stage, 9–11 PM"
+        "November 6 — Andy Adams, Fire & Ice Stage, 9–11 PM",
+        "November 7 — Live music, Fire & Ice Stage, 9–11 PM (performer unconfirmed)",
+        "November 7 — United Way Glow for Good Gala, 6 PM",
+        "November 13 — John Russell, Fire & Ice Stage, 9–11 PM",
+        "November 20 — Tommy Joe Smith, Fire & Ice Stage, 9–11 PM",
+        "November 27 — Rachel & Griffin, Fire & Ice Stage, 9–11 PM",
+        "November 28 — Erick Taylor, Fire & Ice Stage, 9–11 PM"
       ],
       "regular": [
         "Major concerts and casino entertainment",
@@ -77,7 +91,8 @@
     },
     "The Jones Assembly": {
       "special": [
-        "November 2 — Shakey Graves"
+        "November 2 — Shakey Graves",
+        "November 24 — Other Lives"
       ],
       "regular": [
         "Live music, brunch, patio, and West Village nightlife"
@@ -85,8 +100,6 @@
     },
     "The Alley": {
       "special": [
-        "October 30 — The Chad Todd Band",
-        "October 31 — Rock Candy",
         "November 11 — Rock the Flightline: A Veterans Day Rock 'N' Roll Salute, 4 PM"
       ],
       "regular": [
@@ -95,9 +108,7 @@
       ]
     },
     "Libby's Cafe": {
-      "special": [
-        "October 30 — Halloween Bash with The Doghouse + special guest Asher Myers, 8:30 PM, all ages"
-      ],
+      "special": [],
       "regular": [
         "Wednesday — Open Mic, 7 PM",
         "Friday — Karaoke, 9:30 PM",
@@ -129,11 +140,6 @@
     },
     "Okie State Room": {
       "special": [
-        "October 25 — Carrie & Dale acoustic show, 4–7 PM",
-        "October 27 — Karaoke, 7 PM–midnight",
-        "October 28 — Open Mic, 8 PM–midnight",
-        "October 30 — Free Halloween Party + costume contest, 8 PM",
-        "October 31 — Gary Michaels, biker comedy hypnotist, 8 PM",
         "November 8 — Old School Jam hosted by Coyote & the Haywire Band, 2 PM",
         "December 31 — Countdown to 2027! All-Ages NYE Bash, 8 PM"
       ],
@@ -255,11 +261,11 @@
     },
     "Tower Theatre": {
       "special": [
-        "October 27 — The Robert Cray Band",
-        "October 28 — Madeon presents Victory Live",
-        "October 29 — The Billy Joel Legacy",
-        "October 30 — My So Called Band: '90s Tribute",
-        "October 31 — Bingo Loco"
+        "November 1 — PJ Morton, 8 PM",
+        "November 4 — The War and Treaty, 8 PM",
+        "November 6 — Dusty Slay: The Neighborhood Guy, early and late shows",
+        "November 14 — Lily Rose, 8 PM",
+        "November 27 — Straight Tequila Night, 8 PM"
       ],
       "regular": []
     },
@@ -275,6 +281,8 @@
     },
     "The Criterion": {
       "special": [
+        "November 1 — Ryan Bingham and The Texas Gentlemen, doors 7 PM",
+        "November 3 — Lenny Pearce Toddler Rave, 7 PM",
         "November 4 — Daughtry",
         "November 5 — Chencho Corleone",
         "November 6 — Underoath",
@@ -292,7 +300,6 @@
     },
     "Chrome Pony Bar - Mustang": {
       "special": [
-        "October 31 — Boots, Boos & Booze Halloween Party, 8 PM; live music, costume contest, games, door prizes",
         "November 8 — Old School Jam hosted by Coyote & the Haywire Band, 2 PM"
       ],
       "regular": [
@@ -315,7 +322,16 @@
       ]
     },
     "Beer City Music Hall": {
-      "special": [],
+      "special": [
+        "November 3 — West 22nd, 8 PM",
+        "November 4 — Grateful Shred, 8 PM",
+        "November 6 — Blacktop Mojo, 8 PM",
+        "November 7 — Can't Feel My Face 2010s Dance Party (18+), 9 PM",
+        "November 8 — Low Cut Connie, 8 PM",
+        "November 14 — Paige Fish, 8 PM",
+        "November 20 — The Wilder Blue, 8 PM",
+        "November 21 — Cole Phillips, 8 PM"
+      ],
       "regular": []
     },
     "Bricktown Comedy Club": {
@@ -324,13 +340,16 @@
     },
     "Diamond Ballroom": {
       "special": [
-        "October 30 — Punchis Punchis: Banda Rave Experience"
+        "November 3 — Wage War: Emergency Broadcast Tour, 6:30 PM",
+        "November 7 — Mini Kiss: The KATT 50th Birthday Bash, 7 PM",
+        "November 13 — Blade Rave, 9 PM"
       ],
       "regular": []
     },
     "Paycom Center": {
       "special": [
         "November 4 — Oklahoma City Thunder vs Cleveland Cavaliers, 7 PM",
+        "November 6 — OKC Blue vs Mexico City Capitanes, 7 PM",
         "November 7 — Oklahoma City Thunder vs Washington Wizards, 7 PM",
         "November 8 — MercyMe, 7 PM",
         "November 9 — Jonas Brothers, 7:30 PM",
@@ -355,9 +374,7 @@
       "regular": []
     },
     "Heartwood Park / OAK": {
-      "special": [
-        "October 30 — Live After 5: Thomas Cherry, 6–8 PM"
-      ],
+      "special": [],
       "regular": [
         "Live After 5 concert series on select Fridays"
       ]
@@ -369,24 +386,21 @@
       ]
     },
     "Redneck Dance Hall OKC": {
-      "special": [
-        "October 31 — Honky Tonk Halloween, 8 PM; $500 costume contest"
-      ],
+      "special": [],
       "regular": []
     }
   },
   "featured_this_weekend": [
-    "October 30 — Halloween Bash @ Brickhouse Saloon, doors 6 PM; Pleas OKC + Karaoke with Dr. K; 21+",
-    "October 30 — Halloween Bash @ Libby's Cafe, 8:30 PM, all ages",
-    "October 31 — Hollywood Horror at the Corners @ Mooney's at Hollywood Corners, 9 PM; MSG live; costume contest at midnight",
-    "October 31 — Boots, Boos & Booze Halloween Party @ Chrome Pony Bar, 8 PM",
-    "October 31 — Honky Tonk Halloween @ Redneck Dance Hall OKC, 8 PM; $500 costume contest",
-    "October 31 — Halloween Bash @ Brickhouse Saloon, doors 6 PM; DJ Flatline + Patrick Winsett & The Foolish Pride + Karaoke with Dr. K; 21+"
+    "November 6 — Dirt Rich @ Mooney's at Hollywood Corners, 8 PM–midnight",
+    "November 6 — Blacktop Mojo @ Beer City Music Hall, 8 PM",
+    "November 6 — Dusty Slay @ Tower Theatre, early and late shows",
+    "November 7 — Jukebox Hero @ Mooney's at Hollywood Corners, 8 PM–midnight",
+    "November 7 — Can't Feel My Face 2010s Dance Party @ Beer City Music Hall, 9 PM (18+)",
+    "November 7 — Live music @ Grand Casino Resort Fire & Ice Stage, 9–11 PM (performer unconfirmed)"
   ],
   "sports_schedule": {
     "Oklahoma City Comets": [],
     "Oklahoma Sooners Football": [
-      "October 31 — vs South Carolina @ Gaylord Family–Oklahoma Memorial Stadium",
       "November 7 — at Florida",
       "November 14 — vs Ole Miss @ Gaylord Family–Oklahoma Memorial Stadium",
       "November 21 — vs Texas A&M @ Gaylord Family–Oklahoma Memorial Stadium",
@@ -400,13 +414,11 @@
     "OBU Sports": [],
     "Fairs & Festivals": [],
     "Oklahoma City Thunder": [
-      "October 25 — vs LA Clippers @ Paycom Center, 6 PM",
-      "October 26 — vs Phoenix @ Paycom Center, 7 PM",
       "November 4 — vs Cleveland @ Paycom Center, 7 PM",
       "November 7 — vs Washington @ Paycom Center, 7 PM",
-      "November 18 — vs Atlanta @ Paycom Center, 7 PM",
-      "November 20 — vs New Orleans @ Paycom Center (NBA Cup)",
-      "November 25 — vs Minnesota @ Paycom Center (NBA Cup)",
+      "November 18 — vs Atlanta @ Paycom Center",
+      "November 20 — vs New Orleans (NBA Cup) @ Paycom Center",
+      "November 25 — vs Minnesota (NBA Cup) @ Paycom Center",
       "December 2 — vs Brooklyn @ Paycom Center",
       "December 13 — vs Toronto @ Paycom Center",
       "December 16 — vs Sacramento @ Paycom Center",
@@ -442,7 +454,6 @@
       "April 9, 2027 — vs Golden State @ Paycom Center"
     ],
     "Oklahoma Sooners Women's Basketball": [
-      "October 25, 2026 — vs Southern Nazarene @ home (exhibition)",
       "November 8, 2026 — vs Morgan State @ home",
       "November 10, 2026 — vs San Jose State @ home",
       "November 13, 2026 — vs Oral Roberts @ home",
@@ -459,28 +470,33 @@
       "February 8, 2027 — vs South Carolina @ home",
       "February 21, 2027 — vs Auburn @ home",
       "February 25, 2027 — vs Texas @ home"
+    ],
+    "Oklahoma City Blue": [
+      "November 6 — vs Mexico City Capitanes @ Paycom Center, 7 PM"
     ]
   },
   "coming_up": [
-    "November 2 — Shakey Graves @ The Jones Assembly",
-    "November 4 — Oklahoma City Thunder vs Cleveland Cavaliers @ Paycom Center, 7 PM",
-    "November 4 — Daughtry @ The Criterion",
-    "November 5 — Chencho Corleone @ The Criterion",
-    "November 6 — Underoath @ The Criterion",
-    "November 6 — Singer-Songwriter Night @ Music Unlimited",
-    "November 7 — Oklahoma City Thunder vs Washington Wizards @ Paycom Center, 7 PM",
-    "November 7 — Wheel of Fortune LIVE @ The Criterion",
-    "November 8 — MercyMe @ Paycom Center, 7 PM",
-    "November 8 — Old School Jam @ Chrome Pony Bar, 2 PM",
     "November 9 — Jonas Brothers @ Paycom Center, 7:30 PM",
     "November 11 — Rock the Flightline: A Veterans Day Rock 'N' Roll Salute @ The Alley Club, 4 PM",
     "November 12 — Thundercat @ The Criterion, doors 7 PM",
     "November 13 — Switchfoot with Anberlin @ The Criterion, doors 7 PM",
+    "November 13 — Kyle Rainer @ Mooney's at Hollywood Corners",
     "November 14 — Oklahoma vs Ole Miss @ Gaylord Family–Oklahoma Memorial Stadium",
+    "November 14 — Ten Acre Rock @ Mooney's at Hollywood Corners",
     "November 15 — Leanne Morgan @ Paycom Center, 7 PM",
+    "November 20 — Remedy @ Mooney's at Hollywood Corners",
+    "November 21 — Tyler Lee @ Mooney's at Hollywood Corners",
+    "November 25 — Drinksgiving @ Mooney's at Hollywood Corners, 9 PM",
+    "November 26 — The Great Thanksgiving Escape @ Mooney's at Hollywood Corners",
     "November 27 — Trailer Trash Tammy @ Riverwind Casino",
+    "November 27 — Personality Disorder @ Mooney's at Hollywood Corners",
     "November 28 — Jodeci @ Riverwind Casino",
+    "November 28 — Karma @ Mooney's at Hollywood Corners",
     "December 3 — Jake's Jingle Jam: George Birge + Zach John King @ Riverwind Casino",
-    "December 31 — Countdown to 2027! All-Ages NYE Bash @ Okie State Room, 8 PM"
+    "December 5 — Neal McCoy & Mark Chesnutt @ Riverwind Casino",
+    "December 18 — Boyz II Men @ Riverwind Casino",
+    "December 31 — Countdown to 2027! All-Ages NYE Bash @ Okie State Room, 8 PM",
+    "February 13, 2027 — Aaron Lewis & The Stateliners @ Riverwind Casino",
+    "September 26, 2027 — Jimmy Carr: Killing Jokes @ Riverwind Casino, 7 PM"
   ]
 }
