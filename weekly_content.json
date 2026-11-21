@@ -1,34 +1,31 @@
 {
   "database_name": "Big Red Rider Feed",
-  "version": "6.28",
-  "updated_at": "2026-11-12T09:45:00-06:00",
-  "week_start": "2026-11-15",
-  "week_range": "November 15–22, 2026",
+  "version": "6.30",
+  "updated_at": "2026-11-20T19:40:00-06:00",
+  "week_start": "2026-11-22",
+  "week_range": "November 22–29, 2026",
   "rules_locked": {
     "weekly_highlights": "Slides are future-facing and should primarily promote the next planning window, not events already underway. Include Sunday–Thursday only when genuinely significant; prioritize the following Friday–Sunday evening/night events. Maximum 4–6 rider-facing events. Standalone items must include venue/location.",
     "venue_watch": "Keep forward-looking relationship/nightlife venue intelligence in the JSON, including future events beyond the slide window. Under a venue header, do not repeat the venue name. Preserve recurring pickup anchors in Norman/Campus Corner, Yukon/Mustang, downtown OKC, and relationship venues.",
-    "featured_this_weekend": "Focus on the Friday–Sunday weekend inside the future planning window. Favor nightlife, live music, relationship venues, major concerts, sports-friction windows, holiday experiences, and strong ride-demand after dark. Maximum 4–6 items.",
+    "featured_this_weekend": "Focus on the Friday–Sunday weekend inside the future planning window. Favor nightlife, live music, relationship venues, major concerts, sports-friction windows, Thanksgiving/holiday experiences, and strong ride-demand after dark. Maximum 4–6 items.",
     "sports_schedule": "Keep forward-looking sports schedules in the JSON. For rider-facing slides, select only games on or after week_start, prioritizing Thunder home games and OU home football. Campus Corner home-game activity should be treated as a major Norman pickup window.",
-    "coming_up": "Keep forward-looking high-value future events beyond the primary slide window, especially major concerts, Thunder home games, OU home weekends, Thanksgiving/holiday events, nightlife, and relationship-venue events.",
+    "coming_up": "Keep forward-looking high-value future events beyond the primary slide window, especially major concerts, Thunder home games, OU weekends, Christmas/holiday destinations, nightlife, and relationship-venue events.",
     "expired_cleanup": "Remove expired slide-facing events from current sections. Preserve useful future schedules and recurring venue intelligence.",
     "single_owner": "A slide-window event should have one primary slide-section owner to reduce repetition across What's Hot, Featured Weekend, Venue Hotlist, and Metro Sports.",
     "build_cycle": "Build the deck during the current week so riders see the following Sunday–Sunday planning window before transportation decisions are made.",
     "crawl_priority": "Always prioritize Paycom Center, Riverwind Casino, Grand Casino Resort, The Criterion, Tower Theatre, Mooney's at Hollywood Corners, Campus Corner/Downtown Norman, Yukon/Mustang nightlife, The Alley, Chrome Pony, Brickhouse Saloon, One-52, JoJo's, Cowboys OKC, Okie State Room, Beer City Music Hall, Diamond Ballroom, The Jones Assembly, Zoo Amphitheatre, and major seasonal/holiday destinations."
   },
   "weekly_highlights": [
-    "November 18 — Oklahoma City Thunder vs Atlanta Hawks @ Paycom Center, 7 PM",
-    "November 19 — SPARKLE Holiday Walk begins @ Scissortail Park, 5:30–9:30 PM",
-    "November 20 — Oklahoma City Thunder vs New Orleans Pelicans @ Paycom Center, 7 PM",
-    "November 21 — Christmas in the Park Opening Night @ Yukon, 3–11 PM",
-    "November 21 — Classic Christmas begins @ Remington Park",
-    "November 21 — Oklahoma vs Texas A&M @ Gaylord Family–Oklahoma Memorial Stadium, 11 AM"
+    "November 23 — NRHA Futurity begins @ OKC Fair Park",
+    "November 25 — Oklahoma City Thunder vs Minnesota Timberwolves @ Paycom Center, 6:30 PM",
+    "November 25 — Drinksgiving @ Mooney's at Hollywood Corners, 9 PM",
+    "November 27 — Holiday Pop-Up Shops begin @ Midtown OKC",
+    "November 28 — Holiday Village & Inaugural Tree Lighting @ OKANA, 5–9 PM",
+    "November 28 — Jodeci @ Riverwind Casino, 8 PM"
   ],
   "venue_watch": {
     "Mooney's at Hollywood Corners": {
       "special": [
-        "November 20 — Remedy",
-        "November 21 — Tyler Lee",
-        "November 21 — OU vs Texas A&M watch party",
         "November 25 — Drinksgiving, 9 PM",
         "November 26 — The Great Thanksgiving Escape: karaoke + drink specials",
         "November 27 — Personality Disorder",
@@ -56,10 +53,15 @@
     },
     "Grand Casino Resort": {
       "special": [
-        "November 20 — Tommy Joe Smith, Fire & Ice Stage, 9–11 PM",
-        "November 21 — Fire & Ice Stage live music, performer TBD",
         "November 27 — Rachel & Griffin, Fire & Ice Stage, 9–11 PM",
-        "November 28 — Erick Taylor, Fire & Ice Stage, 9–11 PM"
+        "November 28 — Erick Taylor, Fire & Ice Stage, 9–11 PM",
+        "December 4 — Andy Adams, Fire & Ice Stage, 9–11 PM",
+        "December 5 — Fire & Ice Stage live music, performer TBD",
+        "December 11 — Shiloh Steel, Fire & Ice Stage, 9–11 PM",
+        "December 12 — Ben Brock, Fire & Ice Stage, 9–11 PM",
+        "December 18 — Tommy Joe Smith, Fire & Ice Stage, 9–11 PM",
+        "December 19 — Dustin Pittsley, Fire & Ice Stage, 9–11 PM",
+        "December 26 — Rachel & Griffin, Fire & Ice Stage, 9–11 PM"
       ],
       "regular": [
         "Major concerts and casino entertainment",
@@ -73,10 +75,12 @@
         "December 3 — Jake's Jingle Jam: George Birge + Zach John King, 7 PM",
         "December 5 — Neal McCoy & Mark Chesnutt, 8 PM",
         "December 18 — Boyz II Men, 8 PM",
+        "December 31 — NYE Midnight Royale, 8:30 PM",
         "January 15, 2027 — Gary LeVox, 8 PM",
         "January 30, 2027 — Shenandoah, 8 PM",
         "February 5, 2027 — Kansas, 8 PM",
         "February 13, 2027 — Aaron Lewis & The Stateliners, 8 PM",
+        "April 16, 2027 — Tracy Lawrence, 8 PM",
         "May 21, 2027 — SLASH, 8 PM",
         "September 26, 2027 — Jimmy Carr: Killing Jokes, 7 PM; ages 16+"
       ],
@@ -93,16 +97,21 @@
       ]
     },
     "The Alley": {
-      "special": [
-        "November 11 — Rock the Flightline: A Veterans Day Rock 'N' Roll Salute, 4 PM"
-      ],
+      "special": [],
       "regular": [
         "Friday and Saturday live music",
         "South OKC nightlife"
       ]
     },
     "Libby's Cafe": {
-      "special": [],
+      "special": [
+        "November 25 — STD, Thanksgiving Eve",
+        "November 28 — Hoss Miller",
+        "December 5 — Jake Christian & Braydon Martin",
+        "December 12 — Jackson Salsman & John Dobson",
+        "December 19 — Trenton Fletcher",
+        "December 31 — Gage Wilkerson & The Young Guns, New Year's Eve"
+      ],
       "regular": [
         "Wednesday — Open Mic, 7 PM",
         "Friday — Karaoke, 9:30 PM",
@@ -125,16 +134,13 @@
       ]
     },
     "Music Unlimited": {
-      "special": [
-        "November 6 — Singer-Songwriter Night"
-      ],
+      "special": [],
       "regular": [
         "Live music and community entertainment in Shawnee"
       ]
     },
     "Okie State Room": {
       "special": [
-        "November 8 — Old School Jam hosted by Coyote & the Haywire Band, 2 PM",
         "December 31 — Countdown to 2027! All-Ages NYE Bash, 8 PM"
       ],
       "regular": [
@@ -156,9 +162,7 @@
       ]
     },
     "Campus Corner District": {
-      "special": [
-        "November 21 — OU vs Texas A&M home-game activity; major pregame/postgame Campus Corner pickup window"
-      ],
+      "special": [],
       "regular": [
         "OU home game days — free shuttle service between Downtown Norman and Campus Corner with free Downtown parking",
         "OU home game days — free VisitNorman golf-cart shuttle between Downtown Norman and Campus Corner",
@@ -259,10 +263,13 @@
     },
     "Tower Theatre": {
       "special": [
-        "November 20 — House Party: A sweaty love-letter to the 2010s rager, 9:30 PM",
-        "November 22 — Alok: Eat Pray Leave, doors 5 PM; show 6 PM",
-        "November 27 — Straight Tequila Night, 8 PM",
-        "November 28 — Urban Trivia Live"
+        "November 27 — Straight Tequila Night: 90s Country Tribute",
+        "November 28 — Urban Trivia Live",
+        "December 4 — Michael Martin Murphey: Cowboy Christmas",
+        "December 5 — Ben Quad",
+        "December 10 — Robby Hoffman: Live On Tour (sold out)",
+        "December 11 — Who's Bad: Michael Jackson Tribute",
+        "December 17 — Kaitlin Butts: Hello, Honky Tonk Tour"
       ],
       "regular": []
     },
@@ -278,11 +285,14 @@
     },
     "The Criterion": {
       "special": [
-        "November 19 — Mojo Brookzz, doors 6:30 PM",
-        "November 20 — Mojo Brookzz: Outta Pocket Tour, doors 7 PM",
-        "November 21 — Jimmy Failla, doors 7 PM",
         "November 25 — Silverstein & Story Of The Year: Camp Screamo Tour, doors 6 PM",
-        "November 30 — A Drag Queen Christmas, doors 6:30 PM"
+        "November 30 — A Drag Queen Christmas, doors 6:30 PM",
+        "December 4 — Trippie Redd: The Non-Disclosure Agreement Tour, doors 7 PM",
+        "December 5 — Yolanda Del Rio, doors 7 PM",
+        "December 6 — Blue October, doors 7 PM",
+        "December 10 — Michael Carbonaro, doors 6:30 PM",
+        "December 12 — Deorro, doors 7 PM",
+        "December 18 — Grupo Duelo: Gravedad US Tour 2026, doors 7 PM"
       ],
       "regular": []
     },
@@ -315,8 +325,6 @@
     },
     "Beer City Music Hall": {
       "special": [
-        "November 20 — The Wilder Blue + Ellis Bullard, doors 7 PM; show 8 PM",
-        "November 21 — Cole Phillips, doors 7 PM; show 8 PM",
         "November 22 — Nick Shoulders: Apocalypse, Never! Tour, doors 7 PM; show 8 PM"
       ],
       "regular": []
@@ -340,14 +348,14 @@
     },
     "Paycom Center": {
       "special": [
-        "November 18 — Oklahoma City Thunder vs Atlanta Hawks, 7 PM",
-        "November 19 — OKC Blue vs Mexico City Capitanes, 7 PM",
-        "November 20 — Oklahoma City Thunder vs New Orleans Pelicans, 7 PM",
         "November 22 — OKC Blue vs Austin Spurs, 2 PM",
         "November 24 — OKC Blue vs Austin Spurs, 7 PM",
         "November 25 — Oklahoma City Thunder vs Minnesota Timberwolves, 6:30 PM",
         "December 2 — Oklahoma City Thunder vs Brooklyn Nets, 7 PM",
-        "December 3 — Hudson Westbrook, 7 PM"
+        "December 3 — Hudson Westbrook, 7 PM",
+        "December 5 — OKC Blue vs Texas Legends, 7 PM",
+        "December 7 — OKC Blue vs Texas Legends, 7 PM",
+        "December 12 — Bedlam Basketball Doubleheader, 11 AM"
       ],
       "regular": []
     },
@@ -357,8 +365,6 @@
     },
     "OKC Fair Park": {
       "special": [
-        "Through November 18 — AQHA World & Select World Championship Shows",
-        "November 21–22 — The Santa Market at Oklahoma City Pavilion",
         "November 23–December 5 — NRHA Futurity",
         "November 6–January 3 — The Light Park drive-through holiday light show"
       ],
@@ -373,9 +379,7 @@
       "regular": []
     },
     "Heartwood Park / OAK": {
-      "special": [
-        "October 30 — Live After 5: Thomas Cherry, 6–8 PM"
-      ],
+      "special": [],
       "regular": [
         "Live After 5 concert series on select Fridays"
       ]
@@ -387,14 +391,12 @@
       ]
     },
     "Redneck Dance Hall OKC": {
-      "special": [
-        "October 31 — Honky Tonk Halloween, 8 PM; $500 costume contest"
-      ],
+      "special": [],
       "regular": []
     },
     "Civic Center Music Hall": {
       "special": [
-        "November 8–15 — The Phantom of the Opera"
+        "November 28 — Home Alone 2: Lost in New York – Live in Concert, 2 PM and 7:30 PM"
       ],
       "regular": [
         "Major Broadway, performing-arts, and touring productions in downtown OKC"
@@ -416,7 +418,8 @@
     },
     "Oklahoma City Zoo": {
       "special": [
-        "November 14–January 3 — Safari Lights, nightly 5:30–11 PM"
+        "November 14–January 3 — Safari Lights, nightly 5:30–11 PM",
+        "November 26 — Safari Lights open Thanksgiving Day, 5:30–11 PM"
       ],
       "regular": []
     },
@@ -427,17 +430,13 @@
       ]
     },
     "OU Campus / Norman": {
-      "special": [
-        "November 15 — Omanye Music & Dance Ensemble at Sharp Concert Hall, 3 PM"
-      ],
+      "special": [],
       "regular": []
     },
     "Yukon Seasonal Events": {
       "special": [
         "November 21–December 31 — Christmas in the Park, nightly 6–11 PM",
-        "November 21–January 3 — Yukon Ice Rink at Chisholm Trail Park",
-        "November 21 — Chill Your Cheeks 5K / Jingle Walk",
-        "November 21 — Christmas in the Park Opening Night, 3–11 PM"
+        "November 21–January 3 — Yukon Ice Rink at Chisholm Trail Park"
       ],
       "regular": []
     },
@@ -458,14 +457,16 @@
     },
     "Remington Park / Classic Christmas": {
       "special": [
-        "November 21–December 28 — Classic Christmas with holiday lights, ice skating, snow tubing, food/drinks, live entertainment, and Santa"
+        "November 21–December 28 — Classic Christmas with holiday lights, ice skating, snow tubing, food/drinks, live entertainment, and Santa",
+        "November 26 — Thanksgiving Feast at Bricktown Brewery, 11 AM–7 PM"
       ],
       "regular": []
     },
     "Downtown in December": {
       "special": [
         "November 13–January 31 — Devon Ice Rink at Myriad Botanical Gardens",
-        "November 27 onward — Holiday Pop-Ups",
+        "November 27–December 20 — Holiday Pop-Up Shops in Midtown, Friday–Sunday",
+        "November 27–December 31 — Merry Midtown",
         "December 5 — Lights on Broadway",
         "December 12 — Lights on Broadway"
       ],
@@ -475,8 +476,11 @@
     },
     "OKANA": {
       "special": [
-        "November 28 — Holiday Village & Inaugural Tree Lighting, 5–9 PM",
-        "Select Saturdays in December — Holiday Village"
+        "November 26 — Thanksgiving Day Grand Buffet, seatings 11 AM, 1 PM, and 3 PM",
+        "November 28 — Holiday Village & Inaugural Tree Lighting, 5–9 PM; tree lighting 7:30 PM",
+        "November 28 — OKANA ice rink debuts on the Event Lawn",
+        "Every Saturday in December — Holiday Village, 5–9 PM",
+        "Every Saturday in December — Ice skating, 1–9 PM"
       ],
       "regular": []
     },
@@ -485,20 +489,73 @@
         "November 20–January 3 — The Magical Mile holiday light experience"
       ],
       "regular": []
+    },
+    "Lyric Theatre": {
+      "special": [
+        "November 25–December 26 — A Christmas Carol"
+      ],
+      "regular": [
+        "Seasonal and theatrical productions in the Plaza District"
+      ]
+    },
+    "Wells Christmas Tree Farm - Norman": {
+      "special": [
+        "November 28 — Reindeer Day, noon–2 PM"
+      ],
+      "regular": [
+        "Christmas tree season begins November 21"
+      ]
+    },
+    "Norman Holiday Events": {
+      "special": [
+        "December 5 — Winterfest, 3–6 PM; holiday market, Christmas parade, tree lighting, and drone show",
+        "December 12 — Ugly Sweater Run at Legacy Park, 4 PM"
+      ],
+      "regular": []
+    },
+    "Sooner Mall - Norman": {
+      "special": [
+        "November 20–December 24 — Santa photos",
+        "November 23–December 15 — Pet Night with Santa on Mondays and Tuesdays, 4–7 PM"
+      ],
+      "regular": [
+        "Norman mall / holiday shopping pickup anchor"
+      ]
+    },
+    "Penn Square Mall": {
+      "special": [
+        "November 14–December 24 — Santa photos",
+        "November 29 — Pet Photos with Santa, 7–8 PM",
+        "December 6 — Caring Santa, 9:30–10:30 AM"
+      ],
+      "regular": [
+        "Major OKC shopping / holiday pickup anchor"
+      ]
+    },
+    "Shoppes at Northpark": {
+      "special": [
+        "November 27–December 24 — Santa photos",
+        "December 3 — Pet Photo Day",
+        "December 12 — Grinch Day",
+        "December 15 — Pet Photo Day",
+        "December 19 — Grinch Day"
+      ],
+      "regular": [
+        "North OKC holiday shopping / dining pickup anchor"
+      ]
     }
   },
   "featured_this_weekend": [
-    "November 20 — House Party: 2010s Rager @ Tower Theatre, 9:30 PM",
-    "November 20 — The Wilder Blue + Ellis Bullard @ Beer City Music Hall, show 8 PM",
-    "November 20 — Remedy @ Mooney's at Hollywood Corners, 8 PM–midnight",
-    "November 20 — Tommy Joe Smith @ Grand Casino Fire & Ice Stage, 9–11 PM",
-    "November 21 — Jimmy Failla @ The Criterion, doors 7 PM",
-    "November 21 — Cole Phillips @ Beer City Music Hall, show 8 PM"
+    "November 27 — Trailer Trash Tammy @ Riverwind Casino, 7 PM",
+    "November 27 — Straight Tequila Night: 90s Country Tribute @ Tower Theatre",
+    "November 27 — Personality Disorder @ Mooney's at Hollywood Corners, 8 PM–midnight",
+    "November 28 — Urban Trivia Live @ Tower Theatre",
+    "November 28 — Hoss Miller @ Libby's Cafe",
+    "November 28 — Karma @ Mooney's at Hollywood Corners, 8 PM–midnight"
   ],
   "sports_schedule": {
     "Oklahoma City Comets": [],
     "Oklahoma Sooners Football": [
-      "November 21 — vs Texas A&M @ Gaylord Family–Oklahoma Memorial Stadium, 11 AM",
       "November 28 — at Missouri, afternoon window"
     ],
     "USA Softball": [],
@@ -509,8 +566,6 @@
     "OBU Sports": [],
     "Fairs & Festivals": [],
     "Oklahoma City Thunder": [
-      "November 18 — vs Atlanta @ Paycom Center, 7 PM",
-      "November 20 — vs New Orleans @ Paycom Center, 7 PM",
       "November 25 — vs Minnesota @ Paycom Center, 6:30 PM",
       "December 2 — vs Brooklyn @ Paycom Center, 7 PM",
       "December 13 — vs Toronto @ Paycom Center",
@@ -547,9 +602,6 @@
       "April 9, 2027 — vs Golden State @ Paycom Center"
     ],
     "Oklahoma Sooners Women's Basketball": [
-      "November 15, 2026 — vs Southern @ home",
-      "November 17, 2026 — vs Texas Southern @ home",
-      "November 19, 2026 — vs Northwestern State @ home",
       "December 9, 2026 — vs Southern Illinois @ home",
       "December 21, 2026 — vs Louisiana Monroe @ home",
       "January 3, 2027 — vs Missouri @ home",
@@ -562,32 +614,36 @@
       "February 25, 2027 — vs Texas @ home"
     ],
     "Oklahoma City Blue": [
-      "November 19 — vs Mexico City Capitanes @ Paycom Center, 7 PM",
       "November 22 — vs Austin Spurs @ Paycom Center, 2 PM",
-      "November 24 — vs Austin Spurs @ Paycom Center, 7 PM"
+      "November 24 — vs Austin Spurs @ Paycom Center, 7 PM",
+      "December 5 — vs Texas Legends @ Paycom Center, 7 PM",
+      "December 7 — vs Texas Legends @ Paycom Center, 7 PM"
     ]
   },
   "coming_up": [
-    "November 23–December 5 — NRHA Futurity @ OKC Fair Park",
-    "November 24 — Other Lives @ The Jones Assembly",
-    "November 25 — Oklahoma City Thunder vs Minnesota Timberwolves @ Paycom Center, 6:30 PM",
-    "November 25 — Silverstein & Story Of The Year: Camp Screamo Tour @ The Criterion, doors 6 PM",
-    "November 25 — Drinksgiving @ Mooney's at Hollywood Corners, 9 PM",
-    "November 26 — The Great Thanksgiving Escape @ Mooney's at Hollywood Corners",
-    "November 27 — Trailer Trash Tammy @ Riverwind Casino, 7 PM",
-    "November 27 — Straight Tequila Night @ Tower Theatre, 8 PM",
-    "November 27 — Personality Disorder @ Mooney's at Hollywood Corners",
-    "November 27 onward — Holiday Pop-Ups @ Downtown OKC",
-    "November 28 — Jodeci @ Riverwind Casino, 8 PM",
-    "November 28 — Urban Trivia Live @ Tower Theatre",
-    "November 28 — Holiday Village & Inaugural Tree Lighting @ OKANA, 5–9 PM",
-    "November 28 — Karma @ Mooney's at Hollywood Corners",
+    "November 30 — A Drag Queen Christmas @ The Criterion, doors 6:30 PM",
+    "December 2 — Oklahoma City Thunder vs Brooklyn Nets @ Paycom Center, 7 PM",
     "December 3 — Jake's Jingle Jam: George Birge + Zach John King @ Riverwind Casino, 7 PM",
     "December 3 — Hudson Westbrook @ Paycom Center, 7 PM",
+    "December 4 — Michael Martin Murphey: Cowboy Christmas @ Tower Theatre",
+    "December 4 — Trippie Redd @ The Criterion, doors 7 PM",
     "December 5 — Neal McCoy & Mark Chesnutt @ Riverwind Casino, 8 PM",
+    "December 5 — Yolanda Del Rio @ The Criterion, doors 7 PM",
     "December 5 — Lights on Broadway @ Automobile Alley",
+    "December 6 — Blue October @ The Criterion, doors 7 PM",
+    "December 10 — Michael Carbonaro @ The Criterion, doors 6:30 PM",
+    "December 11 — Who's Bad: Michael Jackson Tribute @ Tower Theatre",
+    "December 12 — Deorro @ The Criterion, doors 7 PM",
     "December 12 — Lights on Broadway @ Automobile Alley",
     "December 18 — Boyz II Men @ Riverwind Casino, 8 PM",
-    "December 31 — Countdown to 2027! All-Ages NYE Bash @ Okie State Room, 8 PM"
+    "December 18 — Grupo Duelo @ The Criterion, doors 7 PM",
+    "December 31 — NYE Midnight Royale @ Riverwind Casino, 8:30 PM",
+    "December 31 — Countdown to 2027! All-Ages NYE Bash @ Okie State Room, 8 PM",
+    "December 5 — Winterfest @ Downtown Norman, 3–6 PM",
+    "December 12 — Ugly Sweater Run @ Legacy Park, Norman, 4 PM",
+    "November 29 — Pet Photos with Santa @ Penn Square Mall, 7–8 PM",
+    "December 6 — Caring Santa @ Penn Square Mall, 9:30–10:30 AM",
+    "December 12 — Grinch Day @ Shoppes at Northpark",
+    "December 19 — Grinch Day @ Shoppes at Northpark"
   ]
 }
